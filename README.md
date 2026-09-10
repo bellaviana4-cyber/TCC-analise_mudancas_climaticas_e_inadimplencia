@@ -1,308 +1,153 @@
-\# Mudanças Climáticas e Inadimplência
+# Mudanças Climáticas e Inadimplência
 
+Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
+## Objetivo
 
-Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso \*\*“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”\*\*.
+O trabalho tem como objetivo avaliar o impacto da ocorrência de desastres naturais sobre a inadimplência de pessoas físicas no sistema de crédito brasileiro no período de **2013 a 2024**.
 
-
-
-\## Objetivo
-
-
-
-O trabalho tem como objetivo avaliar o impacto da ocorrência de desastres naturais sobre a inadimplência de pessoas físicas no sistema de crédito brasileiro no período de \*\*2013 a 2024\*\*.
-
-
-
-Para isso, são combinadas informações sobre crédito e inadimplência provenientes do \*\*Sistema de Informações de Crédito do Banco Central do Brasil (SCR/BACEN)\*\* com dados de ocorrências de desastres naturais disponibilizados pelo \*\*Atlas Digital de Desastres no Brasil\*\*.
-
-
+Para isso, são combinadas informações sobre crédito e inadimplência provenientes do **Sistema de Informações de Crédito do Banco Central do Brasil (SCR/BACEN)** com dados de ocorrências de desastres naturais disponibilizados pelo **Atlas Digital de Desastres no Brasil**.
 
 A análise busca investigar tanto relações contemporâneas quanto efeitos temporalmente defasados entre a ocorrência de desastres naturais e o comportamento da inadimplência.
 
-
-
-\## Dados
-
-
+## Dados
 
 O trabalho utiliza duas principais fontes de dados:
 
-
-
-\### Sistema de Informações de Crédito — SCR/BACEN
-
-
+### Sistema de Informações de Crédito — SCR/BACEN
 
 Dados do Sistema de Informações de Crédito do Banco Central do Brasil utilizados para construção dos indicadores relacionados ao mercado de crédito e à inadimplência de pessoas físicas.
 
-
-
-\### Atlas Digital de Desastres no Brasil
-
-
+### Atlas Digital de Desastres no Brasil
 
 Dados municipais de ocorrências de desastres naturais, contendo informações como tipo de desastre, localização e período de ocorrência.
 
-
-
-O período analisado compreende os anos de \*\*2013 a 2024\*\*.
-
-
+O período analisado compreende os anos de **2013 a 2024**.
 
 Os arquivos brutos não são armazenados neste repositório devido ao volume dos dados. As bases devem ser inseridas localmente nos diretórios indicados na seção de estrutura do projeto.
 
-
-
-\## Metodologia
-
-
+## Metodologia
 
 A análise empírica utiliza métodos de séries temporais para investigar a relação entre desastres naturais e inadimplência.
 
-
-
 As principais técnicas consideradas são:
 
+* **Causalidade de Granger**, utilizada para avaliar se informações passadas sobre a ocorrência de desastres contribuem para prever o comportamento futuro da inadimplência;
 
+* **Modelos de Defasagens Distribuídas (Distributed Lag Models)**, utilizados para estimar como o efeito associado aos desastres se distribui ao longo dos períodos subsequentes;
 
-\* \*\*Causalidade de Granger\*\*, utilizada para avaliar se informações passadas sobre a ocorrência de desastres contribuem para prever o comportamento futuro da inadimplência;
-
-
-
-\* \*\*Modelos de Defasagens Distribuídas (Distributed Lag Models)\*\*, utilizados para estimar como o efeito associado aos desastres se distribui ao longo dos períodos subsequentes;
-
-
-
-\* \*\*Modelos SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Variables)\*\*, utilizados para modelar a dinâmica temporal e sazonal da inadimplência incorporando indicadores de desastres naturais como variáveis exógenas.
-
-
+* **Modelos SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Variables)**, utilizados para modelar a dinâmica temporal e sazonal da inadimplência incorporando indicadores de desastres naturais como variáveis exógenas.
 
 Também são realizados procedimentos de diagnóstico e tratamento das séries temporais, incluindo testes de estacionariedade e análise da estrutura de autocorrelação.
 
-
-
-\## Estrutura do repositório
-
-
+## Estrutura do repositório
 
 ```text
-
 .
-
 ├── data/
-
 │   ├── raw/
-
 │   │   ├── bacen/
-
-│   │   └── atlas\_desastres/
-
+│   │   └── atlas_desastres/
 │   ├── interim/
-
 │   └── processed/
-
 │
-
 ├── notebooks/
-
 ├── src/
-
 │
-
 ├── outputs/
-
 │   ├── figures/
-
 │   └── tables/
-
 │
-
 ├── docs/
-
 │
-
 └── tcc/
-
-&#x20;   ├── capitulos/
-
-&#x20;   ├── figuras/
-
-&#x20;   └── bibliografia/
-
+    ├── capitulos/
+    ├── figuras/
+    └── bibliografia/
 ```
 
-
-
-\### `data/raw`
-
-
+### `data/raw`
 
 Contém os arquivos originais obtidos diretamente das fontes de dados.
 
-
-
 Os arquivos armazenados neste diretório não devem ser alterados manualmente.
 
-
-
-\### `data/interim`
-
-
+### `data/interim`
 
 Contém bases intermediárias resultantes das etapas de limpeza, padronização, agregação e transformação dos dados.
 
-
-
-\### `data/processed`
-
-
+### `data/processed`
 
 Contém as bases finais utilizadas nas análises estatísticas e nos modelos.
 
+### `notebooks`
 
+Contém os notebooks responsáveis pelas análises exploratórias, procedimentos estatísticos e estimação dos modelos.
 
-\### `notebooks`
+Os notebooks são organizados de forma sequencial de acordo com as etapas da análise.
 
+### `src`
 
+Contém os scripts responsáveis pelas etapas de preparação, transformação e integração das bases de dados, além de funções e rotinas reutilizáveis ao longo do projeto.
 
-Contém os notebooks responsáveis pela preparação dos dados, análises exploratórias e estimação dos modelos.
+### `outputs`
 
+Contém os principais resultados produzidos pelas análises:
 
+* `figures/`: gráficos utilizados nas análises e na monografia;
+* `tables/`: tabelas e resultados estatísticos.
 
-Os notebooks serão organizados de forma sequencial de acordo com as etapas da análise.
-
-
-
-\### `src`
-
-
-
-Contém funções e rotinas reutilizáveis utilizadas pelos notebooks, como funções de tratamento, testes estatísticos, estimação de modelos e geração de gráficos.
-
-
-
-\### `outputs`
-
-
-
-Contém os principais resultados produzidos pelas análises.
-
-
-
-\* `figures/`: gráficos utilizados nas análises e na monografia;
-
-\* `tables/`: tabelas e resultados estatísticos.
-
-
-
-\### `docs`
-
-
+### `docs`
 
 Contém documentação complementar do projeto, como dicionário de variáveis, decisões metodológicas e descrição do processamento das bases.
 
-
-
-\### `tcc`
-
-
+### `tcc`
 
 Contém os arquivos relacionados ao texto final da monografia, incluindo capítulos, figuras e referências bibliográficas.
 
-
-
-\## Fluxo de processamento
-
-
+## Fluxo de processamento
 
 O projeto segue, de forma geral, o seguinte fluxo:
 
-
-
 ```text
-
 Dados brutos
-
-&#x20;   │
-
-&#x20;   ├── SCR / BACEN
-
-&#x20;   │
-
-&#x20;   └── Atlas Digital de Desastres
-
-&#x20;   │
-
-&#x20;   ▼
-
+    │
+    ├── SCR / BACEN
+    │
+    └── Atlas Digital de Desastres
+    │
+    ▼
 Limpeza e padronização
-
-&#x20;   │
-
-&#x20;   ▼
-
+    │
+    ▼
 Construção das bases intermediárias
-
-&#x20;   │
-
-&#x20;   ▼
-
+    │
+    ▼
 Integração das fontes
-
-&#x20;   │
-
-&#x20;   ▼
-
+    │
+    ▼
 Base final de análise
-
-&#x20;   │
-
-&#x20;   ├── Análise descritiva
-
-&#x20;   ├── Testes de estacionariedade
-
-&#x20;   ├── Causalidade de Granger
-
-&#x20;   ├── Modelos de defasagens distribuídas
-
-&#x20;   └── Modelos SARIMAX
-
+    │
+    ├── Análise descritiva
+    ├── Testes de estacionariedade
+    ├── Causalidade de Granger
+    ├── Modelos de defasagens distribuídas
+    └── Modelos SARIMAX
 ```
 
-
-
-\## Reprodutibilidade
-
-
+## Reprodutibilidade
 
 Os dados brutos e bases processadas de grande volume não são versionados pelo Git.
 
-
-
 Para reproduzir as análises, os arquivos das fontes originais devem ser armazenados localmente nas seguintes pastas:
 
-
-
 ```text
-
 data/raw/bacen/
-
-data/raw/atlas\_desastres/
-
+data/raw/atlas_desastres/
 ```
 
+As etapas de processamento foram estruturadas de forma que as bases utilizadas nas análises possam ser reconstruídas a partir dos dados originais por meio dos scripts disponíveis em `src/`.
 
-
-As etapas de processamento serão implementadas de maneira que as bases utilizadas nos modelos possam ser reconstruídas a partir dos dados originais.
-
-
-
-\## Status
-
-
+## Status
 
 Projeto em desenvolvimento.
-
-
-
