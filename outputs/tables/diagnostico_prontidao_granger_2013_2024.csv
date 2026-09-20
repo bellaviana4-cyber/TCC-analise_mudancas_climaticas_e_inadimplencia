@@ -1,0 +1,6 @@
+Critério;Resultado;Status;Implicação para Granger
+Estacionariedade conjunta (ADF e KPSS);As duas séries apresentam ADF < 5% e KPSS ≥ 5%;Atendido;Permite usar o teste convencional nas séries transformadas.
+Alinhamento temporal;143 meses, de 02/2013 a 12/2024;Atendido;As duas variáveis se referem aos mesmos meses e estão em ordem cronológica.
+Ausência de nulos e infinitos;Nenhum valor inválido;Atendido;Não é necessário preencher ou interpolar observações.
+Tamanho da amostra;n = 143;Atendido;É possível comparar modelos com até 12 defasagens, privilegiando ordens parcimoniosas.
+Sazonalidade determinística residual;"p(inad.) = 2.877e-08; p(desastres) = 0.00294";Atenção — controlar;Incluir dummies mensais no VAR/Granger e verificar os resíduos.

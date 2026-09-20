@@ -1,0 +1,3 @@
+variavel_original;tipo;transformacao_selecionada;formula;coluna_granger;n;periodo_final;interpretacao
+taxa_inadimplencia;taxa percentual;primeira diferença;x_t - x_(t-1);inad_diff1;143;2013-02 a 2024-12;variação mensal da taxa de inadimplência, em pontos percentuais
+total_desastres;contagem;primeira diferença de log1p;log(1+x_t) - log(1+x_(t-1));desastres_log1p_diff1;143;2013-02 a 2024-12;variação logarítmica mensal da quantidade de desastres

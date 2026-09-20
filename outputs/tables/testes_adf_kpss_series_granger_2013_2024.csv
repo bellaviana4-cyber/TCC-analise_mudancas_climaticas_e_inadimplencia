@@ -1,0 +1,3 @@
+Série;Transformação;n;ADF estatística;ADF p-valor;ADF lags;KPSS estatística;KPSS p-valor;KPSS lags;ADF rejeita H0;KPSS rejeita H0;Conclusão conjunta
+inad_diff1;selecionada;143;-3,2153860782875188;0,019111168994046492;12;0,1611438212774098;0,1;6;True;False;Evidência de estacionariedade
+desastres_log1p_diff1;selecionada;143;-6,965263406173636;8,948855682731321e-10;10;0,05582256041739274;0,1;14;True;False;Evidência de estacionariedade
