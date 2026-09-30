@@ -16,3 +16,7 @@ CSV consolidado reutilizado após conferir SHA256, sem repetir auditoria de prot
 ## Etapa12 concluída
 
 Notebook12 executado, oito modelos de painel TWFE com27 UFs, lags próprios1,2,3,12 e exposição1,2,3. Nenhuma rejeição nominal DK nem após BH. Autocorrelação residual rejeitada no total em todos os quatro indicadores (p≈0,011–0,013). Pré: convergência ADF/KPSS em51,9% das UFs, abaixo do gate80%. SPJ, metades e remoção de cada UF apresentados como sensibilidades; nenhuma prova de causalidade. Etapa11 commit:8fa41dd152ea0b9e935be4e153c59d52bc82b140. Próximo: notebook13 resposta/previsão; não refazer10–12.
+
+## Etapa13 concluída
+
+Notebook13 executado:16 projeções locais,0 nominais/0BH; previsão expansiva com72/13 alvos por indicador, sem ganho observado no total. Etapa12 commit:c128108350d37511245899e8be2a7df933ae6b71. Próximo: gerar HTML externo offline, validar interface e hashes remotos, abrirPR e integrar após verificações. Análise10–13 não deve ser recalculada ao retomar se tabelas/checkpoints estiverem preservados.

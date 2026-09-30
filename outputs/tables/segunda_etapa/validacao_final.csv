@@ -1,0 +1,28 @@
+﻿Verificação,Status
+"Família NACIONAL50 linhas, reservas/exclusões preservadas",passou
+Sensibilidade25 linhas,passou
+BH íntegro NACIONAL,passou
+Família fixa NACIONAL,passou
+BH íntegro DETERMINISTICAS,passou
+Família fixa DETERMINISTICAS,passou
+BH íntegro PAINEL,passou
+Família fixa PAINEL,passou
+BH íntegro RESPOSTA,passou
+Família fixa RESPOSTA,passou
+BH íntegro PREVISAO,passou
+Família fixa PREVISAO,passou
+BH íntegro TY,passou
+Família fixa TY,passou
+Amostra comparável em todas seleções,passou
+F conjunto restrito = Wald,passou
+Features alvo independem de I/D contemporâneos e futuros,passou
+Treino anterior a todos alvos,passou
+72/13 alvos por indicador,passou
+Notebook executado sem erro 10_dinamica_nacional_segunda_etapa.ipynb,passou
+Notebook executado sem erro 11_exposicao_gravidade_segunda_etapa.ipynb,passou
+Notebook executado sem erro 12_painel_uf_segunda_etapa.ipynb,passou
+Notebook executado sem erro 13_resposta_previsao_segunda_etapa.ipynb,passou
+Within vs LSDV,passou
+Triagem não resgata significância,passou
+Triagem não resgata significância,passou
+Triagem não resgata significância,passou
