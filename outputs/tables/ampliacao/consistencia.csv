@@ -1,0 +1,43 @@
+﻿Chave,Nível,Categoria,Direção,Linhas nominais,Linhas BH,Linhas BY,AIC e BIC significativos no mesmo cenário,Três especificações significativas no mesmo período/critério,Dois períodos significativos na mesma especificação/critério,Linhas BH com diagnósticos favoráveis
+Grupo | Climatológico,Grupo,Climatológico,Desastres → inadimplência,1,0,0,False,False,False,0
+Grupo | Climatológico,Grupo,Climatológico,Inadimplência → desastres,4,0,0,False,False,False,0
+Grupo | Hidrológico,Grupo,Hidrológico,Desastres → inadimplência,2,0,0,False,False,False,0
+Grupo | Hidrológico,Grupo,Hidrológico,Inadimplência → desastres,1,0,0,False,False,False,0
+Grupo | Meteorológico,Grupo,Meteorológico,Desastres → inadimplência,2,0,0,False,False,False,0
+Grupo | Meteorológico,Grupo,Meteorológico,Inadimplência → desastres,8,3,0,False,False,False,0
+Grupo | Outros,Grupo,Outros,Desastres → inadimplência,1,0,0,False,False,False,0
+Grupo | Outros,Grupo,Outros,Inadimplência → desastres,1,0,0,False,False,False,0
+Tipologia | Alagamentos,Tipologia,Alagamentos,Desastres → inadimplência,5,0,0,False,False,False,0
+Tipologia | Alagamentos,Tipologia,Alagamentos,Inadimplência → desastres,0,0,0,False,False,False,0
+Tipologia | Chuvas Intensas,Tipologia,Chuvas Intensas,Desastres → inadimplência,2,0,0,False,False,False,0
+Tipologia | Chuvas Intensas,Tipologia,Chuvas Intensas,Inadimplência → desastres,1,0,0,False,False,False,0
+Tipologia | Doenças infecciosas,Tipologia,Doenças infecciosas,Desastres → inadimplência,0,0,0,False,False,False,0
+Tipologia | Doenças infecciosas,Tipologia,Doenças infecciosas,Inadimplência → desastres,2,0,0,False,False,False,0
+Tipologia | Enxurradas,Tipologia,Enxurradas,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Enxurradas,Tipologia,Enxurradas,Inadimplência → desastres,3,0,0,False,False,False,0
+Tipologia | Erosão,Tipologia,Erosão,Desastres → inadimplência,0,0,0,False,False,False,0
+Tipologia | Erosão,Tipologia,Erosão,Inadimplência → desastres,2,0,0,False,False,False,0
+Tipologia | Estiagem e Seca,Tipologia,Estiagem e Seca,Desastres → inadimplência,2,0,0,False,False,False,0
+Tipologia | Estiagem e Seca,Tipologia,Estiagem e Seca,Inadimplência → desastres,2,0,0,False,False,False,0
+Tipologia | Granizo,Tipologia,Granizo,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Granizo,Tipologia,Granizo,Inadimplência → desastres,5,1,0,False,False,False,0
+Tipologia | Incêndio Florestal,Tipologia,Incêndio Florestal,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Incêndio Florestal,Tipologia,Incêndio Florestal,Inadimplência → desastres,2,1,0,False,False,False,0
+Tipologia | Inundações,Tipologia,Inundações,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Inundações,Tipologia,Inundações,Inadimplência → desastres,3,0,0,False,False,False,0
+Tipologia | Movimento de Massa,Tipologia,Movimento de Massa,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Movimento de Massa,Tipologia,Movimento de Massa,Inadimplência → desastres,1,0,0,False,False,False,0
+Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Onda de Calor e Baixa Umidade,Desastres → inadimplência,2,0,0,False,False,False,0
+Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Onda de Calor e Baixa Umidade,Inadimplência → desastres,2,1,0,False,False,False,1
+Tipologia | Onda de Frio,Tipologia,Onda de Frio,Desastres → inadimplência,0,0,0,False,False,False,0
+Tipologia | Onda de Frio,Tipologia,Onda de Frio,Inadimplência → desastres,3,0,0,False,False,False,0
+Tipologia | Outros,Tipologia,Outros,Desastres → inadimplência,3,0,0,False,False,False,0
+Tipologia | Outros,Tipologia,Outros,Inadimplência → desastres,2,0,0,False,False,False,0
+Tipologia | Rompimento/Colapso de barragens,Tipologia,Rompimento/Colapso de barragens,Desastres → inadimplência,1,0,0,False,False,False,0
+Tipologia | Rompimento/Colapso de barragens,Tipologia,Rompimento/Colapso de barragens,Inadimplência → desastres,0,0,0,False,False,False,0
+Tipologia | Tornado,Tipologia,Tornado,Desastres → inadimplência,0,0,0,False,False,False,0
+Tipologia | Tornado,Tipologia,Tornado,Inadimplência → desastres,0,0,0,False,False,False,0
+Tipologia | Vendavais e Ciclones,Tipologia,Vendavais e Ciclones,Desastres → inadimplência,3,0,0,False,False,False,0
+Tipologia | Vendavais e Ciclones,Tipologia,Vendavais e Ciclones,Inadimplência → desastres,5,0,0,False,False,False,0
+Total nacional,Referência,Total nacional,Desastres → inadimplência,1,0,0,False,False,False,0
+Total nacional,Referência,Total nacional,Inadimplência → desastres,7,2,0,False,False,False,0

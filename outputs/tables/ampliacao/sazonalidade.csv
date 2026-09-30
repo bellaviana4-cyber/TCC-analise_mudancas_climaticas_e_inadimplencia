@@ -1,0 +1,45 @@
+﻿Período,Chave,Nível,Categoria,ACF(12) nível,Força sazonal STL,Nota
+Total (2013–2024),Inadimplência,Crédito,Inadimplência,0.30658781799989243,0.13996334648404396,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Total nacional,Referência,Total nacional,0.23797339507915677,0.20278435609189804,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Grupo | Climatológico,Grupo,Climatológico,0.1735850734296882,0.284412195815251,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Grupo | Hidrológico,Grupo,Hidrológico,0.29785677256243903,0.2948198988973957,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Grupo | Meteorológico,Grupo,Meteorológico,0.16769469939181356,0.1670131162469899,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Grupo | Outros,Grupo,Outros,0.4926901437475455,0.050924454099010585,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Alagamentos,0.32325034444157413,0.4174503986794106,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Chuvas Intensas,0.3516163028214791,0.19179872294941025,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Doenças infecciosas,0.54930618951981,0.0,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Enxurradas,0.10758768313900324,0.09831033671618772,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Erosão,Tipologia,Erosão,0.0599099099099099,0.30139963886839294,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Estiagem e Seca,0.2019447098289678,0.3765372698636108,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Granizo,Tipologia,Granizo,0.34759447742469995,0.40633803035649363,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Incêndio Florestal,0.11103589030283179,0.2044035109242931,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Inundações,Tipologia,Inundações,0.05654741381427399,0.16435030188100785,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Movimento de Massa,0.3728069416970336,0.37347641537731235,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Onda de Calor e Baixa Umidade,0.2505552395655589,0.3080036564544637,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Onda de Frio,0.002618959315482905,0.2450124672905032,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Outros,Tipologia,Outros,0.4889052744954381,0.10772566629034264,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Rompimento/Colapso de barragens,0.2670166935918148,0.0,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Tornado,Tipologia,Tornado,0.06164383561643836,0.21954386288758365,STL descritiva; não é teste de raiz sazonal
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Vendavais e Ciclones,0.06017070409882343,0.09235515415959716,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Inadimplência,Crédito,Inadimplência,0.1889253499609913,0.13202286615166103,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Total nacional,Referência,Total nacional,0.15002505179951103,0.34465815821471657,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Climatológico,0.2872499190725033,0.5492756807604489,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Hidrológico,0.1077783598284187,0.2511603639418909,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Meteorológico,0.5234690833441606,0.5705183875884386,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Outros,0.5030389774060344,0.019606066754535245,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Alagamentos,0.2589385792090697,0.48484162011651855,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Chuvas Intensas,0.1016110216515021,0.36666343895211784,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Doenças infecciosas,0.5402546960468654,0.0,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Enxurradas,0.08447788249313941,0.12791106497728943,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Erosão,0.09498518317037208,0.26359139393786646,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Estiagem e Seca,0.30097533343816707,0.5252050613368175,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Granizo,0.4356257119082116,0.5196577301932868,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Incêndio Florestal,0.05353002622914113,0.15797447797113617,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Inundações,0.10799352964231278,0.15951004259165402,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Movimento de Massa,0.17353136241460868,0.28992662006185543,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Onda de Calor e Baixa Umidade,-0.040961813662725007,0.0,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Onda de Frio,0.03779618889809445,7.205700162105089e-07,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Outros,0.24670320999084663,0.0,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Rompimento/Colapso de barragens,Tipologia,Rompimento/Colapso de barragens,0.3924176053400084,1.9329760014841213e-11,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Tornado,0.16310063875950168,0.1825440921299657,STL descritiva; não é teste de raiz sazonal
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Vendavais e Ciclones,0.4227593630764206,0.5666757289251079,STL descritiva; não é teste de raiz sazonal

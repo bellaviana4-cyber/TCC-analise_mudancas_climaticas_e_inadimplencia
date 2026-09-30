@@ -1,0 +1,104 @@
+﻿Base,Coluna,Tipo,Ausentes
+Atlas completo,Protocolo_S2iD,object,0
+Atlas completo,Nome_Municipio,object,0
+Atlas completo,Sigla_UF,object,0
+Atlas completo,regiao,object,0
+Atlas completo,Data_Registro,object,0
+Atlas completo,Data_Evento,object,0
+Atlas completo,Cod_Cobrade,int64,0
+Atlas completo,tipologia,object,0
+Atlas completo,descricao_tipologia,object,0
+Atlas completo,grupo_de_desastre,object,0
+Atlas completo,Cod_IBGE_Mun,int64,0
+Atlas completo,Setores Censitários,object,46214
+Atlas completo,Status,object,0
+Atlas completo,DH_Descricao,object,42461
+Atlas completo,DH_MORTOS,int64,0
+Atlas completo,DH_FERIDOS,int64,0
+Atlas completo,DH_ENFERMOS,int64,0
+Atlas completo,DH_DESABRIGADOS,int64,0
+Atlas completo,DH_DESALOJADOS,int64,0
+Atlas completo,DH_DESAPARECIDOS,int64,0
+Atlas completo,DH_AFETADOS_SECA_ESTIAGEM,int64,0
+Atlas completo,DH_total_danos_humanos_diretos,int64,0
+Atlas completo,DH_OUTROS AFETADOS,int64,0
+Atlas completo,DM_Descricao,object,49786
+Atlas completo,DM_Uni Habita Danificadas,int64,0
+Atlas completo,DM_Uni Habita Destruidas,int64,0
+Atlas completo,DM_Uni Habita Valor,object,0
+Atlas completo,DM_Inst Saúde Danificadas,int64,0
+Atlas completo,DM_Inst Saúde Destruidas,int64,0
+Atlas completo,DM_Inst Saúde Valor,object,0
+Atlas completo,DM_Inst Ensino Danificadas,int64,0
+Atlas completo,DM_Inst Ensino Destruidas,int64,0
+Atlas completo,DM_Inst Ensino Valor,object,0
+Atlas completo,DM_Inst Serviços Danificadas,int64,0
+Atlas completo,DM_Inst Serviços Destruidas,int64,0
+Atlas completo,DM_Inst Serviços Valor,object,0
+Atlas completo,DM_Inst Comuni Danificadas,int64,0
+Atlas completo,DM_Inst Comuni Destruidas,int64,0
+Atlas completo,DM_Inst Comuni Valor,object,0
+Atlas completo,DM_Obras de Infra Danificadas,int64,0
+Atlas completo,DM_Obras de Infra Destruidas,int64,0
+Atlas completo,DM_Obras de Infra Valor,object,0
+Atlas completo,DM_total_danos_materiais,object,0
+Atlas completo,DA_Descricao,object,49025
+Atlas completo,DA_Polui/cont da água,object,70095
+Atlas completo,DA_Polui/cont do ar,object,70790
+Atlas completo,DA_Polui/cont do solo,object,70945
+Atlas completo,DA_Dimi/exauri hídrico,object,68909
+Atlas completo,DA_Incêndi parques/APA's/APP's,object,69865
+Atlas completo,PEPL_Descricao,object,47175
+Atlas completo,PEPL_Assis_méd e emergên(R$),object,0
+Atlas completo,PEPL_Abast de água pot(R$),object,0
+Atlas completo,PEPL_sist de esgotos sanit(R$),object,0
+Atlas completo,PEPL_Sis limp e rec lixo (R$),object,0
+Atlas completo,PEPL_Sis cont pragas (R$),object,0
+Atlas completo,PEPL_distrib energia (R$),object,0
+Atlas completo,PEPL_Telecomunicações (R$),object,0
+Atlas completo,PEPL_Tran loc/reg/l_curso (R$),object,0
+Atlas completo,PEPL_Distrib combustíveis(R$),object,0
+Atlas completo,PEPL_Segurança pública (R$),object,0
+Atlas completo,PEPL_Ensino (R$),object,0
+Atlas completo,PEPL_total_publico,object,0
+Atlas completo,PEPR_Descricao,object,45221
+Atlas completo,PEPR_Agricultura (R$),object,0
+Atlas completo,PEPR_Pecuária (R$),object,0
+Atlas completo,PEPR_Indústria (R$),object,0
+Atlas completo,PEPR_Comércio (R$),object,0
+Atlas completo,PEPR_Serviços (R$),object,0
+Atlas completo,PEPR_total_privado,object,0
+Atlas completo,PE_PLePR,object,0
+Parquet,uf,string,0
+Parquet,mes_ano,string,0
+Parquet,ano,int64,0
+Parquet,mes,int64,0
+Parquet,carteira_ativa_total,Float64,0
+Parquet,carteira_inadimplencia_total,Float64,0
+Parquet,taxa_inadimplencia,float64,0
+Parquet,qtd_registros,Int64,0
+Parquet,qtd_maus,int64,0
+Parquet,pct_registros_com_inadimplencia,float64,0
+Parquet,regiao,object,0
+Parquet,grupo_climatologico,int64,0
+Parquet,grupo_hidrologico,int64,0
+Parquet,grupo_meteorologico,int64,0
+Parquet,grupo_outros,int64,0
+Parquet,tipo_alagamentos,int64,0
+Parquet,tipo_chuvas_intensas,int64,0
+Parquet,tipo_doencas_infecciosas,int64,0
+Parquet,tipo_enxurradas,int64,0
+Parquet,tipo_erosao,int64,0
+Parquet,tipo_estiagem_e_seca,int64,0
+Parquet,tipo_granizo,int64,0
+Parquet,tipo_incendio_florestal,int64,0
+Parquet,tipo_inundacoes,int64,0
+Parquet,tipo_movimento_de_massa,int64,0
+Parquet,tipo_onda_de_calor_e_baixa_umidade,int64,0
+Parquet,tipo_onda_de_frio,int64,0
+Parquet,tipo_outros,int64,0
+Parquet,tipo_rompimento_colapso_de_barragens,int64,0
+Parquet,tipo_tornado,int64,0
+Parquet,tipo_vendavais_e_ciclones,int64,0
+Parquet,total_desastres,int64,0
+Parquet,data_base,datetime64[us],0

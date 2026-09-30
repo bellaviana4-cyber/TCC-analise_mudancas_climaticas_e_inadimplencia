@@ -1,0 +1,11 @@
+﻿Pacote,Versão
+Python,3.12.14
+numpy,2.3.5
+pandas,2.2.3
+scipy,1.17.0
+statsmodels,0.15.0
+matplotlib,3.10.8
+plotly,7.1.0
+pyarrow,25.0.1
+nbformat,5.11.1
+nbclient,0.11.0

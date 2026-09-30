@@ -1,0 +1,24 @@
+﻿Verificação,Resultado
+SHA256 BD_Atlas_1991_2024_v1.0_2025.04.14_Consolidado.csv,6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af
+SHA256 df_tcc_2013_2024.parquet,49991105866dc140e959bfd9200b780c76edae0b8c95c31040bcdbde7811afe5
+Linhas Atlas completo,71929
+Colunas Atlas,70
+Colunas Parquet,33
+Datas inválidas Atlas,0
+Cobertura arquivo Atlas,1991-01-07 a 2024-12-31
+Ausentes no recorte: Protocolo_S2iD,0
+Ausentes no recorte: Sigla_UF,0
+Ausentes no recorte: grupo_de_desastre,0
+Ausentes no recorte: descricao_tipologia,0
+Protocolos repetidos no recorte,0
+Linhas integralmente duplicadas no recorte,0
+Protocolos municipais únicos 2013–2024,40339
+Excedentes em município/data/COBRADE (mantidos),101
+Linhas Parquet,3888
+Duplicações UF × mês Parquet,0
+Diferença máxima taxa UF vs razão das carteiras,8.881784197001252e-16
+Diferença mensal nacional máxima Atlas vs Parquet,0.0
+Meses da extração com protocolos nacionais,144
+Verificação de carteira por modalidade,Parquet tem chave única UF × mês e não contém modalidade. Agregação nacional não duplica carteiras. A origem SCR não pôde ser reauditada sem arquivos brutos; src/01 soma linhas PF e não verifica sobreposição de dimensões.
+Unidade de contagem,Protocolo municipal único; nenhum identificador validado de fenômeno intermunicipal.
+Zeros,"Nenhum protocolo observado no consolidado para categoria/mês; cobertura da extração 2013–2024, sem garantia de completude da notificação."
