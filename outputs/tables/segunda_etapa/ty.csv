@@ -1,0 +1,3 @@
+﻿Período,Exposição,Família,d_max,p,Diagnóstico favorável,k,Lags totais,Restrições,Wald chi2,n efetivo,Portmanteau p,Motivo,Família n,p BH,p BY,p Holm,Categoria resultado
+Total (2013–2024),Total nacional,TY,1,0.4289449899331351,True,2.0,3.0,"D1..Dk, sem restringir lag adicional",1.6928531937403997,141.0,0.12948561459755306,Robustez em níveis: integração limite I(1); raízes unitárias não avaliadas como instabilidade estacionária,4,1.0,1.0,1.0,Não significativo
+Pré-pandemia (até jan/2020),Total nacional,TY,1,,False,,,,,,,Gate: integração/dinâmica ADL inadequada ou inconclusiva; TY não usado para resgate,4,1.0,1.0,1.0,Excluído / inviável

@@ -1,0 +1,22 @@
+{
+  "etapa": "10",
+  "status": "executada",
+  "entradas": {
+    "df_tcc_2013_2024.parquet": "49991105866dc140e959bfd9200b780c76edae0b8c95c31040bcdbde7811afe5",
+    "BD_Atlas_1991_2024_v1.0_2025.04.14_Consolidado.csv": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af"
+  },
+  "protocolo": "8d8ce44b6650c1a6a108c859cd13f3098131d2ef3fbbc1069a9f0a6c5037dc63",
+  "codigo": "85c6fe643c2edf5ac0b0a5d1a0033e22f6930b1f074fddefdab78b3886dcd875",
+  "tabelas": {
+    "estacionariedade_historico.csv": "242a7ae9d9c99176e1a125ba4d089580037a0dca378b23c4b0ccc5346831f4ea",
+    "coeficientes_historico.csv": "f952fc4987f599cb22a9940cef085a6c237946cfa48c671024476f93c330f352",
+    "ty.csv": "3ab7397516ec11320a466feb172035d4c24e7066308f647ed9ccf4d3c0a95f0b",
+    "nacional_historico_bruto.csv": "d61c8640ac3fac1e7be7e9f55fcfc1207a649d2cfdbdeb9f50d1be915fe7ed09",
+    "criterios_historico.csv": "632208be328f9a6f3be75795c99160ca0bcc475bc0112eb7b3b44ee98e5fda12",
+    "nacional.csv": "90d433af05180308379cb156ef01bb2657bf47340284aee8f0c1ca06614a328b",
+    "decisoes.csv": "f578117fe08eed75c17079f7605bb211d145fc8a4d9a5a6405e262687d9952ba",
+    "quebras.csv": "912a1d74ddc36a0e1c66a24deca7fa0400477c6be7f32e37f397201584481565",
+    "estabilidade_interacoes.csv": "d94ff422745e06d380299b16445e7e232debba6acd3fbf6cc037bf73b4dc5739",
+    "comparacao_anterior.csv": "3bbaf394316a04ca82d6e3a67fea62b6c43059261e91cf2dd3f91733c29396b0"
+  }
+}

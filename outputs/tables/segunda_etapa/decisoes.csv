@@ -1,0 +1,5 @@
+﻿Procedimento,Decisão,Justificativa
+Bootstrap temporal H0,Não aplicado,Teste condicional à seleção; bootstrap defensável exigiria reexecutar seleção e validar dinâmica. Não usado como correção automática dos modelos reprovados.
+Simulação de poder,Não aplicada,Não atribuir tamanho/poder confiável a um DGP escolhido de modelos com diagnóstico inadequado; intervalos e OOS explicitam incerteza.
+Controles econômicos adicionais,Não incluídos,Não disponíveis na entrada com cobertura oficial compatível; choques comuns no painel não substituem confundidores específicos de UF.
+GMM,Não aplicado,"N=27,T longo; evitar proliferação de instrumentos. Persistência modelada diretamente; sensibilidade SPJ verifica viés, sem promessa de eliminá-lo."

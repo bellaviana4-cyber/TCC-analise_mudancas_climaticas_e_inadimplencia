@@ -1,0 +1,2 @@
+﻿Período,Unidade,Exposição,Indicador,Transformação,Família,Modelo,p próprio,q exposição,q0 preferido,n efetivo,GL,Início amostra,Fim amostra,Estabilidade pós-março2020 p,Nota
+Total (2013–2024),Brasil,Total nacional,Protocolos,ΔI; Δlog(1+exposição),NACIONAL,ADL BIC + 11 dummies + I12,1,1,True,131,116,2014-02-01,2024-12-01,0.00017975479427600062,"interações limitadas, diagnóstico exploratório"
