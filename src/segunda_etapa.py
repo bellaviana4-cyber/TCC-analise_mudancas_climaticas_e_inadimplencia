@@ -315,3 +315,63 @@ def figura_painel():
         g=g.dropna(subset=['Soma coeficientes']);y=np.arange(len(g));ax.errorbar(g['Soma coeficientes'],y,xerr=[g['Soma coeficientes']-g['IC baixo'],g['IC alto']-g['Soma coeficientes']],fmt='o',capsize=3,label='TWFE + IC DK')
         ax.scatter(g['Soma SPJ'],y,marker='x',color='#a74826',label='SPJ (ponto, sem IC)');ax.axvline(0,color='gray');ax.set_yticks(y,g.Exposição.str.replace('Clima | ','',regex=False));ax.set_title(per);ax.set_xlabel('Soma coeficientes; pp por Δlog exposição');ax.legend(fontsize=9)
     fig.tight_layout();plt.show();plt.close(fig)
+
+def response():
+    s=pd.read_parquet(PROC/'segunda_series_completas.parquet');rows=[]
+    for per,(ini,fim) in PERIODS.items():
+        raw=s.loc[ini:fim];iy=raw.I.diff()
+        for key,window in [('Súbitos | Municípios',1),('Seca | Protocolos',3)]:
+            exposure=raw[key] if window==1 else raw[key].rolling(3,min_periods=3).sum();x=np.log1p(exposure).diff();sy=station(iy);sx=station(x)
+            for h in [1,3,6,12]:
+                X=deterministics(raw.index,len(raw)>100);X['choque']=x;X['I0']=iy
+                for l in [1,2,3,12]:X[f'I{l}']=iy.shift(l)
+                for l in [1,2,3]:X[f'D{l}']=x.shift(l)
+                Y=raw.I.shift(-h)-raw.I;dd=pd.concat([Y.rename('y'),X],axis=1).dropna().astype(float);m=OLS(dd.y,dd.drop(columns='y')).fit();ha=m.get_robustcov_results(cov_type='HAC',maxlags=max(12,h),use_correction=True,use_t=True);j=m.model.exog_names.index('choque');se=float(ha.bse[j]);b=m.params.choque;t=stats.t.ppf(.975,m.df_resid);sim=stats.t.ppf(1-.05/(2*16),m.df_resid)
+                reset=linear_reset(m,power=2,use_f=True,cov_type='HC3').pvalue;cus=breaks_cusumolsresid(m.resid,ddof=len(m.params))[1];inf=m.get_influence();ii=int(np.argmax(inf.cooks_distance[0]));keep=np.arange(m.nobs)!=ii;minus=OLS(m.model.endog[keep],m.model.exog[keep]).fit();change=float(minus.params[j]-b);good=bool(sy['Estacionária'] and sx['Estacionária'] and cus>=.05 and reset>=.05 and abs(change)<=se)
+                rows.append({'Período':per,'Unidade':'Brasil','Exposição':key,'Janela exposição':window,'Horizonte':h,'Família':'RESPOSTA','Modelo':'Projeção local associativa','Transformação':'I(t+h)−I(t); Δlog(1+exposição janela)','Controles':'ΔI0,1,2,3,12; Δexposição1,2,3; 11 dummies; pandemia no total','n efetivo':int(m.nobs),'GL':int(m.df_resid),'Início amostra':str(dd.index.min().date()),'Fim amostra':str(dd.index.max().date()),'Coeficiente':b,'SE HAC':se,'IC baixo':b-t*se,'IC alto':b+t*se,'IC simultâneo baixo':b-sim*se,'IC simultâneo alto':b+sim*se,'Estatística t':float(ha.tvalues[j]),'p':float(ha.pvalues[j]),'Estacionária I':sy['Estacionária'],'Estacionária D':sx['Estacionária'],'CUSUM p':cus,'RESET p':reset,'ACF1 resíduos':acf(m.resid,nlags=1,fft=False)[1],'Mês influente':str(dd.index[ii].date()),'Δ coef influência':change,'Diagnóstico favorável':good,'Limitação':'Sobreposição induz correlação; HAC não identifica choque exógeno; súbitos é proxy por COBRADE12/13','Unidade efeito':'pp da taxa acumulados por unidade de mudança log da exposição; associação'})
+    r=adjusted(pd.DataFrame(rows),family_size=16);r['Categoria resultado']=r.apply(classify,axis=1);save(r,'resposta');return r
+
+def prediction():
+    raw=pd.read_parquet(PROC/'segunda_series_completas.parquet');records=[];summary=[];rng=np.random.default_rng(SEED)
+    for per,(ini,fim) in PERIODS.items():
+        s=raw.loc[ini:fim].astype(float)
+        for key in EXPOS[:2]:
+            folds=[];good=[]
+            for origin in range(72,len(s)):
+                train=s.iloc[:origin];mx=6 if len(s)>100 else 3;cache=[]
+                for p in range(1,mx+1):
+                    y,X=design(train,key,p,0);n,k=X.shape
+                    if n-k>=30 and n>=3*k:
+                        m=OLS(y,X).fit();cache.append((m.bic,p,m))
+                _,p,base=min(cache,key=lambda a:(a[0],a[1]));c=[]
+                for q in range(1,4):
+                    y,X=design(train,key,p,q);n,k=X.shape
+                    if n-k>=30 and n>=3*k:
+                        m=OLS(y,X).fit();c.append((m.bic,q,m))
+                _,q,aug=min(c,key=lambda a:(a[0],a[1]));future=s.iloc[:origin+1];_,Xb=design(future,key,p,0);_,Xa=design(future,key,p,q)
+                assert base.model.data.row_labels.max()<s.index[origin] and aug.model.data.row_labels.max()<s.index[origin]
+                pb=float(base.predict(Xb.iloc[[-1]]).iloc[0])+s.I.iloc[origin-1];pa=float(aug.predict(Xa.iloc[[-1]]).iloc[0])+s.I.iloc[origin-1];actual=s.I.iloc[origin];eb=actual-pb;ea=actual-pa
+                dg={'BG1 p':acorr_breusch_godfrey(aug,nlags=1)[1],'BG12 p':acorr_breusch_godfrey(aug,nlags=12)[1]};good.append(dg['BG1 p']>=.05 and dg['BG12 p']>=.05)
+                folds.append({'Período':per,'Exposição':key,'Data alvo':str(s.index[origin].date()),'Treino início':str(train.index.min().date()),'Treino fim':str(train.index.max().date()),'n treino':origin,'p próprio':p,'q exposição':q,'Observado':actual,'Previsão referência':pb,'Previsão desastres':pa,'Erro referência':eb,'Erro desastres':ea,'Δ perda MSE':eb**2-ea**2,**dg})
+            records.extend(folds);f=pd.DataFrame(folds);loss=f['Δ perda MSE'].to_numpy();n=len(loss);boots=[]
+            for b in range(1999):
+                starts=rng.integers(0,n,size=int(np.ceil(n/6)));idx=np.concatenate([(st+np.arange(6))%n for st in starts])[:n];boots.append(loss[idx].mean())
+            lo,hi=np.quantile(boots,[.025,.975]);tm=OLS(loss,np.ones((n,1))).fit().get_robustcov_results(cov_type='HAC',maxlags=min(12,n//3),use_correction=True,use_t=True)
+            row={'Período':per,'Unidade':'Brasil','Exposição':key,'Família':'PREVISAO','Modelo':'Expansiva72; AR referência vs ADL; horizonte1','n previsões':n,'Primeiro alvo':f['Data alvo'].iloc[0],'Último alvo':f['Data alvo'].iloc[-1],'RMSE referência':float(np.sqrt(np.mean(f['Erro referência']**2))),'RMSE desastres':float(np.sqrt(np.mean(f['Erro desastres']**2))),'MAE referência':float(np.mean(abs(f['Erro referência']))),'MAE desastres':float(np.mean(abs(f['Erro desastres']))),'Δ MSE médio':loss.mean(),'IC bootstrap baixo':lo,'IC bootstrap alto':hi,'t HAC':float(tm.tvalues[0]),'p':float(tm.pvalues[0]) if n>=24 else np.nan,'p descritivo n pequeno':float(tm.pvalues[0]) if n<24 else np.nan,'Proporção folds BG favorável':np.mean(good),'Diagnóstico favorável':bool(n>=24 and np.mean(good)>=.8),'Motivo':'Pseudo-OOS Atlas revisado; modelos aninhados, comparação exploratória'+('; menos24 previsões, inferência não qualificada' if n<24 else ''),'Unidades':'erros pp; diferencial MSE pp² positivo favorece desastres'}
+            summary.append(row)
+    r=adjusted(pd.DataFrame(summary),family_size=4);r['Categoria resultado']=r.apply(classify,axis=1);save(pd.DataFrame(records),'previsoes_folds');save(r,'previsao');checkpoint('13');return r
+
+def figura_resposta():
+    import matplotlib.pyplot as plt
+    r=read('resposta');fig,axes=plt.subplots(2,2,figsize=(12,8),sharex=True)
+    for ax,((per,key),g) in zip(axes.flat,r.groupby(['Período','Exposição'],sort=False)):
+        g=g.sort_values('Horizonte');ax.errorbar(g.Horizonte,g.Coeficiente,yerr=[g.Coeficiente-g['IC baixo'],g['IC alto']-g.Coeficiente],fmt='o-',capsize=3,label='IC95% pontual')
+        ax.fill_between(g.Horizonte,g['IC simultâneo baixo'],g['IC simultâneo alto'],alpha=.12,label='IC simultâneo Bonferroni16');ax.axhline(0,color='gray');ax.set_title(per+'\n'+key);ax.set_xlabel('Meses seguintes');ax.set_ylabel('Associação acumulada (pp / Δlog)');ax.legend(fontsize=8)
+    fig.tight_layout();plt.show();plt.close(fig)
+
+def figura_previsao():
+    import matplotlib.pyplot as plt
+    r=read('previsao');fig,axes=plt.subplots(1,2,figsize=(12,5))
+    for ax,(per,g) in zip(axes,r.groupby('Período',sort=False)):
+        x=np.arange(len(g));ax.bar(x-.18,g['RMSE referência'],width=.36,label='Referência');ax.bar(x+.18,g['RMSE desastres'],width=.36,label='+ desastres');ax.set_xticks(x,g.Exposição.str.replace('Clima | ','',regex=False));ax.set_ylabel('RMSE (pp); menor é melhor');ax.set_title(per);ax.legend()
+    fig.tight_layout();plt.show();plt.close(fig)

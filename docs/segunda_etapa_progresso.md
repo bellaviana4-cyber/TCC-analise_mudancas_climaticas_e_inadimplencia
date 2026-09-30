@@ -12,3 +12,7 @@ Próximo passo exato: executar11_exposicao_gravidade_segunda_etapa.ipynb, comple
 ## Etapa11 concluída
 
 CSV consolidado reutilizado após conferir SHA256, sem repetir auditoria de protocolos. Auditoria nova de deslocamento, habitações, monetários, sobreposições, extremos e atrasos. Notebook11 executado integralmente. Família nacional50 completada, família determinísticas25, TY4 preservadas. Valores monetários excluídos da inferência por mês-base não confirmado; não deflacionados novamente. Próximo: executar12_painel_uf_segunda_etapa.ipynb; preservar resultados nacionais e a auditoria já executados. Commit etapa10:7dc4bb8077b18e75c3be72e68f6b1510d63c2e45.
+
+## Etapa12 concluída
+
+Notebook12 executado, oito modelos de painel TWFE com27 UFs, lags próprios1,2,3,12 e exposição1,2,3. Nenhuma rejeição nominal DK nem após BH. Autocorrelação residual rejeitada no total em todos os quatro indicadores (p≈0,011–0,013). Pré: convergência ADF/KPSS em51,9% das UFs, abaixo do gate80%. SPJ, metades e remoção de cada UF apresentados como sensibilidades; nenhuma prova de causalidade. Etapa11 commit:8fa41dd152ea0b9e935be4e153c59d52bc82b140. Próximo: notebook13 resposta/previsão; não refazer10–12.
