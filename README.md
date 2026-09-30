@@ -181,3 +181,4 @@ python src/relatorio_categorias.py --output ..\relatorio_grupos_tipologias_tcc.h
 ```
 
 Os notebooks incluem os gráficos; a execução também produz PNGs locais em `outputs/figures/ampliacao/`. Não são versionadas as bases brutas nem as séries intermediárias.
+

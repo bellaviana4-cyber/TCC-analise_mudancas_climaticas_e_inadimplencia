@@ -1,0 +1,61 @@
+﻿code,grupo_de_desastre,descricao_tipologia,clima,subito,seca,Protocolos
+11110,Outros,Outros,False,False,False,87
+11120,Outros,Outros,False,False,False,1
+11311,Hidrológico,Movimento de Massa,False,False,False,36
+11312,Hidrológico,Movimento de Massa,False,False,False,10
+11313,Hidrológico,Movimento de Massa,False,False,False,18
+11314,Hidrológico,Movimento de Massa,False,False,False,10
+11321,Hidrológico,Movimento de Massa,False,False,False,828
+11331,Hidrológico,Movimento de Massa,False,False,False,118
+11332,Hidrológico,Movimento de Massa,False,False,False,30
+11340,Hidrológico,Movimento de Massa,False,False,False,53
+11410,Outros,Erosão,False,False,False,162
+11420,Outros,Erosão,False,False,False,180
+11431,Outros,Erosão,False,False,False,13
+11432,Outros,Erosão,False,False,False,26
+11433,Outros,Erosão,False,False,False,99
+12100,Hidrológico,Inundações,True,True,False,2065
+12200,Hidrológico,Enxurradas,True,True,False,2759
+12300,Hidrológico,Alagamentos,True,True,False,1504
+13111,Meteorológico,Vendavais e Ciclones,True,True,False,13
+13112,Meteorológico,Vendavais e Ciclones,True,True,False,69
+13120,Meteorológico,Onda de Frio,True,True,False,21
+13211,Meteorológico,Tornado,True,True,False,72
+13212,Meteorológico,Vendavais e Ciclones,True,True,False,65
+13213,Meteorológico,Granizo,True,True,False,1070
+13214,Hidrológico,Chuvas Intensas,True,True,False,7978
+13215,Meteorológico,Vendavais e Ciclones,True,True,False,2406
+13310,Climatológico,Chuvas Intensas,True,True,False,106
+13321,Climatológico,Onda de Frio,True,True,False,39
+13322,Climatológico,Onda de Frio,True,True,False,143
+14110,Climatológico,Estiagem e Seca,True,False,True,11848
+14120,Climatológico,Estiagem e Seca,True,False,True,4301
+14131,Climatológico,Incêndio Florestal,True,False,False,1129
+14132,Climatológico,Incêndio Florestal,True,False,False,1952
+14140,Outros,Onda de Calor e Baixa Umidade,True,False,False,103
+15110,Outros,Doenças infecciosas,False,False,False,228
+15120,Outros,Doenças infecciosas,False,False,False,4
+15130,Outros,Doenças infecciosas,False,False,False,11
+15210,Outros,Outros,False,False,False,15
+15221,Outros,Outros,False,False,False,3
+15222,Outros,Outros,False,False,False,3
+15230,Outros,Outros,False,False,False,47
+21110,Outros,Outros,False,False,False,1
+21210,Outros,Outros,False,False,False,3
+22110,Outros,Outros,False,False,False,8
+22210,Outros,Outros,False,False,False,7
+22220,Outros,Outros,False,False,False,68
+22310,Outros,Outros,False,False,False,1
+22410,Outros,Outros,False,False,False,17
+22420,Outros,Outros,False,False,False,2
+22430,Outros,Outros,False,False,False,1
+22440,Outros,Outros,False,False,False,2
+22460,Outros,Outros,False,False,False,2
+23110,Outros,Outros,False,False,False,86
+23120,Outros,Outros,False,False,False,225
+24100,Outros,Outros,False,False,False,225
+24200,Outros,Rompimento/Colapso de barragens,False,False,False,34
+25100,Outros,Outros,False,False,False,20
+25200,Outros,Outros,False,False,False,1
+25300,Outros,Outros,False,False,False,2
+25500,Outros,Outros,False,False,False,9

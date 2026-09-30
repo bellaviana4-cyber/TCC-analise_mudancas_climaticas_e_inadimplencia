@@ -251,3 +251,67 @@ def ty(keys,extra=False):
 def decisions():
     r=read('nacional');fav=r[(r.Família=='NACIONAL')&r['Diagnóstico favorável']]
     return save(pd.DataFrame([{'Procedimento':'Bootstrap temporal H0','Decisão':'Não aplicado','Justificativa':'Teste condicional à seleção; bootstrap defensável exigiria reexecutar seleção e validar dinâmica. Não usado como correção automática dos modelos reprovados.'},{'Procedimento':'Simulação de poder','Decisão':'Não aplicada','Justificativa':'Não atribuir tamanho/poder confiável a um DGP escolhido de modelos com diagnóstico inadequado; intervalos e OOS explicitam incerteza.'},{'Procedimento':'Controles econômicos adicionais','Decisão':'Não incluídos','Justificativa':'Não disponíveis na entrada com cobertura oficial compatível; choques comuns no painel não substituem confundidores específicos de UF.'},{'Procedimento':'GMM','Decisão':'Não aplicado','Justificativa':'N=27,T longo; evitar proliferação de instrumentos. Persistência modelada diretamente; sensibilidade SPJ verifica viés, sem promessa de eliminá-lo.'}]),'decisoes')
+
+def within(df):
+    """Two-way demeaning: exact for the balanced common-date panels used here."""
+    return df-df.groupby(level=0).transform('mean')-df.groupby(level=1).transform('mean')+df.mean()
+
+def panel_design(raw,key):
+    d=raw.sort_values(['uf','data_base']).set_index(['uf','data_base']);y=d.groupby(level=0).I.diff();x=np.log1p(d[key]).groupby(level=0).diff();dd=pd.DataFrame({'y':y})
+    for l in [1,2,3,12]:dd[f'I{l}']=y.groupby(level=0).shift(l)
+    for l in [1,2,3]:dd[f'D{l}']=x.groupby(level=0).shift(l)
+    dd=dd.dropna().astype(float)
+    # Balanced within scenario; do not silently turn incomplete states into smaller unbalanced samples.
+    assert dd.groupby(level=0).size().nunique()==1 and dd.index.get_level_values(0).nunique()==27
+    return dd
+
+def fit_panel(dd):
+    w=within(dd);m=OLS(w.y,w.drop(columns='y'),hasconst=False).fit();return m
+
+def dk(m,dd,lag=12):
+    time=pd.factorize(dd.index.get_level_values(1),sort=True)[0];absorbed=dd.index.get_level_values(0).nunique()+len(np.unique(time))-1
+    return cov_nw_groupsum(m,nlags=lag,time=time,use_correction=0)*m.nobs/(m.nobs-len(m.params)-absorbed)
+
+def wald_cov(m,C,cols,df=26):
+    R=restrict(m,cols);b=R@m.params;V=R@C@R.T
+    if np.linalg.matrix_rank(V)<len(cols):return np.nan,np.nan
+    f=float(b@np.linalg.solve(V,b)/len(cols));return f,float(stats.f.sf(f,len(cols),df))
+
+def panel():
+    raw=pd.read_parquet(PROC/'segunda_painel.parquet');rows=[];st=[];co=[];loo=[];diagnostics=[]
+    for per,(ini,fim) in PERIODS.items():
+        d=raw[raw.data_base.between(ini,fim)]
+        stationUF=[]
+        for uf,g in d.groupby('uf'):
+            ss=station(g.sort_values('data_base').I.diff());stationUF.append(ss['Estacionária']);st.append({'Período':per,'UF':uf,**ss})
+        for key in EXPOS:
+            common={'Período':per,'Unidade':'UF × mês','Exposição':key,'Família':'PAINEL','Modelo':'ADL ΔI TWFE; I1,I2,I3,I12; D1,D2,D3','Transformação':'ΔI; Δlog exposição','Controles':'FE UF + FE mês calendário','p próprio':'1,2,3,12 fixos','q exposição':3}
+            if d[key].isna().any():rows.append({**common,'p':np.nan,'Diagnóstico favorável':False,'Motivo':'Painel incompleto; ausência não imputada'});continue
+            dd=panel_design(d,key);m=fit_panel(dd);C=dk(m,dd);F,pv=wald_cov(m,C,['D1','D2','D3']);v=restrict(m,['D1','D2','D3']).sum(axis=0);sm=float(v@m.params);se=float(np.sqrt(v@C@v));t=stats.t.ppf(.975,26)
+            # Bias sensitivity: split raw calendar and recompute differences/lags within halves.
+            dates=sorted(d.data_base.unique());mid=len(dates)//2;halves=[]
+            for ds in [dates[:mid],dates[mid:]]:hm=fit_panel(panel_design(d[d.data_base.isin(ds)],key));halves.append(hm.params)
+            spj=2*m.params-(halves[0]+halves[1])/2;delta=float(v@spj-sm)
+            # Residual serial dependence conditional on original dynamics and two-way effects.
+            aux=dd.drop(columns='y').copy();aux['e']=m.resid.to_numpy()
+            for l in [1,12]:aux[f'e{l}']=aux.e.groupby(level=0).shift(l)
+            aux=aux.dropna().rename(columns={'e':'y'});am=fit_panel(aux);AC=dk(am,aux);af,ap=wald_cov(am,AC,['e1','e12'])
+            E=pd.Series(m.resid.to_numpy(),index=dd.index).unstack(0);corr=E.corr().to_numpy();off=corr[np.triu_indices(27,1)];cd=float(np.sqrt(2*len(E)/(27*26))*off.sum())
+            intervals=[]
+            for uf in sorted(d.uf.unique()):
+                keep=dd[dd.index.get_level_values(0)!=uf];mm=fit_panel(keep);val=float(v@mm.params);intervals.append(val);loo.append({**common,'UF removida':uf,'Soma sem UF':val})
+            root=roots(m);material=abs(delta)>se;good=bool(np.mean(stationUF)>=.8 and ap>=.05 and root<1 and not material and max(abs(np.array(intervals)-sm))<=se)
+            cc={**common,'n efetivo':int(m.nobs),'UFs':27,'Meses efetivos':len(E),'GL inferência':26,'F DK':F,'p':pv,'p DK6':wald_cov(m,dk(m,dd,6),['D1','D2','D3'])[1],'p cluster UF':wald_cov(m,cov_cluster(m,pd.factorize(dd.index.get_level_values(0))[0],use_correction=True),['D1','D2','D3'])[1],'Soma coeficientes':sm,'SE soma':se,'IC baixo':sm-t*se,'IC alto':sm+t*se,'Soma SPJ':float(v@spj),'Δ SPJ':delta,'Soma metade1':float(v@halves[0]),'Soma metade2':float(v@halves[1]),'Viés sensibilidade material':material,'Autocorrelação p DK':ap,'F autocorrelação':af,'Proporção UF estacionária':np.mean(stationUF),'Raiz própria':root,'CD descritivo':cd,'Correlação média resíduos UF':off.mean(),'LOO mínimo':min(intervals),'LOO máximo':max(intervals),'Diagnóstico favorável':good,'Motivo':'SPJ é sensibilidade de ponto, IC original não serve ao corrigido; exogeneidade não certificada','Unidade efeito':'pp ΔI por unidade Δlog exposição; soma lags, não efeito causal'}
+            rows.append(cc)
+            for term in m.params.index:
+                i=m.params.index.get_loc(term);err=float(np.sqrt(C[i,i]));co.append({**common,'Termo':term,'Coeficiente':m.params[term],'SE DK':err,'IC baixo':m.params[term]-t*err,'IC alto':m.params[term]+t*err,'Coeficiente SPJ':spj[term]})
+    r=adjusted(pd.DataFrame(rows),family_size=8);r['Categoria resultado']=r.apply(classify,axis=1)
+    save(pd.DataFrame(st),'estacionariedade_uf');save(pd.DataFrame(co),'coeficientes_painel');save(pd.DataFrame(loo),'influencia_uf');save(r,'painel');checkpoint('12');return r
+
+def figura_painel():
+    import matplotlib.pyplot as plt
+    r=read('painel');fig,axes=plt.subplots(1,2,figsize=(13,5))
+    for ax,(per,g) in zip(axes,r.groupby('Período',sort=False)):
+        g=g.dropna(subset=['Soma coeficientes']);y=np.arange(len(g));ax.errorbar(g['Soma coeficientes'],y,xerr=[g['Soma coeficientes']-g['IC baixo'],g['IC alto']-g['Soma coeficientes']],fmt='o',capsize=3,label='TWFE + IC DK')
+        ax.scatter(g['Soma SPJ'],y,marker='x',color='#a74826',label='SPJ (ponto, sem IC)');ax.axvline(0,color='gray');ax.set_yticks(y,g.Exposição.str.replace('Clima | ','',regex=False));ax.set_title(per);ax.set_xlabel('Soma coeficientes; pp por Δlog exposição');ax.legend(fontsize=9)
+    fig.tight_layout();plt.show();plt.close(fig)
