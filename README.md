@@ -151,3 +151,33 @@ As etapas de processamento foram estruturadas de forma que as bases utilizadas n
 ## Status
 
 Projeto em desenvolvimento.
+
+
+## Ampliação: grupos e tipologias (2013–2024 e pré-pandemia)
+
+A ampliação mantém os notebooks 05 e 06 e acrescenta:
+
+- `notebooks/07_estacionariedade_grupos_tipologias.ipynb`: auditoria do Atlas/Parquet, reconciliação e estacionariedade por recorte;
+- `notebooks/08_granger_grupos.ipynb`: execução conjunta das famílias de testes e interpretação de grupos/referência;
+- `notebooks/09_granger_tipologias.ipynb`: resultados e interpretações por tipologia;
+- `outputs/tables/ampliacao/`: resultados completos, incluindo não significativos;
+- `docs/ampliacao_metodologia.md`: decisões, hipóteses, limitações e reprodução.
+
+A unidade validada é protocolo municipal: 40.339 registros únicos em 2013–2024, com reconciliação integral ao Parquet. São 4 grupos e 16 tipologias. Pré-pandemia termina em **janeiro de 2020**, inclusive (85 meses).
+
+Nesta execução, 29 das 235 hipóteses únicas na direção desastres → inadimplência têm significância nominal, mas nenhuma permanece após Benjamini–Hochberg. A estacionariedade da inadimplência transformada é inconclusiva no pré-pandemia; a inferência desse recorte é exploratória. Consulte os notebooks para as limitações e os resultados inversos. Não se trata de prova de ausência de efeitos causais.
+
+Após instalar as dependências e disponibilizar localmente as duas bases:
+
+```powershell
+python -m pip install -r requirements.txt -r requirements-ampliacao.txt
+python src/executar_notebooks_categorias.py
+```
+
+O HTML standalone é entregue separadamente, fora do GitHub. Seu gerador está em `src/relatorio_categorias.py`; o template textual é código-fonte, sem dados embutidos. Para gerar uma cópia fora do repositório:
+
+```powershell
+python src/relatorio_categorias.py --output ..\relatorio_grupos_tipologias_tcc.html
+```
+
+Os notebooks incluem os gráficos; a execução também produz PNGs locais em `outputs/figures/ampliacao/`. Não são versionadas as bases brutas nem as séries intermediárias.
