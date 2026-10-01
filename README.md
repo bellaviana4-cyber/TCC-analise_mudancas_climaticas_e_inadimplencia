@@ -181,3 +181,39 @@ python src/relatorio_categorias.py --output ..\relatorio_grupos_tipologias_tcc.h
 ```
 
 Os notebooks incluem os gráficos; a execução também produz PNGs locais em `outputs/figures/ampliacao/`. Não são versionadas as bases brutas nem as séries intermediárias.
+
+
+## Segunda etapa: dinâmica, exposição e localização geográfica
+
+Extensão informada pela análise anterior; protocolo registrado **antes dos novos testes**, commit `b667d451519711dc0fa2f48ad3d0138e360e86be`. Não é confirmação independente e não busca significância por alterações dos recortes.
+
+| Notebook executado | Conteúdo |
+|---|---|
+| `10_dinamica_nacional_segunda_etapa.ipynb` | ADL com ordens próprias/cruzadas diferentes, amostra comum BIC, sazonalidade, quebras, diagnósticos e TY condicionado à viabilidade |
+| `11_exposicao_gravidade_segunda_etapa.ipynb` | Auditoria de frequência, municípios, deslocamento e habitações; foco COBRADE12/13/14; modelos e BH da família nacional completa |
+| `12_painel_uf_segunda_etapa.ipynb` | UF×mês, TWFE dinâmico, DK, sensibilidade SPJ e influência das UFs |
+| `13_resposta_previsao_segunda_etapa.ipynb` | Projeções locais1/3/6/12 meses; previsão expansiva sem divisão aleatória; IC e limitações de disponibilidade |
+
+**Conclusão:** nenhuma rejeição ajustada com todos os diagnósticos favoráveis. Vendavais/Ciclones tem rejeiçõesHAC apósBH, porém q0 é preferido e há limitações de RESET/estacionariedade; testes clássicos/HC3 não confirmam evidência ajustada. As quatro medidas climáticas, o painel e as projeções locais não dão confirmação robusta. Acrescentar desastres não melhora o RMSE nas72 previsões do período total. Pré-pandemia tem13 alvos: descrição, sem inferência qualificada. Ausência de evidência robusta não prova ausência de impactos.
+
+Documentação: [protocolo](docs/segunda_etapa_protocolo.md), [resultados e interpretação](docs/segunda_etapa_resultados.md), [fontes](docs/segunda_etapa_fontes.md), [progresso/checkpoints](docs/segunda_etapa_progresso.md). Tabelas completas em `outputs/tables/segunda_etapa/`, com famílias fixas, p originais/ajustados, coeficientes/IC, amostras, diagnósticos e exclusões. Os notebooks05–09 e seus resultados ajustados permanecem preservados. O ajuste do10 era provisório com reservas p=1; o11 contém a família nacional final50, sem reduzir hipóteses.
+
+### Reprodução
+
+As entradas continuam locais e ignoradas peloGit:
+
+- `data/processed/df_tcc_2013_2024.parquet` — SHA256 `49991105866dc140e959bfd9200b780c76edae0b8c95c31040bcdbde7811afe5`.
+- `data/raw/atlas_desastres/BD_Atlas_1991_2024_v1.0_2025.04.14_Consolidado.csv` — SHA256 `6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af`.
+
+```powershell
+python -m pip install -r requirements-segunda-etapa.txt
+# Reestimar a segunda etapa integralmente, preservando05–09:
+python src/executar_segunda_etapa.py --recalcular
+# Somente verificar saídas já existentes:
+python src/verificar_segunda_etapa.py
+# O HTML final e seu gerador são entregues separadamente no chat.
+```
+
+O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` substitui apenas as saídas da segunda etapa; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.
+
+Limitações centrais: p-valores condicionais à seleçãoBIC; dados administrativos e zeros de significado incompleto; nenhuma unicidade de pessoas/imóveis; monetários excluídos por mês-base não confirmado; SCRbruto não disponível; sem vintagesAtlas; confundimento econômico deUF não eliminado; dependência e viés dinâmico do painel. BootstrapH0 e simulação de poder não foram usados para resgatar modelos reprovados. HTML final e bases brutas não são publicados.
