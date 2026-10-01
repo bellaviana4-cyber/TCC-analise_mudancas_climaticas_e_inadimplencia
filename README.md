@@ -211,8 +211,7 @@ python -m pip install -r requirements-segunda-etapa.txt
 python src/executar_segunda_etapa.py --recalcular
 # Somente verificar saídas já existentes:
 python src/verificar_segunda_etapa.py
-# HTML offline, sempre fora do repositório:
-python src/relatorio_segunda_etapa.py --output "$env:USERPROFILE\Downloads\relatorio_tcc_segunda_etapa.html"
+# O HTML final e seu gerador são entregues separadamente no chat.
 ```
 
 O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` substitui apenas as saídas da segunda etapa; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.

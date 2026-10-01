@@ -20,3 +20,13 @@ Notebook12 executado, oito modelos de painel TWFE com27 UFs, lags próprios1,2,3
 ## Etapa13 concluída
 
 Notebook13 executado:16 projeções locais,0 nominais/0BH; previsão expansiva com72/13 alvos por indicador, sem ganho observado no total. Etapa12 commit:c128108350d37511245899e8be2a7df933ae6b71. Próximo: gerar HTML externo offline, validar interface e hashes remotos, abrirPR e integrar após verificações. Análise10–13 não deve ser recalculada ao retomar se tabelas/checkpoints estiverem preservados.
+
+## Relatório e verificações concluídos
+
+Etapa13 commit:f1e0e2c431f33a9bde7f2fdd0fb2cb13c0dfd94e. HTML final externo gerado, conferido offline em Chromium,7 abas/filtros/exportação e larguras1440/768/390. Sem errosJS ou transbordamento da página. Gerador/template será publicado, não o HTML final.27 verificações estatísticas/técnicas passaram. Documentação de resultados e decisões concluída.
+
+Próximo passo de publicação: publicar commit final de documentação/gerador, verificar hashes no remoto, abrirPR para main e integrar com merge preservando histórico e SHA esperado. Não há etapa estatística pendente. Não executar análises já validadas ao retomar; conferir estado remoto e checkpoints.
+
+## Retomada final
+
+Verificação do HTML repetida: passou nas três larguras, abas, filtros, exportação e offline. Revisão automática bloqueou a publicação do template do relatório; gerador/template e HTML final ficam fora do GitHub. Publicação final contém documentação, notebook10 com resultados BH finais e checkpoint atualizado. Análises10–13 preservadas, sem recálculo. Próximo: conferir árvore remota, abrirPR e integrar com SHA esperado.
