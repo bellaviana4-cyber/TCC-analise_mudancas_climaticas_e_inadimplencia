@@ -218,7 +218,7 @@ python src/verificar_saidas_publicadas.py
 # O HTML final e seu gerador são entregues separadamente no chat.
 ```
 
-O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` substitui apenas as saídas da segunda etapa; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.
+O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` é um alias de `--reproduzir` e preserva um backup local antes de reexecutar; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.
 
 Limitações centrais: p-valores condicionais à seleçãoBIC; dados administrativos e zeros de significado incompleto; nenhuma unicidade de pessoas/imóveis; monetários excluídos por mês-base não confirmado; SCRbruto não disponível; sem vintagesAtlas; confundimento econômico deUF não eliminado; dependência e viés dinâmico do painel. BootstrapH0 e simulação de poder não foram usados para resgatar modelos reprovados. HTML final e bases brutas não são publicados.
 
@@ -240,3 +240,28 @@ python src/executar_notebooks_categorias.py notebooks/14_adequacao_transformacoe
 ```
 
 O HTML final permanece externo ao GitHub. Na retomada de 02/10/2026, foram recuperados e conferidos os resultados executados, sem recalcular análises anteriores. Ausência de evidência robusta não demonstra ausência de impactos econômicos dos desastres.
+
+
+## Encerramento 15: mapa completo de Granger
+
+[Notebook 15 executado](notebooks/15_fechamento_granger_grupos_tipologias.ipynb), [protocolo](docs/granger_fechamento_protocolo.md), [resultados e limitações](docs/granger_fechamento_resultados.md) e [matriz dos 42 cenários](outputs/tables/granger_fechamento/matriz42.csv).
+
+Total nacional, quatro grupos e 16 tipologias nos recortes jan/2013–jan/2020 (85 meses) e jan/2013–dez/2024 (144 meses). Principal sazonal com ordens fixas; três sensibilidades finitas, famílias BH/BY/Holm de 42 e 126 hipóteses e sensibilidade global de 168. Ajustes históricos preservados. Amostras efetivas comuns: 60 e 119 meses.
+
+**Conclusão:** há dez rejeições BH na principal (cinco por período); nove têm limitações na triagem. Granizo no período total combina BH e triagem ampliada favorável na referência HAC, mas perde a rejeição nas inferências clássica/HC3 e no BIC. É um sinal exploratório sensível à especificação. Onda de Frio também não fornece confirmação robusta. A estacionariedade da inadimplência pré-pandemia permanece inconclusiva. Dois cenários pré são inelegíveis por escassez, preservados na matriz e na família. Podemos encerrar Granger com essas limitações documentadas; nenhum método seguinte foi executado.
+
+```powershell
+python -m pip install -r requirements-granger-fechamento.txt
+# Reutilizar resultados após conferir entradas, código, protocolo e tabelas:
+python src/executar_granger_fechamento.py --retomar
+# Conferir saídas sem reestimar (não certifica pressupostos):
+python src/verificar_granger_fechamento.py --somente-saidas
+# Reprodução integral apenas da etapa 15, com agregados publicados:
+python src/executar_granger_fechamento.py --reproduzir
+# Etapas antigas: conferir sem recálculo; exige bases/hashes compatíveis:
+python src/executar_segunda_etapa.py --retomar
+# Reproduzir 10–13 exige bases originais; preserva backup local:
+python src/executar_segunda_etapa.py --reproduzir
+```
+
+A etapa 15 usa agregados com hash validado, sem publicar bases brutas. A ausência das bases impede recuperar códigos numéricos originais do Atlas e reconstruir integralmente 10–13; os nomes e contagens foram preservados. A retomada distingue verificação de arquivos, reprodução e diagnósticos estatísticos. Checkpoints históricos divergentes ou entradas ausentes interrompem a retomada sem recálculo silencioso. O HTML final é entregue fora do repositório.

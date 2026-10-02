@@ -1,0 +1,30 @@
+{
+  "status": "executado",
+  "etapa": 15,
+  "entradas": {
+    "outputs/tables/segunda_etapa/series_nacionais_agregadas.csv": "c613ebd61e25c05ebb4a4e0f3520c6570d673068d0b2ee2b6fc090468e1df679",
+    "outputs/tables/ampliacao/classificacao_grupo_tipologia.csv": "813ec063d96ff68fee3cf7126b0263cae565c12fdc53fb468020c89f4add955c"
+  },
+  "codigo": {
+    "src/granger_fechamento.py": "b5bfbca0919044bdc7f140e73991778dd2e8dcb964def716395fe1fe384a7748",
+    "src/segunda_etapa.py": "4a8a363a9d4eedd8a914c87866af3de4b83b6a06a7fdb11432ca53f2c77cff61",
+    "src/verificar_granger_fechamento.py": "71defb6a2b5dec9a031fcda933f8c88f077aef94b49fa5314e63d0911c0af0ed",
+    "src/executar_granger_fechamento.py": "4cb95f227c732fa8607299b78b58b5e9ee53f5eaa0e6a2c9a5e9e94774c113bd",
+    "src/executar_notebooks_categorias.py": "59da2e12ef17823fafdc551b65e6f5cb680611f72a880dbc244954a0602c368b"
+  },
+  "notebook_codigo": "1dae3e0d4181c4172ac4bfebaf39b1962e8e27fadd5b53b6994b4e333035d75e",
+  "protocolo": "a56b7398c0f4fc00a3ba5ea22f0c14077cf039ff5c79c0a476d8626d8e0fca21",
+  "tabelas": {
+    "ambiente.csv": "316b3660f1fdc8cadf54e1ca5a5a123f5a5c2b219b5f832525e281460f44211b",
+    "cobertura.csv": "404e57b8b039e8cf376b0f1d3c1d507a2a7a3464e3193485caf0384fe7275733",
+    "coeficientes.csv": "68d186c14936b7f74b470b24ab9ee4d3a03099d4cba3c12f56f474850235d52d",
+    "criterios_bic.csv": "cd1d4962925c7172466bddb632cd91c92f39ec7785648644a3204b0de60d729f",
+    "estacionariedade.csv": "fb16df8b2dbbe19fef2ca98e4d95d7054289a22f970f0101db989fad9ddfd4fa",
+    "estacionariedade_nivel.csv": "607fd5fb1b9685212c2b5561ba5162ba6509c871b0846395d080e131f97af6c1",
+    "matriz42.csv": "42f1b7f179485c9cc7ef195c8c408605e833757f4fc33f2744206ce473927bd4",
+    "residuos_referencia.csv": "76d69933ef3b4b4c8d2103f4708893db345f01d5a0311b3356e6451ea86071fa",
+    "resultados.csv": "13832928a31512e52fc171926b61185985fdc126dd892426e0025cbb00b2aeaa",
+    "resumo.csv": "3dcc765a2cc868d90a32d219a2c3c2d44302126ac9f84d412e8c00e003324b12",
+    "validacao.csv": "5715e72f2b684e573ced9609196aad75c4c8dc7a8349e674e0a2cb858432c39a"
+  }
+}

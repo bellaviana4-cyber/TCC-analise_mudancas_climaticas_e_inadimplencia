@@ -1,0 +1,9 @@
+# Ambiente efetivamente utilizado no notebook15; Python3.12.14.
+# Instalar em venv: python -m pip install -r requirements-granger-fechamento.txt
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+statsmodels==0.15.0
+matplotlib==3.10.8
+nbformat==5.11.1
+IPython==9.17.1
