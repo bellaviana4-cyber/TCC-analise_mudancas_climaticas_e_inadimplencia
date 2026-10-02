@@ -1,0 +1,23 @@
+{
+  "status": "concluído",
+  "familias": {
+    "nacional": 200,
+    "painel": 32
+  },
+  "protocolo": "9a96d6d56018e8908d4807e1a38557d4396c490624746c4d8b3b48cd17c8995e",
+  "codigo": "670eecfe445944b1933ad577187ce6469763d45922654dea1ad1bc3ecbeace63",
+  "entradas": {
+    "data/processed/segunda_series_completas.parquet": "2c5839fb2f20b684edb0619629add0883516311041aaf7f43dfc9eff264e03a1",
+    "data/processed/segunda_painel.parquet": "552254a626cc02965e1e0c369ed89a21cb9684397fe8c4ced64afc5102308f1a"
+  },
+  "tabelas": {
+    "painel.csv": "42b8b9361cd76119c5e04d0e6be523a16ed4d34f0144cc1582132225bbf8aaa1",
+    "nacional.csv": "ee67349c71031bc02714a735c6e0c6b6fa84999349b18666905c1a1160acd0be",
+    "validacao.csv": "16458f7a13c781be463022ebbbe6259e7fe48ff9c11acb3d61ba60f007dbe3f9",
+    "estacionariedade.csv": "9175cd0408255dd6161730fe975ea3d896d0fcd3fd7f5916a0286fe9a88a23b7",
+    "coeficientes.csv": "a2591e03c638b37b714bd72ca8ce572bf2c81df7fb03a5997fecb4343bd2ad41",
+    "residuos_referencia.csv": "c3cdd5372fe8fdf7b0e387f66821a63c79d7beb5422d905a64c8533cae906be7",
+    "estacionariedade_uf.csv": "cab1ec65830d0250056491d668d1d9059342172613250e729bd2bae52944b068",
+    "criterios.csv": "ee04946fd452d2fbf07e135bcfd9f307b755f9b987a067eac2921d3330f1616c"
+  }
+}

@@ -36,7 +36,9 @@ As principais técnicas consideradas são:
 
 * **Modelos de Defasagens Distribuídas (Distributed Lag Models)**, utilizados para estimar como o efeito associado aos desastres se distribui ao longo dos períodos subsequentes;
 
-* **Modelos SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Variables)**, utilizados para modelar a dinâmica temporal e sazonal da inadimplência incorporando indicadores de desastres naturais como variáveis exógenas.
+* **Painel dinâmico UF × mês**, para relacionar a exposição de cada estado à sua inadimplência;
+
+* **Projeções locais, Toda–Yamamoto e previsão temporal**, como análises complementares, conforme os critérios de viabilidade documentados. SARIMAX não foi estimado nesta segunda etapa.
 
 Também são realizados procedimentos de diagnóstico e tratamento das séries temporais, incluindo testes de estacionariedade e análise da estrutura de autocorrelação.
 
@@ -132,7 +134,7 @@ Base final de análise
     ├── Testes de estacionariedade
     ├── Causalidade de Granger
     ├── Modelos de defasagens distribuídas
-    └── Modelos SARIMAX
+    └── Painel, resposta temporal e previsão
 ```
 
 ## Reprodutibilidade
@@ -209,11 +211,32 @@ As entradas continuam locais e ignoradas peloGit:
 python -m pip install -r requirements-segunda-etapa.txt
 # Reestimar a segunda etapa integralmente, preservando05–09:
 python src/executar_segunda_etapa.py --recalcular
-# Somente verificar saídas já existentes:
-python src/verificar_segunda_etapa.py
+# Verificar saídas publicadas, sem bases locais nem reestimação:
+python src/verificar_saidas_publicadas.py
+# Verificação original com os intermediários disponíveis:
+# python src/verificar_segunda_etapa.py
 # O HTML final e seu gerador são entregues separadamente no chat.
 ```
 
 O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` substitui apenas as saídas da segunda etapa; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.
 
 Limitações centrais: p-valores condicionais à seleçãoBIC; dados administrativos e zeros de significado incompleto; nenhuma unicidade de pessoas/imóveis; monetários excluídos por mês-base não confirmado; SCRbruto não disponível; sem vintagesAtlas; confundimento econômico deUF não eliminado; dependência e viés dinâmico do painel. BootstrapH0 e simulação de poder não foram usados para resgatar modelos reprovados. HTML final e bases brutas não são publicados.
+
+
+## Extensão 14: transformações e adequação
+
+O notebook executado `notebooks/14_adequacao_transformacoes.ipynb` compara primeiras diferenças, variações relativas e suas versões com diferença sazonal. Utiliza datas comuns e famílias fixas de **200 hipóteses nacionais e 32 de painel**, sem escolher transformações pelo menor p-valor. [Protocolo prévio](docs/adequacao_protocolo.md), [resultados completos](docs/adequacao_resultados.md) e [verificação da retomada](docs/retomada_final_verificacao.md).
+
+**Conclusão atual:** 41 cenários nacionais têm triagem diagnóstica favorável, todos no período total e nas versões sazonais. Há 44 rejeições nominais e 11 após BH/HAC; apenas Onda de Frio sazonal combina BH com triagem favorável (p=0,002176; BH=0,039558). Esse sinal é exploratório: BIC prefere q=0, BH clássico/HC3 e BY/Holm não confirmam significância. Os demais resultados ajustados têm limitações diagnósticas. No painel: 2 nominais, nenhuma após BH, autocorrelação persistente. As melhorias não estabelecem precedência robusta geral ou causalidade estrutural.
+
+As análises 05–13 e seus ajustes foram preservados. A reprodução da extensão requer `data/processed/segunda_series_completas.parquet` e `segunda_painel.parquet`, produzidos pela etapa 11. Seus hashes estão em `outputs/tables/adequacao/checkpoint_14.json`. Esses intermediários e as bases brutas não são publicados.
+
+```powershell
+python -m pip install -r requirements-segunda-etapa.txt
+# Apenas conferir as saídas entregues (sem reestimar):
+python src/verificar_saidas_publicadas.py
+# Reexecutar 14 somente com os intermediários e hashes conferidos:
+python src/executar_notebooks_categorias.py notebooks/14_adequacao_transformacoes.ipynb
+```
+
+O HTML final permanece externo ao GitHub. Na retomada de 02/10/2026, foram recuperados e conferidos os resultados executados, sem recalcular análises anteriores. Ausência de evidência robusta não demonstra ausência de impactos econômicos dos desastres.
