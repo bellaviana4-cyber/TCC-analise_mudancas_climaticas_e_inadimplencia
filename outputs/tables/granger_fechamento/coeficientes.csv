@@ -1,0 +1,407 @@
+﻿Período,Exposição,Nível,Unidade geográfica,Direção,Especificação,Lag,Coeficiente,IC baixo,IC alto
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.024877732673259323,0.0008071283784778921,0.048948336968040754
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.006666420548854168,-0.012762606072482903,0.026095447170191237
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.012481642943815803,0.0019870601802691856,0.02297622570736242
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.008862404869724507,-0.021245259220903888,0.0389700689603529
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.007614366948850124,-0.04106684428648616,0.025838110388785914
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.004944235554192341,-0.02437783777808049,0.03426630888646517
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.5540988410063143,-0.03252386547064445,1.140721547483273
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.08244199874281599,-0.4301874468908893,0.5950714443765213
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.2520174234922891,-0.020087472245473026,0.5241223192300513
+Pré-pandemia (até jan/2020),Total nacional,Referência,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.019434853031572323,-0.0036194861729464435,0.042489192236091086
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.02345269750564773,0.007844286220567924,0.039061108790727536
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.005531911893043157,-0.015035714665589742,0.026099538451676056
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.007627610383267134,-0.0061170159442353956,0.021372236710769665
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.01218451621383057,-0.016203114787256234,0.04057214721491738
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.002600357389569441,-0.036215464461830826,0.031014749682691942
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0004304615387827329,-0.028504791352427117,0.029365714429992584
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.5071883965937086,0.09930443746139328,0.915072355726024
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.0685250242991444,-0.44708700567328474,0.5841370542715736
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.15861357416748376,-0.16972073626271453,0.486947884597682
+Pré-pandemia (até jan/2020),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.020512955775016127,0.008292855012107773,0.03273305653792448
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.0023214063244355165,-0.018988819200386184,0.023631631849257213
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.00915082703822654,-0.007569594447405615,0.025871248523858695
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.004665704997864735,-0.01047102653600842,0.01980243653173789
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.006505792855965928,-0.03312847830715539,0.020116892595223534
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.006864278638162906,-0.010730957730397641,0.024459515006723453
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.001055187868043074,-0.013956003116567337,0.016066378852653485
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.0665254513289576,-0.4483965344516586,0.5814474371095738
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.22232634435300894,-0.18359924258390867,0.6282519312899265
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.08678404014475899,-0.284601736865767,0.458169817155285
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.0004668192369234904,-0.0210861105228448,0.020152472048997817
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.00854871405753302,-0.01167391646257329,0.02877134457763933
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.003691587259544514,-0.01706820496679367,0.024451379485882697
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.002995357137592902,-0.0057391881604735755,0.01172990243565938
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.005475621849419836,-0.01834277880080756,0.029294022499647233
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.0041108662515262455,-0.02671443988591736,0.01849270738286487
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.007007420756608967,-0.0056214922636414495,0.01963633377685938
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.24168165873424946,-0.24758710456786986,0.7309504220363687
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.08325055327180664,-0.4430710182878995,0.6095721248315128
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.04608772304149658,-0.18038606407966415,0.2725615101626573
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0074806995821674604,-0.007282996541996246,0.022244395706331167
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.0006570257001819041,-0.019797127813928,0.021111179214291807
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.011478889643105356,-0.024471954580402282,0.00151417529419157
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.011983582012394255,-0.0008901994319281525,0.024857363456716665
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.013922637980544404,-0.03149408156532185,0.0036488056042330436
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.014282598354337445,-0.038402858005385135,0.00983766129671024
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.020438434482871762,0.00803996663973505,0.03283690232600847
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.03925140397139393,-0.468433192456133,0.5469360003989209
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.33025356229280867,-0.6619224302307778,0.001415305645160403
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.2611994735915478,-0.0669020301283203,0.589300977311416
+Pré-pandemia (até jan/2020),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.005813441235908457,-0.012430179996002008,0.02405706246781892
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.0074933766462295,-0.026748032739199606,0.0417347860316586
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.03096539735556962,0.014414162624801944,0.0475166320863373
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.019453305502349826,-0.008509825610526045,0.047416436615225696
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.005114752043595272,-0.025353837166400647,0.035583341253591194
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.03338663535371221,0.009707625426946833,0.057065645280477584
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.012608802550113624,-0.021115573753658884,0.04633317885388613
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.20579438016583995,-0.6722408174616306,1.0838295777933105
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.7671847725434973,0.33763605550065773,1.1967334895863369
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.47355429085330386,-0.196346798337037,1.1434553800436447
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.007866924558584027,-0.014802819427219557,0.03053666854438761
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.03139687819393344,0.015142743709568703,0.04765101267829818
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.000931670516281108,-0.012033097330308155,0.013896438362870373
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.006682215988294667,-0.010269051453248672,0.023633483429838006
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.0025413365056005995,-0.015471865738583375,0.010389192727382176
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.008148150799039064,-0.025771131768086552,0.009474830170008424
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0019799684521062105,-0.01233749518136601,0.01629743208557843
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0011879990163786072,-0.018564149742643907,0.01618815170988669
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.02860242766882497,-0.2773563286028887,0.3345611839405387
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.16027964474015047,-0.2400626221515422,0.5606219116318432
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.08666447012111472,-0.40622271664612375,0.2328937764038943
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.0013497260070755187,-0.012591190674232243,0.009891738660081207
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.011684054714976319,-0.02831252432452821,0.004944414894575569
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.00952968549124478,-0.021110928777559546,0.0020515577950699845
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.004881435198848681,-0.013939124918686721,0.023701995316384082
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.011998848652757552,-0.03631085435440014,0.012313157048885033
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.008085782174291364,-0.022757042194161102,0.006585477845578376
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0055270264520371655,-0.006402785757809408,0.017456838661883738
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.29724390934200223,-0.7546503833372358,0.16016256465323125
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.266529565971507,-0.5491886581953488,0.01612952625233477
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.112056518093323,-0.3525268054473275,0.5766398416339735
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.008526071020876245,-0.026867729946930912,0.009815587905178422
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.004286361319295016,-0.022447682742988067,0.013874960104398034
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.002083390687310614,-0.013326217133323394,0.01749299850794462
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.007186152737050447,-0.001740655820261003,0.016112961294361898
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.012831998810981704,-0.03287574826898289,0.007211750647019477
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.0014362890310768844,-0.016794746593554316,0.013922168531400547
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.006081847770686242,-0.004751479982297701,0.016915175523670185
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.09114584981069258,-0.5442210747648232,0.361929375143438
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.03633896465473718,-0.34425511374790313,0.4169330430573775
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.15132142977272015,-0.0659539148371405,0.36859677438258076
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.00509457180631879,-0.022501677238798222,0.012312533626160643
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.014918319527776192,-0.006516044959713063,0.036352684015265445
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.007844898340316552,-0.0199160457029866,0.035605842383619704
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.010505527619027054,-0.008547911279344728,0.029558966517398838
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.0017159306435157121,-0.019381529132839595,0.022813390419871023
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.0028451870511056335,-0.0351889412856589,0.029498567183447635
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.012483319301601455,-0.010958760885106424,0.035925399488309334
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.38188652272297813,-0.12082343566035342,0.8845964811063096
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.18316317438233026,-0.4779008159396512,0.8442271647043118
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.23730142937632923,-0.23043878555471195,0.7050416443073704
+Pré-pandemia (até jan/2020),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.009666121963987652,-0.005792710222011416,0.02512495414998672
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.01915415064256234,0.0020894976133039624,0.03621880367182072
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.004945645734125926,-0.015383711447290453,0.025275002915542303
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.007873286145082845,-0.0060225433149642855,0.021769115605129976
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.008814772315121955,-0.018075990248174748,0.035705534878418654
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.0020136050283628983,-0.03204352160740171,0.028016311550675917
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0011829703322961673,-0.025819420008398295,0.02818536067299063
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.40300368392149155,-0.043255147638313673,0.8492625154812967
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.05113885364145799,-0.46128000512304024,0.5635577124059562
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.15952628950321676,-0.18369193028481554,0.502744509291249
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.016181414648164104,0.004168897461846295,0.028193931834481913
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.00679514516673957,-0.010860994191118883,0.02445128452459802
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.013303594000516875,-0.0022918946236305977,0.028899082624664348
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.012550969885579404,0.003360466212076897,0.02174147355908191
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.010211494093141841,-0.007068918787801847,0.02749190697408553
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.012039994775105861,-0.008791117429615697,0.03287110697982742
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.018078193509766163,0.008959119779492498,0.027197267240039825
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.16933740752183238,-0.2746389075244381,0.6133137225681028
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.3146619821160139,-0.09478767692686985,0.7241116411588977
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.30266973047876344,0.04748690030811498,0.5578525606494119
+Pré-pandemia (até jan/2020),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,9.325845642205177e-05,-0.015262113757566205,0.015448630670410309
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.007145060588351563,-0.005650474163365873,0.019940595340069
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.012633426212717055,0.0020339253290543244,0.023232927096379787
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.003364828296755931,-0.01804190136193496,0.011312244768423097
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.0029959606776403646,-0.01239795106160997,0.018389872416890697
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.002998486019701824,-0.007419795545038323,0.01341676758444197
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.014146478614781594,-0.022937165834863583,-0.005355791394699605
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.1637207467213655,-0.15322625159670594,0.48066774503943693
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.302503646681111,0.046027280869871734,0.5589800124923503
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.09241226607991637,-0.46591164437306004,0.2810871122132273
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0026365686185794448,-0.011006550657910489,0.016279687895069377
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.004219259870849569,-0.014902001211342917,0.023340520953042055
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.0005114514123956415,-0.01665756857558837,0.017680471400379653
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.003714193110072093,-0.007130503885239637,0.014558890105383823
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.009782650518440341,-0.011041400373132925,0.030606701410013606
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.005844897383867717,-0.010450747905650239,0.022140542673385673
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.00303695319415801,-0.012888886343377575,0.0068149799550615555
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.0891983616647557,-0.37695620410072095,0.5553529274302323
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.04383855165252093,-0.3912608878555636,0.4789379911606055
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.08130893327988617,-0.19539602740787662,0.35801389396764893
+Pré-pandemia (até jan/2020),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.004012047146344023,-0.016808951348309127,0.024833045640997177
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.017549818639042314,-0.0027935289050037178,0.03789316618308834
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.01766985514468023,0.002386881094957806,0.03295282919440266
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.021621490496857347,0.007625019339670665,0.03561796165404403
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.01616426488713207,-0.009357706743170931,0.04168623651743507
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.01979875818785279,0.004769272237925403,0.03482824413778017
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.015411135440935041,-0.002679516436639686,0.033501787318509765
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.4024709802535237,-0.09346452569684616,0.8984064862038935
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.4292210797885071,0.02145461763865414,0.8369875419383601
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.5319838872550046,0.203759645804925,0.8602081287050841
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.007935399443925776,-0.009134552913984692,0.025005351801836245
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.029596095789939336,0.001731599150162775,0.05746059242971589
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.006185154958665409,-0.005418174538211026,0.017788484455541844
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.0172708542547687,-0.00882458158964149,0.04336629009917889
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.015540933733341854,-0.006185030505946548,0.037266897972630254
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.011848376829904021,-0.008216618953718613,0.031913372613526655
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.005293046896384487,-0.029509724223404993,0.01892363043063602
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.6916744502465564,0.06045704607393876,1.322891854419174
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.14508781480540522,-0.1486649101447292,0.43884053975553966
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.40423612073796583,-0.2589240162779722,1.0673962577539038
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.020861311938842754,0.0009999044209968964,0.04072271945668861
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.002976112832583264,-0.02202618487779874,0.01607395921263221
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.013929103879221605,-0.04298377650533488,0.015125568746891667
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.011085767452720016,-0.017730596086387142,0.03990213099182717
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.0039307791189214,-0.018796999759199257,0.010935441521356459
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.014174257748359108,-0.033699449043710784,0.00535093354699257
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.025756340817363856,-0.01112944854489353,0.06264213017962124
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.11846065628721997,-0.6357106009393794,0.3987892883649394
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.43857793520323995,-1.1897517035671898,0.31259583316070993
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.20925505804047173,-0.4877830098142729,0.9062931258952164
+Pré-pandemia (até jan/2020),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.0015096749666117263,-0.018274345461318155,0.0152549955280947
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.02652645631000703,-0.001932128326114408,0.054985040946128466
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.035803428695253874,-0.016065892281489663,0.08767274967199741
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.007208846336899147,-0.026851920966455944,0.041269613640254235
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.03699999342037981,-0.0013761492534773087,0.07537613609423693
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.026368916331754318,-0.03147249290635442,0.08421032556986305
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.00893040179695162,-0.024753931132937876,0.042614734726841116
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.6390184080675915,-0.07937232407734052,1.3574091402125235
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.9064985825452663,-0.4160971240215985,2.229094289112131
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.1973218286933146,-0.6554329631259658,1.0500766205125949
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.024418874297508716,0.003801868479706493,0.04503588011531094
+Pré-pandemia (até jan/2020),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.03027142172522616,-0.0022135012295601032,0.06275634468001243
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.001105507030881496,-0.021139199100769203,0.023350213162532198
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.009950024333646383,-0.026720736543786545,0.006820687876493779
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.00022217950675885653,-0.015815965608924672,0.016260324622442385
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.009550873257954976,-0.03360978849594427,0.014508041980034322
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.02471871984059229,-0.04278049403791735,-0.006656945643267229
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0038528014052240725,-0.020625349403546375,0.02833095221399452
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.08367527024445791,-0.45186449862392847,0.6192150391128443
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.24371004770145177,-0.671563743601467,0.18414364819856338
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.036857705281287845,-0.4366871647013449,0.3629717541387692
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.007191686534836424,-0.008062403695409524,0.022445776765082373
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.020585160519055564,0.006202588670950566,0.03496773236716056
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.015542795631548222,0.00041008928159702064,0.030675501981499424
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.006020440662206928,-0.00878880266982325,0.020829683994237107
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.015770257940796315,-0.004867042566095589,0.03640755844768822
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.002329206453351439,-0.017827700278523165,0.022486113185226045
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0003834074135563467,-0.017114700481753793,0.016347885654641098
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.47004134343497783,0.10710297018043968,0.832979716689516
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.364684321192908,-0.032033883376647476,0.7614025257624635
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.12874372265325723,-0.21131445827562323,0.4688019035821377
+Total (2013–2024),Total nacional,Referência,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.015173177924348148,0.0007595022634851872,0.02958685358521111
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.016375846589288322,0.004658271747764729,0.028093421430811914
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.003614444695366974,-0.005130430586884442,0.01235931997761839
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.001860174576206017,-0.007624544690588862,0.011344893843000897
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.00559754395500022,-0.013336000122295941,0.024531088032296384
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.004221742922339766,-0.015264253252833275,0.006820767408153744
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0005540839141270628,-0.012503341227801753,0.011395173399547627
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.38872910723759546,0.0805359514209375,0.6969222630542534
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.09742427103668133,-0.13545076103343456,0.3302993031067972
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.05624871414299273,-0.16288125883579596,0.27537868712178143
+Total (2013–2024),Grupo | Climatológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.013314600106038278,0.0015883533064592927,0.025040846905617264
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.007135007330290263,-0.003620618831374883,0.01789063349195541
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.02045428005662105,0.006122350721594467,0.03478620939164763
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.004972355094400519,-0.00598688945293773,0.015931599641738767
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.010643601735306858,-0.00719051864140848,0.028477722112022194
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.017879879535276085,-0.0004867227647325223,0.03624648183528469
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.00010045709689660785,-0.01071700113768431,0.010516086943891096
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.13741160970126626,-0.12743120382972056,0.4022544232322531
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.5262100868528424,0.16024560545355598,0.8921745682521289
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.09912023419506219,-0.18438945290396977,0.3826299212940941
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.006305024054949611,-0.0034325021782438203,0.016042550288143043
+Total (2013–2024),Grupo | Hidrológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.01987371594934645,0.005945682394471106,0.033801749504221795
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.008296747721571237,-0.019602107552977206,0.003008612109834734
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.006059035762593589,-0.01714212435623182,0.005024052831044641
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.001997935436529833,-0.012951741148210814,0.00895587027515115
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.005627117345982461,-0.014586805543380637,0.0033325708514157157
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.010601637714552394,-0.021335307729837442,0.00013203230073265473
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0034784647092318474,-0.00596858625561799,0.012925515674081685
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.2323962025647388,-0.5216128466825596,0.05682044155308197
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.1771928909049863,-0.47741976278559933,0.12303398097562673
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.06818866458056438,-0.34590179870234256,0.2095244695412138
+Total (2013–2024),Grupo | Meteorológico,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.007428703018741721,-0.014753085819354871,-0.00010432021812856965
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.009721774956801902,-0.010461504555094944,0.029905054468698747
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.008756853277638425,-0.011958552423602699,0.029472258978879548
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.011361893444961036,-0.004304044375412661,0.027027831265334736
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.0024695230870829324,-0.020637386793400325,0.01569834061923446
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.001550795367780536,-0.020761283276021232,0.01765969254046016
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.004905707194257615,-0.015195206893821374,0.025006621282336605
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.25218681318427416,-0.26401846511348603,0.7683920914820344
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.2004458261669339,-0.3344475920159982,0.7353392443498661
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.2368295071882224,-0.18977510909116083,0.6634341234676057
+Total (2013–2024),Grupo | Outros,Grupo,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.007001602334197132,-0.009851621904886861,0.023854826573281123
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.006841197443326226,-0.010496491713070426,0.02417888659972288
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.024909548845634056,0.011617376257361887,0.038201721433906224
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.007250459546718644,-0.009938834432567368,0.024439753526004655
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.012821026947839168,-0.008546272445876663,0.034188326341555
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0259020829704751,0.006869186450069755,0.04493497949088045
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.004438251501732793,-0.011963892889998802,0.02084039589346439
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.15829062502923127,-0.28266419799288733,0.5992454480513498
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.676415407185626,0.34676727883053254,1.0060635355407195
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.18733828121988752,-0.23291084991030173,0.6075874123500767
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0026852728572949224,-0.010250146247046413,0.01562069196163626
+Total (2013–2024),Tipologia | Alagamentos,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.02376004544535518,0.009569121609881883,0.03795096928082848
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.007356813198136535,-0.00032303995736274703,0.015036666353635817
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.0206327927981487,0.006069111668953608,0.03519647392734379
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.0052821664314800796,-0.00518715371796107,0.01575148658092123
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.010858603942680707,-0.006031624237247816,0.02774883212260923
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.01920949617029281,-0.0008776072661592013,0.03929659960674482
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.004928554230914562,-0.005373720025580484,0.015230828487409608
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.17674380835422404,-0.024814870769129693,0.3783024874775778
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.5168950973516713,0.16178977020239238,0.8720004245009502
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.12939948720647917,-0.13963000817986523,0.39842898259282356
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.006574913129976001,-0.0013693208828429735,0.014519147142794977
+Total (2013–2024),Tipologia | Chuvas Intensas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.019295800745850238,0.0077406541199587925,0.030850947371741683
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.014580588468651018,-0.03180940961394041,0.0026482326766383724
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.008984827835597703,-0.021350678369462018,0.003381022698266612
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.0023725462891330427,-0.015213834157281243,0.01995892673554733
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.007720556679260946,-0.025039286334318976,0.009598172975797084
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.007944719295899164,-0.024957031078788425,0.009067592486990095
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0014581289273689578,-0.013111807976669929,0.010195550121932014
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.4184131876243116,-0.8802310673204472,0.0434046920718239
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.24382611024349246,-0.581444118569096,0.09379189808211105
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.004645977300879923,-0.4804097395383449,0.4897016941401047
+Total (2013–2024),Tipologia | Doenças infecciosas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.010337672734674707,-0.027638147488007636,0.00696280201865822
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.0018904809214437737,-0.010254343019692918,0.006473381176805371
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.0016918336160185025,-0.00852054148534358,0.011904208717380585
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.0019217477578026827,-0.012207540102640644,0.008364044587035277
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.0016553093853723913,-0.014988917110242863,0.01167829833949808
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0008041885029804566,-0.008945556623563581,0.010553933629524495
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0048711684266240845,-0.019502969124701487,0.00976063227145332
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.08267471094265896,-0.2941621021550167,0.12881268026969875
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.032007453822552545,-0.23493120646428067,0.29894611410938576
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.0849914379663379,-0.3774257222681652,0.20744284633548937
+Total (2013–2024),Tipologia | Enxurradas,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.0012079698528366604,-0.010505140892682232,0.00808920118700891
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.009504695475694101,-0.007700176147280942,0.026709567098669146
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.0071538305263535665,-0.011118868822456085,0.025426529875163216
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.00070239101565946,-0.017962387933359854,0.019367169964678774
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.010227957314301605,-0.02906250339512797,0.008606588766524759
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.0038155838239499083,-0.020027566796760297,0.012396399148860478
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.005851438833145909,-0.027653733568218278,0.015950855901926457
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.23307366110340316,-0.19891814613555492,0.6650654683423612
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.1739036896279149,-0.32115032123912945,0.6689577004949593
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.032994601099967644,-0.5571554159944369,0.49116621379450154
+Total (2013–2024),Tipologia | Erosão,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.007060015247282267,-0.010401944097850495,0.02452197459241503
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.013910758881049833,0.002333117213853623,0.02548840054824604
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.006129809395691696,-0.002990151208773245,0.015249770000156638
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.0038798264101786465,-0.004888330734520204,0.012647983554877496
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.006399220220187106,-0.011339560183824374,0.024138000624198585
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0014413543620626146,-0.008821532275031612,0.011704240999156842
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0025746861418398785,-0.00797953451393206,0.013128906797611816
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.3295008799311334,0.023410815171377386,0.6355909446908894
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.16576444779387628,-0.0655139323076209,0.3970428278953735
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.12033279420890114,-0.08218400409379842,0.3228495925116007
+Total (2013–2024),Tipologia | Estiagem e Seca,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.00941154133633201,-0.0012830061186694282,0.020106088791333448
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.00412075565337805,-0.004658004037040192,0.012899515343796292
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.01851508727281355,0.009899370715094086,0.027130803830533012
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.009625737302943442,0.0026858093486194067,0.01656566525726748
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.0004776861229616316,-0.01253915599005707,0.013494528235980335
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.011934008497001592,0.0020615673073564635,0.02180644968664672
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.010945766470231407,0.0004775248930625701,0.02141400804740024
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.09589648365355527,-0.13034405783174993,0.32213702513886044
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.4650589720178011,0.24102549944534704,0.6890924445902552
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.2542225990440875,0.06891792358944873,0.4395272744987263
+Total (2013–2024),Tipologia | Granizo,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.006787492332391242,-0.015292986650472839,0.0017180019856903542
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.0016944285843272287,-0.01151785701719099,0.008128999848536532
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.003606065742570545,-0.0204640478924904,0.01325191640734931
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.012217105335264421,-0.025827361635563352,0.0013931509650345116
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.006511439483508908,-0.018501994966238007,0.0054791159992201915
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.012284004918846694,-0.026882427452341824,0.0023144176146484372
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.015021240424672566,-0.024893358382520974,-0.005149122466824158
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.03605989662653021,-0.28674807340269604,0.21462828014963564
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.1175145665945315,-0.5652041011443413,0.33017496795527823
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.3172332691921292,-0.6588986461990733,0.024432107814814974
+Total (2013–2024),Tipologia | Incêndio Florestal,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0026171926398006456,-0.0071044686017031865,0.012338853881304478
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.005468387309675035,-0.004436038231587635,0.015372812850937705
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.008386421828923674,-0.0032854117713559464,0.020058255429203295
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.00013172285627166785,-0.007635855748615683,0.007899301461159018
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.009612658760925999,-0.00041174234089155076,0.01963705986274355
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.006476677359327471,-0.006087657706288397,0.01904101242494334
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.005776343468141634,-0.015699106110157818,0.0041464191738745495
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.08633392092403437,-0.15425245477848798,0.3269202966265567
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.22224627399454122,-0.06559876211071408,0.5100913100997966
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.019548763020528867,-0.23756548735246896,0.19846796131141126
+Total (2013–2024),Tipologia | Inundações,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.003252064339669308,-0.007134982396047197,0.013639111075385815
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.024034693561203836,0.008934995578420353,0.03913439154398732
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.01567701368364965,0.0027973578494900064,0.028556669517809295
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.006514788817573364,-0.014267146990494035,0.027296724625640763
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.01983056950744369,0.0030296643093742706,0.03663147470551311
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.004321064869858747,-0.022155514239454596,0.03079764397917209
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.015343941963623247,-0.05295774123908489,0.022269857311838403
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.572325097478252,0.18148050695329848,0.9631696880032055
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.39458567167555086,0.05272654859402953,0.7364447947570723
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.1321472250287253,-0.3934447235634312,0.6577391736208819
+Total (2013–2024),Tipologia | Movimento de Massa,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.015927576023831512,0.0011555020790975767,0.030699649968565446
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.005681065633903491,-0.009926313436353197,0.021288444704160178
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.00048171661848389006,-0.020785124440238993,0.02174855767720677
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.00032474424536484527,-0.018023565998861037,0.017374077508131348
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.00019918469614996952,-0.02483102879158262,0.024432659399282682
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.010410173244051775,-0.034100530133206824,0.013280183645103276
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.011297856245989123,-0.03895544917606033,0.016359736684082082
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.14958574588403828,-0.27096053789655744,0.5701320296646339
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.05545746150952027,-0.6651564892760057,0.5542415662569652
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.02878208404288579,-0.47379867264336567,0.4162345045575941
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.004334620193512613,-0.009584725506284107,0.018253965893309333
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.014758211895038256,0.005448962278599522,0.02406746151147699
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.0025131075356598143,-0.0052793565562517,0.01030557162757133
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.002601375432135471,-0.006736056887351209,0.011938807751622151
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.0140603164904102,3.690566401966591e-05,0.028083727316800734
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0005050595676493769,-0.011015281557808614,0.012025400693107369
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0028260813541821183,-0.01662896819486894,0.010976805486504704
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.34292558240913645,0.10207960139819788,0.5837715634200751
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.0911447491558399,-0.15318440651959858,0.33547390483127837
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.055326759624832675,-0.1815964283723127,0.2922499476219781
+Total (2013–2024),Tipologia | Onda de Frio,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.013698238009442325,0.005045566931791623,0.02235090908709303
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.013736915879600619,-0.011329369524117056,0.038803201283318295
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.018413094738966268,-0.01454017457130203,0.051366364049234566
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.019666853260636132,-0.002684902320872741,0.042018608842145005
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.007232668872611672,-0.014810774223486863,0.029276111968710206
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.00826534304148707,-0.01754388442535374,0.034074570508327885
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.014406785082111538,-0.008748976717372663,0.03756254688159574
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.34073717203030446,-0.34507214887050414,1.026546492931113
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.45845518282277153,-0.40907966002070395,1.325990025666247
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.479410843320774,-0.09435831571581277,1.0531800023573608
+Total (2013–2024),Tipologia | Outros,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0005292614457516154,-0.016957599416078776,0.018016122307582007
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.01055154859660482,-0.01411250097952448,0.03521559817273412
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.036102418186082154,0.002175138496953326,0.07002969787521099
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.0027738101779514156,-0.024130998117165497,0.018583377761262666
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.002830960373955936,-0.021003365327510418,0.015341444579598545
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.011338891492878133,-0.01430000641975193,0.036977789405508193
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,-0.0044013390032320845,-0.02458627087596715,0.01578359286950298
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.2439483884475909,-0.35668920018534733,0.8445859770805292
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.8662041575827204,0.02927946820764371,1.7031288469577972
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.02021707843396745,-0.5389786169819016,0.4985444601139667
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.01299978347001622,-0.008881864504445237,0.034881431444477674
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,2,0.04005439387989269,0.01687516973307441,0.06323361802671096
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,0.008543028740499439,-0.005126392253608203,0.02221244973460708
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,0.014169686663568552,-0.005940776921833764,0.03428015024897087
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,0.0058744527000215195,-0.005598081961658019,0.01734698736170106
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,0.014390061544948034,-0.0065228490006170176,0.035302972090513085
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,0.0012243582764735258,-0.020203883926140264,0.022652600479087317
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.009691185089027918,-0.00746990587858885,0.026852276056644687
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,0.1708061438244411,-0.16968525682463464,0.5112975444735168
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,0.34519535503362314,-0.1806105719233197,0.8710012819905659
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,0.18147081478667906,-0.13747225488463735,0.5004138844579955
+Total (2013–2024),Tipologia | Tornado,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,0.0014912899250678442,-0.01230790655798836,0.015290486408124047
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,1,-0.013488946732055845,-0.026866787203538866,-0.00011110626057282344
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,2,-0.01465462844028991,-0.028411606304063003,-0.0008976505765168185
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Principal sazonal fixa,3,-0.003501212834461323,-0.014980979748979061,0.007978554080056415
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,1,-0.009914273210037582,-0.016731708198286687,-0.0030968382217884784
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,2,-0.017564579607210987,-0.026858682501466363,-0.008270476712955612
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Simples fixa com dummies,3,0.0020569899443203155,-0.009586272390059176,0.013700252278699806
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,1,-0.3651723824319902,-0.7022041249382109,-0.02814063992576943
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,2,-0.39487577770549454,-0.7625319785480518,-0.0272195768629373
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Relativa sazonal fixa,3,-0.11436981321808777,-0.4084609704958213,0.1797213440596458
+Total (2013–2024),Tipologia | Vendavais e Ciclones,Tipologia,Brasil,Desastres → inadimplência,Sazonal BIC,1,-0.008448096849314727,-0.01692526279044127,2.9069091811819922e-05

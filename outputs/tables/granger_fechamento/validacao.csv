@@ -1,0 +1,36 @@
+﻿Verificação,Status
+168 cenários/42 matriz,passou
+Todos21 nomes × dois períodos,passou
+Categorias completas e únicas,passou
+Família PRINCIPAL,passou
+p BH PRINCIPAL,passou
+p BY PRINCIPAL,passou
+p Holm PRINCIPAL,passou
+Família SENSIBILIDADES,passou
+p BH SENSIBILIDADES,passou
+p BY SENSIBILIDADES,passou
+p Holm SENSIBILIDADES,passou
+BH global168 íntegro,passou
+Datas e n comuns entre especificações,passou
+119/60 amostras efetivas,passou
+GL mínimos,passou
+P ausente só em cenários não estimados,passou
+Exclusões mantidas no ajuste,passou
+Triagem ampliada não resgata básica,passou
+Triagem com motivo explícito,passou
+Intervalos ordenados,passou
+Pré não recebe mudança pós2020,passou
+BIC em n comum,passou
+F restrito=Wald Pré-pandemia (até jan/2020)Total nacional,passou
+F restrito=Wald Pré-pandemia (até jan/2020)Tipologia | Onda de Frio,passou
+Features sem alvo contemporâneo Pré-pandemia (até jan/2020)Principal sazonal fixa,passou
+Features sem alvo contemporâneo Pré-pandemia (até jan/2020)Simples fixa com dummies,passou
+Features sem alvo contemporâneo Pré-pandemia (até jan/2020)Relativa sazonal fixa,passou
+Features sem alvo contemporâneo Pré-pandemia (até jan/2020)Sazonal BIC,passou
+F restrito=Wald Total (2013–2024)Total nacional,passou
+F restrito=Wald Total (2013–2024)Tipologia | Onda de Frio,passou
+Features sem alvo contemporâneo Total (2013–2024)Principal sazonal fixa,passou
+Features sem alvo contemporâneo Total (2013–2024)Simples fixa com dummies,passou
+Features sem alvo contemporâneo Total (2013–2024)Relativa sazonal fixa,passou
+Features sem alvo contemporâneo Total (2013–2024)Sazonal BIC,passou
+BIC sazonal reproduz p14 sem trocar família,passou

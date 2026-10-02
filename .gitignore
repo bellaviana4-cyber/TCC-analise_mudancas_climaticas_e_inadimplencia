@@ -100,3 +100,5 @@ Desktop.ini
 # ==========================================================
 
 *.log
+# Backups locais antes de reprodução explicitamente solicitada
+.checkpoints_locais/
