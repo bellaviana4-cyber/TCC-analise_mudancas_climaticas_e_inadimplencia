@@ -1,0 +1,47 @@
+﻿periodo,coluna,exposicao,diagnostico,evidencia,suporte,n_eff,df_cr2_acumulado,htz_disponivel,cd_sinal_nominal,autocorr_sinal_nominal,placebo_wcr_bh
+Total,total_desastres,Total de desastres,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável,22.18363990947199,11.8301430307576,True,False,False,False
+Total,grupo_climatologico,Grupo | Climatológico,com ressalvas,sem evidência robusta após FDR,estimável,18.75750557988997,11.4323407791044,True,False,False,False
+Total,grupo_hidrologico,Grupo | Hidrológico,com ressalvas,sem evidência robusta após FDR,estimável,15.88228974266156,12.2835339749814,True,False,False,False
+Total,grupo_meteorologico,Grupo | Meteorológico,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,8.984780262456674,2.74777029343285,True,False,False,False
+Total,grupo_outros,Grupo | Outros,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,10.027092204607342,1.33911308042812,False,False,False,False
+Total,tipo_alagamentos,Tipologia | Alagamentos,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,15.189683620134554,1.58902968368862,False,False,False,False
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,com ressalvas,sem evidência robusta após FDR,estimável,12.904803036751275,9.64262097887663,True,False,False,False
+Total,tipo_doencas_infecciosas,Tipologia | Doenças infecciosas,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,exposição altamente concentrada,4.04996282093565,1.16180597835601,False,False,False,False
+Total,tipo_enxurradas,Tipologia | Enxurradas,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,9.011521131764574,4.484846341703,True,False,False,False
+Total,tipo_erosao,Tipologia | Erosão,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,exposição altamente concentrada,4.673590378567069,1.10508218817158,False,False,False,False
+Total,tipo_estiagem_e_seca,Tipologia | Estiagem e Seca,com ressalvas,sem evidência robusta após FDR,estimável,15.435493433867585,12.0324579054887,True,False,False,False
+Total,tipo_granizo,Tipologia | Granizo,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,5.495577730143832,3.80590102868731,True,False,False,False
+Total,tipo_incendio_florestal,Tipologia | Incêndio Florestal,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,9.690631282677575,4.61378318165822,True,False,False,False
+Total,tipo_inundacoes,Tipologia | Inundações,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,6.977421994531102,3.02384266522154,True,False,False,False
+Total,tipo_movimento_de_massa,Tipologia | Movimento de Massa,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,8.552289966035039,3.52160472895952,True,False,False,False
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,exposição altamente concentrada,1.4710855733504178,1.08661235039522,False,False,False,False
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,exposição altamente concentrada,1.508678599834299,1.09934317925653,False,False,False,False
+Total,tipo_outros,Tipologia | Outros,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,11.769431592936591,1.97454021982071,False,False,False,False
+Total,tipo_rompimento_colapso_de_barragens,Tipologia | Rompimento/Colapso de barragens,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,exposição altamente concentrada,7.599980157909989,3.06962931724076,True,False,False,False
+Total,tipo_tornado,Tipologia | Tornado,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,5.062548235294869,2.19002944933608,True,False,False,False
+Total,tipo_vendavais_e_ciclones,Tipologia | Vendavais e Ciclones,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,9.080095897098362,2.47361246562419,True,False,False,False
+Total,analitica_Clima/hidrometeorologia,Clima/hidrometeorologia,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável,21.958684010609023,12.9683393807711,True,False,False,False
+Total,analitica_Natural não diretamente climático,Natural não diretamente climático,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,10.53388077828589,1.34336052134396,False,False,False,False
+Total,analitica_Tecnológico/antrópico,Tecnológico/antrópico,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável com ressalvas,9.936850824883846,1.45192643720153,False,False,False,False
+Pré,total_desastres,Total de desastres,com ressalvas,sem evidência robusta após FDR,estimável,20.998828083593,10.1490585084955,True,True,False,False
+Pré,grupo_climatologico,Grupo | Climatológico,com ressalvas,sem evidência robusta após FDR,estimável,12.63717567927478,6.78312059515654,True,True,False,False
+Pré,grupo_hidrologico,Grupo | Hidrológico,com ressalvas,sem evidência robusta após FDR,estimável,12.614860763366522,8.33362574840758,True,True,False,False
+Pré,grupo_meteorologico,Grupo | Meteorológico,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,7.703836963006798,1.3678893694615,False,True,False,False
+Pré,grupo_outros,Grupo | Outros,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,11.145273788762768,1.94346061267778,False,True,False,False
+Pré,tipo_alagamentos,Tipologia | Alagamentos,com ressalvas,sem evidência robusta após FDR,estimável,13.156962786479564,7.47291736237244,True,True,False,False
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,7.519068846319911,2.55890416617052,True,True,False,False
+Pré,tipo_doencas_infecciosas,Tipologia | Doenças infecciosas,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,exposição altamente concentrada,3.907227986897474,1.4642065956773,False,True,False,False
+Pré,tipo_enxurradas,Tipologia | Enxurradas,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,8.687802568924802,3.38291798343805,True,True,False,False
+Pré,tipo_erosao,Tipologia | Erosão,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,8.938345228600296,4.72169285731176,True,True,False,False
+Pré,tipo_estiagem_e_seca,Tipologia | Estiagem e Seca,com ressalvas,sem evidência robusta após FDR,estimável,11.412060557612556,9.44444672891143,True,True,False,False
+Pré,tipo_granizo,Tipologia | Granizo,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,exposição altamente concentrada,4.790368941784978,3.50994936526559,True,True,False,False
+Pré,tipo_incendio_florestal,Tipologia | Incêndio Florestal,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,6.32262661643702,1.83619458947292,False,True,False,False
+Pré,tipo_inundacoes,Tipologia | Inundações,com ressalvas,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,5.409491588000258,2.54240997972005,True,True,False,False
+Pré,tipo_movimento_de_massa,Tipologia | Movimento de Massa,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,8.088903209022105,2.43445717217679,True,True,False,False
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,inconclusivo para inferência conjunta robusta: suporte limitado,não robusto: resultado histórico pré não confirmado,exposição altamente concentrada,1.5087488862406722,1.12828123524331,False,True,False,False
+Pré,tipo_outros,Tipologia | Outros,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,8.304429046021571,2.2139288994951,True,True,False,False
+Pré,tipo_tornado,Tipologia | Tornado,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,exposição altamente concentrada,4.575461496272593,1.4371366471735,False,True,False,False
+Pré,tipo_vendavais_e_ciclones,Tipologia | Vendavais e Ciclones,inconclusivo para inferência conjunta robusta: suporte limitado,sensível à inferência; sem confirmação CR2/WCR após FDR,estimável com ressalvas,6.746628926535662,1.30706892969223,False,True,False,False
+Pré,analitica_Clima/hidrometeorologia,Clima/hidrometeorologia,com ressalvas,sem evidência robusta após FDR,estimável,20.519675660941413,8.600821735094,True,True,False,False
+Pré,analitica_Natural não diretamente climático,Natural não diretamente climático,inconclusivo para inferência conjunta robusta: suporte limitado,sem evidência robusta após FDR,estimável,12.344919894577192,2.05050473435996,False,True,False,False
+Pré,analitica_Tecnológico/antrópico,Tecnológico/antrópico,com ressalvas,sem evidência robusta após FDR,estimável com ressalvas,7.583336597542849,1.9324769351062,True,True,False,False
