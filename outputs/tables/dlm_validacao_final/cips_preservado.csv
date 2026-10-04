@@ -1,0 +1,13 @@
+﻿periodo,serie,deterministico,lags,CIPS,p,N,T
+Total,taxa_inadimplencia,drift,1,-2.25405395992363,0.0281247144814984,27,144
+Total,taxa_inadimplencia,drift,2,-2.29168702506466,0.0177227044312471,27,144
+Total,taxa_inadimplencia,trend,1,-1.88218052647331,0.1,27,144
+Total,taxa_inadimplencia,trend,2,-1.78321535494394,0.1,27,144
+Total,delta,drift,1,-6.17219979647141,0.01,27,143
+Total,delta,drift,2,-5.64521465255315,0.01,27,143
+Pré,taxa_inadimplencia,drift,1,-2.14855442666549,0.0632567686478705,27,85
+Pré,taxa_inadimplencia,drift,2,-2.04847280653671,0.1,27,85
+Pré,taxa_inadimplencia,trend,1,-2.35421972523754,0.1,27,85
+Pré,taxa_inadimplencia,trend,2,-2.27508479114695,0.1,27,85
+Pré,delta,drift,1,-5.70052631007458,0.01,27,84
+Pré,delta,drift,2,-4.98746861057346,0.01,27,84

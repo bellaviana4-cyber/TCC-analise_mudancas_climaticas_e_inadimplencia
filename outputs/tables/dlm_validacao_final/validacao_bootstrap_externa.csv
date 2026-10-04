@@ -1,0 +1,7 @@
+﻿periodo,coluna,endpoint,implementacao,B,max_diff_stat,p,passou
+Total,total_desastres,acumulado,wildboottest0.3.2 FE explícitos; pesos idênticos,4999,5.453415496958769e-13,0.3316,True
+Total,total_desastres,interacao,wildboottest0.3.2 FE explícitos; pesos idênticos,4999,3.019806626980426e-13,0.543,True
+Total,total_desastres,joint,statsmodels refit FE explícitos/cov_cluster; pacote wildboottest só escalar,99,1.2789769243681803e-13,0.02,True
+Total,tipo_onda_de_frio,acumulado,wildboottest0.3.2 FE explícitos; pesos idênticos,4999,1.2320811038080137e-11,0.2816,True
+Total,tipo_onda_de_frio,interacao,wildboottest0.3.2 FE explícitos; pesos idênticos,4999,1.538325022920617e-11,0.7644,True
+Total,tipo_onda_de_frio,joint,statsmodels refit FE explícitos/cov_cluster; pacote wildboottest só escalar,99,1.9184653865522705e-12,0.3,True

@@ -1,0 +1,61 @@
+﻿descricao_tipologia,Cod_Cobrade,classe_analitica,grupos,registros,observacao
+Alagamentos,12300,Clima/hidrometeorologia,Hidrológico,1504,Classificação analítica não atribui causalidade climática
+Chuvas Intensas,13214,Clima/hidrometeorologia,Hidrológico,7978,Classificação analítica não atribui causalidade climática
+Chuvas Intensas,13310,Clima/hidrometeorologia,Climatológico,106,Nome não corresponde ao código de onda de calor (13310)
+Doenças infecciosas,15110,Natural não diretamente climático,Outros,228,Classificação analítica não atribui causalidade climática
+Doenças infecciosas,15120,Natural não diretamente climático,Outros,4,Classificação analítica não atribui causalidade climática
+Doenças infecciosas,15130,Natural não diretamente climático,Outros,11,Classificação analítica não atribui causalidade climática
+Enxurradas,12200,Clima/hidrometeorologia,Hidrológico,2759,Classificação analítica não atribui causalidade climática
+Erosão,11410,Natural não diretamente climático,Outros,162,Classificação analítica não atribui causalidade climática
+Erosão,11420,Natural não diretamente climático,Outros,180,Classificação analítica não atribui causalidade climática
+Erosão,11431,Natural não diretamente climático,Outros,13,Classificação analítica não atribui causalidade climática
+Erosão,11432,Natural não diretamente climático,Outros,26,Classificação analítica não atribui causalidade climática
+Erosão,11433,Natural não diretamente climático,Outros,99,Classificação analítica não atribui causalidade climática
+Estiagem e Seca,14110,Clima/hidrometeorologia,Climatológico,11848,Classificação analítica não atribui causalidade climática
+Estiagem e Seca,14120,Clima/hidrometeorologia,Climatológico,4301,Classificação analítica não atribui causalidade climática
+Granizo,13213,Clima/hidrometeorologia,Meteorológico,1070,Classificação analítica não atribui causalidade climática
+Incêndio Florestal,14131,Clima/hidrometeorologia,Climatológico,1129,Classificação analítica não atribui causalidade climática
+Incêndio Florestal,14132,Clima/hidrometeorologia,Climatológico,1952,Classificação analítica não atribui causalidade climática
+Inundações,12100,Clima/hidrometeorologia,Hidrológico,2065,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11311,Natural não diretamente climático,Hidrológico,36,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11312,Natural não diretamente climático,Hidrológico,10,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11313,Natural não diretamente climático,Hidrológico,18,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11314,Natural não diretamente climático,Hidrológico,10,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11321,Natural não diretamente climático,Hidrológico,828,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11331,Natural não diretamente climático,Hidrológico,118,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11332,Natural não diretamente climático,Hidrológico,30,Classificação analítica não atribui causalidade climática
+Movimento de Massa,11340,Natural não diretamente climático,Hidrológico,53,Classificação analítica não atribui causalidade climática
+Onda de Calor e Baixa Umidade,14140,Clima/hidrometeorologia,Outros,103,"Baixa umidade (14140), não separa onda de calor"
+Onda de Frio,13120,Clima/hidrometeorologia,Meteorológico,21,"Frente fria/ZC, não código de friagem/geada"
+Onda de Frio,13321,Clima/hidrometeorologia,Climatológico,39,Classificação analítica não atribui causalidade climática
+Onda de Frio,13322,Clima/hidrometeorologia,Climatológico,143,Classificação analítica não atribui causalidade climática
+Outros,11110,Natural não diretamente climático,Outros,87,Classificação analítica não atribui causalidade climática
+Outros,11120,Natural não diretamente climático,Outros,1,Classificação analítica não atribui causalidade climática
+Outros,15210,Natural não diretamente climático,Outros,15,Classificação analítica não atribui causalidade climática
+Outros,15221,Natural não diretamente climático,Outros,3,Classificação analítica não atribui causalidade climática
+Outros,15222,Natural não diretamente climático,Outros,3,Classificação analítica não atribui causalidade climática
+Outros,15230,Natural não diretamente climático,Outros,47,Classificação analítica não atribui causalidade climática
+Outros,21110,Tecnológico/antrópico,Outros,1,Classificação analítica não atribui causalidade climática
+Outros,21210,Tecnológico/antrópico,Outros,3,Classificação analítica não atribui causalidade climática
+Outros,22110,Tecnológico/antrópico,Outros,8,Classificação analítica não atribui causalidade climática
+Outros,22210,Tecnológico/antrópico,Outros,7,Classificação analítica não atribui causalidade climática
+Outros,22220,Tecnológico/antrópico,Outros,68,Classificação analítica não atribui causalidade climática
+Outros,22310,Tecnológico/antrópico,Outros,1,Classificação analítica não atribui causalidade climática
+Outros,22410,Tecnológico/antrópico,Outros,17,Classificação analítica não atribui causalidade climática
+Outros,22420,Tecnológico/antrópico,Outros,2,Classificação analítica não atribui causalidade climática
+Outros,22430,Tecnológico/antrópico,Outros,1,Classificação analítica não atribui causalidade climática
+Outros,22440,Tecnológico/antrópico,Outros,2,Classificação analítica não atribui causalidade climática
+Outros,22460,Tecnológico/antrópico,Outros,2,Classificação analítica não atribui causalidade climática
+Outros,23110,Tecnológico/antrópico,Outros,86,Classificação analítica não atribui causalidade climática
+Outros,23120,Tecnológico/antrópico,Outros,225,Classificação analítica não atribui causalidade climática
+Outros,24100,Tecnológico/antrópico,Outros,225,Classificação analítica não atribui causalidade climática
+Outros,25100,Tecnológico/antrópico,Outros,20,Classificação analítica não atribui causalidade climática
+Outros,25200,Tecnológico/antrópico,Outros,1,Classificação analítica não atribui causalidade climática
+Outros,25300,Tecnológico/antrópico,Outros,2,Classificação analítica não atribui causalidade climática
+Outros,25500,Tecnológico/antrópico,Outros,9,Classificação analítica não atribui causalidade climática
+Rompimento/Colapso de barragens,24200,Tecnológico/antrópico,Outros,34,Classificação analítica não atribui causalidade climática
+Tornado,13211,Clima/hidrometeorologia,Meteorológico,72,Classificação analítica não atribui causalidade climática
+Vendavais e Ciclones,13111,Clima/hidrometeorologia,Meteorológico,13,Classificação analítica não atribui causalidade climática
+Vendavais e Ciclones,13112,Clima/hidrometeorologia,Meteorológico,69,Classificação analítica não atribui causalidade climática
+Vendavais e Ciclones,13212,Clima/hidrometeorologia,Meteorológico,65,Classificação analítica não atribui causalidade climática
+Vendavais e Ciclones,13215,Clima/hidrometeorologia,Meteorológico,2406,Classificação analítica não atribui causalidade climática
