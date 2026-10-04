@@ -269,7 +269,7 @@ def finalize():
 
 def checkpoint():
  import datetime
- files=[ROOT/'docs/dlm_validacao_final_protocolo.md',ROOT/'src/dlm_validacao_final.py',ROOT/'src/dlm_validacao_final_inferencia.R',ROOT/'src/dlm_validacao_final_relatorio.py',ROOT/'src/verificar_dlm_validacao_final.py',ROOT/'requirements-dlm-validacao-final.lock.txt',ROOT/'data/processed/df_tcc_2013_2024.csv',ROOT/'data/processed/df_tcc_2013_2024.parquet',ROOT/'data/raw/atlas_desastres/atlas.csv']+list(OUT.glob('*.csv'))+list(OUT.glob('*.txt'))+list(FIG.glob('*.svg'))
+ files=[ROOT/'README.md',ROOT/'docs/dlm_validacao_final_resultados.md',ROOT/'docs/dlm_validacao_final_checkpoint.md',ROOT/'docs/dlm_validacao_final_protocolo.md',ROOT/'src/dlm_validacao_final.py',ROOT/'src/dlm_validacao_final_inferencia.R',ROOT/'src/dlm_validacao_final_relatorio.py',ROOT/'src/verificar_dlm_validacao_final.py',ROOT/'requirements-dlm-validacao-final.lock.txt',ROOT/'data/processed/df_tcc_2013_2024.csv',ROOT/'data/processed/df_tcc_2013_2024.parquet',ROOT/'data/raw/atlas_desastres/atlas.csv']+list(OUT.glob('*.csv'))+list(OUT.glob('*.txt'))+list(FIG.glob('*.svg'))
  nb=ROOT/'notebooks/18_validacao_final_dlm.ipynb'
  if nb.exists():files.append(nb)
  cp=dict(status='executado e validado',utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),origem='c64589abc0f886a4e55e73b32328f8b0206376aa',arquivos={str(p.relative_to(ROOT)):r.sha(p) for p in files})
