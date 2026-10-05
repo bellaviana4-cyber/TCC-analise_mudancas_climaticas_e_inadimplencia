@@ -16,5 +16,7 @@
   "execucao_notebook": "células sequenciais em processo Python; kernel sockets bloqueados",
   "selecao": "BIC por categoria/período; inferência condicional",
   "bootstrap_sorteios": 4999,
-  "Granger": "preservado"
+  "Granger": "preservado",
+  "bootstrap_seed_efetiva": 20261004,
+  "revisao_integrada": "outputs/tables/revisao_integrada; influência nacional e mudança pós-março2020; resultados principais preservados"
 }

@@ -12,10 +12,10 @@ import dlm_revisao as r
 import dlm_validacao_final as v
 import dlm_classico as classic
 ROOT=r.ROOT;OUT=ROOT/'outputs/tables/dlm_selecionado'
-SEED=20261005
+SEED=v.SEED  # semente efetiva de wcr; registrada para rastreabilidade
 
 def save(df,name):
- OUT.mkdir(parents=True,exist_ok=True);df.to_csv(OUT/(name+'.csv'),index=False,encoding='utf-8-sig');return df
+ OUT.mkdir(parents=True,exist_ok=True);tmp=OUT/(name+'.tmp');df.to_csv(tmp,index=False,encoding='utf-8-sig');tmp.replace(OUT/(name+'.csv'));return df
 
 def bh(df,pcol,qcol):
  df[qcol]=np.nan

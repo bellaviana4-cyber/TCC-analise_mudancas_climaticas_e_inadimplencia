@@ -11,6 +11,9 @@ def verify(path,screenshots=None):
  for name in ['painel','nacional','painel_perfis','nacional_perfis','painel_candidatos','nacional_candidatos','cobertura']:
   df=pd.read_csv(ROOT/'outputs/tables/dlm_selecionado'/f'{name}.csv')
   assert data[name]==df.astype(object).where(pd.notna(df),None).to_dict('records'),name
+ for name in ['nacional_diagnosticos','nacional_influencia','nacional_estabilidade','painel_conferencia']:
+  df=pd.read_csv(ROOT/'outputs/tables/revisao_integrada'/f'{name}.csv')
+  assert data['review_'+name]==df.astype(object).where(pd.notna(df),None).to_dict('records')
  assert len(data['painel'])==len(data['nacional'])==46
  assert len([r for r in data['nacional'] if r['q']<.05])==3
  assert len([r for r in data['painel'] if r['q']<.05])==0

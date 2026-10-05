@@ -1,0 +1,21 @@
+{
+  "status": "aprovado",
+  "checagens": [
+    "Taxa nacional Granger = DLM",
+    "Contagem mensal nacional Granger = Atlas/painel",
+    "painel BH48 q",
+    "painel BH48 q_joint",
+    "painel BH48 q_boot",
+    "painel uma escolha por cenário",
+    "nacional BH48 q",
+    "nacional BH48 q_joint",
+    "nacional uma escolha por cenário",
+    "46 nacionais: soma, Wald-F/HAC, calendário e covariância reproduzidos",
+    "Painel total e Alagamentos pré: FWL = OLS com dummies explícitas"
+  ],
+  "nota": "Conferência e sensibilidades finitas conforme protocolo; influência refaz o ajuste sem a linha de maior Cook, mantendo calendário HAC. Não certifica pressupostos nem corrige seleção.",
+  "bootstrap_seed_efetiva": 20261004,
+  "painel_modelos": 46,
+  "nacional_modelos": 46,
+  "Granger_reestimado": false
+}
