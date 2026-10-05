@@ -1,0 +1,26 @@
+{
+  "status": "aprovado",
+  "combinacoes_periodo_nivel_exposicao": 48,
+  "horizontes_testados": 10,
+  "desenhos_testados": 3,
+  "erros_javascript": [],
+  "requisicoes_externas": [],
+  "exportacao": "aprovada",
+  "comparacao_fontes": "identidade exata do payload",
+  "contrastes": "soma beta e C final/IC conferidos",
+  "data": "2026-10-05",
+  "geracao_sem_reestimar": true,
+  "escalas_conferidas_diretamente_atlas": 48,
+  "python": "3.12.14",
+  "versoes": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "playwright": "1.51.0"
+  },
+  "html_sha256": "23674c472034d1ba61be2613a9ed2166969ac83990f56e4137dbfab9f7dd8b56",
+  "inspecao_visual": [
+    "Granizo/Granger",
+    "Onda de Frio/DLM classico",
+    "Onda de Frio/nacional"
+  ]
+}

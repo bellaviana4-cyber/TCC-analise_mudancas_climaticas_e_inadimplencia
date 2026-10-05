@@ -1,0 +1,2 @@
+﻿A,B,repeticoes_chave,C_invariante,regra
+40339,40238,101,True,UF + IBGE município + data evento + COBRADE; keep-first somente B; C=nunique município

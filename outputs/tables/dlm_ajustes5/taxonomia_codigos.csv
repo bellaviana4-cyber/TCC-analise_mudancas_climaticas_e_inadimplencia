@@ -1,0 +1,241 @@
+﻿coluna,grupo_atlas,tipologia_atlas,codigo,grupo_COBRADE,descricao_COBRADE_especifica,registros
+total_desastres,Climatológico,Chuvas Intensas,13310,Meteorológico,Onda de calor,106
+total_desastres,Climatológico,Estiagem e Seca,14110,Climatológico,Consultar tabela COBRADE pelo código,11848
+total_desastres,Climatológico,Estiagem e Seca,14120,Climatológico,Consultar tabela COBRADE pelo código,4301
+total_desastres,Climatológico,Incêndio Florestal,14131,Climatológico,Consultar tabela COBRADE pelo código,1129
+total_desastres,Climatológico,Incêndio Florestal,14132,Climatológico,Consultar tabela COBRADE pelo código,1952
+total_desastres,Climatológico,Onda de Frio,13321,Meteorológico,Friagem,39
+total_desastres,Climatológico,Onda de Frio,13322,Meteorológico,Geadas,143
+total_desastres,Hidrológico,Alagamentos,12300,Hidrológico,Consultar tabela COBRADE pelo código,1504
+total_desastres,Hidrológico,Chuvas Intensas,13214,Meteorológico,Chuvas intensas,7978
+total_desastres,Hidrológico,Enxurradas,12200,Hidrológico,Consultar tabela COBRADE pelo código,2759
+total_desastres,Hidrológico,Inundações,12100,Hidrológico,Consultar tabela COBRADE pelo código,2065
+total_desastres,Hidrológico,Movimento de Massa,11311,Geológico,Consultar tabela COBRADE pelo código,36
+total_desastres,Hidrológico,Movimento de Massa,11312,Geológico,Consultar tabela COBRADE pelo código,10
+total_desastres,Hidrológico,Movimento de Massa,11313,Geológico,Consultar tabela COBRADE pelo código,18
+total_desastres,Hidrológico,Movimento de Massa,11314,Geológico,Consultar tabela COBRADE pelo código,10
+total_desastres,Hidrológico,Movimento de Massa,11321,Geológico,Consultar tabela COBRADE pelo código,828
+total_desastres,Hidrológico,Movimento de Massa,11331,Geológico,Consultar tabela COBRADE pelo código,118
+total_desastres,Hidrológico,Movimento de Massa,11332,Geológico,Consultar tabela COBRADE pelo código,30
+total_desastres,Hidrológico,Movimento de Massa,11340,Geológico,Consultar tabela COBRADE pelo código,53
+total_desastres,Meteorológico,Granizo,13213,Meteorológico,Consultar tabela COBRADE pelo código,1070
+total_desastres,Meteorológico,Onda de Frio,13120,Meteorológico,Frentes frias/Zonas de convergência,21
+total_desastres,Meteorológico,Tornado,13211,Meteorológico,Consultar tabela COBRADE pelo código,72
+total_desastres,Meteorológico,Vendavais e Ciclones,13111,Meteorológico,Consultar tabela COBRADE pelo código,13
+total_desastres,Meteorológico,Vendavais e Ciclones,13112,Meteorológico,Consultar tabela COBRADE pelo código,69
+total_desastres,Meteorológico,Vendavais e Ciclones,13212,Meteorológico,Tempestade de raios,65
+total_desastres,Meteorológico,Vendavais e Ciclones,13215,Meteorológico,Consultar tabela COBRADE pelo código,2406
+total_desastres,Outros,Doenças infecciosas,15110,Biológico,Consultar tabela COBRADE pelo código,228
+total_desastres,Outros,Doenças infecciosas,15120,Biológico,Consultar tabela COBRADE pelo código,4
+total_desastres,Outros,Doenças infecciosas,15130,Biológico,Consultar tabela COBRADE pelo código,11
+total_desastres,Outros,Erosão,11410,Geológico,Consultar tabela COBRADE pelo código,162
+total_desastres,Outros,Erosão,11420,Geológico,Consultar tabela COBRADE pelo código,180
+total_desastres,Outros,Erosão,11431,Geológico,Consultar tabela COBRADE pelo código,13
+total_desastres,Outros,Erosão,11432,Geológico,Consultar tabela COBRADE pelo código,26
+total_desastres,Outros,Erosão,11433,Geológico,Consultar tabela COBRADE pelo código,99
+total_desastres,Outros,Onda de Calor e Baixa Umidade,14140,Climatológico,Baixa umidade do ar,103
+total_desastres,Outros,Outros,11110,Geológico,Consultar tabela COBRADE pelo código,87
+total_desastres,Outros,Outros,11120,Geológico,Consultar tabela COBRADE pelo código,1
+total_desastres,Outros,Outros,15210,Biológico,Consultar tabela COBRADE pelo código,15
+total_desastres,Outros,Outros,15221,Biológico,Consultar tabela COBRADE pelo código,3
+total_desastres,Outros,Outros,15222,Biológico,Consultar tabela COBRADE pelo código,3
+total_desastres,Outros,Outros,15230,Biológico,Consultar tabela COBRADE pelo código,47
+total_desastres,Outros,Outros,21110,Tecnológico,Consultar tabela COBRADE pelo código,1
+total_desastres,Outros,Outros,21210,Tecnológico,Consultar tabela COBRADE pelo código,3
+total_desastres,Outros,Outros,22110,Tecnológico,Consultar tabela COBRADE pelo código,8
+total_desastres,Outros,Outros,22210,Tecnológico,Consultar tabela COBRADE pelo código,7
+total_desastres,Outros,Outros,22220,Tecnológico,Consultar tabela COBRADE pelo código,68
+total_desastres,Outros,Outros,22310,Tecnológico,Consultar tabela COBRADE pelo código,1
+total_desastres,Outros,Outros,22410,Tecnológico,Consultar tabela COBRADE pelo código,17
+total_desastres,Outros,Outros,22420,Tecnológico,Consultar tabela COBRADE pelo código,2
+total_desastres,Outros,Outros,22430,Tecnológico,Consultar tabela COBRADE pelo código,1
+total_desastres,Outros,Outros,22440,Tecnológico,Consultar tabela COBRADE pelo código,2
+total_desastres,Outros,Outros,22460,Tecnológico,Consultar tabela COBRADE pelo código,2
+total_desastres,Outros,Outros,23110,Tecnológico,Consultar tabela COBRADE pelo código,86
+total_desastres,Outros,Outros,23120,Tecnológico,Consultar tabela COBRADE pelo código,225
+total_desastres,Outros,Outros,24100,Tecnológico,Consultar tabela COBRADE pelo código,225
+total_desastres,Outros,Outros,25100,Tecnológico,Consultar tabela COBRADE pelo código,20
+total_desastres,Outros,Outros,25200,Tecnológico,Consultar tabela COBRADE pelo código,1
+total_desastres,Outros,Outros,25300,Tecnológico,Consultar tabela COBRADE pelo código,2
+total_desastres,Outros,Outros,25500,Tecnológico,Consultar tabela COBRADE pelo código,9
+total_desastres,Outros,Rompimento/Colapso de barragens,24200,Tecnológico,Consultar tabela COBRADE pelo código,34
+grupo_climatologico,Climatológico,Chuvas Intensas,13310,Meteorológico,Onda de calor,106
+grupo_climatologico,Climatológico,Estiagem e Seca,14110,Climatológico,Consultar tabela COBRADE pelo código,11848
+grupo_climatologico,Climatológico,Estiagem e Seca,14120,Climatológico,Consultar tabela COBRADE pelo código,4301
+grupo_climatologico,Climatológico,Incêndio Florestal,14131,Climatológico,Consultar tabela COBRADE pelo código,1129
+grupo_climatologico,Climatológico,Incêndio Florestal,14132,Climatológico,Consultar tabela COBRADE pelo código,1952
+grupo_climatologico,Climatológico,Onda de Frio,13321,Meteorológico,Friagem,39
+grupo_climatologico,Climatológico,Onda de Frio,13322,Meteorológico,Geadas,143
+grupo_hidrologico,Hidrológico,Alagamentos,12300,Hidrológico,Consultar tabela COBRADE pelo código,1504
+grupo_hidrologico,Hidrológico,Chuvas Intensas,13214,Meteorológico,Chuvas intensas,7978
+grupo_hidrologico,Hidrológico,Enxurradas,12200,Hidrológico,Consultar tabela COBRADE pelo código,2759
+grupo_hidrologico,Hidrológico,Inundações,12100,Hidrológico,Consultar tabela COBRADE pelo código,2065
+grupo_hidrologico,Hidrológico,Movimento de Massa,11311,Geológico,Consultar tabela COBRADE pelo código,36
+grupo_hidrologico,Hidrológico,Movimento de Massa,11312,Geológico,Consultar tabela COBRADE pelo código,10
+grupo_hidrologico,Hidrológico,Movimento de Massa,11313,Geológico,Consultar tabela COBRADE pelo código,18
+grupo_hidrologico,Hidrológico,Movimento de Massa,11314,Geológico,Consultar tabela COBRADE pelo código,10
+grupo_hidrologico,Hidrológico,Movimento de Massa,11321,Geológico,Consultar tabela COBRADE pelo código,828
+grupo_hidrologico,Hidrológico,Movimento de Massa,11331,Geológico,Consultar tabela COBRADE pelo código,118
+grupo_hidrologico,Hidrológico,Movimento de Massa,11332,Geológico,Consultar tabela COBRADE pelo código,30
+grupo_hidrologico,Hidrológico,Movimento de Massa,11340,Geológico,Consultar tabela COBRADE pelo código,53
+grupo_meteorologico,Meteorológico,Granizo,13213,Meteorológico,Consultar tabela COBRADE pelo código,1070
+grupo_meteorologico,Meteorológico,Onda de Frio,13120,Meteorológico,Frentes frias/Zonas de convergência,21
+grupo_meteorologico,Meteorológico,Tornado,13211,Meteorológico,Consultar tabela COBRADE pelo código,72
+grupo_meteorologico,Meteorológico,Vendavais e Ciclones,13111,Meteorológico,Consultar tabela COBRADE pelo código,13
+grupo_meteorologico,Meteorológico,Vendavais e Ciclones,13112,Meteorológico,Consultar tabela COBRADE pelo código,69
+grupo_meteorologico,Meteorológico,Vendavais e Ciclones,13212,Meteorológico,Tempestade de raios,65
+grupo_meteorologico,Meteorológico,Vendavais e Ciclones,13215,Meteorológico,Consultar tabela COBRADE pelo código,2406
+grupo_outros,Outros,Doenças infecciosas,15110,Biológico,Consultar tabela COBRADE pelo código,228
+grupo_outros,Outros,Doenças infecciosas,15120,Biológico,Consultar tabela COBRADE pelo código,4
+grupo_outros,Outros,Doenças infecciosas,15130,Biológico,Consultar tabela COBRADE pelo código,11
+grupo_outros,Outros,Erosão,11410,Geológico,Consultar tabela COBRADE pelo código,162
+grupo_outros,Outros,Erosão,11420,Geológico,Consultar tabela COBRADE pelo código,180
+grupo_outros,Outros,Erosão,11431,Geológico,Consultar tabela COBRADE pelo código,13
+grupo_outros,Outros,Erosão,11432,Geológico,Consultar tabela COBRADE pelo código,26
+grupo_outros,Outros,Erosão,11433,Geológico,Consultar tabela COBRADE pelo código,99
+grupo_outros,Outros,Onda de Calor e Baixa Umidade,14140,Climatológico,Baixa umidade do ar,103
+grupo_outros,Outros,Outros,11110,Geológico,Consultar tabela COBRADE pelo código,87
+grupo_outros,Outros,Outros,11120,Geológico,Consultar tabela COBRADE pelo código,1
+grupo_outros,Outros,Outros,15210,Biológico,Consultar tabela COBRADE pelo código,15
+grupo_outros,Outros,Outros,15221,Biológico,Consultar tabela COBRADE pelo código,3
+grupo_outros,Outros,Outros,15222,Biológico,Consultar tabela COBRADE pelo código,3
+grupo_outros,Outros,Outros,15230,Biológico,Consultar tabela COBRADE pelo código,47
+grupo_outros,Outros,Outros,21110,Tecnológico,Consultar tabela COBRADE pelo código,1
+grupo_outros,Outros,Outros,21210,Tecnológico,Consultar tabela COBRADE pelo código,3
+grupo_outros,Outros,Outros,22110,Tecnológico,Consultar tabela COBRADE pelo código,8
+grupo_outros,Outros,Outros,22210,Tecnológico,Consultar tabela COBRADE pelo código,7
+grupo_outros,Outros,Outros,22220,Tecnológico,Consultar tabela COBRADE pelo código,68
+grupo_outros,Outros,Outros,22310,Tecnológico,Consultar tabela COBRADE pelo código,1
+grupo_outros,Outros,Outros,22410,Tecnológico,Consultar tabela COBRADE pelo código,17
+grupo_outros,Outros,Outros,22420,Tecnológico,Consultar tabela COBRADE pelo código,2
+grupo_outros,Outros,Outros,22430,Tecnológico,Consultar tabela COBRADE pelo código,1
+grupo_outros,Outros,Outros,22440,Tecnológico,Consultar tabela COBRADE pelo código,2
+grupo_outros,Outros,Outros,22460,Tecnológico,Consultar tabela COBRADE pelo código,2
+grupo_outros,Outros,Outros,23110,Tecnológico,Consultar tabela COBRADE pelo código,86
+grupo_outros,Outros,Outros,23120,Tecnológico,Consultar tabela COBRADE pelo código,225
+grupo_outros,Outros,Outros,24100,Tecnológico,Consultar tabela COBRADE pelo código,225
+grupo_outros,Outros,Outros,25100,Tecnológico,Consultar tabela COBRADE pelo código,20
+grupo_outros,Outros,Outros,25200,Tecnológico,Consultar tabela COBRADE pelo código,1
+grupo_outros,Outros,Outros,25300,Tecnológico,Consultar tabela COBRADE pelo código,2
+grupo_outros,Outros,Outros,25500,Tecnológico,Consultar tabela COBRADE pelo código,9
+grupo_outros,Outros,Rompimento/Colapso de barragens,24200,Tecnológico,Consultar tabela COBRADE pelo código,34
+tipo_alagamentos,Hidrológico,Alagamentos,12300,Hidrológico,Consultar tabela COBRADE pelo código,1504
+tipo_chuvas_intensas,Climatológico,Chuvas Intensas,13310,Meteorológico,Onda de calor,106
+tipo_chuvas_intensas,Hidrológico,Chuvas Intensas,13214,Meteorológico,Chuvas intensas,7978
+tipo_doencas_infecciosas,Outros,Doenças infecciosas,15110,Biológico,Consultar tabela COBRADE pelo código,228
+tipo_doencas_infecciosas,Outros,Doenças infecciosas,15120,Biológico,Consultar tabela COBRADE pelo código,4
+tipo_doencas_infecciosas,Outros,Doenças infecciosas,15130,Biológico,Consultar tabela COBRADE pelo código,11
+tipo_enxurradas,Hidrológico,Enxurradas,12200,Hidrológico,Consultar tabela COBRADE pelo código,2759
+tipo_erosao,Outros,Erosão,11410,Geológico,Consultar tabela COBRADE pelo código,162
+tipo_erosao,Outros,Erosão,11420,Geológico,Consultar tabela COBRADE pelo código,180
+tipo_erosao,Outros,Erosão,11431,Geológico,Consultar tabela COBRADE pelo código,13
+tipo_erosao,Outros,Erosão,11432,Geológico,Consultar tabela COBRADE pelo código,26
+tipo_erosao,Outros,Erosão,11433,Geológico,Consultar tabela COBRADE pelo código,99
+tipo_estiagem_e_seca,Climatológico,Estiagem e Seca,14110,Climatológico,Consultar tabela COBRADE pelo código,11848
+tipo_estiagem_e_seca,Climatológico,Estiagem e Seca,14120,Climatológico,Consultar tabela COBRADE pelo código,4301
+tipo_granizo,Meteorológico,Granizo,13213,Meteorológico,Consultar tabela COBRADE pelo código,1070
+tipo_incendio_florestal,Climatológico,Incêndio Florestal,14131,Climatológico,Consultar tabela COBRADE pelo código,1129
+tipo_incendio_florestal,Climatológico,Incêndio Florestal,14132,Climatológico,Consultar tabela COBRADE pelo código,1952
+tipo_inundacoes,Hidrológico,Inundações,12100,Hidrológico,Consultar tabela COBRADE pelo código,2065
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11311,Geológico,Consultar tabela COBRADE pelo código,36
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11312,Geológico,Consultar tabela COBRADE pelo código,10
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11313,Geológico,Consultar tabela COBRADE pelo código,18
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11314,Geológico,Consultar tabela COBRADE pelo código,10
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11321,Geológico,Consultar tabela COBRADE pelo código,828
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11331,Geológico,Consultar tabela COBRADE pelo código,118
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11332,Geológico,Consultar tabela COBRADE pelo código,30
+tipo_movimento_de_massa,Hidrológico,Movimento de Massa,11340,Geológico,Consultar tabela COBRADE pelo código,53
+tipo_onda_de_calor_e_baixa_umidade,Outros,Onda de Calor e Baixa Umidade,14140,Climatológico,Baixa umidade do ar,103
+tipo_onda_de_frio,Climatológico,Onda de Frio,13321,Meteorológico,Friagem,39
+tipo_onda_de_frio,Climatológico,Onda de Frio,13322,Meteorológico,Geadas,143
+tipo_onda_de_frio,Meteorológico,Onda de Frio,13120,Meteorológico,Frentes frias/Zonas de convergência,21
+tipo_outros,Outros,Outros,11110,Geológico,Consultar tabela COBRADE pelo código,87
+tipo_outros,Outros,Outros,11120,Geológico,Consultar tabela COBRADE pelo código,1
+tipo_outros,Outros,Outros,15210,Biológico,Consultar tabela COBRADE pelo código,15
+tipo_outros,Outros,Outros,15221,Biológico,Consultar tabela COBRADE pelo código,3
+tipo_outros,Outros,Outros,15222,Biológico,Consultar tabela COBRADE pelo código,3
+tipo_outros,Outros,Outros,15230,Biológico,Consultar tabela COBRADE pelo código,47
+tipo_outros,Outros,Outros,21110,Tecnológico,Consultar tabela COBRADE pelo código,1
+tipo_outros,Outros,Outros,21210,Tecnológico,Consultar tabela COBRADE pelo código,3
+tipo_outros,Outros,Outros,22110,Tecnológico,Consultar tabela COBRADE pelo código,8
+tipo_outros,Outros,Outros,22210,Tecnológico,Consultar tabela COBRADE pelo código,7
+tipo_outros,Outros,Outros,22220,Tecnológico,Consultar tabela COBRADE pelo código,68
+tipo_outros,Outros,Outros,22310,Tecnológico,Consultar tabela COBRADE pelo código,1
+tipo_outros,Outros,Outros,22410,Tecnológico,Consultar tabela COBRADE pelo código,17
+tipo_outros,Outros,Outros,22420,Tecnológico,Consultar tabela COBRADE pelo código,2
+tipo_outros,Outros,Outros,22430,Tecnológico,Consultar tabela COBRADE pelo código,1
+tipo_outros,Outros,Outros,22440,Tecnológico,Consultar tabela COBRADE pelo código,2
+tipo_outros,Outros,Outros,22460,Tecnológico,Consultar tabela COBRADE pelo código,2
+tipo_outros,Outros,Outros,23110,Tecnológico,Consultar tabela COBRADE pelo código,86
+tipo_outros,Outros,Outros,23120,Tecnológico,Consultar tabela COBRADE pelo código,225
+tipo_outros,Outros,Outros,24100,Tecnológico,Consultar tabela COBRADE pelo código,225
+tipo_outros,Outros,Outros,25100,Tecnológico,Consultar tabela COBRADE pelo código,20
+tipo_outros,Outros,Outros,25200,Tecnológico,Consultar tabela COBRADE pelo código,1
+tipo_outros,Outros,Outros,25300,Tecnológico,Consultar tabela COBRADE pelo código,2
+tipo_outros,Outros,Outros,25500,Tecnológico,Consultar tabela COBRADE pelo código,9
+tipo_rompimento_colapso_de_barragens,Outros,Rompimento/Colapso de barragens,24200,Tecnológico,Consultar tabela COBRADE pelo código,34
+tipo_tornado,Meteorológico,Tornado,13211,Meteorológico,Consultar tabela COBRADE pelo código,72
+tipo_vendavais_e_ciclones,Meteorológico,Vendavais e Ciclones,13111,Meteorológico,Consultar tabela COBRADE pelo código,13
+tipo_vendavais_e_ciclones,Meteorológico,Vendavais e Ciclones,13112,Meteorológico,Consultar tabela COBRADE pelo código,69
+tipo_vendavais_e_ciclones,Meteorológico,Vendavais e Ciclones,13212,Meteorológico,Tempestade de raios,65
+tipo_vendavais_e_ciclones,Meteorológico,Vendavais e Ciclones,13215,Meteorológico,Consultar tabela COBRADE pelo código,2406
+analitica_Clima/hidrometeorologia,Climatológico,Chuvas Intensas,13310,Meteorológico,Onda de calor,106
+analitica_Clima/hidrometeorologia,Climatológico,Estiagem e Seca,14110,Climatológico,Consultar tabela COBRADE pelo código,11848
+analitica_Clima/hidrometeorologia,Climatológico,Estiagem e Seca,14120,Climatológico,Consultar tabela COBRADE pelo código,4301
+analitica_Clima/hidrometeorologia,Climatológico,Incêndio Florestal,14131,Climatológico,Consultar tabela COBRADE pelo código,1129
+analitica_Clima/hidrometeorologia,Climatológico,Incêndio Florestal,14132,Climatológico,Consultar tabela COBRADE pelo código,1952
+analitica_Clima/hidrometeorologia,Climatológico,Onda de Frio,13321,Meteorológico,Friagem,39
+analitica_Clima/hidrometeorologia,Climatológico,Onda de Frio,13322,Meteorológico,Geadas,143
+analitica_Clima/hidrometeorologia,Hidrológico,Alagamentos,12300,Hidrológico,Consultar tabela COBRADE pelo código,1504
+analitica_Clima/hidrometeorologia,Hidrológico,Chuvas Intensas,13214,Meteorológico,Chuvas intensas,7978
+analitica_Clima/hidrometeorologia,Hidrológico,Enxurradas,12200,Hidrológico,Consultar tabela COBRADE pelo código,2759
+analitica_Clima/hidrometeorologia,Hidrológico,Inundações,12100,Hidrológico,Consultar tabela COBRADE pelo código,2065
+analitica_Clima/hidrometeorologia,Meteorológico,Granizo,13213,Meteorológico,Consultar tabela COBRADE pelo código,1070
+analitica_Clima/hidrometeorologia,Meteorológico,Onda de Frio,13120,Meteorológico,Frentes frias/Zonas de convergência,21
+analitica_Clima/hidrometeorologia,Meteorológico,Tornado,13211,Meteorológico,Consultar tabela COBRADE pelo código,72
+analitica_Clima/hidrometeorologia,Meteorológico,Vendavais e Ciclones,13111,Meteorológico,Consultar tabela COBRADE pelo código,13
+analitica_Clima/hidrometeorologia,Meteorológico,Vendavais e Ciclones,13112,Meteorológico,Consultar tabela COBRADE pelo código,69
+analitica_Clima/hidrometeorologia,Meteorológico,Vendavais e Ciclones,13212,Meteorológico,Tempestade de raios,65
+analitica_Clima/hidrometeorologia,Meteorológico,Vendavais e Ciclones,13215,Meteorológico,Consultar tabela COBRADE pelo código,2406
+analitica_Clima/hidrometeorologia,Outros,Onda de Calor e Baixa Umidade,14140,Climatológico,Baixa umidade do ar,103
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11311,Geológico,Consultar tabela COBRADE pelo código,36
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11312,Geológico,Consultar tabela COBRADE pelo código,10
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11313,Geológico,Consultar tabela COBRADE pelo código,18
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11314,Geológico,Consultar tabela COBRADE pelo código,10
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11321,Geológico,Consultar tabela COBRADE pelo código,828
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11331,Geológico,Consultar tabela COBRADE pelo código,118
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11332,Geológico,Consultar tabela COBRADE pelo código,30
+analitica_Natural não diretamente climático,Hidrológico,Movimento de Massa,11340,Geológico,Consultar tabela COBRADE pelo código,53
+analitica_Natural não diretamente climático,Outros,Doenças infecciosas,15110,Biológico,Consultar tabela COBRADE pelo código,228
+analitica_Natural não diretamente climático,Outros,Doenças infecciosas,15120,Biológico,Consultar tabela COBRADE pelo código,4
+analitica_Natural não diretamente climático,Outros,Doenças infecciosas,15130,Biológico,Consultar tabela COBRADE pelo código,11
+analitica_Natural não diretamente climático,Outros,Erosão,11410,Geológico,Consultar tabela COBRADE pelo código,162
+analitica_Natural não diretamente climático,Outros,Erosão,11420,Geológico,Consultar tabela COBRADE pelo código,180
+analitica_Natural não diretamente climático,Outros,Erosão,11431,Geológico,Consultar tabela COBRADE pelo código,13
+analitica_Natural não diretamente climático,Outros,Erosão,11432,Geológico,Consultar tabela COBRADE pelo código,26
+analitica_Natural não diretamente climático,Outros,Erosão,11433,Geológico,Consultar tabela COBRADE pelo código,99
+analitica_Natural não diretamente climático,Outros,Outros,11110,Geológico,Consultar tabela COBRADE pelo código,87
+analitica_Natural não diretamente climático,Outros,Outros,11120,Geológico,Consultar tabela COBRADE pelo código,1
+analitica_Natural não diretamente climático,Outros,Outros,15210,Biológico,Consultar tabela COBRADE pelo código,15
+analitica_Natural não diretamente climático,Outros,Outros,15221,Biológico,Consultar tabela COBRADE pelo código,3
+analitica_Natural não diretamente climático,Outros,Outros,15222,Biológico,Consultar tabela COBRADE pelo código,3
+analitica_Natural não diretamente climático,Outros,Outros,15230,Biológico,Consultar tabela COBRADE pelo código,47
+analitica_Tecnológico/antrópico,Outros,Outros,21110,Tecnológico,Consultar tabela COBRADE pelo código,1
+analitica_Tecnológico/antrópico,Outros,Outros,21210,Tecnológico,Consultar tabela COBRADE pelo código,3
+analitica_Tecnológico/antrópico,Outros,Outros,22110,Tecnológico,Consultar tabela COBRADE pelo código,8
+analitica_Tecnológico/antrópico,Outros,Outros,22210,Tecnológico,Consultar tabela COBRADE pelo código,7
+analitica_Tecnológico/antrópico,Outros,Outros,22220,Tecnológico,Consultar tabela COBRADE pelo código,68
+analitica_Tecnológico/antrópico,Outros,Outros,22310,Tecnológico,Consultar tabela COBRADE pelo código,1
+analitica_Tecnológico/antrópico,Outros,Outros,22410,Tecnológico,Consultar tabela COBRADE pelo código,17
+analitica_Tecnológico/antrópico,Outros,Outros,22420,Tecnológico,Consultar tabela COBRADE pelo código,2
+analitica_Tecnológico/antrópico,Outros,Outros,22430,Tecnológico,Consultar tabela COBRADE pelo código,1
+analitica_Tecnológico/antrópico,Outros,Outros,22440,Tecnológico,Consultar tabela COBRADE pelo código,2
+analitica_Tecnológico/antrópico,Outros,Outros,22460,Tecnológico,Consultar tabela COBRADE pelo código,2
+analitica_Tecnológico/antrópico,Outros,Outros,23110,Tecnológico,Consultar tabela COBRADE pelo código,86
+analitica_Tecnológico/antrópico,Outros,Outros,23120,Tecnológico,Consultar tabela COBRADE pelo código,225
+analitica_Tecnológico/antrópico,Outros,Outros,24100,Tecnológico,Consultar tabela COBRADE pelo código,225
+analitica_Tecnológico/antrópico,Outros,Outros,25100,Tecnológico,Consultar tabela COBRADE pelo código,20
+analitica_Tecnológico/antrópico,Outros,Outros,25200,Tecnológico,Consultar tabela COBRADE pelo código,1
+analitica_Tecnológico/antrópico,Outros,Outros,25300,Tecnológico,Consultar tabela COBRADE pelo código,2
+analitica_Tecnológico/antrópico,Outros,Outros,25500,Tecnológico,Consultar tabela COBRADE pelo código,9
+analitica_Tecnológico/antrópico,Outros,Rompimento/Colapso de barragens,24200,Tecnológico,Consultar tabela COBRADE pelo código,34
