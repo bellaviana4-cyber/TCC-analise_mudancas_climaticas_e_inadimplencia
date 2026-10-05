@@ -16,7 +16,7 @@ Os testes, intervalos e bootstrap são condicionais à especificação seleciona
 
 ## Preservação
 
-Novas saídas em outputs/tables/dlm_selecionado, notebook 20 e código próprio. Notebooks 16–19 e tabelas históricas imutáveis. O HTML atualizado deve separar seleção atual, painel K10 anterior, nacional spline anterior e Granger preservado, sem misturar versões ou promover significância histórica como resultado atual. Não publicar bases brutas nem HTML no GitHub.
+Novas saídas em outputs/tables/dlm_selecionado, notebook 20 e código próprio. Notebooks 16–19 e tabelas históricas imutáveis. O HTML atualizado mostra somente os dois DLMs clássicos selecionados e o Granger preservado. Ajustes suavizados, seus dados incorporados e suas robustezes foram retirados da entrega atual. O histórico de versões do Git permanece preservado. Não publicar bases brutas nem HTML no GitHub.
 
 ## Execução e resultados
 
@@ -35,4 +35,10 @@ python src/relatorio_dlm_selecionado.py --output /caminho/relatorio.html
 python src/verificar_relatorio_dlm_selecionado.py /caminho/relatorio.html
 ```
 
-Para preservar o HTML revisado anterior como histórico, fornecer `--historical /caminho/relatorio_anterior.html` ao gerador. Sem esse argumento, usa-se o relatório histórico reproduzível do gerador versionado. A execução nova não reestima Granger e não modifica resultados históricos.
+O gerador não incorpora relatórios ou resultados suavizados anteriores. O ponto de entrada integrado `src/relatorio_granger_dlm.py` também gera esta versão exclusivamente clássica. Os modelos já estavam livres de spline; esta revisão da apresentação não muda coeficientes, seleção de K ou inferência. Não houve necessidade de reestimar os modelos.
+
+## Bootstrap do painel
+
+O wild cluster bootstrap restrito impõe a hipótese nula e usa 4.999 vetores de pesos Rademacher (+1/−1), com um peso por UF para todos os seus meses. A implementação respeita a projeção dos efeitos fixos. Recalcula a estatística studentizada para o acumulado e para o conjunto de lags; o p-valor usa `(1 + número de estatísticas tão extremas)/(B + 1)`. Complementa CR2/Satterthwaite quando há apenas 27 clusters, exposição concentrada e erros relacionados dentro da UF. Não altera os coeficientes do DLM original. IC do relatório são CR2, não intervalos bootstrap. Nacional usa HAC12; não recebe bootstrap por UF, pois é uma única série agregada. O bootstrap não corrige dependência entre UFs nem seleção K/AR e não demonstra causalidade.
+
+Referência metodológica: Cameron e Miller (2015), A Practitioner’s Guide to Cluster-Robust Inference, https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015.pdf.

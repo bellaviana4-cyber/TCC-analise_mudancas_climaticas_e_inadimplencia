@@ -142,8 +142,9 @@ $('level').onchange=()=>{choices();update()};['period','exposure','spec','K'].fo
 </script></body></html>'''
 
 def build(destination):
- d=load();payload=json.dumps(d,ensure_ascii=False,allow_nan=False,separators=(',',':')).replace('</','<\\/')
- destination=Path(destination);destination.write_text(HTML.replace('PAYLOAD',payload),encoding='utf-8');return destination
+ """O ponto de entrada integrado entrega somente os dois DLMs clássicos atuais."""
+ from relatorio_dlm_selecionado import build as build_classic
+ return build_classic(destination)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--verificar-escalas',action='store_true');p.add_argument('--output',default=str(ROOT.parent/'relatorio_granger_dlm_integrado.html'));args=p.parse_args();
  if args.verificar_escalas:print(verify_scales_from_atlas())

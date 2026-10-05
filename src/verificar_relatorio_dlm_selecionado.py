@@ -24,7 +24,9 @@ def verify(path,screenshots=None):
   page.on('request',lambda r:external.append(r.url) if r.url.startswith(('http:','https:')) else None)
   page.goto(path.as_uri());page.wait_for_function("document.querySelector('#sel-panel-table table')!==null")
   if dest:page.screenshot(path=str(dest/'resumo.png'))
-  assert not page.locator('#historical-report').evaluate('(x)=>x.open')
+  assert page.locator('#historical-report').count()==0
+  assert set(page.evaluate('Object.keys(D)'))=={'gm','gc'}
+  assert 'Por que usar bootstrap no painel?' in html
   for period in ['Total','Pré']:
    page.select_option('#sel-period',period)
    for level in ['Total','Grupo','Tipologia','Analítica']:
