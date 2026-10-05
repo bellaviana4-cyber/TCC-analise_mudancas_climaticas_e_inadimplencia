@@ -1,0 +1,20 @@
+{
+  "bases": [
+    {
+      "path": "data/raw/atlas_desastres/atlas.csv",
+      "sha256": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af"
+    },
+    {
+      "path": "data/processed/df_tcc_2013_2024.csv",
+      "sha256": "f128fb7b5217c3985e47cf6af2872dad320c98a441732db6e4eae504ffad090e"
+    }
+  ],
+  "modelos": 92,
+  "candidatos_painel": 460,
+  "candidatos_nacional": 1380,
+  "notebook_celulas_executadas": 4,
+  "execucao_notebook": "células sequenciais em processo Python; kernel sockets bloqueados",
+  "selecao": "BIC por categoria/período; inferência condicional",
+  "bootstrap_sorteios": 4999,
+  "Granger": "preservado"
+}
