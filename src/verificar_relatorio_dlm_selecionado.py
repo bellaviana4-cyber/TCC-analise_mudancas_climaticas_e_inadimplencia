@@ -5,7 +5,7 @@ import pandas as pd
 from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
 
-def verify(path,screenshots=None):
+def verify_baseline(path,screenshots=None):
  path=Path(path).resolve();html=path.read_text()
  data=json.loads(re.search(r'<script id="selected-data" type="application/json">(.*?)</script>',html,re.S).group(1))
  for name in ['painel','nacional','painel_perfis','nacional_perfis','painel_candidatos','nacional_candidatos','cobertura']:
@@ -71,6 +71,9 @@ def verify(path,screenshots=None):
   assert not errors,errors;assert not external,external;browser.close()
  return dict(status='aprovado',combinacoes=checked,desenhos=2,modelos=92,payload='identidade exata com CSV',exportacao='aprovada',erros_javascript=errors,requisicoes_externas=external)
 
+def verify(path,screenshots=None):
+ from verificar_relatorio_dlm_ajustes5 import verify as current
+ return current(path,screenshots)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('html');p.add_argument('--screenshots');a=p.parse_args()
  print(json.dumps(verify(a.html,a.screenshots),ensure_ascii=False,indent=2))

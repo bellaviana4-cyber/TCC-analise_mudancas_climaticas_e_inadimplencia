@@ -49,7 +49,7 @@ document.querySelectorAll('[data-selected-jump]').forEach(b=>b.onclick=()=>{$('s
 table('current-joint',S.nacional.filter(r=>r.q_joint<.05),[['periodo','Período'],['exposicao','Categoria'],['K','K'],['p_proprio','AR'],['q_joint','q conjunto'],['q','q acumulado'],['diagnostico','Diagnóstico']]);table('sel-g-all',D.gm.filter(r=>r['p BH']!=null&&r['p BH']<.05),[['Período','Período'],['Exposição','Categoria'],['p BH','q BH'],['Triagem ampliada','Triagem ampliada'],['Motivos','Ressalvas']]);table('selected-manifest',S.manifest,[['fonte','Fonte'],['linhas','Linhas'],['sha256','SHA256']]);$('selected-validation').textContent=S.validacao.verificacoes+' verificações aprovadas; CR2 reconciliado com cinco contrastes R históricos. Bootstrap do painel com zero singularidades. Células do notebook 20 executadas sequencialmente em Python, com saídas gravadas.';
 $('sel-export').onclick=()=>{let per=$('sel-period').value,col=$('sel-exposure').value;download(csv([...S.painel,...S.nacional].filter(r=>r.periodo==per&&r.coluna==col)),'dlm_defasagens_selecionadas.csv','text/csv;charset=utf-8')};selectedChoices();selectedUpdate();
 '''
-def build(destination):
+def build_baseline(destination):
  import hashlib
  tables=ROOT/'outputs/tables/dlm_selecionado';payload={};manifest=[]
  for name in ['painel','nacional','painel_perfis','nacional_perfis','painel_candidatos','nacional_candidatos','cobertura']:
@@ -72,5 +72,8 @@ def build(destination):
  header='<header><div class="eyebrow">TCC • Isabella Viana Bambirra</div><h1>Desastres e inadimplência: DLMs clássicos</h1><p>Painel e nacional com coeficientes livres e janela selecionada por categoria e período. Granger preservado.</p></header>'
  base='<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Desastres e inadimplência — DLMs clássicos</title><style>'+style+CSS+'</style></head><body>'+header+BODY+'<script id="report-data" type="application/json">'+gencoded+'</script><script id="selected-data" type="application/json">'+encoded+'</script><script>'+shared+'\n'+JS+'</script></body></html>'
  Path(destination).write_text(base);return destination
+def build(destination):
+ from relatorio_dlm_ajustes5 import build as revised
+ return revised(destination)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--output',default=str(ROOT.parent/'relatorio_granger_dlm_integrado.html'));a=p.parse_args();print(build(a.output))

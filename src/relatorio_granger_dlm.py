@@ -143,7 +143,7 @@ $('level').onchange=()=>{choices();update()};['period','exposure','spec','K'].fo
 
 def build(destination):
  """O ponto de entrada integrado entrega somente os dois DLMs clássicos atuais."""
- from relatorio_dlm_selecionado import build as build_classic
+ from relatorio_dlm_ajustes5 import build as build_classic
  return build_classic(destination)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--verificar-escalas',action='store_true');p.add_argument('--output',default=str(ROOT.parent/'relatorio_granger_dlm_integrado.html'));args=p.parse_args();

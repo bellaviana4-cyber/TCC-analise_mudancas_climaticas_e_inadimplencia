@@ -1,0 +1,18 @@
+{
+  "cobertura_nacional.csv": "29a9cd0718ac98a8726e4f61d378d4000681b9606f0df04ebc8dbede5684e4b2",
+  "conferencia_DK.csv": "ca6ef6203cbed390981b48a836d3b6c7b001688c189166182150ab4f29aa5b2f",
+  "controles_macro.csv": "c3b7b023fb434601d42008740ab6b40d9b87b513f73db81b010d68239af21fd7",
+  "correlacoes_ufs.csv": "ef4effcbc216a81414a62aa03279011fd1e49fd2f5179ce188a133f3828abdcb",
+  "dependencia_ufs.csv": "20f8391345ab71d6694f1e8f90735afdb67912d53a01da0d6b6fe6ea4d6b1b72",
+  "nacional.csv": "ac2cb653fdf8d60b89d41d093555e2934cc718a6f9dea216901ff0bc81668e0d",
+  "nacional_candidatos.csv": "6a0cf8149cd2062219624c01ea685f1241002ff1bf67bd57fbac2368841f79f0",
+  "nacional_conjunto.csv": "4183796ff376ef930ef7c221acf4295702601f1cec931dc0f68b09b3dc7d3769",
+  "nacional_igualdade.csv": "4731ad09cd331757466806f7a75be50ad2a815c1070b3734bbcf57f5b3e50aef",
+  "nacional_perfis.csv": "50ca59682b8bb7a11a3cb94c1358b31e221bb963734dbe3e0321708af29928a2",
+  "painel.csv": "e88714ddc1b10933896d9ef0185635d9698092559833f93e5042058feaad71e1",
+  "painel_candidatos.csv": "0d05684b1c9a70ce303bb7a1ff531f93d42e6a969bd70f808d9fdb8e88be0c87",
+  "painel_perfis.csv": "e620dabb56c4ffc8ceb04767bc0fa921b12ae87d3d293e269152911763fe94d0",
+  "taxonomia.csv": "2f2d2ca6e08a9a2c31075022f9a76d865766eda95d06deab53a1ae53a5ad79e4",
+  "taxonomia_codigos.csv": "9601cffd788c11cd11ab33ab40028b01c05644e91444428db5cec59aa047d899",
+  "protocolo_sha256": "6b5948e3c9ac07914f86f5350f59b85c11c94b431dd498c5e5bbbeb04b330371"
+}
