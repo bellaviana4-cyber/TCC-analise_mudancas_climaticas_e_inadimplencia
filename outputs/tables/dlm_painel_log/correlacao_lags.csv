@@ -1,0 +1,1912 @@
+﻿periodo,exposicao,nivel,rotulo,K,lag1,lag2,correlacao
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,0,1.0
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,1,-0.3839291061191596
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,2,-0.0743083879249585
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,3,-0.0328370690504785
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,4,-0.0395674115816183
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,5,-0.0619016162681918
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,6,0.2378492534922323
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,0,-0.3839291061191596
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,1,1.0
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,2,-0.3829982826323673
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,3,-0.0753901597316115
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,4,-0.0389003565430682
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,5,-0.0354979001082552
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,6,-0.0647709982661021
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,0,-0.0743083879249585
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,1,-0.3829982826323673
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,2,1.0
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,3,-0.3847607858261842
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,4,-0.0715009582986397
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,5,-0.0374306762080518
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,6,-0.0354437687870452
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,0,-0.0328370690504785
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,1,-0.0753901597316115
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,2,-0.3847607858261842
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,3,1.0
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,4,-0.3892088844318708
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,5,-0.0755013453235329
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,6,-0.0374912732840001
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,0,-0.0395674115816183
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,1,-0.0389003565430682
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,2,-0.0715009582986397
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,3,-0.3892088844318708
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,4,0.9999999999999998
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,5,-0.3793145150059357
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,6,-0.0708944217501201
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,0,-0.0619016162681918
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,1,-0.0354979001082552
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,2,-0.0374306762080518
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,3,-0.0755013453235329
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,4,-0.3793145150059357
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,5,1.0
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,6,-0.3901985014669343
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,0,0.2378492534922323
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,1,-0.0647709982661021
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,2,-0.0354437687870452
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,3,-0.0374912732840001
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,4,-0.0708944217501201
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,5,-0.3901985014669343
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,6,0.9999999999999998
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,0,1.0
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,1,-0.393550340810289
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,2,-0.0304350882070095
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,3,-0.0865238315212173
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,4,-0.0221838593904262
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,5,-0.1146408857840301
+Pré,grupo_climatologico,Grupo,Climatológico,6,0,6,0.3312035129622419
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,0,-0.393550340810289
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,1,1.0
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,2,-0.3975253115333629
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,3,-0.0311007587971338
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,4,-0.0905161118934491
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,5,-0.0168185679207359
+Pré,grupo_climatologico,Grupo,Climatológico,6,1,6,-0.1141997632686093
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,0,-0.0304350882070095
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,1,-0.3975253115333629
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,2,0.9999999999999998
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,3,-0.4015702888554257
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,4,-0.0301917152432284
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,5,-0.0884460069250483
+Pré,grupo_climatologico,Grupo,Climatológico,6,2,6,-0.0172098914021583
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,0,-0.0865238315212173
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,1,-0.0311007587971338
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,2,-0.4015702888554257
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,3,1.0
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,4,-0.4099165266673996
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,5,-0.0342421614688637
+Pré,grupo_climatologico,Grupo,Climatológico,6,3,6,-0.0893845408204985
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,0,-0.0221838593904262
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,1,-0.0905161118934491
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,2,-0.0301917152432284
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,3,-0.4099165266673996
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,4,1.0
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,5,-0.3981505799448884
+Pré,grupo_climatologico,Grupo,Climatológico,6,4,6,-0.028739770250864
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,0,-0.1146408857840301
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,1,-0.0168185679207359
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,2,-0.0884460069250483
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,3,-0.0342421614688637
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,4,-0.3981505799448883
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,5,0.9999999999999998
+Pré,grupo_climatologico,Grupo,Climatológico,6,5,6,-0.4106732353942621
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,0,0.3312035129622419
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,1,-0.1141997632686093
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,2,-0.0172098914021583
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,3,-0.0893845408204985
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,4,-0.028739770250864
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,5,-0.4106732353942621
+Pré,grupo_climatologico,Grupo,Climatológico,6,6,6,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,0,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,1,-0.3266894667539696
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,2,-0.0751747478419418
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,3,-0.0225064819979474
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,4,-0.0015281516764324
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,5,-0.019835131975659
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,0,6,-0.0320127349988224
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,0,-0.3266894667539696
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,1,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,2,-0.3229422496475283
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,3,-0.082834081187391
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,4,-0.0287504296619832
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,5,-0.0024261952490459
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,1,6,-0.0280322189793361
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,0,-0.0751747478419418
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,1,-0.3229422496475283
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,2,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,3,-0.3235635007859622
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,4,-0.0794728707147665
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,5,-0.0265452905188656
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,2,6,-0.0058685573024107
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,0,-0.0225064819979474
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,1,-0.082834081187391
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,2,-0.3235635007859622
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,3,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,4,-0.3232781498025164
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,5,-0.0835054952035902
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,3,6,-0.0272367602146765
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,0,-0.0015281516764324
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,1,-0.0287504296619832
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,2,-0.0794728707147665
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,3,-0.3232781498025164
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,4,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,5,-0.3230696191801815
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,4,6,-0.0801113591964636
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,0,-0.019835131975659
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,1,-0.0024261952490459
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,2,-0.0265452905188656
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,3,-0.0835054952035902
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,4,-0.3230696191801815
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,5,1.0
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,5,6,-0.3249591162045847
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,0,-0.0320127349988224
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,1,-0.0280322189793361
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,2,-0.0058685573024107
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,3,-0.0272367602146765
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,4,-0.0801113591964636
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,5,-0.3249591162045847
+Pré,grupo_hidrologico,Grupo,Hidrológico,6,6,6,1.0
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,0,1.0
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,1,-0.4698234017834347
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,2,0.0317233008612654
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,3,-0.0380365207910719
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,4,0.0097921920078841
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,5,-0.0155522178449733
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,0,6,-0.02422834109949
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,0,-0.4698234017834347
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,1,1.0
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,2,-0.4694740416144453
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,3,0.0219387034256934
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,4,-0.041420799254663
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,5,0.0193764990024847
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,1,6,-0.0192030469953415
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,0,0.0317233008612654
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,1,-0.4694740416144453
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,2,1.0
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,3,-0.4735630378666472
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,4,0.023572423473853
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,5,-0.044514100732836
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,2,6,0.0219280180906577
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,0,-0.0380365207910719
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,1,0.0219387034256934
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,2,-0.4735630378666472
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,3,1.0
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,4,-0.4639838205400018
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,5,0.0363821248998196
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,3,6,-0.0459763494286102
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,0,0.0097921920078841
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,1,-0.041420799254663
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,2,0.023572423473853
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,3,-0.4639838205400018
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,4,0.9999999999999998
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,5,-0.4681094135251297
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,4,6,0.0331750927404446
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,0,-0.0155522178449733
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,1,0.0193764990024847
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,2,-0.044514100732836
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,3,0.0363821248998196
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,4,-0.4681094135251297
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,5,0.9999999999999998
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,5,6,-0.4710955382944196
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,0,-0.02422834109949
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,1,-0.0192030469953415
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,2,0.0219280180906577
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,3,-0.0459763494286102
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,4,0.0331750927404446
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,5,-0.4710955382944196
+Pré,grupo_meteorologico,Grupo,Meteorológico,6,6,6,1.0
+Pré,grupo_outros,Grupo,Outros,6,0,0,1.0
+Pré,grupo_outros,Grupo,Outros,6,0,1,-0.4708986261677503
+Pré,grupo_outros,Grupo,Outros,6,0,2,-0.0070670910377994
+Pré,grupo_outros,Grupo,Outros,6,0,3,-0.0475168256528715
+Pré,grupo_outros,Grupo,Outros,6,0,4,0.0651152911263114
+Pré,grupo_outros,Grupo,Outros,6,0,5,-0.0272258141915823
+Pré,grupo_outros,Grupo,Outros,6,0,6,-0.0220615676797845
+Pré,grupo_outros,Grupo,Outros,6,1,0,-0.4708986261677503
+Pré,grupo_outros,Grupo,Outros,6,1,1,1.0
+Pré,grupo_outros,Grupo,Outros,6,1,2,-0.4729516268208297
+Pré,grupo_outros,Grupo,Outros,6,1,3,-0.0154501475763799
+Pré,grupo_outros,Grupo,Outros,6,1,4,-0.0382030354026979
+Pré,grupo_outros,Grupo,Outros,6,1,5,0.0625177871270104
+Pré,grupo_outros,Grupo,Outros,6,1,6,-0.0317120286545096
+Pré,grupo_outros,Grupo,Outros,6,2,0,-0.0070670910377994
+Pré,grupo_outros,Grupo,Outros,6,2,1,-0.4729516268208297
+Pré,grupo_outros,Grupo,Outros,6,2,2,1.0
+Pré,grupo_outros,Grupo,Outros,6,2,3,-0.478993973754165
+Pré,grupo_outros,Grupo,Outros,6,2,4,-0.0107367287800716
+Pré,grupo_outros,Grupo,Outros,6,2,5,-0.0410516671505561
+Pré,grupo_outros,Grupo,Outros,6,2,6,0.065555280678088
+Pré,grupo_outros,Grupo,Outros,6,3,0,-0.0475168256528715
+Pré,grupo_outros,Grupo,Outros,6,3,1,-0.0154501475763799
+Pré,grupo_outros,Grupo,Outros,6,3,2,-0.478993973754165
+Pré,grupo_outros,Grupo,Outros,6,3,3,1.0
+Pré,grupo_outros,Grupo,Outros,6,3,4,-0.4678228545578835
+Pré,grupo_outros,Grupo,Outros,6,3,5,-0.0141913223802264
+Pré,grupo_outros,Grupo,Outros,6,3,6,-0.035412694880608
+Pré,grupo_outros,Grupo,Outros,6,4,0,0.0651152911263114
+Pré,grupo_outros,Grupo,Outros,6,4,1,-0.0382030354026979
+Pré,grupo_outros,Grupo,Outros,6,4,2,-0.0107367287800716
+Pré,grupo_outros,Grupo,Outros,6,4,3,-0.4678228545578834
+Pré,grupo_outros,Grupo,Outros,6,4,4,1.0
+Pré,grupo_outros,Grupo,Outros,6,4,5,-0.4706273724514951
+Pré,grupo_outros,Grupo,Outros,6,4,6,-0.0207639092376952
+Pré,grupo_outros,Grupo,Outros,6,5,0,-0.0272258141915823
+Pré,grupo_outros,Grupo,Outros,6,5,1,0.0625177871270104
+Pré,grupo_outros,Grupo,Outros,6,5,2,-0.0410516671505561
+Pré,grupo_outros,Grupo,Outros,6,5,3,-0.0141913223802264
+Pré,grupo_outros,Grupo,Outros,6,5,4,-0.4706273724514951
+Pré,grupo_outros,Grupo,Outros,6,5,5,1.0
+Pré,grupo_outros,Grupo,Outros,6,5,6,-0.4685357734517456
+Pré,grupo_outros,Grupo,Outros,6,6,0,-0.0220615676797845
+Pré,grupo_outros,Grupo,Outros,6,6,1,-0.0317120286545096
+Pré,grupo_outros,Grupo,Outros,6,6,2,0.065555280678088
+Pré,grupo_outros,Grupo,Outros,6,6,3,-0.035412694880608
+Pré,grupo_outros,Grupo,Outros,6,6,4,-0.0207639092376952
+Pré,grupo_outros,Grupo,Outros,6,6,5,-0.4685357734517456
+Pré,grupo_outros,Grupo,Outros,6,6,6,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,0,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,1,-0.4358379809952941
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,2,-0.0352184255023782
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,3,0.0307374911684501
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,4,-0.0279038524400266
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,5,-0.0281567152657046
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,0,6,0.0268657486362339
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,0,-0.4358379809952942
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,1,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,2,-0.4364913581382609
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,3,-0.0397226916052195
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,4,0.0240048162181878
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,5,-0.025903392852501
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,1,6,-0.0300942616819282
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,0,-0.0352184255023782
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,1,-0.4364913581382609
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,2,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,3,-0.431231985156674
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,4,-0.0431509406287243
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,5,0.025169716529225
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,2,6,-0.0251510354260172
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,0,0.0307374911684501
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,1,-0.0397226916052195
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,2,-0.431231985156674
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,3,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,4,-0.4265499500038103
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,5,-0.044727526905493
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,3,6,0.0291080235721795
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,0,-0.0279038524400266
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,1,0.0240048162181878
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,2,-0.0431509406287243
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,3,-0.4265499500038102
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,4,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,5,-0.4245280992962484
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,4,6,-0.0476955369441846
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,0,-0.0281567152657046
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,1,-0.025903392852501
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,2,0.025169716529225
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,3,-0.044727526905493
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,4,-0.4245280992962484
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,5,1.0
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,5,6,-0.4230715092393695
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,0,0.0268657486362339
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,1,-0.0300942616819282
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,2,-0.0251510354260172
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,3,0.0291080235721795
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,4,-0.0476955369441846
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,5,-0.4230715092393695
+Pré,tipo_alagamentos,Tipologia,Alagamentos,6,6,6,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,0,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,1,-0.338373205757794
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,2,-0.0923463947008356
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,3,-0.0434033373163095
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,4,0.040799968850782
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,5,-0.012910772559981
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,6,-0.0315297396145355
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,0,-0.338373205757794
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,1,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,2,-0.3307147451375425
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,3,-0.0999372119315983
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,4,-0.0531486288325379
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,5,0.0439578554140519
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,6,-0.0186832306325873
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,0,-0.0923463947008356
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,1,-0.3307147451375425
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,2,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,3,-0.3304546583408944
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,4,-0.0965886954306166
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,5,-0.0561551751938617
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,6,0.0397579659415136
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,0,-0.0434033373163095
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,1,-0.0999372119315983
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,2,-0.3304546583408943
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,3,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,4,-0.33150387125681
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,5,-0.09882323506181
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,6,-0.0591392349998391
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,0,0.040799968850782
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,1,-0.0531486288325379
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,2,-0.0965886954306166
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,3,-0.33150387125681
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,4,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,5,-0.3318817507873848
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,6,-0.0949261848130293
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,0,-0.012910772559981
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,1,0.0439578554140519
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,2,-0.0561551751938617
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,3,-0.09882323506181
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,4,-0.3318817507873848
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,5,1.0
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,6,-0.3337109610759273
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,0,-0.0315297396145355
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,1,-0.0186832306325873
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,2,0.0397579659415136
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,3,-0.0591392349998391
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,4,-0.0949261848130292
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,5,-0.3337109610759273
+Pré,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,6,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,0,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,1,-0.4871156742052869
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,2,-0.0099093349366756
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,3,-0.0005307684384786
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,4,0.003686731145313
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,5,0.0075251202527955
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,6,-0.023284419808491
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,0,-0.4871156742052869
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,1,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,2,-0.4898493223628629
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,3,-0.0105601187603642
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,4,-0.0004935037853016
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,5,0.0039007852814715
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,6,0.0078057898931389
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,0,-0.0099093349366756
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,1,-0.4898493223628629
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,2,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,3,-0.4816524784018459
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,4,-0.0104883551185028
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,5,-0.0007308456378611
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,6,0.0035262770482556
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,0,-0.0005307684384786
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,1,-0.0105601187603642
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,2,-0.4816524784018459
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,3,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,4,-0.4814802465668714
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,5,-0.0153342473162747
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,6,-0.0056981421221655
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,0,0.003686731145313
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,1,-0.0004935037853016
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,2,-0.0104883551185028
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,3,-0.4814802465668714
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,4,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,5,-0.4818793080438799
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,6,-0.0132103476375316
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,0,0.0075251202527955
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,1,0.0039007852814715
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,2,-0.0007308456378611
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,3,-0.0153342473162747
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,4,-0.4818793080438798
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,5,1.0
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,6,-0.4814498676745207
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,0,-0.023284419808491
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,1,0.0078057898931389
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,2,0.0035262770482556
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,3,-0.0056981421221655
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,4,-0.0132103476375316
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,5,-0.4814498676745207
+Pré,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,6,1.0
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,0,0.9999999999999998
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,1,-0.3903229022458738
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,2,-0.0686941516731932
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,3,0.009735497579404
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,4,-0.0513774768371202
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,5,0.0113095657650874
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,0,6,0.0044183749357333
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,0,-0.3903229022458738
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,1,0.9999999999999998
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,2,-0.3917017020807332
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,3,-0.0689536103673735
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,4,0.0099433484692667
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,5,-0.050383871905097
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,1,6,0.0119705914161686
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,0,-0.0686941516731932
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,1,-0.3917017020807332
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,2,1.0
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,3,-0.3920044376761706
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,4,-0.0631595089785027
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,5,0.0135031628110876
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,2,6,-0.0549874139756376
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,0,0.009735497579404
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,1,-0.0689536103673735
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,2,-0.3920044376761706
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,3,1.0
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,4,-0.3921867639060793
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,5,-0.0651005400101335
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,3,6,0.0119389751368759
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,0,-0.0513774768371202
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,1,0.0099433484692667
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,2,-0.0631595089785027
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,3,-0.3921867639060793
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,4,0.9999999999999998
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,5,-0.3926165692379998
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,4,6,-0.0640030471738364
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,0,0.0113095657650874
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,1,-0.050383871905097
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,2,0.0135031628110876
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,3,-0.0651005400101335
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,4,-0.3926165692379999
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,5,0.9999999999999998
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,5,6,-0.3933672521231222
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,0,0.0044183749357333
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,1,0.0119705914161686
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,2,-0.0549874139756376
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,3,0.0119389751368759
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,4,-0.0640030471738364
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,5,-0.3933672521231222
+Pré,tipo_enxurradas,Tipologia,Enxurradas,6,6,6,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,0,0,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,0,1,-0.4582931387537786
+Pré,tipo_erosao,Tipologia,Erosão,6,0,2,-0.0130571388633437
+Pré,tipo_erosao,Tipologia,Erosão,6,0,3,-0.0844737696903359
+Pré,tipo_erosao,Tipologia,Erosão,6,0,4,0.0969030544490761
+Pré,tipo_erosao,Tipologia,Erosão,6,0,5,-0.0426748950010493
+Pré,tipo_erosao,Tipologia,Erosão,6,0,6,0.0176668059230538
+Pré,tipo_erosao,Tipologia,Erosão,6,1,0,-0.4582931387537786
+Pré,tipo_erosao,Tipologia,Erosão,6,1,1,0.9999999999999998
+Pré,tipo_erosao,Tipologia,Erosão,6,1,2,-0.4583429363036837
+Pré,tipo_erosao,Tipologia,Erosão,6,1,3,-0.0185675261411926
+Pré,tipo_erosao,Tipologia,Erosão,6,1,4,-0.0742197595348006
+Pré,tipo_erosao,Tipologia,Erosão,6,1,5,0.0894480947623356
+Pré,tipo_erosao,Tipologia,Erosão,6,1,6,-0.0475789607414745
+Pré,tipo_erosao,Tipologia,Erosão,6,2,0,-0.0130571388633437
+Pré,tipo_erosao,Tipologia,Erosão,6,2,1,-0.4583429363036838
+Pré,tipo_erosao,Tipologia,Erosão,6,2,2,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,2,3,-0.4567161260845432
+Pré,tipo_erosao,Tipologia,Erosão,6,2,4,-0.0145629090613688
+Pré,tipo_erosao,Tipologia,Erosão,6,2,5,-0.0716094005603609
+Pré,tipo_erosao,Tipologia,Erosão,6,2,6,0.0863531465645865
+Pré,tipo_erosao,Tipologia,Erosão,6,3,0,-0.084473769690336
+Pré,tipo_erosao,Tipologia,Erosão,6,3,1,-0.0185675261411926
+Pré,tipo_erosao,Tipologia,Erosão,6,3,2,-0.4567161260845432
+Pré,tipo_erosao,Tipologia,Erosão,6,3,3,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,3,4,-0.461827929086184
+Pré,tipo_erosao,Tipologia,Erosão,6,3,5,-0.0163207090897384
+Pré,tipo_erosao,Tipologia,Erosão,6,3,6,-0.0616654213426543
+Pré,tipo_erosao,Tipologia,Erosão,6,4,0,0.0969030544490761
+Pré,tipo_erosao,Tipologia,Erosão,6,4,1,-0.0742197595348006
+Pré,tipo_erosao,Tipologia,Erosão,6,4,2,-0.0145629090613688
+Pré,tipo_erosao,Tipologia,Erosão,6,4,3,-0.4618279290861839
+Pré,tipo_erosao,Tipologia,Erosão,6,4,4,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,4,5,-0.4629001565060539
+Pré,tipo_erosao,Tipologia,Erosão,6,4,6,-0.0229474810599464
+Pré,tipo_erosao,Tipologia,Erosão,6,5,0,-0.0426748950010493
+Pré,tipo_erosao,Tipologia,Erosão,6,5,1,0.0894480947623356
+Pré,tipo_erosao,Tipologia,Erosão,6,5,2,-0.0716094005603609
+Pré,tipo_erosao,Tipologia,Erosão,6,5,3,-0.0163207090897384
+Pré,tipo_erosao,Tipologia,Erosão,6,5,4,-0.4629001565060539
+Pré,tipo_erosao,Tipologia,Erosão,6,5,5,1.0
+Pré,tipo_erosao,Tipologia,Erosão,6,5,6,-0.4529054295057185
+Pré,tipo_erosao,Tipologia,Erosão,6,6,0,0.0176668059230538
+Pré,tipo_erosao,Tipologia,Erosão,6,6,1,-0.0475789607414745
+Pré,tipo_erosao,Tipologia,Erosão,6,6,2,0.0863531465645865
+Pré,tipo_erosao,Tipologia,Erosão,6,6,3,-0.0616654213426543
+Pré,tipo_erosao,Tipologia,Erosão,6,6,4,-0.0229474810599464
+Pré,tipo_erosao,Tipologia,Erosão,6,6,5,-0.4529054295057185
+Pré,tipo_erosao,Tipologia,Erosão,6,6,6,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,0,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,1,-0.4031547168909154
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,2,-0.0308532195783568
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,3,-0.0855500496811964
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,4,-0.0272065277183728
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,5,-0.1065787085847685
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,6,0.3501593672387562
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,0,-0.4031547168909155
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,1,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,2,-0.4066145033437807
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,3,-0.0320066135974455
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,4,-0.0874068402545715
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,5,-0.0235097008944767
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,6,-0.1058779201933663
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,0,-0.0308532195783568
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,1,-0.4066145033437807
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,2,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,3,-0.4085393638169167
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,4,-0.0299605461315737
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,5,-0.0861189124798853
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,6,-0.0238034846285946
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,0,-0.0855500496811964
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,1,-0.0320066135974454
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,2,-0.4085393638169167
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,3,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,4,-0.4172382951752183
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,5,-0.0332195228904358
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,6,-0.0882629459999132
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,0,-0.0272065277183728
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,1,-0.0874068402545715
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,2,-0.0299605461315737
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,3,-0.4172382951752183
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,4,1.0
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,5,-0.4034190203270743
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,6,-0.0263932753198784
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,0,-0.1065787085847685
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,1,-0.0235097008944767
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,2,-0.0861189124798853
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,3,-0.0332195228904358
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,4,-0.4034190203270743
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,5,0.9999999999999998
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,6,-0.4160737794769052
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,0,0.3501593672387562
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,1,-0.1058779201933663
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,2,-0.0238034846285946
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,3,-0.0882629459999132
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,4,-0.0263932753198784
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,5,-0.4160737794769052
+Pré,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,6,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,0,0,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,0,1,-0.4791754917435128
+Pré,tipo_granizo,Tipologia,Granizo,6,0,2,0.0324767078570151
+Pré,tipo_granizo,Tipologia,Granizo,6,0,3,-0.0351261199109489
+Pré,tipo_granizo,Tipologia,Granizo,6,0,4,0.0522293954907696
+Pré,tipo_granizo,Tipologia,Granizo,6,0,5,-0.1151557874560262
+Pré,tipo_granizo,Tipologia,Granizo,6,0,6,0.057047151444919
+Pré,tipo_granizo,Tipologia,Granizo,6,1,0,-0.4791754917435128
+Pré,tipo_granizo,Tipologia,Granizo,6,1,1,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,1,2,-0.4760246095406258
+Pré,tipo_granizo,Tipologia,Granizo,6,1,3,0.0195766252518168
+Pré,tipo_granizo,Tipologia,Granizo,6,1,4,-0.030766185020186
+Pré,tipo_granizo,Tipologia,Granizo,6,1,5,0.0576026436682323
+Pré,tipo_granizo,Tipologia,Granizo,6,1,6,-0.1154930038330897
+Pré,tipo_granizo,Tipologia,Granizo,6,2,0,0.0324767078570151
+Pré,tipo_granizo,Tipologia,Granizo,6,2,1,-0.4760246095406258
+Pré,tipo_granizo,Tipologia,Granizo,6,2,2,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,2,3,-0.4734145577403091
+Pré,tipo_granizo,Tipologia,Granizo,6,2,4,0.0110133589393732
+Pré,tipo_granizo,Tipologia,Granizo,6,2,5,-0.0315892962805619
+Pré,tipo_granizo,Tipologia,Granizo,6,2,6,0.0589308229438169
+Pré,tipo_granizo,Tipologia,Granizo,6,3,0,-0.0351261199109489
+Pré,tipo_granizo,Tipologia,Granizo,6,3,1,0.0195766252518168
+Pré,tipo_granizo,Tipologia,Granizo,6,3,2,-0.4734145577403091
+Pré,tipo_granizo,Tipologia,Granizo,6,3,3,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,3,4,-0.4654676551603302
+Pré,tipo_granizo,Tipologia,Granizo,6,3,5,0.0200481346519856
+Pré,tipo_granizo,Tipologia,Granizo,6,3,6,-0.0287882259301945
+Pré,tipo_granizo,Tipologia,Granizo,6,4,0,0.0522293954907696
+Pré,tipo_granizo,Tipologia,Granizo,6,4,1,-0.030766185020186
+Pré,tipo_granizo,Tipologia,Granizo,6,4,2,0.0110133589393732
+Pré,tipo_granizo,Tipologia,Granizo,6,4,3,-0.4654676551603302
+Pré,tipo_granizo,Tipologia,Granizo,6,4,4,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,4,5,-0.4704114495718873
+Pré,tipo_granizo,Tipologia,Granizo,6,4,6,0.0207094136574843
+Pré,tipo_granizo,Tipologia,Granizo,6,5,0,-0.1151557874560262
+Pré,tipo_granizo,Tipologia,Granizo,6,5,1,0.0576026436682323
+Pré,tipo_granizo,Tipologia,Granizo,6,5,2,-0.0315892962805619
+Pré,tipo_granizo,Tipologia,Granizo,6,5,3,0.0200481346519856
+Pré,tipo_granizo,Tipologia,Granizo,6,5,4,-0.4704114495718873
+Pré,tipo_granizo,Tipologia,Granizo,6,5,5,1.0
+Pré,tipo_granizo,Tipologia,Granizo,6,5,6,-0.476867515332378
+Pré,tipo_granizo,Tipologia,Granizo,6,6,0,0.057047151444919
+Pré,tipo_granizo,Tipologia,Granizo,6,6,1,-0.1154930038330897
+Pré,tipo_granizo,Tipologia,Granizo,6,6,2,0.0589308229438169
+Pré,tipo_granizo,Tipologia,Granizo,6,6,3,-0.0287882259301945
+Pré,tipo_granizo,Tipologia,Granizo,6,6,4,0.0207094136574843
+Pré,tipo_granizo,Tipologia,Granizo,6,6,5,-0.4768675153323781
+Pré,tipo_granizo,Tipologia,Granizo,6,6,6,1.0
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,0,1.0
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,1,-0.3885210447893739
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,2,0.0173081802889643
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,3,-0.1069994319896006
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,4,0.0264774094682653
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,5,-0.0525774452022983
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,6,0.0176637838370569
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,0,-0.3885210447893739
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,1,1.0
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,2,-0.3993568005930754
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,3,0.0219952436387792
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,4,-0.106787472891679
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,5,0.0373609458171075
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,6,-0.0552045701662099
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,0,0.0173081802889643
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,1,-0.3993568005930754
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,2,0.9999999999999998
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,3,-0.4071108675901376
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,4,0.0011057537092868
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,5,-0.0881252138909865
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,6,0.0462549318688141
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,0,-0.1069994319896006
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,1,0.0219952436387792
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,2,-0.4071108675901376
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,3,1.0
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,4,-0.4157834501641178
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,5,-0.0099047273075649
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,6,-0.0811131207697218
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,0,0.0264774094682653
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,1,-0.106787472891679
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,2,0.0011057537092868
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,3,-0.4157834501641178
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,4,0.9999999999999998
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,5,-0.4059867002732901
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,6,0.0026716582033314
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,0,-0.0525774452022983
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,1,0.0373609458171075
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,2,-0.0881252138909865
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,3,-0.0099047273075649
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,4,-0.4059867002732901
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,5,1.0
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,6,-0.4277511889153839
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,0,0.0176637838370569
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,1,-0.0552045701662099
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,2,0.0462549318688141
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,3,-0.0811131207697218
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,4,0.0026716582033314
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,5,-0.4277511889153839
+Pré,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,6,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,0,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,1,-0.3539883459849465
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,2,-0.0640030219531761
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,3,0.0245022400982072
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,4,-0.0401424822285603
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,5,-0.0533186410275003
+Pré,tipo_inundacoes,Tipologia,Inundações,6,0,6,0.0004444399729357
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,0,-0.3539883459849465
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,1,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,2,-0.3393650350912764
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,3,-0.0771684163884813
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,4,0.0127601773851361
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,5,-0.0418500121855385
+Pré,tipo_inundacoes,Tipologia,Inundações,6,1,6,-0.0605734761542775
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,0,-0.0640030219531761
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,1,-0.3393650350912764
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,2,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,3,-0.334375647500667
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,4,-0.0783599718036711
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,5,0.0097020264783978
+Pré,tipo_inundacoes,Tipologia,Inundações,6,2,6,-0.0438645060556728
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,0,0.0245022400982071
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,1,-0.0771684163884813
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,2,-0.334375647500667
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,3,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,4,-0.3358099001180323
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,5,-0.075547711228782
+Pré,tipo_inundacoes,Tipologia,Inundações,6,3,6,0.0146462811874625
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,0,-0.0401424822285603
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,1,0.0127601773851361
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,2,-0.0783599718036711
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,3,-0.3358099001180323
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,4,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,5,-0.3327247136044424
+Pré,tipo_inundacoes,Tipologia,Inundações,6,4,6,-0.071450128099378
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,0,-0.0533186410275003
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,1,-0.0418500121855385
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,2,0.0097020264783978
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,3,-0.075547711228782
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,4,-0.3327247136044424
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,5,1.0
+Pré,tipo_inundacoes,Tipologia,Inundações,6,5,6,-0.3339485531842381
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,0,0.0004444399729357
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,1,-0.0605734761542775
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,2,-0.0438645060556728
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,3,0.0146462811874625
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,4,-0.071450128099378
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,5,-0.3339485531842381
+Pré,tipo_inundacoes,Tipologia,Inundações,6,6,6,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,0,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,1,-0.4588560884106167
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,2,0.0063628646422345
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,3,0.016265835153497
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,4,-0.0811520929194472
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,5,0.0502350151608587
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,6,-0.0145524222925483
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,0,-0.4588560884106167
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,1,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,2,-0.4714517728502886
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,3,0.0162055725384977
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,4,0.0133872626553106
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,5,-0.0813331931479243
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,6,0.0497511136757842
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,0,0.0063628646422345
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,1,-0.4714517728502886
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,2,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,3,-0.4643889125313835
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,4,0.010828999051707
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,5,0.0197606641284617
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,6,-0.0836524488751719
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,0,0.016265835153497
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,1,0.0162055725384977
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,2,-0.4643889125313835
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,3,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,4,-0.4631225463155002
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,5,0.0070352210843834
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,6,0.019538752783577
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,0,-0.0811520929194472
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,1,0.0133872626553106
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,2,0.010828999051707
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,3,-0.4631225463155002
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,4,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,5,-0.4601491477009025
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,6,0.0093827085122958
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,0,0.0502350151608587
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,1,-0.0813331931479243
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,2,0.0197606641284617
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,3,0.0070352210843834
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,4,-0.4601491477009025
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,5,1.0
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,6,-0.4623176915418693
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,0,-0.0145524222925483
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,1,0.0497511136757842
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,2,-0.0836524488751719
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,3,0.019538752783577
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,4,0.0093827085122958
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,5,-0.4623176915418692
+Pré,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,6,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,0,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,1,-0.1350369801994276
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,2,-0.3593509755905086
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,3,-0.0774831786361151
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,4,0.0169366695402805
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,5,0.0606351493555243
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,6,-0.0501726616560543
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,0,-0.1350369801994276
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,1,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,2,-0.1206512388208057
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,3,-0.3276945884839807
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,4,-0.0707441991043871
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,5,0.017630334982607
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,6,0.0550963826176419
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,0,-0.3593509755905086
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,1,-0.1206512388208057
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,2,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,3,-0.1324796626621378
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,4,-0.3254966550057652
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,5,-0.0722897518673307
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,6,0.0185218375092195
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,0,-0.0774831786361151
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,1,-0.3276945884839806
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,2,-0.1324796626621378
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,3,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,4,-0.1315803060291747
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,5,-0.3295942154549104
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,6,-0.0744120089184199
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,0,0.0169366695402805
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,1,-0.0707441991043871
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,2,-0.3254966550057652
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,3,-0.1315803060291747
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,4,1.0
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,5,-0.1343609591894512
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,6,-0.3391425987392943
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,0,0.0606351493555243
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,1,0.017630334982607
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,2,-0.0722897518673307
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,3,-0.3295942154549104
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,4,-0.1343609591894512
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,5,0.9999999999999998
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,6,-0.1917824385798452
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,0,-0.0501726616560543
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,1,0.0550963826176419
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,2,0.0185218375092195
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,3,-0.0744120089184199
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,4,-0.3391425987392942
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,5,-0.1917824385798452
+Pré,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,6,1.0
+Pré,tipo_outros,Tipologia,Outros,6,0,0,1.0
+Pré,tipo_outros,Tipologia,Outros,6,0,1,-0.4341930842445694
+Pré,tipo_outros,Tipologia,Outros,6,0,2,-0.0640244806869329
+Pré,tipo_outros,Tipologia,Outros,6,0,3,0.0127768948986787
+Pré,tipo_outros,Tipologia,Outros,6,0,4,0.0475139507857836
+Pré,tipo_outros,Tipologia,Outros,6,0,5,-0.0914191934099305
+Pré,tipo_outros,Tipologia,Outros,6,0,6,0.0464767320080579
+Pré,tipo_outros,Tipologia,Outros,6,1,0,-0.4341930842445694
+Pré,tipo_outros,Tipologia,Outros,6,1,1,1.0
+Pré,tipo_outros,Tipologia,Outros,6,1,2,-0.438738369547502
+Pré,tipo_outros,Tipologia,Outros,6,1,3,-0.0827105770640294
+Pré,tipo_outros,Tipologia,Outros,6,1,4,0.0330153012399376
+Pré,tipo_outros,Tipologia,Outros,6,1,5,0.049640191841498
+Pré,tipo_outros,Tipologia,Outros,6,1,6,-0.0930351660122187
+Pré,tipo_outros,Tipologia,Outros,6,2,0,-0.0640244806869329
+Pré,tipo_outros,Tipologia,Outros,6,2,1,-0.438738369547502
+Pré,tipo_outros,Tipologia,Outros,6,2,2,1.0
+Pré,tipo_outros,Tipologia,Outros,6,2,3,-0.4671387950109754
+Pré,tipo_outros,Tipologia,Outros,6,2,4,-0.0769060985138916
+Pré,tipo_outros,Tipologia,Outros,6,2,5,0.0351659738457674
+Pré,tipo_outros,Tipologia,Outros,6,2,6,0.0497306396377016
+Pré,tipo_outros,Tipologia,Outros,6,3,0,0.0127768948986787
+Pré,tipo_outros,Tipologia,Outros,6,3,1,-0.0827105770640294
+Pré,tipo_outros,Tipologia,Outros,6,3,2,-0.4671387950109754
+Pré,tipo_outros,Tipologia,Outros,6,3,3,1.0
+Pré,tipo_outros,Tipologia,Outros,6,3,4,-0.4133186403699331
+Pré,tipo_outros,Tipologia,Outros,6,3,5,-0.065950856641952
+Pré,tipo_outros,Tipologia,Outros,6,3,6,0.0422539961593353
+Pré,tipo_outros,Tipologia,Outros,6,4,0,0.0475139507857836
+Pré,tipo_outros,Tipologia,Outros,6,4,1,0.0330153012399377
+Pré,tipo_outros,Tipologia,Outros,6,4,2,-0.0769060985138916
+Pré,tipo_outros,Tipologia,Outros,6,4,3,-0.4133186403699331
+Pré,tipo_outros,Tipologia,Outros,6,4,4,1.0
+Pré,tipo_outros,Tipologia,Outros,6,4,5,-0.4547518407066584
+Pré,tipo_outros,Tipologia,Outros,6,4,6,-0.0703957339767709
+Pré,tipo_outros,Tipologia,Outros,6,5,0,-0.0914191934099305
+Pré,tipo_outros,Tipologia,Outros,6,5,1,0.049640191841498
+Pré,tipo_outros,Tipologia,Outros,6,5,2,0.0351659738457674
+Pré,tipo_outros,Tipologia,Outros,6,5,3,-0.065950856641952
+Pré,tipo_outros,Tipologia,Outros,6,5,4,-0.4547518407066583
+Pré,tipo_outros,Tipologia,Outros,6,5,5,1.0
+Pré,tipo_outros,Tipologia,Outros,6,5,6,-0.4608075163318397
+Pré,tipo_outros,Tipologia,Outros,6,6,0,0.0464767320080579
+Pré,tipo_outros,Tipologia,Outros,6,6,1,-0.0930351660122187
+Pré,tipo_outros,Tipologia,Outros,6,6,2,0.0497306396377016
+Pré,tipo_outros,Tipologia,Outros,6,6,3,0.0422539961593353
+Pré,tipo_outros,Tipologia,Outros,6,6,4,-0.0703957339767709
+Pré,tipo_outros,Tipologia,Outros,6,6,5,-0.4608075163318397
+Pré,tipo_outros,Tipologia,Outros,6,6,6,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,0,0,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,0,1,-0.5059498371187704
+Pré,tipo_tornado,Tipologia,Tornado,6,0,2,-0.0077524682796645
+Pré,tipo_tornado,Tipologia,Tornado,6,0,3,0.0578625276034705
+Pré,tipo_tornado,Tipologia,Tornado,6,0,4,-0.0903596135411376
+Pré,tipo_tornado,Tipologia,Tornado,6,0,5,0.0802043098710045
+Pré,tipo_tornado,Tipologia,Tornado,6,0,6,-0.0322869527449059
+Pré,tipo_tornado,Tipologia,Tornado,6,1,0,-0.5059498371187704
+Pré,tipo_tornado,Tipologia,Tornado,6,1,1,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,1,2,-0.5059498371187704
+Pré,tipo_tornado,Tipologia,Tornado,6,1,3,-0.0077524682796645
+Pré,tipo_tornado,Tipologia,Tornado,6,1,4,0.0582249749539418
+Pré,tipo_tornado,Tipologia,Tornado,6,1,5,-0.090918155643654
+Pré,tipo_tornado,Tipologia,Tornado,6,1,6,0.0802043098710045
+Pré,tipo_tornado,Tipologia,Tornado,6,2,0,-0.0077524682796645
+Pré,tipo_tornado,Tipologia,Tornado,6,2,1,-0.5059498371187704
+Pré,tipo_tornado,Tipologia,Tornado,6,2,2,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,2,3,-0.5059498371187705
+Pré,tipo_tornado,Tipologia,Tornado,6,2,4,-0.0078010292690294
+Pré,tipo_tornado,Tipologia,Tornado,6,2,5,0.0585848824242735
+Pré,tipo_tornado,Tipologia,Tornado,6,2,6,-0.090918155643654
+Pré,tipo_tornado,Tipologia,Tornado,6,3,0,0.0578625276034705
+Pré,tipo_tornado,Tipologia,Tornado,6,3,1,-0.0077524682796645
+Pré,tipo_tornado,Tipologia,Tornado,6,3,2,-0.5059498371187705
+Pré,tipo_tornado,Tipologia,Tornado,6,3,3,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,3,4,-0.5091190760983011
+Pré,tipo_tornado,Tipologia,Tornado,6,3,5,-0.0078492499631975
+Pré,tipo_tornado,Tipologia,Tornado,6,3,6,0.0585848824242735
+Pré,tipo_tornado,Tipologia,Tornado,6,4,0,-0.0903596135411376
+Pré,tipo_tornado,Tipologia,Tornado,6,4,1,0.0582249749539418
+Pré,tipo_tornado,Tipologia,Tornado,6,4,2,-0.0078010292690294
+Pré,tipo_tornado,Tipologia,Tornado,6,4,3,-0.509119076098301
+Pré,tipo_tornado,Tipologia,Tornado,6,4,4,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,4,5,-0.5029901741928111
+Pré,tipo_tornado,Tipologia,Tornado,6,4,6,-0.0078984171871363
+Pré,tipo_tornado,Tipologia,Tornado,6,5,0,0.0802043098710045
+Pré,tipo_tornado,Tipologia,Tornado,6,5,1,-0.090918155643654
+Pré,tipo_tornado,Tipologia,Tornado,6,5,2,0.0585848824242735
+Pré,tipo_tornado,Tipologia,Tornado,6,5,3,-0.0078492499631975
+Pré,tipo_tornado,Tipologia,Tornado,6,5,4,-0.5029901741928111
+Pré,tipo_tornado,Tipologia,Tornado,6,5,5,1.0
+Pré,tipo_tornado,Tipologia,Tornado,6,5,6,-0.5060993197328238
+Pré,tipo_tornado,Tipologia,Tornado,6,6,0,-0.0322869527449059
+Pré,tipo_tornado,Tipologia,Tornado,6,6,1,0.0802043098710045
+Pré,tipo_tornado,Tipologia,Tornado,6,6,2,-0.090918155643654
+Pré,tipo_tornado,Tipologia,Tornado,6,6,3,0.0585848824242735
+Pré,tipo_tornado,Tipologia,Tornado,6,6,4,-0.0078984171871363
+Pré,tipo_tornado,Tipologia,Tornado,6,6,5,-0.5060993197328238
+Pré,tipo_tornado,Tipologia,Tornado,6,6,6,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,0,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,1,-0.4442459979918486
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,2,0.0115748476343094
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,3,-0.0554457437363856
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,4,0.0090872341708085
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,5,-0.0129219035249399
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,0,6,0.0103862291491664
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,0,-0.4442459979918487
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,1,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,2,-0.4447111609893334
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,3,0.0024622913486161
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,4,-0.0566157501804213
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,5,0.0178689781738111
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,1,6,-0.0151904059410435
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,0,0.0115748476343094
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,1,-0.4447111609893334
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,2,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,3,-0.4505336186370061
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,4,0.008155445982268
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,5,-0.0589267736865432
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,2,6,0.0175855837957419
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,0,-0.0554457437363856
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,1,0.0024622913486161
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,2,-0.4505336186370061
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,3,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,4,-0.437315215087832
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,5,0.022047176609533
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,3,6,-0.0665787203902671
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,0,0.0090872341708085
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,1,-0.0566157501804213
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,2,0.008155445982268
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,3,-0.437315215087832
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,4,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,5,-0.4438454500026151
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,4,6,0.0237674181364456
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,0,-0.0129219035249399
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,1,0.0178689781738111
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,2,-0.0589267736865432
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,3,0.022047176609533
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,4,-0.4438454500026151
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,5,1.0
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,5,6,-0.4462792772035795
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,0,0.0103862291491664
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,1,-0.0151904059410435
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,2,0.0175855837957419
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,3,-0.0665787203902671
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,4,0.0237674181364456
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,5,-0.4462792772035795
+Pré,tipo_vendavais_e_ciclones,Tipologia,Vendavais e Ciclones,6,6,6,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,0,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,1,-0.368256902625367
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,2,-0.0804627112563844
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,3,-0.0342469881431102
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,4,-0.0409298076155959
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,5,-0.0511726730195146
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,0,6,0.1769361721240405
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,0,-0.368256902625367
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,1,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,2,-0.3679700735049653
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,3,-0.0800838420375746
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,4,-0.0389215855423295
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,5,-0.0380216135573597
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1,6,-0.053774685488672
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,0,-0.0804627112563844
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,1,-0.3679700735049653
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,2,0.9999999999999998
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,3,-0.3701336270413961
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,4,-0.0782652872353484
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,5,-0.0390496691456734
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2,6,-0.0369550613024126
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,0,-0.0342469881431102
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,1,-0.0800838420375746
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,2,-0.3701336270413962
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,3,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,4,-0.3711962660046475
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,5,-0.0780468451185796
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,3,6,-0.0390039167906814
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,0,-0.0409298076155959
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,1,-0.0389215855423295
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,2,-0.0782652872353484
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,3,-0.3711962660046475
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,4,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,5,-0.3687433031513885
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,4,6,-0.0731294123247699
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,0,-0.0511726730195146
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,1,-0.0380216135573597
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,2,-0.0390496691456734
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,3,-0.0780468451185796
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,4,-0.3687433031513885
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,5,1.0
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,5,6,-0.3734382087951198
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,0,0.1769361721240405
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,1,-0.053774685488672
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,2,-0.0369550613024126
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,3,-0.0390039167906814
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,4,-0.0731294123247698
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,5,-0.3734382087951198
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,6,6,0.9999999999999998
+Total,grupo_climatologico,Grupo,Climatológico,6,0,0,1.0
+Total,grupo_climatologico,Grupo,Climatológico,6,0,1,-0.3555321651560123
+Total,grupo_climatologico,Grupo,Climatológico,6,0,2,-0.0467939346728979
+Total,grupo_climatologico,Grupo,Climatológico,6,0,3,-0.0853893694450824
+Total,grupo_climatologico,Grupo,Climatológico,6,0,4,-0.0433661938400803
+Total,grupo_climatologico,Grupo,Climatológico,6,0,5,-0.0869323033397803
+Total,grupo_climatologico,Grupo,Climatológico,6,0,6,0.2514145702839421
+Total,grupo_climatologico,Grupo,Climatológico,6,1,0,-0.3555321651560123
+Total,grupo_climatologico,Grupo,Climatológico,6,1,1,0.9999999999999998
+Total,grupo_climatologico,Grupo,Climatológico,6,1,2,-0.3574408363229624
+Total,grupo_climatologico,Grupo,Climatológico,6,1,3,-0.0474690457468944
+Total,grupo_climatologico,Grupo,Climatológico,6,1,4,-0.0867438229790757
+Total,grupo_climatologico,Grupo,Climatológico,6,1,5,-0.0404269107484015
+Total,grupo_climatologico,Grupo,Climatológico,6,1,6,-0.0882763565567597
+Total,grupo_climatologico,Grupo,Climatológico,6,2,0,-0.0467939346728979
+Total,grupo_climatologico,Grupo,Climatológico,6,2,1,-0.3574408363229623
+Total,grupo_climatologico,Grupo,Climatológico,6,2,2,0.9999999999999998
+Total,grupo_climatologico,Grupo,Climatológico,6,2,3,-0.3615875304442008
+Total,grupo_climatologico,Grupo,Climatológico,6,2,4,-0.0460459136410707
+Total,grupo_climatologico,Grupo,Climatológico,6,2,5,-0.085916553057905
+Total,grupo_climatologico,Grupo,Climatológico,6,2,6,-0.0403092236599468
+Total,grupo_climatologico,Grupo,Climatológico,6,3,0,-0.0853893694450824
+Total,grupo_climatologico,Grupo,Climatológico,6,3,1,-0.0474690457468944
+Total,grupo_climatologico,Grupo,Climatológico,6,3,2,-0.3615875304442008
+Total,grupo_climatologico,Grupo,Climatológico,6,3,3,0.9999999999999998
+Total,grupo_climatologico,Grupo,Climatológico,6,3,4,-0.3637873087744863
+Total,grupo_climatologico,Grupo,Climatológico,6,3,5,-0.0443715503887912
+Total,grupo_climatologico,Grupo,Climatológico,6,3,6,-0.087405595918865
+Total,grupo_climatologico,Grupo,Climatológico,6,4,0,-0.0433661938400803
+Total,grupo_climatologico,Grupo,Climatológico,6,4,1,-0.0867438229790757
+Total,grupo_climatologico,Grupo,Climatológico,6,4,2,-0.0460459136410707
+Total,grupo_climatologico,Grupo,Climatológico,6,4,3,-0.3637873087744863
+Total,grupo_climatologico,Grupo,Climatológico,6,4,4,1.0
+Total,grupo_climatologico,Grupo,Climatológico,6,4,5,-0.3617276792941947
+Total,grupo_climatologico,Grupo,Climatológico,6,4,6,-0.0396791958860411
+Total,grupo_climatologico,Grupo,Climatológico,6,5,0,-0.0869323033397803
+Total,grupo_climatologico,Grupo,Climatológico,6,5,1,-0.0404269107484015
+Total,grupo_climatologico,Grupo,Climatológico,6,5,2,-0.0859165530579049
+Total,grupo_climatologico,Grupo,Climatológico,6,5,3,-0.0443715503887912
+Total,grupo_climatologico,Grupo,Climatológico,6,5,4,-0.3617276792941947
+Total,grupo_climatologico,Grupo,Climatológico,6,5,5,1.0
+Total,grupo_climatologico,Grupo,Climatológico,6,5,6,-0.3666465251713908
+Total,grupo_climatologico,Grupo,Climatológico,6,6,0,0.2514145702839421
+Total,grupo_climatologico,Grupo,Climatológico,6,6,1,-0.0882763565567597
+Total,grupo_climatologico,Grupo,Climatológico,6,6,2,-0.0403092236599468
+Total,grupo_climatologico,Grupo,Climatológico,6,6,3,-0.087405595918865
+Total,grupo_climatologico,Grupo,Climatológico,6,6,4,-0.0396791958860411
+Total,grupo_climatologico,Grupo,Climatológico,6,6,5,-0.3666465251713908
+Total,grupo_climatologico,Grupo,Climatológico,6,6,6,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,0,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,1,-0.2891666100214394
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,2,-0.0854676269197561
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,3,-0.0343476633092861
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,4,-0.0253165331404367
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,5,-0.0253649819297707
+Total,grupo_hidrologico,Grupo,Hidrológico,6,0,6,-0.0420294494601357
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,0,-0.2891666100214394
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,1,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,2,-0.2880850275156609
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,3,-0.0869518645395265
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,4,-0.036416686178292
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,5,-0.0251469912031665
+Total,grupo_hidrologico,Grupo,Hidrológico,6,1,6,-0.0279657034085733
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,0,-0.0854676269197561
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,1,-0.2880850275156609
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,2,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,3,-0.2879434800571117
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,4,-0.0887082264589175
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,5,-0.0360062047565619
+Total,grupo_hidrologico,Grupo,Hidrológico,6,2,6,-0.0258913800746131
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,0,-0.0343476633092861
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,1,-0.0869518645395265
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,2,-0.2879434800571117
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,3,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,4,-0.2871820415967508
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,5,-0.0897064656205028
+Total,grupo_hidrologico,Grupo,Hidrológico,6,3,6,-0.0381737189624476
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,0,-0.0253165331404367
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,1,-0.036416686178292
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,2,-0.0887082264589175
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,3,-0.2871820415967508
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,4,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,5,-0.2852312660611192
+Total,grupo_hidrologico,Grupo,Hidrológico,6,4,6,-0.0881194951102358
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,0,-0.0253649819297707
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,1,-0.0251469912031665
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,2,-0.0360062047565619
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,3,-0.0897064656205028
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,4,-0.2852312660611192
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,5,1.0
+Total,grupo_hidrologico,Grupo,Hidrológico,6,5,6,-0.286233890069818
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,0,-0.0420294494601357
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,1,-0.0279657034085733
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,2,-0.0258913800746131
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,3,-0.0381737189624476
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,4,-0.0881194951102358
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,5,-0.286233890069818
+Total,grupo_hidrologico,Grupo,Hidrológico,6,6,6,1.0
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,0,0.9999999999999998
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,1,-0.442748156732373
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,2,0.0095059673149337
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,3,-0.0534767299599405
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,4,0.0051548647163732
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,5,-0.017210103934096
+Total,grupo_meteorologico,Grupo,Meteorológico,6,0,6,0.0184487773909336
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,0,-0.442748156732373
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,1,1.0
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,2,-0.4415707329609059
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,3,0.0047759061071205
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,4,-0.0564465103764785
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,5,0.004711369078717
+Total,grupo_meteorologico,Grupo,Meteorológico,6,1,6,-0.0126194907803988
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,0,0.0095059673149337
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,1,-0.4415707329609059
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,2,0.9999999999999998
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,3,-0.4404805468846781
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,4,0.01054743907759
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,5,-0.0549066743333439
+Total,grupo_meteorologico,Grupo,Meteorológico,6,2,6,-0.0011697001474798
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,0,-0.0534767299599405
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,1,0.0047759061071205
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,2,-0.4404805468846781
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,3,1.0
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,4,-0.4409536173960021
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,5,0.0111799070406921
+Total,grupo_meteorologico,Grupo,Meteorológico,6,3,6,-0.0539042212471436
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,0,0.0051548647163732
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,1,-0.0564465103764785
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,2,0.01054743907759
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,3,-0.4409536173960021
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,4,1.0
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,5,-0.4415966405347952
+Total,grupo_meteorologico,Grupo,Meteorológico,6,4,6,0.0137374669658336
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,0,-0.017210103934096
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,1,0.004711369078717
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,2,-0.0549066743333439
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,3,0.0111799070406921
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,4,-0.4415966405347951
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,5,1.0
+Total,grupo_meteorologico,Grupo,Meteorológico,6,5,6,-0.4421954011116167
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,0,0.0184487773909336
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,1,-0.0126194907803988
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,2,-0.0011697001474798
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,3,-0.0539042212471436
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,4,0.0137374669658336
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,5,-0.4421954011116167
+Total,grupo_meteorologico,Grupo,Meteorológico,6,6,6,1.0
+Total,grupo_outros,Grupo,Outros,6,0,0,1.0
+Total,grupo_outros,Grupo,Outros,6,0,1,-0.4471914941114615
+Total,grupo_outros,Grupo,Outros,6,0,2,-0.0248268980195854
+Total,grupo_outros,Grupo,Outros,6,0,3,-0.0314610176305845
+Total,grupo_outros,Grupo,Outros,6,0,4,0.0263073185616865
+Total,grupo_outros,Grupo,Outros,6,0,5,-0.0335681869408497
+Total,grupo_outros,Grupo,Outros,6,0,6,0.017497155535849
+Total,grupo_outros,Grupo,Outros,6,1,0,-0.4471914941114615
+Total,grupo_outros,Grupo,Outros,6,1,1,1.0
+Total,grupo_outros,Grupo,Outros,6,1,2,-0.4469008051185141
+Total,grupo_outros,Grupo,Outros,6,1,3,-0.0275826378857651
+Total,grupo_outros,Grupo,Outros,6,1,4,-0.0347039441370347
+Total,grupo_outros,Grupo,Outros,6,1,5,0.0275571696330465
+Total,grupo_outros,Grupo,Outros,6,1,6,-0.0319244249855888
+Total,grupo_outros,Grupo,Outros,6,2,0,-0.0248268980195854
+Total,grupo_outros,Grupo,Outros,6,2,1,-0.4469008051185141
+Total,grupo_outros,Grupo,Outros,6,2,2,1.0
+Total,grupo_outros,Grupo,Outros,6,2,3,-0.4481078372019197
+Total,grupo_outros,Grupo,Outros,6,2,4,-0.0235131802145472
+Total,grupo_outros,Grupo,Outros,6,2,5,-0.0353158547833531
+Total,grupo_outros,Grupo,Outros,6,2,6,0.0277383374210837
+Total,grupo_outros,Grupo,Outros,6,3,0,-0.0314610176305845
+Total,grupo_outros,Grupo,Outros,6,3,1,-0.0275826378857651
+Total,grupo_outros,Grupo,Outros,6,3,2,-0.4481078372019196
+Total,grupo_outros,Grupo,Outros,6,3,3,1.0
+Total,grupo_outros,Grupo,Outros,6,3,4,-0.446300780342753
+Total,grupo_outros,Grupo,Outros,6,3,5,-0.0251993408048326
+Total,grupo_outros,Grupo,Outros,6,3,6,-0.0377255943375575
+Total,grupo_outros,Grupo,Outros,6,4,0,0.0263073185616865
+Total,grupo_outros,Grupo,Outros,6,4,1,-0.0347039441370347
+Total,grupo_outros,Grupo,Outros,6,4,2,-0.0235131802145472
+Total,grupo_outros,Grupo,Outros,6,4,3,-0.446300780342753
+Total,grupo_outros,Grupo,Outros,6,4,4,1.0
+Total,grupo_outros,Grupo,Outros,6,4,5,-0.4478707267354788
+Total,grupo_outros,Grupo,Outros,6,4,6,-0.024521231011437
+Total,grupo_outros,Grupo,Outros,6,5,0,-0.0335681869408497
+Total,grupo_outros,Grupo,Outros,6,5,1,0.0275571696330465
+Total,grupo_outros,Grupo,Outros,6,5,2,-0.0353158547833531
+Total,grupo_outros,Grupo,Outros,6,5,3,-0.0251993408048326
+Total,grupo_outros,Grupo,Outros,6,5,4,-0.4478707267354788
+Total,grupo_outros,Grupo,Outros,6,5,5,1.0
+Total,grupo_outros,Grupo,Outros,6,5,6,-0.4439633613907437
+Total,grupo_outros,Grupo,Outros,6,6,0,0.017497155535849
+Total,grupo_outros,Grupo,Outros,6,6,1,-0.0319244249855888
+Total,grupo_outros,Grupo,Outros,6,6,2,0.0277383374210837
+Total,grupo_outros,Grupo,Outros,6,6,3,-0.0377255943375575
+Total,grupo_outros,Grupo,Outros,6,6,4,-0.024521231011437
+Total,grupo_outros,Grupo,Outros,6,6,5,-0.4439633613907438
+Total,grupo_outros,Grupo,Outros,6,6,6,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,0,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,1,-0.4324807119551209
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,2,-0.0032307371229948
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,3,-0.0197862778265071
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,4,-0.0258739912635096
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,5,0.0029685327388544
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,0,6,-0.0268889967662417
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,0,-0.4324807119551209
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,1,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,2,-0.4323679586672743
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,3,-0.0045877268061046
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,4,-0.022415390087477
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,5,-0.0250666904792594
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,1,6,0.0029318701132186
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,0,-0.0032307371229948
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,1,-0.4323679586672742
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,2,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,3,-0.4316273225047496
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,4,-0.0052891582005773
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,5,-0.0222209625452782
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,2,6,-0.0249835676402276
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,0,-0.0197862778265071
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,1,-0.0045877268061046
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,2,-0.4316273225047496
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,3,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,4,-0.4295715946311496
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,5,-0.0048290224478858
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,3,6,-0.0219245161930519
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,0,-0.0258739912635096
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,1,-0.0224153900874771
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,2,-0.0052891582005773
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,3,-0.4295715946311497
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,4,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,5,-0.4284129041524561
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,4,6,-0.0063717433091535
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,0,0.0029685327388544
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,1,-0.0250666904792594
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,2,-0.0222209625452782
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,3,-0.0048290224478858
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,4,-0.4284129041524561
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,5,1.0
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,5,6,-0.4275457408860717
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,0,-0.0268889967662417
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,1,0.0029318701132186
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,2,-0.0249835676402276
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,3,-0.0219245161930519
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,4,-0.0063717433091535
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,5,-0.4275457408860718
+Total,tipo_alagamentos,Tipologia,Alagamentos,6,6,6,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,0,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,1,-0.2933888812952919
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,2,-0.0686857511427568
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,3,-0.0714035332237267
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,4,-0.0160955238673614
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,5,-0.0122936122437245
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,0,6,-0.0491977440336584
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,0,-0.2933888812952919
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,1,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,2,-0.2905317600974433
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,3,-0.0680912180404174
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,4,-0.074810431453282
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,5,-0.0142662679589853
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,1,6,-0.0128648415426113
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,0,-0.0686857511427568
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,1,-0.2905317600974433
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,2,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,3,-0.290118796879651
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,4,-0.070138440797593
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,5,-0.0749203957235754
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,2,6,-0.0155831615766365
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,0,-0.0714035332237267
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,1,-0.0680912180404174
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,2,-0.290118796879651
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,3,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,4,-0.2898332295508129
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,5,-0.071159266616905
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,3,6,-0.0773585485715261
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,0,-0.0160955238673614
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,1,-0.074810431453282
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,2,-0.070138440797593
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,3,-0.2898332295508129
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,4,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,5,-0.2886492330290916
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,4,6,-0.068893691869789
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,0,-0.0122936122437245
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,1,-0.0142662679589853
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,2,-0.0749203957235754
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,3,-0.071159266616905
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,4,-0.2886492330290916
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,5,1.0
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,5,6,-0.290381978048802
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,0,-0.0491977440336584
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,1,-0.0128648415426113
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,2,-0.0155831615766365
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,3,-0.0773585485715261
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,4,-0.068893691869789
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,5,-0.290381978048802
+Total,tipo_chuvas_intensas,Tipologia,Chuvas Intensas,6,6,6,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,0,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,1,-0.4851170561744967
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,2,-0.0127797350264564
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,3,-0.0005146650661456
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,4,-7.895448511553718e-05
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,5,0.0102664908787924
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,0,6,-0.0186443866798641
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,0,-0.4851170561744967
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,1,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,2,-0.4868782689292729
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,3,-0.0133390466224026
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,4,-0.0004475846500184
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,5,0.0001463776805058
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,1,6,0.0105420634804091
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,0,-0.0127797350264564
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,1,-0.4868782689292729
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,2,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,3,-0.4791589034299427
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,4,-0.0132323162178683
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,5,-0.0006684535416548
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,2,6,-0.0001850991009431
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,0,-0.0005146650661456
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,1,-0.0133390466224026
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,2,-0.4791589034299426
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,3,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,4,-0.4789432710643678
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,5,-0.0176998154400376
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,3,6,-0.005338214265707
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,0,-7.895448511553718e-05
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,1,-0.0004475846500184
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,2,-0.0132323162178683
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,3,-0.4789432710643678
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,4,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,5,-0.4794073186648874
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,4,6,-0.0156694665017109
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,0,0.0102664908787924
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,1,0.0001463776805058
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,2,-0.0006684535416548
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,3,-0.0176998154400376
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,4,-0.4794073186648874
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,5,1.0
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,5,6,-0.4790890027090602
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,0,-0.0186443866798641
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,1,0.0105420634804091
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,2,-0.0001850991009431
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,3,-0.005338214265707
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,4,-0.0156694665017109
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,5,-0.4790890027090602
+Total,tipo_doencas_infecciosas,Tipologia,Doenças infecciosas,6,6,6,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,0,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,1,-0.4052596745738541
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,2,-0.0488675002006231
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,3,0.0087490260912128
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,4,-0.0663206500705693
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,5,0.0293329480292411
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,0,6,-0.0127804369699312
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,0,-0.4052596745738541
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,1,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,2,-0.4063504106719827
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,3,-0.0493642101998766
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,4,0.0082963574307143
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,5,-0.0657678553281336
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,1,6,0.0295993347049772
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,0,-0.0488675002006231
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,1,-0.4063504106719827
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,2,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,3,-0.405159104393345
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,4,-0.0489522090752665
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,5,0.0104183960497638
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,2,6,-0.0684528682612602
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,0,0.0087490260912128
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,1,-0.0493642101998766
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,2,-0.405159104393345
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,3,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,4,-0.4052436870698628
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,5,-0.0500763075221451
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,3,6,0.0093978804914696
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,0,-0.0663206500705693
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,1,0.0082963574307143
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,2,-0.0489522090752665
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,3,-0.4052436870698628
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,4,1.0
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,5,-0.4046983304069583
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,4,6,-0.0494164888315837
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,0,0.0293329480292411
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,1,-0.0657678553281336
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,2,0.0104183960497638
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,3,-0.0500763075221451
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,4,-0.4046983304069583
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,5,0.9999999999999998
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,5,6,-0.4054834166683563
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,0,-0.0127804369699312
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,1,0.0295993347049772
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,2,-0.0684528682612602
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,3,0.0093978804914696
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,4,-0.0494164888315837
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,5,-0.4054834166683563
+Total,tipo_enxurradas,Tipologia,Enxurradas,6,6,6,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,0,0,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,0,1,-0.4812644404385985
+Total,tipo_erosao,Tipologia,Erosão,6,0,2,0.0238933639209093
+Total,tipo_erosao,Tipologia,Erosão,6,0,3,-0.0910383186730043
+Total,tipo_erosao,Tipologia,Erosão,6,0,4,0.0902020406338197
+Total,tipo_erosao,Tipologia,Erosão,6,0,5,-0.0601218096825985
+Total,tipo_erosao,Tipologia,Erosão,6,0,6,0.0284761765070517
+Total,tipo_erosao,Tipologia,Erosão,6,1,0,-0.4812644404385984
+Total,tipo_erosao,Tipologia,Erosão,6,1,1,0.9999999999999998
+Total,tipo_erosao,Tipologia,Erosão,6,1,2,-0.4801032306047561
+Total,tipo_erosao,Tipologia,Erosão,6,1,3,0.0163132074479603
+Total,tipo_erosao,Tipologia,Erosão,6,1,4,-0.0839257895154229
+Total,tipo_erosao,Tipologia,Erosão,6,1,5,0.0906057693022747
+Total,tipo_erosao,Tipologia,Erosão,6,1,6,-0.0649829209650194
+Total,tipo_erosao,Tipologia,Erosão,6,2,0,0.0238933639209093
+Total,tipo_erosao,Tipologia,Erosão,6,2,1,-0.4801032306047561
+Total,tipo_erosao,Tipologia,Erosão,6,2,2,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,2,3,-0.4782919526887026
+Total,tipo_erosao,Tipologia,Erosão,6,2,4,0.0171304237775125
+Total,tipo_erosao,Tipologia,Erosão,6,2,5,-0.0826720443300455
+Total,tipo_erosao,Tipologia,Erosão,6,2,6,0.089168558066328
+Total,tipo_erosao,Tipologia,Erosão,6,3,0,-0.0910383186730043
+Total,tipo_erosao,Tipologia,Erosão,6,3,1,0.0163132074479603
+Total,tipo_erosao,Tipologia,Erosão,6,3,2,-0.4782919526887027
+Total,tipo_erosao,Tipologia,Erosão,6,3,3,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,3,4,-0.4769371392568065
+Total,tipo_erosao,Tipologia,Erosão,6,3,5,0.0172233922047831
+Total,tipo_erosao,Tipologia,Erosão,6,3,6,-0.0785244848856177
+Total,tipo_erosao,Tipologia,Erosão,6,4,0,0.0902020406338197
+Total,tipo_erosao,Tipologia,Erosão,6,4,1,-0.0839257895154229
+Total,tipo_erosao,Tipologia,Erosão,6,4,2,0.0171304237775125
+Total,tipo_erosao,Tipologia,Erosão,6,4,3,-0.4769371392568065
+Total,tipo_erosao,Tipologia,Erosão,6,4,4,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,4,5,-0.4816291729999347
+Total,tipo_erosao,Tipologia,Erosão,6,4,6,0.0159885673103024
+Total,tipo_erosao,Tipologia,Erosão,6,5,0,-0.0601218096825985
+Total,tipo_erosao,Tipologia,Erosão,6,5,1,0.0906057693022747
+Total,tipo_erosao,Tipologia,Erosão,6,5,2,-0.0826720443300455
+Total,tipo_erosao,Tipologia,Erosão,6,5,3,0.0172233922047831
+Total,tipo_erosao,Tipologia,Erosão,6,5,4,-0.4816291729999346
+Total,tipo_erosao,Tipologia,Erosão,6,5,5,1.0
+Total,tipo_erosao,Tipologia,Erosão,6,5,6,-0.4759058285493551
+Total,tipo_erosao,Tipologia,Erosão,6,6,0,0.0284761765070517
+Total,tipo_erosao,Tipologia,Erosão,6,6,1,-0.0649829209650194
+Total,tipo_erosao,Tipologia,Erosão,6,6,2,0.089168558066328
+Total,tipo_erosao,Tipologia,Erosão,6,6,3,-0.0785244848856177
+Total,tipo_erosao,Tipologia,Erosão,6,6,4,0.0159885673103024
+Total,tipo_erosao,Tipologia,Erosão,6,6,5,-0.475905828549355
+Total,tipo_erosao,Tipologia,Erosão,6,6,6,0.9999999999999998
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,0,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,1,-0.364354179955856
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,2,-0.0503232585015194
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,3,-0.0893385415932908
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,4,-0.0469840677875898
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,5,-0.0948802188691618
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,0,6,0.3024501698758417
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,0,-0.364354179955856
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,1,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,2,-0.367396897571533
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,3,-0.0502233056871005
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,4,-0.0893866875302635
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,5,-0.0431710408170334
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,1,6,-0.0959744062840685
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,0,-0.0503232585015194
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,1,-0.367396897571533
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,2,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,3,-0.3686919653658295
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,4,-0.0470072039541429
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,5,-0.0875130200690728
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,2,6,-0.0450220941856761
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,0,-0.0893385415932908
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,1,-0.0502233056871005
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,2,-0.3686919653658295
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,3,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,4,-0.3722590944914213
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,5,-0.0490020525467479
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,3,6,-0.0880597436378527
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,0,-0.0469840677875898
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,1,-0.0893866875302635
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,2,-0.0470072039541429
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,3,-0.3722590944914213
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,4,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,5,-0.3742345730608993
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,4,6,-0.043971630043731
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,0,-0.0948802188691618
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,1,-0.0431710408170334
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,2,-0.0875130200690728
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,3,-0.0490020525467479
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,4,-0.3742345730608993
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,5,1.0
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,5,6,-0.3763749936078934
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,0,0.3024501698758416
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,1,-0.0959744062840685
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,2,-0.0450220941856761
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,3,-0.0880597436378527
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,4,-0.043971630043731
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,5,-0.3763749936078935
+Total,tipo_estiagem_e_seca,Tipologia,Estiagem e Seca,6,6,6,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,0,0,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,0,1,-0.4688947491582216
+Total,tipo_granizo,Tipologia,Granizo,6,0,2,0.0369454864419034
+Total,tipo_granizo,Tipologia,Granizo,6,0,3,-0.0448644768155706
+Total,tipo_granizo,Tipologia,Granizo,6,0,4,0.0521332811416174
+Total,tipo_granizo,Tipologia,Granizo,6,0,5,-0.1243867300286468
+Total,tipo_granizo,Tipologia,Granizo,6,0,6,0.0766071752867855
+Total,tipo_granizo,Tipologia,Granizo,6,1,0,-0.4688947491582216
+Total,tipo_granizo,Tipologia,Granizo,6,1,1,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,1,2,-0.4702920181460088
+Total,tipo_granizo,Tipologia,Granizo,6,1,3,0.0318974533799056
+Total,tipo_granizo,Tipologia,Granizo,6,1,4,-0.0452375025798938
+Total,tipo_granizo,Tipologia,Granizo,6,1,5,0.0532547610695966
+Total,tipo_granizo,Tipologia,Granizo,6,1,6,-0.126928681610383
+Total,tipo_granizo,Tipologia,Granizo,6,2,0,0.0369454864419034
+Total,tipo_granizo,Tipologia,Granizo,6,2,1,-0.4702920181460087
+Total,tipo_granizo,Tipologia,Granizo,6,2,2,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,2,3,-0.4687910824473089
+Total,tipo_granizo,Tipologia,Granizo,6,2,4,0.0350272922770604
+Total,tipo_granizo,Tipologia,Granizo,6,2,5,-0.0427642141915789
+Total,tipo_granizo,Tipologia,Granizo,6,2,6,0.0477783104542459
+Total,tipo_granizo,Tipologia,Granizo,6,3,0,-0.0448644768155706
+Total,tipo_granizo,Tipologia,Granizo,6,3,1,0.0318974533799056
+Total,tipo_granizo,Tipologia,Granizo,6,3,2,-0.4687910824473089
+Total,tipo_granizo,Tipologia,Granizo,6,3,3,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,3,4,-0.4692389727286639
+Total,tipo_granizo,Tipologia,Granizo,6,3,5,0.037732911308314
+Total,tipo_granizo,Tipologia,Granizo,6,3,6,-0.0456475685606273
+Total,tipo_granizo,Tipologia,Granizo,6,4,0,0.0521332811416174
+Total,tipo_granizo,Tipologia,Granizo,6,4,1,-0.0452375025798938
+Total,tipo_granizo,Tipologia,Granizo,6,4,2,0.0350272922770604
+Total,tipo_granizo,Tipologia,Granizo,6,4,3,-0.4692389727286639
+Total,tipo_granizo,Tipologia,Granizo,6,4,4,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,4,5,-0.4737033207921744
+Total,tipo_granizo,Tipologia,Granizo,6,4,6,0.0424822978857674
+Total,tipo_granizo,Tipologia,Granizo,6,5,0,-0.1243867300286468
+Total,tipo_granizo,Tipologia,Granizo,6,5,1,0.0532547610695966
+Total,tipo_granizo,Tipologia,Granizo,6,5,2,-0.0427642141915789
+Total,tipo_granizo,Tipologia,Granizo,6,5,3,0.037732911308314
+Total,tipo_granizo,Tipologia,Granizo,6,5,4,-0.4737033207921743
+Total,tipo_granizo,Tipologia,Granizo,6,5,5,1.0
+Total,tipo_granizo,Tipologia,Granizo,6,5,6,-0.4715553839611344
+Total,tipo_granizo,Tipologia,Granizo,6,6,0,0.0766071752867855
+Total,tipo_granizo,Tipologia,Granizo,6,6,1,-0.126928681610383
+Total,tipo_granizo,Tipologia,Granizo,6,6,2,0.0477783104542459
+Total,tipo_granizo,Tipologia,Granizo,6,6,3,-0.0456475685606273
+Total,tipo_granizo,Tipologia,Granizo,6,6,4,0.0424822978857674
+Total,tipo_granizo,Tipologia,Granizo,6,6,5,-0.4715553839611344
+Total,tipo_granizo,Tipologia,Granizo,6,6,6,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,0,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,1,-0.3624205864830493
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,2,-0.0202537334428277
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,3,-0.0683405446622753
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,4,0.0014292872247267
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,5,-0.0526018474810858
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,0,6,-0.0015117139650635
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,0,-0.3624205864830492
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,1,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,2,-0.3659387113810245
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,3,-0.0201926124136117
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,4,-0.0658038081462582
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,5,-0.0028571511273127
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,1,6,-0.0532547049659625
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,0,-0.0202537334428277
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,1,-0.3659387113810245
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,2,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,3,-0.3821428607269849
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,4,-0.0219810005781069
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,5,-0.0705065563751767
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,2,6,0.0003578040918746
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,0,-0.0683405446622753
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,1,-0.0201926124136117
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,2,-0.3821428607269849
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,3,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,4,-0.3740768567685232
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,5,-0.0075125626065001
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,3,6,-0.0661334114917986
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,0,0.0014292872247267
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,1,-0.0658038081462582
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,2,-0.0219810005781069
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,3,-0.3740768567685232
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,4,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,5,-0.3379276510811317
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,4,6,-0.017265401343516
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,0,-0.0526018474810858
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,1,-0.0028571511273127
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,2,-0.0705065563751767
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,3,-0.0075125626065001
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,4,-0.3379276510811316
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,5,1.0
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,5,6,-0.3508014362313855
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,0,-0.0015117139650635
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,1,-0.0532547049659625
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,2,0.0003578040918746
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,3,-0.0661334114917986
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,4,-0.017265401343516
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,5,-0.3508014362313855
+Total,tipo_incendio_florestal,Tipologia,Incêndio Florestal,6,6,6,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,0,0.9999999999999998
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,1,-0.3413655341765985
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,2,-0.0664496094108651
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,3,0.0023011421390743
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,4,-0.0520185554933352
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,5,-0.0335841374143096
+Total,tipo_inundacoes,Tipologia,Inundações,6,0,6,-0.0041482453904234
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,0,-0.3413655341765986
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,1,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,2,-0.3362026965679771
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,3,-0.0707860970595384
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,4,-0.0018633697873282
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,5,-0.052877245134929
+Total,tipo_inundacoes,Tipologia,Inundações,6,1,6,-0.0373115692254578
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,0,-0.0664496094108651
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,1,-0.3362026965679771
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,2,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,3,-0.3353734248071429
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,4,-0.0719550344914765
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,5,-0.0034113388843469
+Total,tipo_inundacoes,Tipologia,Inundações,6,2,6,-0.0531854421609556
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,0,0.0023011421390743
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,1,-0.0707860970595384
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,2,-0.335373424807143
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,3,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,4,-0.3353564098734565
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,5,-0.0705009225936018
+Total,tipo_inundacoes,Tipologia,Inundações,6,3,6,-0.0013660322519144
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,0,-0.0520185554933352
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,1,-0.0018633697873282
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,2,-0.0719550344914765
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,3,-0.3353564098734565
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,4,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,5,-0.3338048036524245
+Total,tipo_inundacoes,Tipologia,Inundações,6,4,6,-0.0683037650139319
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,0,-0.0335841374143096
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,1,-0.052877245134929
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,2,-0.0034113388843469
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,3,-0.0705009225936018
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,4,-0.3338048036524245
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,5,1.0
+Total,tipo_inundacoes,Tipologia,Inundações,6,5,6,-0.3339678183740775
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,0,-0.0041482453904234
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,1,-0.0373115692254578
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,2,-0.0531854421609556
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,3,-0.0013660322519144
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,4,-0.0683037650139319
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,5,-0.3339678183740776
+Total,tipo_inundacoes,Tipologia,Inundações,6,6,6,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,0,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,1,-0.4458219424299582
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,2,0.0160484308193426
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,3,-0.01477106498399
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,4,-0.0361688772669551
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,5,0.0212571201534922
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,0,6,-0.0443401566148494
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,0,-0.4458219424299582
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,1,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,2,-0.4495979338463174
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,3,0.0178168638910863
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,4,-0.0139721745643531
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,5,-0.0381367475618748
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,1,6,0.0225895061149711
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,0,0.0160484308193426
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,1,-0.4495979338463173
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,2,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,3,-0.4482578951617691
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,4,0.016215228257175
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,5,-0.0134130196322033
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,2,6,-0.0393980348262526
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,0,-0.01477106498399
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,1,0.0178168638910863
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,2,-0.448257895161769
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,3,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,4,-0.4502078941311119
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,5,0.0188219564344458
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,3,6,-0.0147117428701348
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,0,-0.036168877266955
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,1,-0.0139721745643531
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,2,0.016215228257175
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,3,-0.4502078941311119
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,4,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,5,-0.449360072751206
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,4,6,0.0189174725033872
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,0,0.0212571201534922
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,1,-0.0381367475618748
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,2,-0.0134130196322033
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,3,0.0188219564344458
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,4,-0.4493600727512061
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,5,1.0
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,5,6,-0.4488318822246568
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,0,-0.0443401566148494
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,1,0.0225895061149711
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,2,-0.0393980348262526
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,3,-0.0147117428701348
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,4,0.0189174725033872
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,5,-0.4488318822246569
+Total,tipo_movimento_de_massa,Tipologia,Movimento de Massa,6,6,6,1.0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,0,1.0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,1,-0.4605279947139144
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,2,0.0856625039045246
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,3,-0.1067296023800135
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,4,0.0616757345873141
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,5,-0.1216332256528983
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,0,6,0.0726473032313254
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,0,-0.4605279947139144
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,1,1.0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,2,-0.4674133224257823
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,3,0.0867536099621483
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,4,-0.1146447356273434
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,5,0.0631506046734846
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,1,6,-0.1218204722045833
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,0,0.0856625039045246
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,1,-0.4674133224257823
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,2,0.9999999999999998
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,3,-0.508235666697531
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,4,0.1575141161735555
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,5,-0.1467486782610955
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,2,6,0.0738298732931081
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,0,-0.1067296023800135
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,1,0.0867536099621483
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,2,-0.508235666697531
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,3,0.9999999999999998
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,4,-0.4948191497707694
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,5,0.1378664854373001
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,3,6,-0.1399553571329062
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,0,0.0616757345873141
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,1,-0.1146447356273434
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,2,0.1575141161735554
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,3,-0.4948191497707694
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,4,1.0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,5,-0.4638273429429274
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,4,6,0.1281906001818786
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,0,-0.1216332256528983
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,1,0.0631506046734846
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,2,-0.1467486782610955
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,3,0.1378664854373001
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,4,-0.4638273429429273
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,5,1.0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,5,6,-0.4668191651789409
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,0,0.0726473032313254
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,1,-0.1218204722045833
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,2,0.0738298732931081
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,3,-0.1399553571329062
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,4,0.1281906001818786
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,5,-0.4668191651789409
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia,Onda de Calor e Baixa Umidade,6,6,6,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,0,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,1,-0.331960311687451
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,2,-0.1561677307260735
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,3,-0.0116817580604526
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,4,-0.0112870274020561
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,5,0.0283273413410127
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,0,6,-0.0261333413164719
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,0,-0.331960311687451
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,1,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,2,-0.3232512637415038
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,3,-0.1528041345920339
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,4,-0.0114683302736056
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,5,-0.0105295356204391
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,1,6,0.0272280701603544
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,0,-0.1561677307260735
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,1,-0.3232512637415038
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,2,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,3,-0.3257803184514948
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,4,-0.153246495755099
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,5,-0.0116006861240955
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,2,6,-0.0103833755096951
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,0,-0.0116817580604526
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,1,-0.1528041345920339
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,2,-0.3257803184514948
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,3,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,4,-0.3267132370239089
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,5,-0.1529208563609576
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,3,6,-0.011742358210708
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,0,-0.0112870274020561
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,1,-0.0114683302736056
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,2,-0.153246495755099
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,3,-0.3267132370239089
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,4,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,5,-0.3248190115782288
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,4,6,-0.1481609386856948
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,0,0.0283273413410127
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,1,-0.0105295356204391
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,2,-0.0116006861240955
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,3,-0.1529208563609576
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,4,-0.3248190115782288
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,5,1.0
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,5,6,-0.32783824671764
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,0,-0.0261333413164719
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,1,0.0272280701603544
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,2,-0.0103833755096951
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,3,-0.011742358210708
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,4,-0.1481609386856948
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,5,-0.32783824671764
+Total,tipo_onda_de_frio,Tipologia,Onda de Frio,6,6,6,1.0
+Total,tipo_outros,Tipologia,Outros,6,0,0,1.0
+Total,tipo_outros,Tipologia,Outros,6,0,1,-0.4283509429554253
+Total,tipo_outros,Tipologia,Outros,6,0,2,-0.0535201057372394
+Total,tipo_outros,Tipologia,Outros,6,0,3,-0.0170864236735742
+Total,tipo_outros,Tipologia,Outros,6,0,4,0.0471915088120045
+Total,tipo_outros,Tipologia,Outros,6,0,5,-0.0700497842703992
+Total,tipo_outros,Tipologia,Outros,6,0,6,0.0459418238511188
+Total,tipo_outros,Tipologia,Outros,6,1,0,-0.4283509429554254
+Total,tipo_outros,Tipologia,Outros,6,1,1,1.0
+Total,tipo_outros,Tipologia,Outros,6,1,2,-0.4291567285441011
+Total,tipo_outros,Tipologia,Outros,6,1,3,-0.0544411591704287
+Total,tipo_outros,Tipologia,Outros,6,1,4,-0.0220087261689297
+Total,tipo_outros,Tipologia,Outros,6,1,5,0.0459077115908669
+Total,tipo_outros,Tipologia,Outros,6,1,6,-0.0620781844650516
+Total,tipo_outros,Tipologia,Outros,6,2,0,-0.0535201057372394
+Total,tipo_outros,Tipologia,Outros,6,2,1,-0.429156728544101
+Total,tipo_outros,Tipologia,Outros,6,2,2,1.0
+Total,tipo_outros,Tipologia,Outros,6,2,3,-0.4320502625413213
+Total,tipo_outros,Tipologia,Outros,6,2,4,-0.0500107387716376
+Total,tipo_outros,Tipologia,Outros,6,2,5,-0.0174658265843859
+Total,tipo_outros,Tipologia,Outros,6,2,6,0.0389718059795834
+Total,tipo_outros,Tipologia,Outros,6,3,0,-0.0170864236735742
+Total,tipo_outros,Tipologia,Outros,6,3,1,-0.0544411591704287
+Total,tipo_outros,Tipologia,Outros,6,3,2,-0.4320502625413213
+Total,tipo_outros,Tipologia,Outros,6,3,3,1.0
+Total,tipo_outros,Tipologia,Outros,6,3,4,-0.433352953659613
+Total,tipo_outros,Tipologia,Outros,6,3,5,-0.0486457312639629
+Total,tipo_outros,Tipologia,Outros,6,3,6,-0.0233713925613689
+Total,tipo_outros,Tipologia,Outros,6,4,0,0.0471915088120045
+Total,tipo_outros,Tipologia,Outros,6,4,1,-0.0220087261689297
+Total,tipo_outros,Tipologia,Outros,6,4,2,-0.0500107387716376
+Total,tipo_outros,Tipologia,Outros,6,4,3,-0.433352953659613
+Total,tipo_outros,Tipologia,Outros,6,4,4,1.0
+Total,tipo_outros,Tipologia,Outros,6,4,5,-0.4391095424313049
+Total,tipo_outros,Tipologia,Outros,6,4,6,-0.0417539682302987
+Total,tipo_outros,Tipologia,Outros,6,5,0,-0.0700497842703992
+Total,tipo_outros,Tipologia,Outros,6,5,1,0.0459077115908669
+Total,tipo_outros,Tipologia,Outros,6,5,2,-0.0174658265843859
+Total,tipo_outros,Tipologia,Outros,6,5,3,-0.0486457312639629
+Total,tipo_outros,Tipologia,Outros,6,5,4,-0.4391095424313049
+Total,tipo_outros,Tipologia,Outros,6,5,5,1.0
+Total,tipo_outros,Tipologia,Outros,6,5,6,-0.4350297235207255
+Total,tipo_outros,Tipologia,Outros,6,6,0,0.0459418238511188
+Total,tipo_outros,Tipologia,Outros,6,6,1,-0.0620781844650516
+Total,tipo_outros,Tipologia,Outros,6,6,2,0.0389718059795834
+Total,tipo_outros,Tipologia,Outros,6,6,3,-0.0233713925613689
+Total,tipo_outros,Tipologia,Outros,6,6,4,-0.0417539682302987
+Total,tipo_outros,Tipologia,Outros,6,6,5,-0.4350297235207255
+Total,tipo_outros,Tipologia,Outros,6,6,6,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,0,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,1,-0.4979587904851041
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,2,0.0171758976630138
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,3,-0.0336804849429195
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,4,0.0176622489616231
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,5,-0.0152480702456273
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,0,6,0.0150640696093616
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,0,-0.4979587904851041
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,1,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,2,-0.4968754822133082
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,3,0.0175631808092691
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,4,-0.0196205237989154
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,5,0.0031103780340858
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,1,6,-0.0155918846263898
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,0,0.0171758976630138
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,1,-0.4968754822133081
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,2,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,3,-0.5005798580304274
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,4,0.0172457130010868
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,5,-0.019334228807322
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,2,6,0.0031335669608573
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,0,-0.0336804849429195
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,1,0.0175631808092691
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,2,-0.5005798580304274
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,3,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,4,-0.5044246973710937
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,5,0.0173782677460512
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,3,6,-0.019334228807322
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,0,0.0176622489616231
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,1,-0.0196205237989154
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,2,0.0172457130010868
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,3,-0.5044246973710937
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,4,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,5,-0.4967795176449347
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,4,6,0.0175117462438988
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,0,-0.0152480702456273
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,1,0.0031103780340858
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,2,-0.019334228807322
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,3,0.0173782677460512
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,4,-0.4967795176449347
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,5,1.0
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,5,6,-0.500597885853939
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,0,0.0150640696093616
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,1,-0.0155918846263898
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,2,0.0031335669608573
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,3,-0.019334228807322
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,4,0.0175117462438988
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,5,-0.500597885853939
+Total,tipo_rompimento_colapso_de_barragens,Tipologia,Rompimento/Colapso de barragens,6,6,6,1.0
+Total,tipo_tornado,Tipologia,Tornado,6,0,0,1.0
+Total,tipo_tornado,Tipologia,Tornado,6,0,1,-0.484102837886865
+Total,tipo_tornado,Tipologia,Tornado,6,0,2,0.012787547322374785
+Total,tipo_tornado,Tipologia,Tornado,6,0,3,0.0017820053954499772
+Total,tipo_tornado,Tipologia,Tornado,6,0,4,-0.05686338853866303
+Total,tipo_tornado,Tipologia,Tornado,6,0,5,0.04866345409094902
+Total,tipo_tornado,Tipologia,Tornado,6,0,6,-0.029274076232898193
+Total,tipo_tornado,Tipologia,Tornado,6,1,0,-0.484102837886865
+Total,tipo_tornado,Tipologia,Tornado,6,1,1,0.9999999999999998
+Total,tipo_tornado,Tipologia,Tornado,6,1,2,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,1,3,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,1,4,0.0017883628066053165
+Total,tipo_tornado,Tipologia,Tornado,6,1,5,-0.05706625208865575
+Total,tipo_tornado,Tipologia,Tornado,6,1,6,0.048837063882864316
+Total,tipo_tornado,Tipologia,Tornado,6,2,0,0.012787547322374785
+Total,tipo_tornado,Tipologia,Tornado,6,2,1,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,2,2,0.9999999999999998
+Total,tipo_tornado,Tipologia,Tornado,6,2,3,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,2,4,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,2,5,0.0017883628066053165
+Total,tipo_tornado,Tipologia,Tornado,6,2,6,-0.05706625208865575
+Total,tipo_tornado,Tipologia,Tornado,6,3,0,0.0017820053954499772
+Total,tipo_tornado,Tipologia,Tornado,6,3,1,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,3,2,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,3,3,0.9999999999999998
+Total,tipo_tornado,Tipologia,Tornado,6,3,4,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,3,5,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,3,6,0.0017883628066053202
+Total,tipo_tornado,Tipologia,Tornado,6,4,0,-0.05686338853866303
+Total,tipo_tornado,Tipologia,Tornado,6,4,1,0.0017883628066053165
+Total,tipo_tornado,Tipologia,Tornado,6,4,2,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,4,3,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,4,4,1.0
+Total,tipo_tornado,Tipologia,Tornado,6,4,5,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,4,6,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,5,0,0.04866345409094902
+Total,tipo_tornado,Tipologia,Tornado,6,5,1,-0.05706625208865575
+Total,tipo_tornado,Tipologia,Tornado,6,5,2,0.0017883628066053165
+Total,tipo_tornado,Tipologia,Tornado,6,5,3,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,5,4,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,5,5,1.0
+Total,tipo_tornado,Tipologia,Tornado,6,5,6,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,6,0,-0.029274076232898193
+Total,tipo_tornado,Tipologia,Tornado,6,6,1,0.048837063882864316
+Total,tipo_tornado,Tipologia,Tornado,6,6,2,-0.05706625208865575
+Total,tipo_tornado,Tipologia,Tornado,6,6,3,0.0017883628066053202
+Total,tipo_tornado,Tipologia,Tornado,6,6,4,0.012833167664605231
+Total,tipo_tornado,Tipologia,Tornado,6,6,5,-0.48582990380360125
+Total,tipo_tornado,Tipologia,Tornado,6,6,6,1.0

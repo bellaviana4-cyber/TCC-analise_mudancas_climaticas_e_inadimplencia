@@ -1,0 +1,3 @@
+﻿periodo,exposicao,nivel,rotulo,K,DK_statsmodels_max_diff,coef_FWL_dummies_max_diff,cov_CR1_dummies_max_diff,var_soma,soma_todas_covariancias,passou
+Pré,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,1.4293680984916318e-21,6.071532165918825e-17,7.30565917006834e-21,1.8262375560067083e-05,1.8262375560067083e-05,True
+Total,total_climatico,Central,Total climático / hidrometeorológico (COBRADE 12/13/14),6,2.0117032497289633e-21,4.0007060164715114e-17,3.282252670610414e-21,7.5201428433482016e-06,7.5201428433482016e-06,True

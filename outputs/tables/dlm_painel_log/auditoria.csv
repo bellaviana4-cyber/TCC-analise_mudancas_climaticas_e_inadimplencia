@@ -1,0 +1,2 @@
+﻿N,UFs,meses,registros,climaticos,repeticoes_chave,protocolos_repetidos,protocolos_ausentes,datas_invalidas,max_diferenca_TI,identificador,data_agregacao,zeros
+3888,27,144,40339,37643,101,0,0,0,1.7763568394002505e-15,sha256 fonte + linha original (cabeçalho=1); não deduplicar A,Data_Evento,"Ausência de linha na fonte conciliada, não ausência de observação de crédito"

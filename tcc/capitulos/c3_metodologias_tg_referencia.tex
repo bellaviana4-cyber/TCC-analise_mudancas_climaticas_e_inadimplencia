@@ -1,0 +1,712 @@
+%%% --- CORPO DO TRABALHO --- %%%
+\chapter{Metodologia}
+\label{c2_metodologias_tg}
+%\thispagestyle{empty}
+
+Este trabalho busca investigar os efeitos dos riscos climáticos sobre a estabilidade financeira, com foco específico na relação entre a ocorrência de desastres ambientais e o comportamento da inadimplência no sistema de crédito bancário. Para tanto, adota-se uma abordagem quantitativa baseada em séries temporais, estruturada em três etapas metodológicas  descritas nas seções seguintes.
+
+\section{Causalidade de Granger}
+A primeira etapa metodológica consiste na aplicação de testes de causalidade de Granger, com o objetivo de identificar relações de precedência temporal entre os indicadores de desastres ambientais e as taxas de inadimplência das carteiras de crédito bancário. O conceito de causalidade de Granger estabelece que uma variável $X$ causa, no sentido de Granger, uma variável $Y$ se a inclusão dos valores passados de $X$ melhora significativamente a previsão dos valores futuros de $Y$, em comparação a um modelo que utiliza apenas os valores defasados da própria variável $Y$ \citep{granger1969}. Formalmente, dado um modelo autorregressivo vetorial (VAR), testa-se a hipótese nula de que os coeficientes associados às defasagens de $X$ são conjuntamente nulos na equação de $Y$, ou seja, de que $X$ não contém informação preditiva adicional sobre $Y$ além daquela já capturada por seu próprio histórico.
+Nesse contexto, essa abordagem permite investigar o poder explicativo de eventos climáticos passados sobre a inadimplência, bem como testar a existência de precedência temporal entre a ocorrência de desastres ambientais e a dinâmica do sistema de crédito nacional.
+
+
+\subsection{Teste de Granger}
+A ideia por trás do teste consiste na comparação entre dois modelos de regressão linear. O \textbf{modelo restrito}, assim denominado pois restringe a zero a constribuição  de $X$, que corresponde a um modelo autorregressivo de $Y$ de ordem $p$, na qual apenas o histórico da própria série é empregado como preditor, é definido como
+
+\begin{equation}
+    Y_t \;=\; \alpha_0 \;+\; \sum_{j=1}^{p} \alpha_j\, Y_{t-j} \;+\; u_t,
+    \label{eq:restrito}
+\end{equation}
+
+\noindent em que:
+\begin{itemize}
+    \item $Y_t$ é o valor da variável dependente no período $t$;
+    \item $\alpha_0$ é o intercepto do modelo;
+    \item $\alpha_j$ são os coeficientes associados às $p$ defasagens de $Y$;
+    \item $p$ é o número de defasagens \textit{(lags)} incluídas no modelo;
+    \item $u_t$ é um ruído branco.
+\end{itemize}
+
+A estimação desse modelo por Mínimos Quadrados Ordinários (MQO) fornece a \textbf{Soma dos Quadrados dos Resíduos Restrita} ($\mathrm{SQR}_r$), que quantifica o erro de previsão de $Y$ na ausência da variável $X$.
+
+Caso $X$ contenha informação adicional relevante para a previsão de $Y$, além daquela já capturada por seus próprios valores passados, a inclusão das defasagens de $X$ deve reduzir o erro de previsão. Essa ideia é formalizada no \textbf{modelo irrestrito}, que incorpora simultaneamente as defasagens de $Y$ e de $X$ através de
+
+\begin{equation}
+    Y_t \;=\; \beta_0 \;+\; \sum_{j=1}^{p} \beta_j\, Y_{t-j} \;+\; \sum_{j=1}^{p} \delta_j\, X_{t-j} \;+\; \varepsilon_t,
+    \label{eq:irrestrito}
+\end{equation}
+
+\noindent em que:
+\begin{itemize}
+    \item $Y_t$ é o valor da variável dependente no período $t$;
+    \item $\beta_0$ é o intercepto do modelo;
+    \item $\beta_j$ são os coeficientes associados às $p$ defasagens de $Y$;
+    \item $\delta_j$ são os coeficientes associados às $p$ defasagens de $X$;
+    \item $p$ é o número de defasagens \textit{(lags)} incluídas no modelo;
+    \item $\varepsilon_t$ é o termo de erro, assumido como ruído branco.
+\end{itemize}
+
+A estimação por Mínimos Quadrados Ordinários (MQO) fornece a \textbf{Soma dos Quadrados dos Resíduos Irrestrita} ($\mathrm{SQR}_u$). 
+
+A ideia central do teste consiste em verificar se os coeficientes das defasagens de $X$ no modelo irrestrito são conjuntamente significativos. Em outras palavras, devemos testar as hipóteses:
+
+\begin{equation}
+\left\{
+\begin{array}{ll}
+H_0: & \delta_1 = \delta_2 = \cdots = \delta_p = 0 \\[10pt]
+H_1: & \delta_j \neq 0, \quad \textnormal{para pelo menos um } j \in \{1, \ldots, p\},
+\end{array}
+\right.
+\label{eq:hipoteses}
+\end{equation}
+
+\noindent em que $H_0$ estabelece que os coeficientes associados às $p$ defasagens de $X$ são conjuntamente nulos no modelo irrestrito, o que implica que $X$ não contribui significativamente para melhorar a capacidade preditiva de $Y$. Enquanto, $H_1$ sugere que pelo menos um dos coeficientes $\delta_j$ é estatisticamente diferente de zero, indicando que os valores passados de $X$ possuem informação relevante para a previsão de $Y$.
+
+
+As hipóteses são testadas por meio de uma estatística $F$, obtida pela comparação entre $\mathrm{SQR}_r$ e $\mathrm{SQR}_u$. Se  $X$ de fato causa, no sentido de Granger, $Y$, a inclusão de suas defasagens deve reduzir o erro de previsão de forma significativa, isto é, $\mathrm{SQR}_u < \mathrm{SQR}_r$, implicando valores elevados para a estatística $F$. Logo, a estatística de teste é dada por
+
+\begin{equation}
+    F \;=\; \frac{(\mathrm{SQR}_r - \mathrm{SQR}_u)\,/\,p}{\mathrm{SQR}_u\,/\,(n - k)} \;\sim\; F_{(p,\; n-k)},
+    \label{eq:estatistica_F}
+\end{equation}
+
+\noindent em que:
+\begin{itemize}
+    \item $\mathrm{SQR}_r$ representa a soma dos quadrados dos resíduos do \textbf{modelo restrito}, obtida pela regressão de $Y_t$ apenas sobre suas próprias defasagens;
+    
+    \item $\mathrm{SQR}_u$ representa a soma dos quadrados dos resíduos do \textbf{modelo irrestrito}, obtida pela regressão de $Y_t$ sobre suas defasagens e sobre as defasagens de $X_t$;
+    
+    \item $\mathrm{SQR}_r - \mathrm{SQR}_u$ corresponde à redução no erro de ajuste decorrente da inclusão das defasagens de $X$; quanto maior essa diferença, maior a evidência de que $X$ contribui para a previsão de $Y$;
+    
+    \item $p$ denota o número de restrições impostas, equivalente ao número de defasagens de $X$ incluídas no modelo irrestrito, e determina os graus de liberdade do numerador;
+    
+    \item $n$ denota o número total de observações da amostra;
+    
+    \item $k$ denota o número total de parâmetros estimados no modelo irrestrito (intercepto mais $p$ coeficientes associados a $Y$ e $p$ coeficientes associados a $X$, de modo que $k = 2p + 1$);
+    
+    \item $n - k$ corresponde aos graus de liberdade associados ao denominador da estatística $F$.
+\end{itemize}
+
+\noindent Sob $H_0$, a estatística F segue assintoticamente uma distribuição $F$ com $p$ e $n - k$ graus de liberdade.
+
+Se o valor-$p$ associado à estatística $F$ for inferior ao nível de significância $\alpha$, rejeita-se $H_0$, concluindo-se que há evidências de que $X$ Granger-causa $Y$. Em outras palavras, os valores passados de $X$ contêm informação estatisticamente relevante para a previsão de $Y$, além daquela já incorporada em seu próprio passado. Caso contrário, não se rejeita $H_0$, não havendo evidências suficientes de causalidade de Granger na direção $X \to Y$.
+
+
+Ressalta-se que a causalidade de Granger é, em geral, assimétrica, isto é, a rejeição de $H_0$ na direção $X \to Y$ não implica, necessariamente, que $Y$ também cause, no sentido de Granger, $X$.
+
+A validade do teste de Granger está condicionada a um conjunto de suposições que devem ser verificadas previamente. A primeira é a de \textbf{linearidade}. O teste assume que as relações entre $X$ e $Y$ são lineares, conforme especificado nos modelos restrito e irrestrito. Relações não lineares entre as variáveis não são captadas pelo procedimento padrão.
+
+Além disso, requer-se \textbf{estacionaridade} das séries, isto é, as séries temporais envolvidas devem apresentar média, variância e autocovariâncias constantes ao longo do tempo. Na presença de raiz unitária (comportamento não-estacionário), a aplicação direta do teste pode levar a inferências inválidas \citep{phillips1988}. Nesses casos, recomenda-se testar a estacionaridade,  por exemplo, via teste de Dickey Fuller Aumentado \citep{dickey1979} ou via teste de \cite{phillips1988}. Caso as séries sejam identificadas como não estacionárias, emprega-se procedimentos alternativos, como o de \citet{toda1995}, que viabiliza a aplicação do teste de Granger mesmo na presença de raiz unitária e/ou cointegração, isto é, mesmo quando as séries compartilham uma tendência estocástica comum de longo prazo. O método consiste em estimar um modelo $\mathrm{VAR}(p + d_{\max})$, onde $d_{\max}$ é a ordem máxima de integração das séries, e aplicar o teste de Wald apenas sobre os primeiros $p$ coeficientes, garantindo a validade assintótica da inferência sem a necessidade de pré-testes de cointegração.
+
+
+Ademais, vale ressaltar que o teste é sensível à escolha do número de defasagens $p$. Uma especificação inadequada pode comprometer os resultados, sendo comum selecionar $p$ com base em critérios de informação, como o Critério de Informação de Akaike (AIC) ou o Critério Bayesiano de Schwarz (BIC).
+
+
+Por fim, ressalta-se que a causalidade de Granger é um conceito de precedência temporal e previsibilidade, e não de causalidade estrutural. A rejeição de $H_0$ indica que $X$ antecede temporalmente $Y$ e melhora sua capacidade de previsão, mas não implica, por si só, a existência de uma relação causal estrutural entre as variáveis.
+
+
+
+\section{Modelos de Defasagens Distribuídas}
+
+Dados de séries temporais frequentemente exibem efeitos defasados, em que valores passados
+de uma variável influenciam o comportamento presente de outra, e modelos dinâmicos capturam
+essas dependências ao incorporar explicitamente valores defasados das variáveis explicativas
+\citep{almon1965}. No contexto deste trabalho, essa característica é especialmente relevante, pois
+eventos climáticos raramente impactam a inadimplência de forma imediata. Uma seca severa,
+por exemplo, tende a reduzir a produção agrícola ao longo dos meses subsequentes, de modo
+que o produtor rural pode entrar em inadimplência apenas no vencimento de suas obrigações
+de crédito, o que pode ocorrer com uma defasagem de três a seis meses em relação ao evento.
+De forma semelhante, uma enchente que destrói domicílios e interrompe atividades econômicas
+pode afetar a capacidade de pagamento das famílias em prazos mais curtos, gerando aumento
+da inadimplência em um a dois meses.
+
+Diante dessa dinâmica, estimam-se modelos de defasagens distribuídas (\textit{Distributed Lag
+Models} - DLM), que permitem capturar como os efeitos dos choques climáticos se propagam ao
+longo do tempo sobre a inadimplência, reconhecendo que tais impactos podem não ser imediatos,
+mas manifestar-se de forma gradual e persistente nos períodos subsequentes ao evento.
+
+\subsection{Definição e Formulação do Modelo}
+
+Um modelo de defasagens distribuídas relaciona uma variável dependente $Y_t$ a valores
+correntes e passados de uma variável explicativa $X_t$, permitindo que o efeito de $X$ sobre $Y$
+se distribua ao longo de múltiplos períodos \citep{almon1965}. Na forma geral, o modelo é
+especificado como
+
+\begin{equation}
+    Y_t \;=\; \alpha \;+\; \sum_{k=0}^{K} \beta_k\, X_{t-k} \;+\; \varepsilon_t,
+    \label{eq:dlm_geral}
+\end{equation}
+
+\noindent em que:
+
+\begin{itemize}
+    \item $Y_t$ é o valor da variável dependente no período $t$, no contexto do trabalho, a taxa de inadimplência;
+    \item $\alpha$ é o intercepto do modelo;
+    \item $X_{t-k}$ é o valor da variável explicativa com $k$ períodos de defasagem. Aqui, o indicador de desastres ambientais ou climáticos;
+    \item $\beta_k$ é o coeficiente associado à defasagem $k$, que mede o efeito de $X$ sobre $Y$ após $k$ períodos;
+    \item $K$ é o número máximo de defasagens incluídas no modelo;
+    \item $\varepsilon_t$ é o termo de erro aleatório, assumido com distribuição gaussiana
+          de média zero e variância constante, que captura a variação de $Y_t$ não
+          explicada pelas defasagens de $X$ \citep{liang2024}.
+\end{itemize}
+
+Cada coeficiente $\beta_k$ representa o \textbf{efeito parcial} de $X_{t-k}$ sobre $Y_t$,
+isto é, a variação esperada em $Y_t$ decorrente de uma variação unitária em $X$ ocorrida $k$
+períodos antes, mantidos constantes os demais termos. O conjunto dos coeficientes
+$\{\beta_0, \beta_1, \ldots, \beta_K\}$ forma o chamado \textbf{perfil de resposta defasada}, que descreve a trajetória temporal do impacto de $X$ sobre $Y$
+\citep{wooldridge2010}.
+
+Duas quantidades são de especial interesse. O \textbf{efeito de impacto}, que corresponde a
+$\beta_0$ e mede a resposta imediata de $Y_t$ a uma variação em $X_t$, no mesmo período.
+O \textbf{efeito acumulado de longo prazo} que é dado pela soma de todos os coeficientes:
+
+\begin{equation}
+    \beta^{LP} \;=\; \sum_{k=0}^{K} \beta_k,
+    \label{eq:efeito_lp}
+\end{equation}
+
+\noindent e representa a variação total em $Y$ em resposta a um choque permanente e
+unitário em $X$, somando os efeitos de todos os períodos até a defasagem $K$
+\citep{wooldridge2010}. No contexto deste trabalho, $\beta^{LP}$ captura o impacto
+total acumulado de um desastre ambiental sobre a inadimplência ao longo de todo o
+horizonte temporal analisado.
+
+\subsection{Modelo com Efeitos Fixos}
+
+Quando os dados possuem estrutura em painel, isto é, quando várias unidades $i$
+são acompanhadas ao longo do tempo $t$, surge uma dificuldade recorrente:
+características próprias de cada unidade, que permanecem relativamente constantes
+no tempo, podem influenciar simultaneamente a variável dependente e as variáveis
+explicativas. Nessa situação, caso tais fatores não sejam considerados, parte do
+efeito atribuído às variáveis de interesse poderá, na realidade, refletir diferenças
+estruturais entre as unidades.
+
+No contexto deste trabalho, por exemplo, um estado historicamente mais vulnerável
+a eventos climáticos extremos pode registrar, ao mesmo tempo, maior incidência de
+desastres naturais e uma atividade econômica mais sensível a restrições de crédito.
+Se essa heterogeneidade não observada for ignorada, os coeficientes $\beta_k$
+estimados tenderão a captar não apenas o impacto das defasagens climáticas, mas
+também essas características permanentes, produzindo estimativas viesadas
+\citep{wooldridge2010}.
+
+Para contornar esse problema, introduzem-se no modelo os \textbf{efeitos fixos
+individuais} $\alpha_i$, que representam um intercepto específico para cada unidade
+$i$. Esses termos absorvem todos os fatores não observados que diferenciam uma
+unidade das demais e que não variam ao longo do tempo, como localização geográfica,
+estrutura produtiva, nível histórico de renda ou composição setorial da carteira de
+crédito. Em termos práticos, a estimação passa a explorar apenas a variação interna
+de cada unidade ao longo do tempo, comparando cada estado consigo mesmo em períodos
+distintos, em vez de compará-lo diretamente com outros estados.
+
+Também é comum incluir \textbf{efeitos fixos temporais} $\lambda_t$, isto é, um
+parâmetro específico para cada período $t$. Esses efeitos capturam choques comuns
+a todas as unidades em determinado momento, como alterações na taxa básica de juros,
+mudanças regulatórias nacionais, crises macroeconômicas ou períodos de expansão da
+atividade econômica. Assim, controla-se tanto a heterogeneidade permanente entre as
+unidades quanto fatores agregados que afetam simultaneamente toda a amostra.
+
+Com a inclusão desses componentes, o modelo de defasagens distribuídas com efeitos
+fixos pode ser escrito como
+
+\begin{equation}
+    Y_{i,t} \;=\; \alpha_i \;+\; \lambda_t \;+\;
+    \sum_{k=0}^{K} \beta_k X_{i,t-k} \;+\; \varepsilon_{i,t},
+    \label{eq:dlm_ef}
+\end{equation}
+
+\noindent em que $Y_{i,t}$ representa a variável dependente da unidade $i$ no
+período $t$; $\alpha_i$ são os efeitos fixos individuais; $\lambda_t$ são os
+efeitos fixos temporais; $X_{i,t-k}$ corresponde à variável explicativa observada
+com $k$ períodos de defasagem; $\beta_k$ mede o efeito marginal associado a cada
+defasagem; e $\varepsilon_{i,t}$ é o termo de erro aleatório do modelo.
+
+\subsection{Dependência entre as Variáveis Defasadas}
+
+Uma característica estrutural dos modelos de defasagens distribuídas é que os regressores
+$X_t, X_{t-1}, \ldots, X_{t-K}$ não são variáveis independentes entre si. Ao contrário,
+são versões temporalmente deslocadas de uma mesma série, e portanto tendem a ser altamente
+correlacionadas. Essa correlação é conhecida como \textbf{multicolinearidade} e constitui
+um dos principais desafios práticos na estimação de DLMs \citep{judge1985}.
+
+A principal consequência da multicolinearidade é o aumento da variância dos
+estimadores individuais $\hat{\beta}_k$. Em outras palavras, mesmo que os
+coeficientes permaneçam não viesados sob as hipóteses usuais do modelo, seus erros
+padrão tendem a se elevar, reduzindo a precisão das estimativas. Com isso, torna-se
+mais difícil identificar separadamente o efeito de cada defasagem, e os testes de
+significância individuais podem se tornar pouco informativos. Em situações mais
+intensas, pequenas alterações na amostra ou na especificação do modelo podem gerar
+mudanças relevantes nos coeficientes estimados, ainda que o efeito acumulado de
+longo prazo $\hat{\beta}^{LP}$ permaneça relativamente estável.
+
+Para lidar com esse problema, a literatura propõe duas abordagens principais. A primeira é o
+\textbf{estimador de Almon} \citep{almon1965}, que impõe a restrição de que os coeficientes
+$\beta_k$ seguem um polinômio de grau $q < K$, especificados como 
+
+\begin{equation}
+    \beta_k \;=\; \sum_{j=0}^{q} a_j\, k^j, \qquad k = 0, 1, \ldots, K,
+    \label{eq:almon}
+\end{equation}
+
+\noindent substituindo os $K+1$ parâmetros livres por apenas $q+1$ parâmetros $a_j$ a estimar.
+Essa restrição suaviza o perfil de defasagens e reduz drasticamente a multicolinearidade,
+ao custo de impor uma forma funcional específica ao perfil. A segunda abordagem é o
+\textbf{modelo de Koyck} \citep{koyck1954}, que assume decaimento geométrico dos coeficientes, $\beta_k = \beta_0 \lambda^k$, com $0 < \lambda < 1$, transformando o DLM em um
+modelo autorregressivo de defasagem distribuída (ARDL) com apenas dois parâmetros.
+Ambas as abordagens trocam flexibilidade por parcimônia e redução da variância dos
+estimadores, sendo a escolha entre elas guiada pelo conhecimento substantivo sobre o
+padrão esperado do perfil de defasagens.
+
+A derivação formal do \textbf{estimador de Almon} torna mais preciso o
+mecanismo de redução de parâmetros descrito acima. Para ilustrá-la,
+considere o caso com $K = 4$ defasagens e polinômio de grau $q = 3$.
+O modelo de partida é
+ 
+\begin{equation}
+    Y_t \;=\; \alpha
+             + \beta_0 X_t
+             + \beta_1 X_{t-1}
+             + \beta_2 X_{t-2}
+             + \beta_3 X_{t-3}
+             + \beta_4 X_{t-4}
+             + \varepsilon_t.
+    \label{eq:dlm_k4_almon}
+\end{equation}
+ 
+A restrição polinomial de grau $q = 3$ impõe que cada $\beta_k$ seja
+expresso como função da defasagem $k$, ou seja, 
+ 
+\begin{equation}
+    \beta_k \;=\; a_0 + a_1 k + a_2 k^2 + a_3 k^3,
+    \qquad k = 0,1,2,3,4,
+    \label{eq:almon_poly}
+\end{equation}
+
+\noindent de modo que os cinco coeficientes $\{\beta_k\}$ passam a ser
+determinados por apenas quatro parâmetros $\{a_0, a_1, a_2, a_3\}$.
+Substituindo $k = 0, 1, 2, 3, 4$ em~\eqref{eq:almon_poly}
+obtém-se explicitamente:
+ 
+\begin{align}
+    \beta_0 &= a_0, \label{eq:b0} \\
+    \beta_1 &= a_0 + a_1 + a_2 + a_3, \label{eq:b1} \\
+    \beta_2 &= a_0 + 2a_1 + 4a_2 + 8a_3, \label{eq:b2} \\
+    \beta_3 &= a_0 + 3a_1 + 9a_2 + 27a_3, \label{eq:b3} \\
+    \beta_4 &= a_0 + 4a_1 + 16a_2 + 64a_3. \label{eq:b4}
+\end{align}
+ 
+Substituindo~\eqref{eq:b0}--\eqref{eq:b4} em~\eqref{eq:dlm_k4_almon}
+e reagrupando os termos segundo cada parâmetro $a_j$, temos
+ 
+\begin{align}
+    Y_t \;=\; \alpha
+    &+ a_0\!\left(X_t + X_{t-1} + X_{t-2} + X_{t-3} + X_{t-4}\right)
+    \notag \\
+    &+ a_1\!\left(X_{t-1} + 2X_{t-2} + 3X_{t-3} + 4X_{t-4}\right)
+    \notag \\
+    &+ a_2\!\left(X_{t-2} + 4X_{t-3} + 9X_{t-4}\right)
+    \notag \\
+    &+ a_3\!\left(X_{t-3} + 8X_{t-4}\right)
+    + \varepsilon_t.
+    \label{eq:almon_expanded}
+\end{align}
+ 
+O modelo em~\eqref{eq:almon_expanded} tem a estrutura de uma regressão
+linear ordinária. Definindo as \textbf{variáveis auxiliares de Almon} por
+ 
+\begin{equation}
+    Z_t^{(j)} \;=\; \sum_{k=1}^{K+1-j} k^j\, X_{t-(k+j-1)},
+    \qquad j = 0, 1, \ldots, q,
+    \label{eq:almon_aux_geral}
+\end{equation}
+
+\noindent
+o modelo pode ser reescrito de forma compacta como
+ 
+\begin{equation}
+    Y_t \;=\; \alpha
+             + a_0 Z_t^{(0)}
+             + a_1 Z_t^{(1)}
+             + a_2 Z_t^{(2)}
+             + a_3 Z_t^{(3)}
+             + \varepsilon_t.
+    \label{eq:almon_z}
+\end{equation}
+ 
+Na forma matricial, tem-se $\mathbf{Y} = \mathbf{Z}\,\boldsymbol{a}
++ \boldsymbol{\varepsilon}$, em que $\mathbf{Z}$ é a matriz $n\times(q+2)$
+cujas colunas correspondem ao intercepto e às variáveis
+$Z_t^{(0)}, \ldots, Z_t^{(q)}$, e
+$\boldsymbol{a} = (\alpha, a_0, a_1, \ldots, a_q)^{\!\top}$.
+O estimador de Mínimos Quadrados Ordinários fornece
+ 
+\begin{equation}
+    \hat{\boldsymbol{a}}
+    \;=\;
+    \bigl(\mathbf{Z}^{\!\top}\mathbf{Z}\bigr)^{-1}
+    \mathbf{Z}^{\!\top}\mathbf{Y}.
+    \label{eq:almon_ols}
+\end{equation}
+ 
+Obtidos os $\hat{a}_j$, os coeficientes originais do perfil de
+defasagens são recuperados pela relação polinomial, dada por
+ 
+\begin{equation}
+    \hat{\beta}_k
+    \;=\;
+    \sum_{j=0}^{q} \hat{a}_j\, k^j,
+    \qquad k = 0, 1, \ldots, K.
+    \label{eq:almon_recovery}
+\end{equation}
+ 
+A transformação de Almon consiste, portanto, em projetar o vetor
+$(\beta_0, \ldots, \beta_K)$ sobre o subespaço de dimensão $q + 1$
+gerado pelas potências $1, k, k^2, \ldots, k^q$ avaliadas nos pontos
+$k = 0, 1, \ldots, K$, a chamada matriz de Vandermonde. As variáveis
+auxiliares $Z_t^{(j)}$ resultantes são, em geral, muito menos
+correlacionadas entre si do que as defasagens originais, o que melhora
+a estabilidade numérica da estimação e reduz a variância dos
+estimadores \citep{almon1965}. O custo dessa parcimônia é a imposição
+de uma forma funcional específica ao perfil de defasagens e o estimador
+é não viesado somente se o grau $q$ for adequadamente especificado.
+Caso $q$ seja subespecificado, introduz-se viés de restrição; caso
+seja excessivamente elevado, os ganhos de variância diminuem. A
+escolha de $q$ deve portanto combinar conhecimento substantivo sobre
+o padrão de transmissão em análise com critérios estatísticos, como
+testes de restrição ou critérios de informação AIC e BIC
+\citep{judge1985, wooldridge2010}. No contexto deste trabalho, o
+estimador de Almon permite capturar a trajetória temporal do impacto
+de um desastre natural sobre a inadimplência de forma parcimoniosa,
+impondo suavidade ao perfil de defasagens sem eliminar a
+heterogeneidade dos efeitos ao longo dos períodos subsequentes ao
+evento.
+
+
+\subsection{Passo a Passo para Aplicação}
+
+A aplicação dos modelos de defasagens distribuídas pode ser organizada nas etapas
+descritas a seguir:
+
+\textbf{1. Definição do horizonte de defasagens $K$.} O primeiro passo consiste em
+determinar o número máximo de defasagens $K$ a ser incluído no modelo. Essa escolha
+deve conciliar fundamentos teóricos e critérios empíricos. Do ponto de vista
+econômico, $K$ deve ser suficientemente amplo para captar o intervalo de tempo
+plausível entre a ocorrência do choque climático e seus possíveis efeitos sobre a
+inadimplência. Do ponto de vista estatístico, critérios de informação, como AIC e
+BIC, podem auxiliar na seleção de uma especificação mais parcimoniosa
+\citep{wooldridge2010};
+
+\textbf{2. Verificação da estacionaridade.} Antes da estimação, recomenda-se avaliar
+se as séries utilizadas apresentam comportamento estacionário, isto é, se suas
+propriedades estatísticas permanecem relativamente estáveis ao longo do tempo. Para
+isso, podem ser empregados testes de raiz unitária, como o teste ADF
+\citep{dickey1979} e o teste de Phillips-Perron \citep{phillips1988}. A presença de
+não estacionaridade pode levar a regressões espúrias, comprometendo a interpretação
+dos coeficientes e a validade das inferências \citep{greene2012};
+
+\textbf{3. Estimação do modelo.} Definida a estrutura de defasagens e verificadas as propriedades das séries, estima-se o modelo~\eqref{eq:dlm_ef} por Mínimos Quadrados Ordinários (MQO) com efeitos fixos individuais e temporais. Os efeitos fixos individuais eliminam a heterogeneidade permanente entre unidades, ao passo que os efeitos fixos temporais removem choques agregados comuns a todos os estados em cada período. Com isso, os coeficientes $\beta_k$ são identificados exclusivamente a partir das variações temporais observadas dentro de cada unidade analisada \citep{wooldridge2010};
+
+\textbf{4. Inferência com erros padrão robustos.} Após a estimação, é necessário
+ajustar a inferência estatística para possíveis violações das suposições clássicas do
+modelo. Em painéis, os resíduos podem apresentar autocorrelação ao longo do tempo
+dentro da mesma unidade e heterocedasticidade entre unidades. Por esse motivo,
+utilizam-se erros padrão robustos e clusterizados no nível da unidade $i$
+\citep{wooldridge2010}. Essa correção torna os testes de hipótese e intervalos de
+confiança mais confiáveis nessas situações;
+
+\textbf{5. Análise do perfil de resposta defasada.} Por fim, interpretam-se os
+coeficientes estimados $\hat{\beta}_0, \hat{\beta}_1, \ldots, \hat{\beta}_K$ e seus
+respectivos intervalos de confiança, geralmente por meio de representação gráfica.
+Esse conjunto de coeficientes forma o perfil de resposta defasada, que permite
+identificar: (i) em qual período o efeito é mais intenso; (ii) se o impacto ocorre
+de forma imediata ou com atraso; (iii) se os efeitos são transitórios ou
+persistentes; e (iv) o efeito acumulado de longo prazo $\hat{\beta}^{LP}$, obtido
+pela soma apresentada em~\eqref{eq:efeito_lp}.
+
+\subsection{Suposições e Limitações}
+
+A validade dos modelos de defasagens distribuídas depende do atendimento de algumas
+suposições teóricas e econométricas. Além disso, como qualquer ferramenta empírica,
+esses modelos apresentam limitações que devem ser consideradas na interpretação dos
+resultados.
+
+A primeira suposição é a de \textbf{linearidade}. Assume-se que o efeito de cada
+defasagem de $X$ sobre $Y$ ocorre de forma linear e aditiva, isto é, que variações
+em $X$ produzem impactos proporcionais sobre $Y$, mantidos constantes os demais
+fatores. Dessa forma, a especificação básica pode não captar adequadamente relações
+não lineares, como efeitos de limiar, assimetrias ou mudanças de intensidade após
+determinados níveis da variável explicativa.
+
+A segunda refere-se à \textbf{exogeneidade estrita} da variável explicativa. Para
+que os estimadores obtidos por MQO sejam não viesados, requer-se que $X_{t-k}$ não
+esteja correlacionado com o termo de erro $\varepsilon_t$ para todo $k$
+\citep{wooldridge2010}. No contexto deste trabalho, essa hipótese é plausível, pois
+os desastres ambientais decorrem majoritariamente de fatores climáticos e
+geofísicos externos ao sistema financeiro. Ainda assim, a existência de variáveis
+omitidas correlacionadas simultaneamente com os eventos climáticos e com a
+inadimplência pode comprometer essa condição.
+
+A terceira limitação está associada à \textbf{multicolinearidade} entre as
+defasagens da variável explicativa, tema discutido na seção anterior. Como valores
+sucessivos de uma mesma série costumam ser fortemente correlacionados, torna-se mais
+difícil separar com precisão o efeito individual de cada $\beta_k$. Em consequência,
+os erros padrão podem se elevar e os coeficientes estimados tornam-se mais sensíveis
+a pequenas alterações na especificação \citep{judge1985}.
+
+A quarta questão envolve a \textbf{escolha do número de defasagens} $K$. Se o modelo
+inclui poucas defasagens, efeitos relevantes podem ser omitidos, gerando viés por
+variável omitida. Por outro lado, a inclusão excessiva de defasagens reduz os graus
+de liberdade, diminui a precisão das estimativas e pode intensificar a
+multicolinearidade. Por isso, a definição de $K$ deve combinar critérios
+estatísticos com conhecimento substantivo sobre o mecanismo de transmissão em
+análise.
+
+Por fim, assim como ocorre no teste de causalidade de Granger, modelos de
+defasagens distribuídas identificam principalmente relações de
+\textbf{associação temporal}, e não necessariamente relações causais em sentido
+estrito. A interpretação dos coeficientes $\beta_k$ como efeitos causais depende da
+plausibilidade das hipóteses de identificação adotadas, especialmente da
+exogeneidade da variável explicativa em relação ao termo de erro.
+
+
+\section{SARIMAX}
+
+A terceira etapa metodológica consiste na estimação de modelos SARIMAX (\textit{Seasonal Autoregressive Integrated Moving Average with Exogenous Variables}), que estendem a classe de modelos SARIMA ao incorporar variáveis exógenas à estrutura autorregressiva e de médias móveis da série temporal \citep{box2015}. Essa abordagem é particularmente adequada ao problema em análise, uma vez que a inadimplência apresenta padrões de sazonalidade e autocorrelação que devem ser adequadamente modelados antes da avaliação do efeito incremental de fatores climáticos sobre sua dinâmica.
+
+O objetivo central dessa etapa é verificar se as variáveis climáticas agregam poder preditivo à modelagem da inadimplência além daquele já capturado pelo próprio histórico da série. Para isso, adota-se uma estratégia de comparação entre dois modelos estimados sobre o mesmo período de treinamento. O Modelo 1, utilizado como referência (\textit{baseline}), consiste em um SARIMA univariado, especificado exclusivamente a partir da dinâmica passada da inadimplência. O Modelo 2, por sua vez, corresponde ao SARIMAX, incorporando variáveis climáticas como regressores exógenos, sendo representado por
+
+\begin{equation}
+    \Phi(B)\tilde{\Phi}(B^s)\Delta^d\Delta_s^D \, y_t = \Theta(B)\tilde{\Theta}(B^s)\varepsilon_t + \sum_{j} \delta_j x_{j,t} ,
+\end{equation}
+
+\noindent em que $B$ é o operador de defasagem; $\Phi(B)$ e $\Theta(B)$ representam os polinômios autorregressivo e de médias móveis não sazonais; $\tilde{\Phi}(B^s)$ e $\tilde{\Theta}(B^s)$ capturam os componentes sazonais de periodicidade $s$; $\Delta^d$ e $\Delta_s^D$ correspondem aos operadores de diferenciação regular e sazonal; e $x_{j,t}$ denota as variáveis climáticas exógenas associadas aos coeficientes $\delta_j$. Os operadores, em especial, serão melhores explicados a seguir. 
+
+\subsection{Processo ARMA e suas Extensões}
+\label{sec:arma}
+ 
+A construção do modelo SARIMAX parte da classe de processos
+\textbf{ARMA}(\(p,\,q\)) (\textit{Autoregressive Moving Average}),
+formulada por \citet{box2015} como a combinação de um componente
+autorregressivo de ordem \(p\) com um componente de médias móveis de ordem
+\(q\). Dado que \(y_t\) é uma série temporal estacionária com média zero, o
+processo ARMA(\(p,\,q\)) é definido por
+ 
+\begin{equation}
+  y_t \;=\; \sum_{i=1}^{p} \phi_i\, y_{t-i}
+           \;+\; \varepsilon_t
+           \;+\; \sum_{j=1}^{q} \theta_j\, \varepsilon_{t-j},
+  \label{eq:arma}
+\end{equation}
+ 
+\noindent
+em que \(\phi_i\) são os coeficientes autorregressivos, \(\theta_j\) são os
+coeficientes de médias móveis, e \(\varepsilon_t \sim \mathcal{N}(0,\,\sigma^2)\)
+é um processo de ruído branco, não correlacionado ao longo do tempo.
+ 
+Utilizando o operador de defasagem \(B\), em que \(B^k\,y_t = y_{t-k}\),
+os polinômios \(\Phi(B) = 1 - \phi_1 B - \cdots - \phi_p B^p\) e
+\(\Theta(B) = 1 + \theta_1 B + \cdots + \theta_q B^q\) permitem reescrever
+o modelo de forma compacta como
+ 
+\begin{equation}
+  \Phi(B)\,y_t \;=\; \Theta(B)\,\varepsilon_t.
+  \label{eq:arma_compact}
+\end{equation}
+ 
+Quando a série \(y_t\) é não estacionária, situação frequente em dados
+financeiros e macroeconômicos, aplica-se diferenciação de ordem \(d\)
+para induzi-la à estacionaridade. Denominando \(\Delta^d = (1-B)^d\) o
+operador de diferenciação regular, obtém-se a classe
+\textbf{ARIMA}(\(p,\,d,\,q\)), definida como 
+ 
+\begin{equation}
+  \Phi(B)\,\Delta^d\,y_t \;=\; \Theta(B)\,\varepsilon_t.
+  \label{eq:arima}
+\end{equation}
+ 
+% ----------------------------------------------------------
+\subsection{Extensão Sazonal: o Modelo SARIMA}
+\label{sec:sarima}
+ 
+Séries de frequência mensal, como a taxa de inadimplência, frequentemente
+exibem padrões que se repetem em intervalos regulares de \(s\) períodos,
+fenômeno denominado \textbf{sazonalidade}. Para acomodar esse comportamento,
+\citet{box2015} propõem a incorporação de operadores sazonais análogos aos
+não sazonais. Definindo \(\tilde{\Phi}(B^s) = 1 - \tilde{\phi}_1 B^s - \cdots - \tilde{\phi}_P B^{Ps}\)
+e \(\tilde{\Theta}(B^s) = 1 + \tilde{\theta}_1 B^s + \cdots + \tilde{\theta}_Q B^{Qs}\)
+como os polinômios autorregressivo e de médias móveis sazonais de ordens
+\(P\) e \(Q\), respectivamente, e \(\Delta_s^D = (1-B^s)^D\) o operador de
+diferenciação sazonal de ordem \(D\), o modelo
+\textbf{SARIMA}(\(p,\,d,\,q\))\(\times\)(\(P,\,D,\,Q\))\(_s\) é definido
+por
+ 
+\begin{equation}
+  \Phi(B)\,\tilde{\Phi}(B^s)\,\Delta^d\,\Delta_s^D\,y_t
+  \;=\;
+  \Theta(B)\,\tilde{\Theta}(B^s)\,\varepsilon_t,
+  \label{eq:sarima}
+\end{equation}
+ 
+\noindent
+em que o lado esquerdo captura a dinâmica autorregressiva regular e sazonal da
+série diferenciada, e o lado direito representa a estrutura de médias móveis
+regular e sazonal do processo de erros. Para séries mensais, adota-se
+\(s = 12\).
+ 
+% ----------------------------------------------------------
+\subsection{Incorporação de Variáveis Exógenas: o Modelo SARIMAX}
+\label{sec:sarimax_form}
+ 
+A extensão do SARIMA para o \textbf{SARIMAX} é obtida pela adição de um
+vetor de \(k\) variáveis explicativas exógenas \(\mathbf{x}_t = (x_{1,t},
+\ldots, x_{k,t})^\top\) com coeficientes \(\boldsymbol{\delta} = (\delta_1,
+\ldots, \delta_k)^\top\), de modo que o modelo completo torna-se
+ 
+\begin{equation}
+  \Phi(B)\,\tilde{\Phi}(B^s)\,\Delta^d\,\Delta_s^D\,y_t
+  \;=\;
+  \Theta(B)\,\tilde{\Theta}(B^s)\,\varepsilon_t
+  \;+\; \sum_{j=1}^{k} \delta_j\,x_{j,t},
+  \label{eq:sarimax}
+\end{equation}
+ 
+\noindent
+em que \(B\) é o operador de defasagem; \(\Phi(B)\) e \(\Theta(B)\) representam
+os polinômios autorregressivo e de médias móveis não sazonais; \(\tilde{\Phi}(B^s)\)
+e \(\tilde{\Theta}(B^s)\) capturam os componentes sazonais de periodicidade
+\(s\); \(\Delta^d\) e \(\Delta_s^D\) correspondem aos operadores de
+diferenciação regular e sazonal; e \(x_{j,t}\) denota as variáveis climáticas
+exógenas associadas aos coeficientes \(\delta_j\).
+ 
+No contexto desta pesquisa, as variáveis exógenas \(x_{j,t}\) correspondem
+a indicadores de desastres naturais registrados no período \(t\). Os
+coeficientes \(\delta_j\) medem o efeito marginal de cada variável climática
+sobre a taxa de inadimplência, mantidos constantes os padrões autorregressivos
+e de médias móveis da série. A interpretação causal desses coeficientes,
+contudo, está condicionada à exogeneidade das variáveis climáticas, suposição
+plausível neste contexto dado que desastres naturais derivam de processos
+geofísicos e meteorológicos externos ao sistema financeiro.
+ 
+% ----------------------------------------------------------
+\subsection{Identificação das Ordens do Modelo}
+\label{sec:sarimax_id}
+ 
+A identificação das ordens \((p,\,d,\,q)\) e \((P,\,D,\,Q)_s\) segue a
+metodologia Box-Jenkins \citep{box2015}, que compreende três etapas
+sequenciais: identificação, estimação e verificação diagnóstica.
+ 
+Na etapa de identificação, as funções de autocorrelação (FAC) e de
+autocorrelação parcial (FACP) da série, após as diferenciações necessárias
+para eliminar a não estacionaridade regular e sazonal, são inspecionadas
+para sugerir candidatos às ordens do modelo. Padrões de decaimento
+exponencial na FAC com corte abrupto na FACP na defasagem \(p\) indicam
+um processo AR(\(p\)); o padrão inverso, com corte na FAC na defasagem
+\(q\) e decaimento na FACP, sugere um MA(\(q\)). Padrões mistos são
+associados a processos ARMA.
+ 
+Para as ordens sazonais, o mesmo raciocínio é aplicado aos \textit{lags}
+múltiplos de \(s = 12\): a FAC e a FACP avaliadas nas defasagens \(s, 2s,
+3s, \ldots\) orientam a escolha de \(P\) e \(Q\).
+ 
+Ao longo dessa etapa, a seleção entre modelos concorrentes é guiada pelos
+critérios de informação de Akaike \citep[AIC;][]{akaike1974} e de Schwarz
+\citep[BIC;][]{schwarz1978}, definidos respectivamente por
+ 
+\begin{equation}
+  \mathrm{AIC} \;=\; -2\,\ell(\hat{\boldsymbol{\psi}}) + 2\,m,
+  \label{eq:aic}
+\end{equation}
+ 
+\begin{equation}
+  \mathrm{BIC} \;=\; -2\,\ell(\hat{\boldsymbol{\psi}}) + m\,\ln(T),
+  \label{eq:bic}
+\end{equation}
+ 
+\noindent
+em que \(\ell(\hat{\boldsymbol{\psi}})\) é o valor maximizado da função de
+log-verossimilhança do modelo estimado, \(m\) é o número de parâmetros
+livres e \(T\) é o tamanho da amostra. Ambos os critérios penalizam a
+complexidade do modelo, favorecendo especificações mais parcimoniosas. O BIC
+impõe penalidade mais severa e tende a selecionar modelos com menor número
+de parâmetros quando a amostra é grande.
+ 
+Na prática, adota-se um procedimento de busca em grade (\textit{grid
+search}) sobre o espaço de ordens candidatas, estimando-se todos os modelos
+factíveis e selecionando aquele com menor valor de AIC (ou BIC). Essa
+estratégia reduz o risco de má especificação decorrente de inspeção visual
+subjetiva das funções de autocorrelação.
+ 
+% ----------------------------------------------------------
+\subsection{Estimação}
+\label{sec:sarimax_est}
+ 
+Os parâmetros do modelo SARIMAX — os coeficientes \(\phi_i\), \(\tilde\phi_P\),
+\(\theta_j\), \(\tilde\theta_Q\) e \(\delta_j\), bem como a variância dos
+erros \(\sigma^2\) — são estimados pelo método de \textbf{Máxima
+Verossimilhança} (MV). Sob a hipótese de normalidade dos erros
+\(\varepsilon_t \sim \mathcal{N}(0,\,\sigma^2)\), a função de
+log-verossimilhança do modelo tem a forma
+ 
+\begin{equation}
+  \ell(\boldsymbol{\psi}) \;=\;
+    -\,\frac{T}{2}\ln(2\pi\sigma^2)
+    \;-\; \frac{1}{2\sigma^2}\sum_{t=1}^{T}\varepsilon_t^2(\boldsymbol{\psi}),
+  \label{eq:loglik}
+\end{equation}
+ 
+\noindent
+em que \(\boldsymbol{\psi}\) denota o vetor de todos os parâmetros do modelo e
+\(\varepsilon_t(\boldsymbol{\psi})\) são os resíduos condicionais obtidos
+pela recursão do filtro ARMA. Na prática, a maximização de~\eqref{eq:loglik}
+é realizada numericamente por meio de algoritmos de otimização não linear,
+como o método BFGS, implementados em pacotes computacionais de uso
+consolidado \citep{shumway2017}.
+ 
+
+Após a estimação, a adequação do modelo é verificada por meio da análise
+dos resíduos \(\hat\varepsilon_t\). Para que as inferências sobre os
+coeficientes estimados sejam válidas, os resíduos devem se aproximar de
+ruído branco, isto é, exibir média zero, variância constante e ausência de
+autocorrelação serial.
+ 
+A hipótese de ausência de autocorrelação é testada formalmente pelo
+\textbf{teste de Ljung-Box} \citep{ljung1978}. A estatística de teste é
+dada por
+ 
+\begin{equation}
+  Q(m) \;=\; T(T+2)\sum_{k=1}^{m}\frac{\hat{\rho}_k^2}{T - k},
+  \label{eq:ljungbox}
+\end{equation}
+ 
+\noindent
+em que \(\hat{\rho}_k\) é a autocorrelação amostral dos resíduos na defasagem
+\(k\) e \(m\) é o número de defasagens testadas. Sob a hipótese nula de
+ausência de autocorrelação, \(Q(m)\) segue assintoticamente uma distribuição
+qui-quadrado com \(m - (p + q + P + Q)\) graus de liberdade. A rejeição de
+\(H_0\) indica que o modelo deixou autocorrelação não captada nos resíduos,
+sinalizando a necessidade de reespecificação.
+ 
+Adicionalmente, inspecionam-se a FAC e a FACP dos resíduos e os gráficos de
+diagnóstico padrão — histograma dos resíduos para avaliar a aderência à
+distribuição normal, e gráfico quantil-quantil (Q-Q plot) para detectar
+desvios nas caudas da distribuição.
+ 
+% ----------------------------------------------------------
+\subsection{Avaliação Preditiva e Comparação entre Modelos}
+\label{sec:sarimax_eval}
+ 
+A avaliação comparativa entre os modelos é conduzida fora da amostra, por
+meio de um conjunto de validação não utilizado na etapa de estimação. A
+capacidade preditiva é mensurada a partir de métricas usuais de erro de
+previsão: a raiz do erro quadrático médio (RMSE), que penaliza desvios de
+maior magnitude; o erro absoluto médio (MAE), mais robusto à presença de
+valores extremos; e o erro percentual absoluto médio (MAPE), que fornece
+uma medida relativa do erro. Adicionalmente, os critérios de informação AIC
+e BIC são empregados na seleção das ordens dos modelos, favorecendo
+especificações parcimoniosas.
+ 
+Caso o modelo SARIMAX apresente desempenho superior ao modelo SARIMA nas
+métricas de previsão, isso constitui evidência de que as variáveis climáticas
+possuem poder preditivo incremental sobre a inadimplência. Em outras
+palavras, tal resultado sugere que a ocorrência de desastres ambientais
+contribui para explicar a dinâmica da inadimplência além do que pode ser
+inferido exclusivamente a partir de seu comportamento passado.

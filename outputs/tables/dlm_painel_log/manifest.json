@@ -1,0 +1,41 @@
+{
+  "data": "2026-10-06",
+  "inputs": {
+    "data/processed/df_tcc_2013_2024.csv": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+    "data/raw/atlas_desastres/atlas.csv": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+    "tcc/capitulos/c3_metodologias_tg_referencia.tex": "d7e5a73e403a15c2569a729d7af54671a409d802fdf246391e1327eb7bbbd183"
+  },
+  "python": "3.12.14",
+  "versoes": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.10.8",
+    "threadpoolctl": "3.6.0"
+  },
+  "K": 6,
+  "DK_largura": 6,
+  "outputs": {
+    "outputs/tables/dlm_painel_log/amostras_suporte.csv": "1283b7bf5f382d0566870799f338848925898a88d820df2b9d1bbbb3fc3d3f5f",
+    "outputs/tables/dlm_painel_log/auditoria.csv": "ebd9781b5059098434284a2eeb33460f76fb29f28b00c54ae6de663054ae408d",
+    "outputs/tables/dlm_painel_log/autocorrelacao_uf.csv": "2eb39a84420333ee7d98a6ecbd2dfc32f68f628434f2c3aa051b33c7fabade54",
+    "outputs/tables/dlm_painel_log/cenarios.csv": "c82b0a8e33ad7c21198ed1b1cce4b89a21fff72e77fa8a869916f166a99985a5",
+    "outputs/tables/dlm_painel_log/correlacao_lags.csv": "a06d05821e61d2a2ace6771472b68a8a9fff772ed8db56b99a091157d45b78e1",
+    "outputs/tables/dlm_painel_log/covariancias.csv": "d24b8e35891ce700a5e3c9013b8cb578abf1da8066b0977e3edf046da4194414",
+    "outputs/tables/dlm_painel_log/dependencia_ufs.csv": "cf98eaffbee4f598bd44174f775bf87c0a4896274cf0efba630878676740c74b",
+    "outputs/tables/dlm_painel_log/diagnosticos.csv": "eea6690800b270b07c182085d2f78a3ba3c57e7a8e533dde594af4206c1df2fe",
+    "outputs/tables/dlm_painel_log/estacionariedade_resumo.csv": "40c74e8914d0c8036d52705e28c5e31f31c8b0964ece47ce6baf46693747497d",
+    "outputs/tables/dlm_painel_log/estacionariedade_uf.csv": "e21fb01096da870bc205273ade80d762a3587a823fe04acb95954c5a67f4acc6",
+    "outputs/tables/dlm_painel_log/influencia_uf.csv": "72717dfc721f37c43a0218c603a8549ba5ee213a9e4a8d475e0a44164f019b65",
+    "outputs/tables/dlm_painel_log/modelos.csv": "5531f371f03c852a8e81ff5a0eede0209aa165102a6d9ee5752c31792d172cd0",
+    "outputs/tables/dlm_painel_log/perfis.csv": "32cc041df971479269935bf20dff0c24d6f84aefed7b74df0f4d41bc1afb157a",
+    "outputs/tables/dlm_painel_log/reconciliacao_atlas.csv": "4431e30a27fcdb776915e6a79f22680fdf8c0c72ea2a9db4063b137c7087b781",
+    "outputs/tables/dlm_painel_log/residuos.csv": "4ac8ea0d2b6cda194a71d06d19ff1b971eeec6c15298908ea1b9a65f5140ae26",
+    "outputs/tables/dlm_painel_log/resultados.csv": "dedeb93f1fd8f330879662a1fe4c25c2282d7543b18bdcbf8533a26267f84416",
+    "outputs/tables/dlm_painel_log/taxonomia.csv": "2f2d5cea6766fc72d1110009ab3e84cfff232d02e98253f9f7104438a9dd5612",
+    "outputs/tables/dlm_painel_log/validacao.csv": "da745d3206e8ad4b6bbfec12403aab085b276aa489ffb3cf5ef886b837c860f8"
+  },
+  "codigo": "7cb7ed5e1cf7e08c5d994205a2664dd8e4e5114cef48cd5875ce447526bbc849",
+  "protocolo": "1e88e98873520bb45e5dc4d4bce6bf0d8a28a9d5902348a2a2bd7ebea5eb63a5"
+}

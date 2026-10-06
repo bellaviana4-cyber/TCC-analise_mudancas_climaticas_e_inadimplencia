@@ -1,0 +1,48 @@
+[
+  {
+    "branch": "main",
+    "sha": "027ee8aa245494765d99bff2511b6f60b30ddf41",
+    "agentes": [],
+    "notebooks_dlm": []
+  },
+  {
+    "branch": "analise/dlm",
+    "sha": "3c94482628b86d1789ee98f8d35f6820835a7219",
+    "agentes": [],
+    "notebooks_dlm": [
+      "notebooks/16_modelos_defasagens_distribuidas.ipynb"
+    ]
+  },
+  {
+    "branch": "analise/dlm-revisao-metodologica",
+    "sha": "c64589abc0f886a4e55e73b32328f8b0206376aa",
+    "agentes": [],
+    "notebooks_dlm": [
+      "notebooks/16_modelos_defasagens_distribuidas.ipynb",
+      "notebooks/17_revisao_metodologica_dlm.ipynb"
+    ]
+  },
+  {
+    "branch": "analise/dlm-validacao-final",
+    "sha": "87bee9689528b9d273c660ed2aff19c4739d8c54",
+    "agentes": [],
+    "notebooks_dlm": [
+      "notebooks/16_modelos_defasagens_distribuidas.ipynb",
+      "notebooks/17_revisao_metodologica_dlm.ipynb",
+      "notebooks/18_validacao_final_dlm.ipynb"
+    ]
+  },
+  {
+    "branch": "analise/dlm-classico-1a10",
+    "sha": "18bc6ef34f02e90810b1cd6d3170c41f81cf94db",
+    "agentes": [],
+    "notebooks_dlm": [
+      "notebooks/16_modelos_defasagens_distribuidas.ipynb",
+      "notebooks/17_revisao_metodologica_dlm.ipynb",
+      "notebooks/18_validacao_final_dlm.ipynb",
+      "notebooks/19_dlm_classico_defasagens_1_a_10.ipynb",
+      "notebooks/20_dlm_defasagens_selecionadas.ipynb",
+      "notebooks/21_dlm_inferencia_selecao_regimes.ipynb"
+    ]
+  }
+]

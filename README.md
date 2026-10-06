@@ -2,9 +2,20 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
+## Referência atual da etapa DLM (06/10/2026)
+
+O notebook [22 — DLM em painel, diferenças logarítmicas](notebooks/22_dlm_painel_diferencas_logaritmicas.ipynb) é a referência atual: 27 UFs, Δlog(I), Δlog(1+D), UF e mês-ano completos, coeficientes livres de k=0 a 6, sem defasagens de Y. Total climático por COBRADE 12/13/14 é central; grupos/tipologias originais são complementares. **Análise exploratória: estacionariedade estadual não foi sustentada uniformemente.** Não há rejeição da associação acumulada central a 5% com CR1 ou DK6.
+
+- [Protocolo e decisões](docs/dlm_painel_log_protocolo.md) · [Resultados e limites](docs/dlm_painel_log_resultados.md) · [Histórico e SHAs](docs/dlm_painel_log_historico.json).
+- [Relatório HTML offline](outputs/reports/relatorio_dlm_painel_log.html): seleção de período, exposição e covariância, perfil, somas, diagnósticos e cenários. Baixe o arquivo para abrir no navegador.
+- Reprodução: instalar `requirements-dlm-painel-log.lock.txt`, colocar as bases nos caminhos do manifesto e executar `python src/executar_notebook_painel_log.py notebooks/22_dlm_painel_diferencas_logaritmicas.ipynb`; depois `python src/verificar_dlm_painel_log.py` e `python src/relatorio_dlm_painel_log.py`.
+- Tabelas/manifesto: `outputs/tables/dlm_painel_log/`; figuras: `outputs/figures/dlm_painel_log/`. O capítulo de referência está preservado em `tcc/capitulos/c3_metodologias_tg_referencia.tex`, com correções discutidas na documentação.
+
+As versões DLM 16–21 ficam preservadas nos commits/branches históricos e não são a especificação atual. Foram incorporados somente arquivos desta revisão. Granger não foi reestimado; SARIMAX continua para etapa posterior.
+
 ## Objetivo
 
-O trabalho tem como objetivo avaliar o impacto da ocorrência de desastres naturais sobre a inadimplência de pessoas físicas no sistema de crédito brasileiro no período de **2013 a 2024**.
+O trabalho tem como objetivo investigar associações temporais entre registros de desastres e a inadimplência de pessoas físicas no sistema de crédito brasileiro no período de **2013 a 2024**.
 
 Para isso, são combinadas informações sobre crédito e inadimplência provenientes do **Sistema de Informações de Crédito do Banco Central do Brasil (SCR/BACEN)** com dados de ocorrências de desastres naturais disponibilizados pelo **Atlas Digital de Desastres no Brasil**.
 
@@ -36,9 +47,9 @@ As principais técnicas consideradas são:
 
 * **Modelos de Defasagens Distribuídas (Distributed Lag Models)**, utilizados para estimar como o efeito associado aos desastres se distribui ao longo dos períodos subsequentes;
 
-* **Painel dinâmico UF × mês**, para relacionar a exposição de cada estado à sua inadimplência;
+* **Painel dinâmico UF × mês (histórico)**, para relacionar a exposição de cada estado à sua inadimplência;
 
-* **Projeções locais, Toda–Yamamoto e previsão temporal**, como análises complementares, conforme os critérios de viabilidade documentados. SARIMAX não foi estimado nesta segunda etapa.
+* **Projeções locais, Toda–Yamamoto e previsão temporal (histórico)**, como análises complementares, conforme os critérios de viabilidade documentados. SARIMAX não foi estimado nesta segunda etapa.
 
 Também são realizados procedimentos de diagnóstico e tratamento das séries temporais, incluindo testes de estacionariedade e análise da estrutura de autocorrelação.
 
