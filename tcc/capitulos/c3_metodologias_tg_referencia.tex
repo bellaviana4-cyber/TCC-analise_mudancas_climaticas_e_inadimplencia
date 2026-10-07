@@ -158,18 +158,16 @@ $\{\beta_0, \beta_1, \ldots, \beta_K\}$ forma o chamado \textbf{perfil de respos
 
 Duas quantidades são de especial interesse. O \textbf{efeito de impacto}, que corresponde a
 $\beta_0$ e mede a resposta imediata de $Y_t$ a uma variação em $X_t$, no mesmo período.
-O \textbf{efeito acumulado de longo prazo} que é dado pela soma de todos os coeficientes:
+A \textbf{associação acumulada no horizonte $K$} é dada pela soma de todos os coeficientes:
 
 \begin{equation}
-    \beta^{LP} \;=\; \sum_{k=0}^{K} \beta_k,
+    B_K \;=\; \sum_{k=0}^{K} \beta_k,
     \label{eq:efeito_lp}
 \end{equation}
 
-\noindent e representa a variação total em $Y$ em resposta a um choque permanente e
-unitário em $X$, somando os efeitos de todos os períodos até a defasagem $K$
-\citep{wooldridge2010}. No contexto deste trabalho, $\beta^{LP}$ captura o impacto
-total acumulado de um desastre ambiental sobre a inadimplência ao longo de todo o
-horizonte temporal analisado.
+\noindent No DLM em níveis, essa soma descreve a mudança prevista de $Y$ após a transmissão de uma mudança permanente unitária em $X$, sob a especificação adotada. Na aplicação, porém, as variáveis são $y_{it}=\Delta\log(I_{it})$ e $x_{it}=\Delta\log(1+D_{it})$, sendo $I$ a taxa de inadimplência e $D$ a contagem administrativa de registros. A soma $B_K$ descreve a associação acumulada em $\log(I)$, até $K$, a um pulso unitário em $x$; não representa automaticamente o impacto total de um desastre físico nem pontos percentuais da taxa.
+
+Uma mudança persistente $D_0\to D_1$ gera um pulso $\delta=\log(1+D_1)-\log(1+D_0)$ em $x$. Sua resposta acumulada até $K$ é $\delta B_K$ em unidades logarítmicas, equivalente a $100[\exp(\delta B_K)-1]$ por cento de variação relativa de $I$. Uma mudança de $D$ por apenas um mês produz dois pulsos, $\delta$ e $-\delta$, cuja resposta requer convolução com o perfil de coeficientes. Essas interpretações são associações sob cenários definidos, sem identificação causal. Somatórios com valores distintos de $K$ se referem a horizontes distintos.
 
 \subsection{Modelo com Efeitos Fixos}
 
@@ -235,8 +233,8 @@ padrão tendem a se elevar, reduzindo a precisão das estimativas. Com isso, tor
 mais difícil identificar separadamente o efeito de cada defasagem, e os testes de
 significância individuais podem se tornar pouco informativos. Em situações mais
 intensas, pequenas alterações na amostra ou na especificação do modelo podem gerar
-mudanças relevantes nos coeficientes estimados, ainda que o efeito acumulado de
-longo prazo $\hat{\beta}^{LP}$ permaneça relativamente estável.
+mudanças relevantes nos coeficientes estimados, ainda que a associação acumulada no
+horizonte $K$ $\hat{B}_K$ permaneça relativamente estável.
 
 Para lidar com esse problema, a literatura propõe duas abordagens principais. A primeira é o
 \textbf{estimador de Almon} \citep{almon1965}, que impõe a restrição de que os coeficientes
@@ -248,7 +246,7 @@ $\beta_k$ seguem um polinômio de grau $q < K$, especificados como
 \end{equation}
 
 \noindent substituindo os $K+1$ parâmetros livres por apenas $q+1$ parâmetros $a_j$ a estimar.
-Essa restrição suaviza o perfil de defasagens e reduz drasticamente a multicolinearidade,
+Essa restrição reduz a dimensão do perfil de defasagens e pode melhorar a precisão, sem garantir menor multicolinearidade,
 ao custo de impor uma forma funcional específica ao perfil. A segunda abordagem é o
 \textbf{modelo de Koyck} \citep{koyck1954}, que assume decaimento geométrico dos coeficientes, $\beta_k = \beta_0 \lambda^k$, com $0 < \lambda < 1$, transformando o DLM em um
 modelo autorregressivo de defasagem distribuída (ARDL) com apenas dois parâmetros.
@@ -303,9 +301,9 @@ e reagrupando os termos segundo cada parâmetro $a_j$, temos
     \notag \\
     &+ a_1\!\left(X_{t-1} + 2X_{t-2} + 3X_{t-3} + 4X_{t-4}\right)
     \notag \\
-    &+ a_2\!\left(X_{t-2} + 4X_{t-3} + 9X_{t-4}\right)
+    &+ a_2\!\left(X_{t-1} + 4X_{t-2} + 9X_{t-3} + 16X_{t-4}\right)
     \notag \\
-    &+ a_3\!\left(X_{t-3} + 8X_{t-4}\right)
+    &+ a_3\!\left(X_{t-1} + 8X_{t-2} + 27X_{t-3} + 64X_{t-4}\right)
     + \varepsilon_t.
     \label{eq:almon_expanded}
 \end{align}
@@ -314,13 +312,13 @@ O modelo em~\eqref{eq:almon_expanded} tem a estrutura de uma regressão
 linear ordinária. Definindo as \textbf{variáveis auxiliares de Almon} por
  
 \begin{equation}
-    Z_t^{(j)} \;=\; \sum_{k=1}^{K+1-j} k^j\, X_{t-(k+j-1)},
+    Z_t^{(j)} \;=\; \sum_{k=0}^{K} b_j(k)\, X_{t-k},
     \qquad j = 0, 1, \ldots, q,
     \label{eq:almon_aux_geral}
 \end{equation}
 
 \noindent
-o modelo pode ser reescrito de forma compacta como
+com $b_0(k)=1$ para todo $k$ e $b_j(k)=k^j$ para $j\geq1$, evitando a ambiguidade de $0^0$. O modelo pode ser reescrito de forma compacta como
  
 \begin{equation}
     Y_t \;=\; \alpha
@@ -361,11 +359,7 @@ defasagens são recuperados pela relação polinomial, dada por
 A transformação de Almon consiste, portanto, em projetar o vetor
 $(\beta_0, \ldots, \beta_K)$ sobre o subespaço de dimensão $q + 1$
 gerado pelas potências $1, k, k^2, \ldots, k^q$ avaliadas nos pontos
-$k = 0, 1, \ldots, K$, a chamada matriz de Vandermonde. As variáveis
-auxiliares $Z_t^{(j)}$ resultantes são, em geral, muito menos
-correlacionadas entre si do que as defasagens originais, o que melhora
-a estabilidade numérica da estimação e reduz a variância dos
-estimadores \citep{almon1965}. O custo dessa parcimônia é a imposição
+$k = 0, 1, \ldots, K$, a chamada matriz de Vandermonde. A redução do número de parâmetros pode melhorar a precisão quando a restrição é adequada. Entretanto, as potências brutas e as variáveis auxiliares não garantem menor correlação nem melhor condicionamento numérico; essas propriedades precisam ser diagnosticadas. O custo dessa parcimônia é a imposição
 de uma forma funcional específica ao perfil de defasagens e o estimador
 é não viesado somente se o grau $q$ for adequadamente especificado.
 Caso $q$ seja subespecificado, introduz-se viés de restrição; caso
@@ -373,13 +367,19 @@ seja excessivamente elevado, os ganhos de variância diminuem. A
 escolha de $q$ deve portanto combinar conhecimento substantivo sobre
 o padrão de transmissão em análise com critérios estatísticos, como
 testes de restrição ou critérios de informação AIC e BIC
-\citep{judge1985, wooldridge2010}. No contexto deste trabalho, o
-estimador de Almon permite capturar a trajetória temporal do impacto
-de um desastre natural sobre a inadimplência de forma parcimoniosa,
-impondo suavidade ao perfil de defasagens sem eliminar a
-heterogeneidade dos efeitos ao longo dos períodos subsequentes ao
-evento.
+\citep{judge1985, wooldridge2010}. Neste trabalho, Almon é apresentado como alternativa teórica; a aplicação utiliza o DLM finito irrestrito, sem restrição polinomial.
 
+
+\subsection{Especificação e limites da aplicação empírica}
+Na aplicação às 27 UFs, estima-se $y_{it}=\alpha_i+\lambda_t+\sum_{k=0}^{K}\beta_kx_{i,t-k}+\varepsilon_{it}$ com as transformações acima, efeitos fixos de UF e de mês-ano completos, sem defasagens de $y$. Os efeitos de UF representam diferenças médias nas mudanças logarítmicas, e os efeitos temporais capturam choques comuns nessa escala; não se confundem com interceptos da taxa em níveis. A identificação utiliza a variação remanescente após retirar ambos os efeitos.
+
+Para cada exposição e recorte, escolhe-se o menor AIC entre $K=1,\ldots,24$, incluindo o contemporâneo e mantendo a amostra comum admissível a $K=24$, inclusive na estimação final. A escolha pode variar entre desastres e períodos, mas não comprova a duração física dos impactos. Os testes, intervalos pontuais e ajustes BH usuais tratam o horizonte escolhido como fixo: não incorporam a incerteza da seleção e não constituem inferência seletiva formal. BH trata a multiplicidade nas famílias declaradas, sem corrigir a seleção de $K$ ou assegurar controle global entre todas as famílias. As rejeições permanecem exploratórias.
+
+A regra de suporte utiliza contagens contemporâneas na janela original e nas datas das equações comuns. Isso é distinto do suporte das regressoras defasadas: Onda de Frio no pré foi bloqueada pela regra de suporte (quatro UFs contemporaneamente expostas), embora as regressoras até $K=24$ alcancem seis UFs e tenham posto completo. Não se demonstrou impossibilidade de estimação em todos os horizontes, nem se assegura inferência confiável pelo posto completo. Preserva-se a regra original, sem relaxamento orientado pelos resultados.
+
+A inferência compara cluster por UF e Driscoll--Kraay com banda temporal fixa de seis meses, independente de $K$. Ter 27 UFs não implica 27 clusters igualmente informativos. Covariâncias conjuntas mal condicionadas, sobretudo em Calor/Baixa Umidade e Chuvas Intensas, exigem cautela com testes Wald de muitas restrições; valores muito pequenos de $p$ não constituem evidência conclusiva. Essas correções não resolvem endogeneidade, seleção do horizonte ou raiz unitária.
+
+Mantém-se a especificação transformada nos casos de diagnóstico inconclusivo em que KPSS não rejeita sua hipótese nula, registrando a limitação. A não rejeição de KPSS não prova estacionariedade, e os casos desfavoráveis também permanecem documentados (RO/SC no pré e RO no total para $\Delta\log(I)$). Os diagnósticos estaduais não certificam o painel nem a subamostra truncada; a análise permanece exploratória.
 
 \subsection{Passo a Passo para Aplicação}
 
@@ -419,7 +419,7 @@ respectivos intervalos de confiança, geralmente por meio de representação gr�
 Esse conjunto de coeficientes forma o perfil de resposta defasada, que permite
 identificar: (i) em qual período o efeito é mais intenso; (ii) se o impacto ocorre
 de forma imediata ou com atraso; (iii) se os efeitos são transitórios ou
-persistentes; e (iv) o efeito acumulado de longo prazo $\hat{\beta}^{LP}$, obtido
+persistentes; e (iv) a associação acumulada no horizonte $K$ $\hat{B}_K$, obtido
 pela soma apresentada em~\eqref{eq:efeito_lp}.
 
 \subsection{Suposições e Limitações}

@@ -2,16 +2,18 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
-## Referência atual da etapa DLM (06/10/2026)
+## Referência atual da etapa DLM — seleção AIC de 1 a 24 meses
 
-O notebook [22 — DLM em painel, diferenças logarítmicas](notebooks/22_dlm_painel_diferencas_logaritmicas.ipynb) é a referência atual: 27 UFs, Δlog(I), Δlog(1+D), UF e mês-ano completos, coeficientes livres de k=0 a 6, sem defasagens de Y. Total climático por COBRADE 12/13/14 é central; grupos/tipologias originais são complementares. **Análise exploratória: estacionariedade estadual não foi sustentada uniformemente.** Não há rejeição da associação acumulada central a 5% com CR1 ou DK6.
+O notebook [23 — DLM em painel com seleção do horizonte por AIC](notebooks/23_dlm_painel_selecao_aic_1a24.ipynb) é a referência atual: 27 UFs, Δlog(I), Δlog(1+D), efeitos fixos de UF e mês-ano completos, coeficientes livres de k=0 a K, sem lags de Y. **K escolhido pelo menor AIC entre 1 e 24, separadamente por exposição e período**, com amostra comum desde fev/2015 (N=1620 pré/3213 total), mantida no modelo final.
 
-- [Protocolo e decisões](docs/dlm_painel_log_protocolo.md) · [Resultados e limites](docs/dlm_painel_log_resultados.md) · [Histórico e SHAs](docs/dlm_painel_log_historico.json).
-- [Relatório HTML offline](outputs/reports/relatorio_dlm_painel_log.html): seleção de período, exposição e covariância, perfil, somas, diagnósticos e cenários. Baixe o arquivo para abrir no navegador.
-- Reprodução: instalar `requirements-dlm-painel-log.lock.txt`, colocar as bases nos caminhos do manifesto e executar `python src/executar_notebook_painel_log.py notebooks/22_dlm_painel_diferencas_logaritmicas.ipynb`; depois `python src/verificar_dlm_painel_log.py` e `python src/relatorio_dlm_painel_log.py`.
-- Tabelas/manifesto: `outputs/tables/dlm_painel_log/`; figuras: `outputs/figures/dlm_painel_log/`. O capítulo de referência está preservado em `tcc/capitulos/c3_metodologias_tg_referencia.tex`, com correções discutidas na documentação.
+O total climático (COBRADE 12/13/14) escolheu K1 nos dois recortes e não apresentou rejeição acumulada a 5% em CR1 ou DK6. Algumas categorias complementares rejeitam após BH, com limitações de classificação, suporte e inferência. **Análise exploratória: estacionariedade estadual não uniforme; IC/p/q usuais ignoram a incerteza da seleção de K; não houve inferência seletiva formal.** K escolhido não comprova duração física dos impactos.
 
-As versões DLM 16–21 ficam preservadas nos commits/branches históricos e não são a especificação atual. Foram incorporados somente arquivos desta revisão. Granger não foi reestimado; SARIMAX continua para etapa posterior.
+- [Protocolo e decisões](docs/dlm_painel_log_aic_protocolo.md) · [Resultados, horizontes e limites](docs/dlm_painel_log_aic_resultados.md).
+- [Relatório HTML offline](outputs/reports/relatorio_dlm_painel_log_aic.html): filtros de período/exposição/covariância, ΔAIC dos 24 candidatos, perfis, somas, suporte, diagnósticos e cenários. Baixe para abrir no navegador.
+- Código: `src/dlm_painel_log_aic.py`; tabelas/manifesto: `outputs/tables/dlm_painel_log_aic/`; figuras: `outputs/figures/dlm_painel_log_aic/`.
+- Reprodução: instalar `requirements-dlm-painel-log.lock.txt`, colocar entradas nos caminhos do manifesto, executar `python src/executar_notebook_painel_log.py notebooks/23_dlm_painel_selecao_aic_1a24.ipynb`; depois `python src/relatorio_dlm_painel_log_aic.py`, `python src/verificar_dlm_painel_log_aic.py` e `node src/verificar_relatorio_dlm_painel_log_aic.cjs`.
+
+A versão [22 — K6 fixo](notebooks/22_dlm_painel_diferencas_logaritmicas.ipynb), seu [protocolo](docs/dlm_painel_log_protocolo.md), [resultados](docs/dlm_painel_log_resultados.md), relatório e saídas permanecem históricos, sem alteração. Versões 16–21 continuam nas branches documentadas no [histórico e SHAs](docs/dlm_painel_log_historico.json). O capítulo foi corrigido em `tcc/capitulos/c3_metodologias_tg_referencia.tex`, com a versão anterior preservada no histórico Git. Granger não foi reestimado; SARIMAX continua para etapa posterior.
 
 ## Objetivo
 
