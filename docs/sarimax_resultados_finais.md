@@ -1,6 +1,6 @@
 # Etapa SARIMAX — resultados finais da análise e roteiro de interpretação
 
-**Data:** 14/10/2026. **Branch:** \`analise/sarimax-nacional\`. **Fonte pública auditada:** \`outputs/tables/segunda_etapa/series_nacionais_agregadas.csv\`. **Implementação válida:** \`src/sarimax_validacao_final.py\` e notebook 25. **Relatório:** \`outputs/reports/relatorio_sarimax_final.html\`. Notebooks 24 e \`src/sarimax.py\` são históricos e não devem ser citados como especificação final.
+**Data:** 14/10/2026. **Branch:** `analise/sarimax-nacional`. **Fonte pública auditada:** `outputs/tables/segunda_etapa/series_nacionais_agregadas.csv`. **Implementação válida:** `src/sarimax_validacao_final.py` e notebook 25. **Relatório:** `outputs/reports/relatorio_sarimax_final.html`. Notebooks 24 e `src/sarimax.py` são históricos e não devem ser citados como especificação final.
 
 ## 1. Resposta à pergunta central
 
@@ -24,7 +24,7 @@ O total climático respeita os códigos COBRADE iniciados em 12/13/14, conforme 
 
 ## 3. O que é cada modelo e como foi escolhido
 
-ARIMA usa termos autorregressivos AR(\(p\)), diferenciação (\(d\)) e médias móveis MA(\(q\)). SARIMA acrescenta dependência sazonal (\(P,D,Q,s\)). SARIMAX incorpora regressores externos. Em \`statsmodels\`, a formulação aplicada é **regressão com erros SARIMA**, coerente com a equação revisada no capítulo 3:
+ARIMA usa termos autorregressivos AR(\(p\)), diferenciação (\(d\)) e médias móveis MA(\(q\)). SARIMA acrescenta dependência sazonal (\(P,D,Q,s\)). SARIMAX incorpora regressores externos. Em `statsmodels`, a formulação aplicada é **regressão com erros SARIMA**, coerente com a equação revisada no capítulo 3:
 
 \[
 y_t = c + \boldsymbol{\gamma}' \mathbf{z}_t + \beta x_{t-\ell} + u_t,\qquad
@@ -33,7 +33,7 @@ y_t = c + \boldsymbol{\gamma}' \mathbf{z}_t + \beta x_{t-\ell} + u_t,\qquad
 
 \(\mathbf z_t\) é o conjunto de controles de calendário conhecidos; o modelo sem clima omite \(\beta x_{t-\ell}\). Coeficientes não são efeito causal nem pontos percentuais da taxa I.
 
-Nos ensaios iniciais (notebook 24), modelos simples mantinham autocorrelação em múltiplos meses. Uma primeira triagem (\`triagem_residual.csv\`) avaliou alternativas com harmônicos anuais e intervenções predefinidas para a pandemia; nenhuma delas isoladamente resolveu os diagnósticos de autocorrelação no período completo. A ACF residual indicava concentração nos lags 3 e 6. Em uma segunda triagem controlada (\`triagem_lags_especificos.csv\`), foram testadas poucas estruturas que representavam dependência trimestral/semestral, além da anual.
+Nos ensaios iniciais (notebook 24), modelos simples mantinham autocorrelação em múltiplos meses. Uma primeira triagem (`triagem_residual.csv`) avaliou alternativas com harmônicos anuais e intervenções predefinidas para a pandemia; nenhuma delas isoladamente resolveu os diagnósticos de autocorrelação no período completo. A ACF residual indicava concentração nos lags 3 e 6. Em uma segunda triagem controlada (`triagem_lags_especificos.csv`), foram testadas poucas estruturas que representavam dependência trimestral/semestral, além da anual.
 
 Os candidatos finais para o total foram: **anual esparso** com AR nos lags 1, 3, 6 e sazonal AR(1) em 12 meses, sem controles determinísticos; e **semestral com harmônicos anuais** com AR(1), sazonal AR(1) em seis meses e um par \(\sin/\cos\) de período 12. Ambos apresentaram teste Ljung–Box ajustado não significativo em 12/24 meses no treino. O segundo obteve BIC menor (550,8255 ante 553,7072), sendo selecionado **somente pelo treino**, não pelo teste. Não equivale a um SARIMA puramente univariado: a referência contém dois regressores determinísticos anuais, comuns ao modelo com clima, e erros SARIMA semestrais. Ainda é um modelo pequeno (2 coeficientes AR, 2 harmônicos, constante e variância).
 
@@ -84,16 +84,16 @@ A etapa de **Granger** avaliou precedência preditiva e não manteve rejeições
 
 ## 8. O que faz cada parte do código
 
-- \`entrada()\` recupera a série nacional e valida calendário, números positivos e contagens.
-- \`preparar()\` constrói a transformação, as defasagens 0,1,3 e a amostra comum.
-- \`construir()\` adiciona harmônicos anuais determinísticos, conhecidos em qualquer mês previsto.
-- \`estimar()\` ajusta SARIMAX por máxima verossimilhança, exige convergência e parâmetros finitos.
-- \`diagnosticos()\` usa inovações padronizadas do filtro de Kalman, Ljung–Box 12/24 ajustado por parâmetros ARMA, Ljung–Box 6 descritivo, ARCH(3) e Jarque–Bera.
-- \`selecionar_lag()\` compara apenas defasagens predeterminadas no treinamento, sem buscar significância.
-- \`prever_um_passo()\` produz avaliação temporal sem reajuste de coeficientes, atualizando observações já realizadas.
-- \`avaliar()\` calcula MAE, RMSE e viés na escala da variável dependente.
-- \`relatorio()\` cria HTML standalone offline com menu lateral, gráficos, tabelas, diagnósticos e explicações.
-- \`main()\` integra períodos, mantém o mesmo modelo-base sem/com clima, estima categorias elegíveis, faz BH por recorte e salva os resultados.
+- `entrada()` recupera a série nacional e valida calendário, números positivos e contagens.
+- `preparar()` constrói a transformação, as defasagens 0,1,3 e a amostra comum.
+- `construir()` adiciona harmônicos anuais determinísticos, conhecidos em qualquer mês previsto.
+- `estimar()` ajusta SARIMAX por máxima verossimilhança, exige convergência e parâmetros finitos.
+- `diagnosticos()` usa inovações padronizadas do filtro de Kalman, Ljung–Box 12/24 ajustado por parâmetros ARMA, Ljung–Box 6 descritivo, ARCH(3) e Jarque–Bera.
+- `selecionar_lag()` compara apenas defasagens predeterminadas no treinamento, sem buscar significância.
+- `prever_um_passo()` produz avaliação temporal sem reajuste de coeficientes, atualizando observações já realizadas.
+- `avaliar()` calcula MAE, RMSE e viés na escala da variável dependente.
+- `relatorio()` cria HTML standalone offline com menu lateral, gráficos, tabelas, diagnósticos e explicações.
+- `main()` integra períodos, mantém o mesmo modelo-base sem/com clima, estima categorias elegíveis, faz BH por recorte e salva os resultados.
 
 ## 9. Redação para a monografia — metodologia
 
@@ -105,10 +105,10 @@ A etapa de **Granger** avaliou precedência preditiva e não manteve rejeições
 
 ## 11. Entregáveis e reprodução
 
-- Notebook: \`notebooks/25_sarimax_validacao_final.ipynb\`.
-- Código: \`src/sarimax_validacao_final.py\`.
-- Protocolo: \`docs/sarimax_protocolo.md\`.
-- Tabelas: \`outputs/tables/sarimax_final/\` (modelo, baseline, estimativas, diagnósticos, estacionariedade, suporte, previsão e sensibilidade).
-- Figuras: \`outputs/figures/sarimax_final/\`.
-- Relatório standalone: \`outputs/reports/relatorio_sarimax_final.html\`.
-- Reprodução: \`python src/sarimax_validacao_final.py\` com Python 3.11, numpy, pandas, scipy, statsmodels, matplotlib. O GitHub Actions executou a rotina e validou arquivos e 24 meses de teste; dados brutos não versionados não foram reaproveitados.
+- Notebook: `notebooks/25_sarimax_validacao_final.ipynb`.
+- Código: `src/sarimax_validacao_final.py`.
+- Protocolo: `docs/sarimax_protocolo.md`.
+- Tabelas: `outputs/tables/sarimax_final/` (modelo, baseline, estimativas, diagnósticos, estacionariedade, suporte, previsão e sensibilidade).
+- Figuras: `outputs/figures/sarimax_final/`.
+- Relatório standalone: `outputs/reports/relatorio_sarimax_final.html`.
+- Reprodução: `python src/sarimax_validacao_final.py` com Python 3.11, numpy, pandas, scipy, statsmodels, matplotlib. O GitHub Actions executou a rotina e validou arquivos e 24 meses de teste; dados brutos não versionados não foram reaproveitados.
