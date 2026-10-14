@@ -26,6 +26,7 @@ jobs:
           pip install "numpy<3" pandas scipy statsmodels matplotlib
       - name: executar sarimax e verificar saidas
         run: |
+          python src/sarimax_diagnostico.py | tee sarimax_triagem.txt
           python src/sarimax.py | tee sarimax_execucao.txt
           python - <<'PY'
           import json
@@ -53,4 +54,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sarimax-log
-          path: sarimax_execucao.txt
+          path: |
+            sarimax_execucao.txt
+            sarimax_triagem.txt
