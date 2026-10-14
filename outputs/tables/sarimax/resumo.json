@@ -1,0 +1,10 @@
+{
+  "status": "concluido",
+  "n_meses": 144,
+  "treino_fim": "2022-12-01",
+  "teste_inicio": "2023-01-01",
+  "teste_fim": "2024-12-01",
+  "modelos": 24,
+  "exogenas_testadas": 12,
+  "ressalva": "inferência exploratória condicionada à seleção por BIC"
+}

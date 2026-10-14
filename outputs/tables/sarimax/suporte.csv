@@ -1,0 +1,25 @@
+﻿periodo,categoria,meses_positivos,registros,estimavel
+total,Clima | Protocolos,116,27322,True
+total,Tipologia | Alagamentos,111,1160,True
+total,Tipologia | Chuvas Intensas,114,5058,True
+total,Tipologia | Enxurradas,111,2261,True
+total,Tipologia | Estiagem e Seca,116,12623,True
+total,Tipologia | Granizo,92,834,True
+total,Tipologia | Incêndio Florestal,87,1496,True
+total,Tipologia | Inundações,106,1723,True
+total,Tipologia | Onda de Calor e Baixa Umidade,29,56,True
+total,Tipologia | Onda de Frio,29,183,True
+total,Tipologia | Tornado,33,57,True
+total,Tipologia | Vendavais e Ciclones,115,1871,True
+pré-pandemia,Clima | Protocolos,81,16057,True
+pré-pandemia,Tipologia | Alagamentos,77,670,True
+pré-pandemia,Tipologia | Chuvas Intensas,79,2133,True
+pré-pandemia,Tipologia | Enxurradas,77,1759,True
+pré-pandemia,Tipologia | Estiagem e Seca,81,8461,True
+pré-pandemia,Tipologia | Granizo,61,504,True
+pré-pandemia,Tipologia | Incêndio Florestal,56,443,True
+pré-pandemia,Tipologia | Inundações,74,991,True
+pré-pandemia,Tipologia | Onda de Calor e Baixa Umidade,14,19,False
+pré-pandemia,Tipologia | Onda de Frio,13,59,False
+pré-pandemia,Tipologia | Tornado,25,41,True
+pré-pandemia,Tipologia | Vendavais e Ciclones,80,977,True
