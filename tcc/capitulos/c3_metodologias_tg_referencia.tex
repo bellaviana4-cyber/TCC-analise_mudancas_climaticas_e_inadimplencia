@@ -613,8 +613,10 @@ um processo AR(\(p\)); o padrão inverso, com corte na FAC na defasagem
 associados a processos ARMA.
  
 Para as ordens sazonais, o mesmo raciocínio é aplicado aos \textit{lags}
-múltiplos de \(s = 12\): a FAC e a FACP avaliadas nas defasagens \(s, 2s,
-3s, \ldots\) orientam a escolha de \(P\) e \(Q\).
+múltiplos da periodicidade considerada. Para dados mensais, a periodicidade
+anual corresponde a \(s=12\), enquanto \(s=6\) representa um padrão
+semestral. A FAC e a FACP podem orientar a escolha dos termos sazonais,
+sem que a análise visual substitua a verificação dos resíduos.
  
 Ao longo dessa etapa, a seleção entre modelos concorrentes é guiada pelos
 critérios de informação de Akaike \citep[AIC;][]{akaike1974} e de Schwarz
@@ -705,17 +707,18 @@ desvios nas caudas da distribuição.
  
 A avaliação comparativa entre os modelos é conduzida fora da amostra, por
 meio de um conjunto de validação não utilizado na etapa de estimação. A
-capacidade preditiva é mensurada a partir de métricas usuais de erro de
-previsão: a raiz do erro quadrático médio (RMSE), que penaliza desvios de
-maior magnitude; o erro absoluto médio (MAE), mais robusto à presença de
-valores extremos; e o erro percentual absoluto médio (MAPE), que fornece
-uma medida relativa do erro. Adicionalmente, os critérios de informação AIC
-e BIC são empregados na seleção das ordens dos modelos, favorecendo
-especificações parcimoniosas.
+capacidade preditiva é mensurada pela raiz do erro quadrático médio (RMSE),
+que penaliza desvios de maior magnitude, e pelo erro absoluto médio (MAE).
+Não se utiliza MAPE porque a variável dependente transformada
+\(100\Delta\log(I_t)\) pode assumir valores negativos ou próximos de zero.
+Adicionalmente, AIC e BIC orientam a seleção de especificações
+parcimoniosas exclusivamente na amostra de treinamento.
  
-Caso o modelo SARIMAX apresente desempenho superior ao modelo SARIMA nas
-métricas de previsão, isso constitui evidência de que as variáveis climáticas
-possuem poder preditivo incremental sobre a inadimplência. Em outras
-palavras, tal resultado sugere que a ocorrência de desastres ambientais
-contribui para explicar a dinâmica da inadimplência além do que pode ser
-inferido exclusivamente a partir de seu comportamento passado.
+O desempenho preditivo é comparado em janelas cronológicas que preservam
+a ordem temporal e as mesmas condições de estimação. Uma redução pontual
+de MAE ou RMSE não garante superioridade estatística ou estabilidade em
+especificações alternativas. A inclusão de desastres contemporâneos no
+mês previsto permite apenas uma \textit{previsão condicional} à exposição
+observada, e não uma previsão operacional \textit{ex ante}. Mesmo quando
+houver ganho preditivo consistente, isso não fornece identificação causal
+dos efeitos de desastres sobre a inadimplência.
