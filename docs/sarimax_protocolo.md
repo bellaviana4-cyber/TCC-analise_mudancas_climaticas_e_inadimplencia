@@ -46,3 +46,7 @@ Granger investiga precedência preditiva condicional; o DLM estadual estuda asso
 A rotina de previsão preserva a identificação da série `y` ao incorporar observações sequenciais ao estado filtrado.
 
 Resultados interpretados e ressalvas: [`sarimax_resultados.md`](sarimax_resultados.md). O relatório inclui ACF, histograma, Q-Q e evolução dos resíduos da referência no treino. Não declarar modelo aprovado se nenhum candidato satisfizer ambos os testes Ljung–Box.
+
+## Auditoria adicional antes do encerramento
+
+A revisão final investiga se a autocorrelação residual pode ser reduzida com uma grade pequena de ARMA, harmônicos sazonais (até 2 pares seno/cosseno) e intervenções de calendário predefinidas para março/abril de 2020 e janela março/2020–dezembro/2021. Essa auditoria é documentada em `outputs/tables/sarimax/triagem_residual.csv`; os termos só serão incorporados ao modelo final caso exista justificativa diagnóstica. A seleção não utiliza o período de teste 2023–2024.
