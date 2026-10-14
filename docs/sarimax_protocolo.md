@@ -43,3 +43,4 @@ Saídas: `outputs/tables/sarimax/` (oito tabelas e resumo JSON), `outputs/figure
 ## Conexão com etapas anteriores
 
 Granger investiga precedência preditiva condicional; o DLM estadual estuda associações distribuídas com efeitos fixos UF e mês; o SARIMAX nacional modela a autocorrelação/sazonalidade e compara previsão condicional com baseline. As três perspectivas não identificam automaticamente causalidade. Na etapa anterior de Granger, rejeições nominais não permaneceram após BH; o DLM principal também não apresentou associação robusta para o total climático. Resultados SARIMAX podem convergir ou divergir por mudança de unidade, controles, transformação e amostra.
+A rotina de previsão preserva a identificação da série `y` ao incorporar observações sequenciais ao estado filtrado.
