@@ -227,7 +227,7 @@ def relatorio(serie, baselines, modelos, coefs, diagn, metricas, estac, suporte,
         "A seleção entre candidatas foi feita só no treino, considerando BIC e Ljung–Box ajustado "
         "pelas ordens ARMA (lags 12 e 24). A alternativa anual esparsa preserva s=12; "
         "a alternativa semestral usa componente s=6 e harmônicos anuais previsíveis. "
-        "O cenário sem clima escolhido é mantido ao adicionar um desastre, comparando "
+        "A referência com harmônicos anuais é tecnicamente uma regressão determinística com erros SARIMA, e não um SARIMA puramente univariado. O cenário sem clima escolhido é mantido ao adicionar um desastre, comparando "
         "o ganho incremental de forma consistente. Não foram escolhidos parâmetros com dados do teste.",
         tabela_html(baselines) +
         "<details><summary>Triagem dos modelos de referência</summary>" + tabela_html(candidatos) + "</details>")
@@ -253,7 +253,7 @@ def relatorio(serie, baselines, modelos, coefs, diagn, metricas, estac, suporte,
     sec("teste", "Comparação preditiva 2023–2024",
         "Jan/2023–dez/2024 é um teste cronológico não usado na escolha de especificações. "
         "24 previsões um mês à frente, estado atualizado com a observação anterior e coeficientes fixos. "
-        "O erro é medido em 100×Δlog(I). Exposições de lag zero representam cenários "
+        "O erro é medido em 100×Δlog(I). Diferenças muito pequenas não devem ser declaradas superioridade preditiva. Exposições de lag zero representam cenários "
         "condicionados aos desastres observados no mês previsto (não operacional).",
         img("previsoes.png") + tabela_html(metricas))
     sec("sensibilidade", "Sensibilidade e suporte",
@@ -274,6 +274,7 @@ def relatorio(serie, baselines, modelos, coefs, diagn, metricas, estac, suporte,
               ganho["delta_bic"], ganho["delta_mae"], ganho["delta_rmse"],
               ("SARIMAX foi menor" if ganho["delta_rmse"] < 0 else "SARIMA foi menor"),
               ("SARIMAX foi preferido" if ganho["delta_bic"] < 0 else "SARIMA foi preferido")))
+    texto += (" A análise dos erros padronizados também aponta ARCH/assimetria de distribuição na referência e autocorrelação residual no reajuste climático completo; logo, os p-valores do reajuste são exploratórios e não têm validade confirmatória assegurada. O resultado de sensibilidade anual indica mudança no sinal do ganho de RMSE.")
     sec("conclusao", "Conclusão comparativa", texto,
         "<p>Interpretação restrita a associação temporal e previsão condicional. "
         "A agregação nacional não equivale ao painel com efeitos fixos das 27 UFs. "
@@ -302,7 +303,7 @@ def relatorio(serie, baselines, modelos, coefs, diagn, metricas, estac, suporte,
            '<nav><strong>sarimax • tcc</strong>'+nav+'</nav><main>'
            '<header><p>tcc | mudanças climáticas e inadimplência</p>'
            '<h1>Dinâmica temporal e desastres climáticos</h1>'
-           '<p>SARIMA × SARIMAX • Brasil, 2013–2024 • análise exploratória validada</p></header>'
+           '<p>SARIMA × SARIMAX • Brasil, 2013–2024 • análise concluída com ressalvas</p></header>'
            + "".join(sections) + '</main></body></html>')
     HTML.write_text(doc, encoding="utf-8")
 
@@ -350,6 +351,12 @@ def main():
                             especificacao=spec["nome"],bic_treino=float(r0.bic),
                             aic_treino=float(r0.aic),delta_bic=0.,**dg0))
         diag_rows.append(dict(periodo=periodo,categoria="SARIMA",amostra="treino",**dg0))
+        # Diagnóstico do reajuste completo, sem usar esses meses na seleção.
+        if periodo == "total":
+            r0_completo = estimar(dados, spec, spec["det"])
+            if r0_completo is not None:
+                diag_rows.append(dict(periodo=periodo,categoria="SARIMA",
+                                      amostra="completa",**diagnosticos(r0_completo)))
         if periodo == "total":
             selecionado_total = spec
             fit_total, treino_total = r0, treino
@@ -454,7 +461,9 @@ def main():
               residuos_sem_ok=bool(m0.residuos_ok),
               residuos_com_ok=bool(m1.residuos_ok),
               lag_clima=int(m1.lag))
-    resumo=dict(status="executado_e_validado", n_meses_originais=144,
+    resumo=dict(status="analise_concluida_com_ressalvas_inferenciais",
+                diagnostico_previsao="autocorrelação não rejeitada no treino, mas heterocedasticidade condicional detectada",
+                n_meses_originais=144,
                 n_treino=116,n_teste=24,n_pre_pandemia=81,
                 especificacao_baseline=selecionado_total["nome"],
                 data_treino_final=TREINO_FIM,
