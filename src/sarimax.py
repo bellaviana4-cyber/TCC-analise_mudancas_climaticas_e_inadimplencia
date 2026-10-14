@@ -39,6 +39,14 @@ ORDENS = [
     ((2, 0, 0), (0, 0, 0, 12)),
     ((1, 0, 0), (1, 0, 0, 12)),
     ((0, 0, 1), (1, 0, 0, 12)),
+    ((0, 0, 2), (0, 0, 0, 12)),
+    ((2, 0, 1), (0, 0, 0, 12)),
+    ((3, 0, 0), (0, 0, 0, 12)),
+    ((1, 0, 2), (0, 0, 0, 12)),
+    ((2, 0, 0), (1, 0, 0, 12)),
+    ((1, 0, 1), (1, 0, 0, 12)),
+    ((1, 0, 1), (0, 0, 1, 12)),
+    ((1, 0, 0), (0, 0, 1, 12)),
 ]
 LAGS = [0, 1, 3]
 CORTE_TESTE = pd.Timestamp("2023-01-01")
@@ -202,7 +210,7 @@ def relatorio(d, candidatos, modelos, coefs, diagnosticos, metricas, previsoes, 
     blocos = []
     blocos.append(secao("metodo", "Objetivo e metodologia", intro,
         "<p>Comparamos SARIMA sem exógenas e SARIMAX com uma exposição e um lag por vez. "
-        "A grade é deliberadamente pequena, a escolha usa BIC no treino e as inferências "
+        "A grade é deliberadamente pequena; primeiro exigimos Ljung–Box (6/12) favorável no baseline, quando existe candidato, depois usamos BIC. As inferências "
         "após seleção são exploratórias. Selecionar um lag isolado não estima efeito acumulado.</p>"))
     blocos.append(secao("dados", "Séries nacionais",
         "São 144 meses (jan/2013–dez/2024). O total climático usa COBRADE 12/13/14; "
@@ -216,7 +224,7 @@ def relatorio(d, candidatos, modelos, coefs, diagnosticos, metricas, previsoes, 
     blocos.append(secao("selecao", "Seleção parcimoniosa",
         "Treino até dez/2022; teste jan/2023–dez/2024. Pré-pandemia até jan/2020. "
         "Mesma amostra dentro de cada período, iniciada em mai/2013 devido às diferenças e ao lag 3. "
-        "Modelos selecionados por menor BIC; reportamos também AIC e convergência.",
+        "Entre modelos sem autocorrelação detectada pelo Ljung–Box (6/12), seleciona-se o menor BIC; se nenhum passar, o menor BIC é reportado com ressalva. Reportamos também AIC e convergência.",
         tabela(modelos) + "<details><summary>Ver todas as especificações</summary>" +
         tabela(candidatos) + "</details>"))
     blocos.append(secao("suporte", "Suporte das exposições",
@@ -297,7 +305,7 @@ def main():
             z = np.log(d.loc[:fim, campo]) if campo == "I" else np.log1p(d.loc[:fim, campo])
             estacionariedade += testes_estacionariedade(z, periodo, campo)
         base = []
-        for ordem, saz in ORDENS[:(7 if periodo == "total" else 5)]:
+        for ordem, saz in ORDENS if periodo == "total" else ORDENS[:11]:
             r, status = ajustar(treino["y"], None, ordem, saz)
             candidatos.append(dict(periodo=periodo, categoria="SARIMA", lag=np.nan,
                                    ordem=str(ordem), sazonal=str(saz),
@@ -305,15 +313,22 @@ def main():
                                    aic=float(r.aic) if r is not None else np.nan,
                                    status=status))
             if r is not None:
-                base.append((r.bic, ordem, saz))
+                lb = acorr_ljungbox(pd.Series(np.asarray(r.resid)), lags=[6, 12], return_df=True)
+                lb6 = float(lb.loc[6, "lb_pvalue"])
+                lb12 = float(lb.loc[12, "lb_pvalue"])
+                base.append((r.bic, ordem, saz, lb6, lb12))
         if not base:
             raise RuntimeError("Nenhum modelo de referência convergiu em " + periodo)
-        _, ordem, saz = min(base, key=lambda z: z[0])
+        adequados = [item for item in base if item[3] >= .05 and item[4] >= .05]
+        # Priorizar resíduo sem autocorrelação detectável; BIC desempata dentro da classe.
+        selecionaveis = adequados if adequados else base
+        _, ordem, saz, _, _ = min(selecionaveis, key=lambda z: z[0])
         r0, _ = ajustar(treino["y"], None, ordem, saz)
         escolhidos.append(dict(periodo=periodo, categoria="SARIMA", lag=np.nan,
                                ordem=str(ordem), sazonal=str(saz), n_treino=len(treino),
                                bic_treino=float(r0.bic), aic_treino=float(r0.aic),
-                               delta_bic_vs_baseline=0))
+                               delta_bic_vs_baseline=0,
+                               diagnostico_ok=bool(adequados)))
         diagnosticos.append(diagnosticar(r0, periodo, "SARIMA", "treino"))
         if periodo == "total":
             pr, status = prever_um_passo((ordem, saz), treino, teste, None)
@@ -351,7 +366,8 @@ def main():
                                    ordem=str(ordem), sazonal=str(saz),
                                    n_treino=len(treino), bic_treino=float(r.bic),
                                    aic_treino=float(r.aic),
-                                   delta_bic_vs_baseline=float(r.bic-r0.bic)))
+                                   delta_bic_vs_baseline=float(r.bic-r0.bic),
+                                   diagnostico_ok=bool(adequados)))
             diagnosticos.append(diagnosticar(r, periodo, nome, "treino"))
             # Coeficientes apresentados para a amostra integral, após avaliação OOS.
             completo = dados if periodo == "total" else treino
