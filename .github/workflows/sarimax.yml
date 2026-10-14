@@ -1,0 +1,73 @@
+name: sarimax nacional
+on:
+  push:
+    branches: [analise/sarimax-nacional]
+    paths:
+      - "docs/sarimax_protocolo.md"
+      - "src/sarimax_validacao_final.py"
+      - "src/verificar_sarimax_final.py"
+      - "src/sarimax_diagnostico_lags.py"
+      - "notebooks/25_sarimax_validacao_final.ipynb"
+  workflow_dispatch:
+
+concurrency:
+  group: sarimax-nacional
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  executar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: analise/sarimax-nacional
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-sarimax.txt
+      - name: executar sarimax e verificar saidas
+        run: |
+          python src/sarimax_diagnostico_lags.py | tee sarimax_triagem_final.txt
+          python src/sarimax_validacao_final.py | tee sarimax_final_execucao.txt
+          python src/verificar_sarimax_final.py | tee sarimax_validacao.txt
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import pandas as pd
+          base = Path("outputs/tables/sarimax_final")
+          for f in ["candidatos.csv", "modelos.csv", "coeficientes.csv",
+                    "diagnosticos.csv", "metricas.csv", "previsoes.csv",
+                    "estacionariedade.csv", "suporte.csv", "resumo.json",
+                    "baselines.csv", "sensibilidade.csv"]:
+              assert (base / f).exists(), f
+          assert pd.read_csv(base / "previsoes.csv")["data"].nunique() == 24
+          assert Path("outputs/reports/relatorio_sarimax_final.html").exists()
+          assert Path("outputs/figures/sarimax_final/diagnosticos.png").exists()
+          print(json.loads((base / "resumo.json").read_text(encoding="utf-8")))
+          PY
+      - name: publicar tabelas, figuras e relatorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/tables/sarimax/triagem_lags_especificos.csv outputs/tables/sarimax_final outputs/figures/sarimax_final outputs/reports/relatorio_sarimax_final.html
+          if ! git diff --staged --quiet; then
+            git commit -m "publica resultados do sarimax"
+            git fetch origin analise/sarimax-nacional
+            git rebase origin/analise/sarimax-nacional
+            git push origin HEAD:analise/sarimax-nacional
+          fi
+      - name: guardar log de execucao
+        uses: actions/upload-artifact@v4
+        with:
+          name: sarimax-log
+          path: |
+            sarimax_final_execucao.txt
+            sarimax_validacao.txt
+            sarimax_triagem_final.txt

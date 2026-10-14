@@ -1,3 +1,20 @@
+## Etapa SARIMAX nacional — análise de encerramento (14/10/2026)
+
+A terceira etapa foi **executada e publicada**, com diagnóstico residual e comparação preditiva sem vazamento de dados. A referência atual é o [notebook 25 — validação final](notebooks/25_sarimax_validacao_final.ipynb), com execução em [src/sarimax_validacao_final.py](src/sarimax_validacao_final.py). O [protocolo](docs/sarimax_protocolo.md) e os [resultados e interpretações finais](docs/sarimax_resultados_finais.md) documentam a seleção, os resultados e as limitações. O notebook 24 e o script `src/sarimax.py` permanecem apenas como **histórico da primeira tentativa**.
+
+**Pergunta central — SARIMAX foi melhor que a referência sem desastres?** Não de forma consistente ou relevante. O modelo de referência com sazonalidade semestral e harmônicos anuais obteve BIC **550,825**, MAE **1,3385** e RMSE **1,7294**. O mesmo modelo com total climático contemporâneo obteve BIC **553,336**, MAE **1,3356** e RMSE **1,7260**. Portanto, o BIC favoreceu o modelo **sem clima**, e o ganho de MAE/RMSE com clima foi de apenas aproximadamente **0,2%**. Na alternativa anual esparsa, o modelo com clima **piorou** BIC e RMSE. **Não houve ganho preditivo robusto.**
+
+A referência principal é, tecnicamente, uma **regressão determinística com seno/cosseno anual e erros SARIMA semestrais**, sem variáveis de desastres. O modelo de comparação adiciona a exposição a desastres, preservando a mesma estrutura e os controles de calendário. ADF/KPSS sustentam primeira diferença logarítmica no período completo; no pré-pandemia divergem. Modelos de treino passaram na triagem Ljung–Box ajustada em 12/24 meses, mas houve **ARCH significativo** e **autocorrelação residual no reajuste completo**: p-valores permanecem exploratórios. O total climático não apresentou associação robusta após BH.
+
+- [Relatório HTML standalone com menu lateral](outputs/reports/relatorio_sarimax_final.html)
+- [Tabelas completas](outputs/tables/sarimax_final/) e [figuras](outputs/figures/sarimax_final/)
+- [Scripts de auditoria diagnóstica](src/sarimax_diagnostico.py) e [triagem de lags 3/6](src/sarimax_diagnostico_lags.py)
+- Código reprodutível: `python src/sarimax_validacao_final.py` na raiz, com Python 3.11 e dependências indicadas no workflow [sarimax.yml](.github/workflows/sarimax.yml).
+
+A taxa de inadimplência nacional provém da razão das somas de carteiras ativas e inadimplentes, não da média das taxas estaduais. A análise climática central preserva COBRADE 12/13/14; os **grupos naturais exatos** necessitam dos arquivos brutos do Atlas, não versionados. Esta modelagem é **nacional**, não substitui os DLMs de painel das 27 UFs e não permite inferência causal.
+
+
+---
 # Mudanças Climáticas e Inadimplência
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.

@@ -1,0 +1,14 @@
+﻿categoria,lag,n_teste,mae,rmse,tipo
+SARIMA,,24,1.092076524040904,1.3548245950526692,univariada
+Clima | Protocolos,0.0,24,1.0627760676247164,1.3850017473714475,"condicional, D_t observado"
+Tipologia | Alagamentos,1.0,24,1.0456969170888593,1.3569977241221387,lag conhecido no início do mês
+Tipologia | Chuvas Intensas,1.0,24,0.9921296211148437,1.3589546358144617,lag conhecido no início do mês
+Tipologia | Enxurradas,1.0,24,1.0449146679325578,1.3816475982674121,lag conhecido no início do mês
+Tipologia | Estiagem e Seca,0.0,24,1.1483608474651688,1.4346683034982608,"condicional, D_t observado"
+Tipologia | Granizo,1.0,24,1.0497630596906276,1.3247223808992938,lag conhecido no início do mês
+Tipologia | Incêndio Florestal,3.0,24,1.2722486354565776,1.5389211017658633,lag conhecido no início do mês
+Tipologia | Inundações,0.0,24,1.16822155518508,1.4723265522208553,"condicional, D_t observado"
+Tipologia | Onda de Calor e Baixa Umidade,0.0,24,1.1103502688680589,1.3859704102814923,"condicional, D_t observado"
+Tipologia | Onda de Frio,3.0,24,1.1117271308290972,1.398408494187178,lag conhecido no início do mês
+Tipologia | Tornado,0.0,24,1.0850211139627703,1.3344165548656686,"condicional, D_t observado"
+Tipologia | Vendavais e Ciclones,3.0,24,1.097245043717413,1.3640899814599108,lag conhecido no início do mês
