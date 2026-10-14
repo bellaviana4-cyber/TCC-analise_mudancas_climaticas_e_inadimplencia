@@ -1,14 +1,14 @@
 ﻿periodo,categoria,lag,n_teste,mae,rmse,viez,tipo_previsao
-total,SARIMA,,24,1.3384701163898203,1.7293818435413175,-0.25542893150245294,sem clima
-total,Clima | Protocolos,0.0,24,1.3356497551796693,1.726045256507443,-0.24585664771779805,condicional a D_t observado
-total,Tipologia | Alagamentos,1.0,24,1.3247858988853027,1.7248945183410749,-0.24638388564938593,histórico climático defasado
-total,Tipologia | Chuvas Intensas,1.0,24,1.293601098049535,1.6926560763212357,-0.2661112702695596,histórico climático defasado
-total,Tipologia | Enxurradas,1.0,24,1.4219048490241801,1.7887535900345584,-0.23485461406814756,histórico climático defasado
-total,Tipologia | Estiagem e Seca,0.0,24,1.3352285219803222,1.7194319940652492,-0.24946032733896273,condicional a D_t observado
-total,Tipologia | Granizo,3.0,24,1.4294652611293586,1.7898156121810311,-0.26585800147460764,histórico climático defasado
-total,Tipologia | Incêndio Florestal,0.0,24,1.4347245356530596,1.8462690553970111,-0.266212335481506,condicional a D_t observado
-total,Tipologia | Inundações,0.0,24,1.4114164418506998,1.7871904937698013,-0.2585490902596844,condicional a D_t observado
-total,Tipologia | Onda de Calor e Baixa Umidade,1.0,24,1.2501734469603882,1.644042867396904,-0.2363470425498663,histórico climático defasado
-total,Tipologia | Onda de Frio,3.0,24,1.3777156441128084,1.7532677216809396,-0.25896312146682593,histórico climático defasado
-total,Tipologia | Tornado,0.0,24,1.3446488595506552,1.7219885623640339,-0.2465394020805806,condicional a D_t observado
-total,Tipologia | Vendavais e Ciclones,0.0,24,1.327743725197053,1.7223699173329876,-0.2575618185417781,condicional a D_t observado
+total,SARIMA,,24,1.3384701162243726,1.729381843495033,-0.25542893132959865,sem clima
+total,Clima | Protocolos,0.0,24,1.3356497550718573,1.726045256495743,-0.2458566477802985,condicional a D_t observado
+total,Tipologia | Alagamentos,1.0,24,1.3247858988381755,1.7248945182412778,-0.24638388499644867,histórico climático defasado
+total,Tipologia | Chuvas Intensas,1.0,24,1.2936010979399961,1.6926560761401446,-0.266111269871448,histórico climático defasado
+total,Tipologia | Enxurradas,1.0,24,1.4219048489987536,1.7887535900181313,-0.2348546141752901,histórico climático defasado
+total,Tipologia | Estiagem e Seca,0.0,24,1.3352285220942903,1.719431994053091,-0.24946032744068744,condicional a D_t observado
+total,Tipologia | Granizo,3.0,24,1.4294652611333127,1.7898156122332614,-0.2658580015527917,histórico climático defasado
+total,Tipologia | Incêndio Florestal,0.0,24,1.4347245358224125,1.8462690556039023,-0.26621233652864956,condicional a D_t observado
+total,Tipologia | Inundações,0.0,24,1.4114164418519242,1.7871904938092478,-0.2585490901219513,condicional a D_t observado
+total,Tipologia | Onda de Calor e Baixa Umidade,1.0,24,1.250173446993937,1.6440428674321104,-0.23634704258612427,histórico climático defasado
+total,Tipologia | Onda de Frio,3.0,24,1.3777156440224931,1.7532677216303014,-0.25896312118195836,histórico climático defasado
+total,Tipologia | Tornado,0.0,24,1.3446488596513098,1.7219885624192106,-0.2465394024007118,condicional a D_t observado
+total,Tipologia | Vendavais e Ciclones,0.0,24,1.3277437253193543,1.7223699173189937,-0.2575618187470456,condicional a D_t observado
