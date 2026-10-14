@@ -50,3 +50,5 @@ Resultados interpretados e ressalvas: [`sarimax_resultados.md`](sarimax_resultad
 ## Auditoria adicional antes do encerramento
 
 A revisão final investiga se a autocorrelação residual pode ser reduzida com uma grade pequena de ARMA, harmônicos sazonais (até 2 pares seno/cosseno) e intervenções de calendário predefinidas para março/abril de 2020 e janela março/2020–dezembro/2021. Essa auditoria é documentada em `outputs/tables/sarimax/triagem_residual.csv`; os termos só serão incorporados ao modelo final caso exista justificativa diagnóstica. A seleção não utiliza o período de teste 2023–2024.
+
+A ACF padronizada da primeira triagem mostrou autocorrelações persistentes nos lags 3 e 6. Por isso, a segunda triagem `src/sarimax_diagnostico_lags.py` avalia ordens autorregressivas esparsas com esses lags e sazonalidade subanual (3/6), além da sazonalidade anual. Resultado em `outputs/tables/sarimax/triagem_lags_especificos.csv`. Nenhuma especificação é aprovada apenas por mínimo BIC sem diagnóstico. Essas tentativas após examinar os resíduos são consideradas exploração de especificações.
