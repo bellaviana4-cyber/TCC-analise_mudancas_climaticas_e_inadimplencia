@@ -472,10 +472,14 @@ exogeneidade da variável explicativa em relação ao termo de erro.
 
 A terceira etapa metodológica consiste na estimação de modelos SARIMAX (\textit{Seasonal Autoregressive Integrated Moving Average with Exogenous Variables}), que estendem a classe de modelos SARIMA ao incorporar variáveis exógenas à estrutura autorregressiva e de médias móveis da série temporal \citep{box2015}. Essa abordagem é particularmente adequada ao problema em análise, uma vez que a inadimplência apresenta padrões de sazonalidade e autocorrelação que devem ser adequadamente modelados antes da avaliação do efeito incremental de fatores climáticos sobre sua dinâmica.
 
-O objetivo central dessa etapa é verificar se as variáveis climáticas agregam poder preditivo à modelagem da inadimplência além daquele já capturado pelo próprio histórico da série. Para isso, adota-se uma estratégia de comparação entre dois modelos estimados sobre o mesmo período de treinamento. O Modelo 1, utilizado como referência (\textit{baseline}), consiste em um SARIMA univariado, especificado exclusivamente a partir da dinâmica passada da inadimplência. O Modelo 2, por sua vez, corresponde ao SARIMAX, incorporando variáveis climáticas como regressores exógenos, sendo representado por
+O objetivo central dessa etapa é verificar se as variáveis climáticas agregam poder preditivo à modelagem da inadimplência além daquele já capturado pelo próprio histórico da série. Para isso, adota-se uma estratégia de comparação entre dois modelos estimados sobre o mesmo período de treinamento. O Modelo 1, utilizado como referência (\textit{baseline}), não inclui desastres climáticos e pode incorporar termos determinísticos de calendário a uma estrutura com erros SARIMA. O Modelo 2 incorpora as mesmas condições de calendário e variáveis climáticas adicionais; ambos são comparados nas mesmas janelas de treinamento e teste. Na parametrização de regressão com erros SARIMA utilizada na aplicação, a especificação genérica é dada por
 
 \begin{equation}
-    \Phi(B)\tilde{\Phi}(B^s)\Delta^d\Delta_s^D \, y_t = \Theta(B)\tilde{\Theta}(B^s)\varepsilon_t + \sum_{j} \delta_j x_{j,t} ,
+\begin{aligned}
+ y_t &= \alpha + \sum_{j=1}^{k}\delta_j x_{j,t} + u_t,\\
+ \Phi(B)\tilde{\Phi}(B^s)\Delta^d\Delta_s^D u_t &=
+ \Theta(B)\tilde{\Theta}(B^s)\varepsilon_t.
+\end{aligned}
 \end{equation}
 
 \noindent em que $B$ é o operador de defasagem; $\Phi(B)$ e $\Theta(B)$ representam os polinômios autorregressivo e de médias móveis não sazonais; $\tilde{\Phi}(B^s)$ e $\tilde{\Theta}(B^s)$ capturam os componentes sazonais de periodicidade $s$; $\Delta^d$ e $\Delta_s^D$ correspondem aos operadores de diferenciação regular e sazonal; e $x_{j,t}$ denota as variáveis climáticas exógenas associadas aos coeficientes $\delta_j$. Os operadores, em especial, serão melhores explicados a seguir. 
@@ -549,8 +553,10 @@ por
 \noindent
 em que o lado esquerdo captura a dinâmica autorregressiva regular e sazonal da
 série diferenciada, e o lado direito representa a estrutura de médias móveis
-regular e sazonal do processo de erros. Para séries mensais, adota-se
-\(s = 12\).
+regular e sazonal do processo de erros. Para séries mensais, \(s=12\) representa a periodicidade anual.
+Na aplicação empírica, também é admissível uma periodicidade semestral
+\(s=6\), desde que justificada pelos diagnósticos residuais; termos
+harmônicos podem representar a sazonalidade anual de forma determinística.
  
 % ----------------------------------------------------------
 \subsection{Incorporação de Variáveis Exógenas: o Modelo SARIMAX}
@@ -562,11 +568,12 @@ vetor de \(k\) variáveis explicativas exógenas \(\mathbf{x}_t = (x_{1,t},
 \ldots, \delta_k)^\top\), de modo que o modelo completo torna-se
  
 \begin{equation}
-  \Phi(B)\,\tilde{\Phi}(B^s)\,\Delta^d\,\Delta_s^D\,y_t
-  \;=\;
-  \Theta(B)\,\tilde{\Theta}(B^s)\,\varepsilon_t
-  \;+\; \sum_{j=1}^{k} \delta_j\,x_{j,t},
-  \label{eq:sarimax}
+\begin{aligned}
+ y_t &= \alpha + \sum_{j=1}^{k} \delta_j x_{j,t}+u_t,\\
+ \Phi(B)\tilde{\Phi}(B^s)\Delta^d\Delta_s^D u_t
+ &= \Theta(B)\tilde{\Theta}(B^s)\varepsilon_t,
+\end{aligned}
+\label{eq:sarimax}
 \end{equation}
  
 \noindent
@@ -579,12 +586,14 @@ exógenas associadas aos coeficientes \(\delta_j\).
  
 No contexto desta pesquisa, as variáveis exógenas \(x_{j,t}\) correspondem
 a indicadores de desastres naturais registrados no período \(t\). Os
-coeficientes \(\delta_j\) medem o efeito marginal de cada variável climática
-sobre a taxa de inadimplência, mantidos constantes os padrões autorregressivos
-e de médias móveis da série. A interpretação causal desses coeficientes,
-contudo, está condicionada à exogeneidade das variáveis climáticas, suposição
-plausível neste contexto dado que desastres naturais derivam de processos
-geofísicos e meteorológicos externos ao sistema financeiro.
+coeficientes \(\delta_j\) descrevem associações condicionais entre as variáveis
+climáticas transformadas e a variável resposta, após modelar a dependência
+temporal dos erros. Como a aplicação utiliza \(100\Delta\log(I_t)\) e
+\(\Delta\log(1+D_t)\), esses coeficientes não são mudanças diretas da taxa
+de inadimplência em pontos percentuais. Tampouco constituem efeitos causais:
+a origem meteorológica dos fenômenos não elimina confundimento, seleção dos
+registros administrativos, defasagens de notificação ou outros mecanismos
+econômicos capazes de afetar a associação estimada.
  
 % ----------------------------------------------------------
 \subsection{Identificação das Ordens do Modelo}
