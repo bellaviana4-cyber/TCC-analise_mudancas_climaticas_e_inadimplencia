@@ -1,6 +1,6 @@
 ## Etapa SARIMAX — série nacional
 
-A etapa de séries temporais complementa o painel DLM com comparação entre um modelo SARIMA e modelos SARIMAX com exposição climática. O notebook [24 — SARIMAX nacional](notebooks/24_sarimax_nacional.ipynb) utiliza a série nacional mensal já publicada em [segunda etapa](outputs/tables/segunda_etapa/series_nacionais_agregadas.csv). O código executável está em [src/sarimax.py](src/sarimax.py), e o [protocolo](docs/sarimax_protocolo.md) descreve critérios e limites.
+A etapa de séries temporais complementa o painel DLM com comparação entre um modelo SARIMA e modelos SARIMAX com exposição climática. O notebook [24 — SARIMAX nacional](notebooks/24_sarimax_nacional.ipynb) utiliza a série nacional mensal já publicada em [segunda etapa](outputs/tables/segunda_etapa/series_nacionais_agregadas.csv). O código executável está em [src/sarimax.py](src/sarimax.py), e o [protocolo](docs/sarimax_protocolo.md) descreve critérios e limites. Consulte também [resultados e interpretação](docs/sarimax_resultados.md).
 
 - Dependente: 100×Δlog(I), com I nacional obtida pela soma das carteiras inadimplentes dividida pela soma das carteiras ativas; exposição: Δlog(1+D); diferenciação externa única (d=D=0).
 - Seleção por BIC no treino até dez/2022; modelos parcimoniosos; uma exposição climática por ajuste e lag 0/1/3.
