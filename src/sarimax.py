@@ -5,13 +5,15 @@ import io
 import json
 import warnings
 import html
+from ast import literal_eval
 
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from scipy.stats import jarque_bera
+from scipy.stats import jarque_bera, probplot
+from statsmodels.graphics.tsaplots import plot_acf
 from statsmodels.stats.diagnostic import acorr_ljungbox, het_arch
 from statsmodels.stats.multitest import multipletests
 from statsmodels.tsa.statespace.sarimax import SARIMAX
@@ -182,6 +184,42 @@ def salvar_figura(d, previsoes):
         plt.close()
 
 
+
+def figuras_diagnostico(d, escolhidos):
+    row = escolhidos[(escolhidos["periodo"] == "total") &
+                     (escolhidos["categoria"] == "SARIMA")].iloc[0]
+    dados = preparar(d, "2024-12-01").loc[:"2022-12-01"]
+    r, status = ajustar(dados["y"], None, literal_eval(row["ordem"]),
+                       literal_eval(row["sazonal"]))
+    if r is None:
+        return
+    residuos = pd.Series(np.asarray(r.resid), index=dados.index)
+    plt.figure(figsize=(10, 3))
+    plt.plot(residuos.index, residuos.values)
+    plt.axhline(0, color="black", linewidth=.7)
+    plt.title("Resíduos — referência SARIMA (treino)")
+    plt.tight_layout()
+    plt.savefig(FIGURAS / "residuos.png", dpi=145)
+    plt.close()
+    fig, ax = plt.subplots(figsize=(10, 3))
+    plot_acf(residuos, lags=24, ax=ax)
+    ax.set_title("Autocorrelação residual — SARIMA")
+    fig.tight_layout()
+    fig.savefig(FIGURAS / "acf_residuos.png", dpi=145)
+    plt.close(fig)
+    plt.figure(figsize=(10, 3))
+    plt.hist(residuos, bins=16)
+    plt.title("Distribuição dos resíduos — SARIMA")
+    plt.tight_layout()
+    plt.savefig(FIGURAS / "histograma_residuos.png", dpi=145)
+    plt.close()
+    fig, ax = plt.subplots(figsize=(7, 4))
+    probplot(residuos, dist="norm", plot=ax)
+    ax.set_title("Gráfico Q-Q dos resíduos — SARIMA")
+    fig.tight_layout()
+    fig.savefig(FIGURAS / "qq_residuos.png", dpi=145)
+    plt.close(fig)
+
 def figura_html(nome):
     p = FIGURAS / nome
     if not p.exists():
@@ -240,7 +278,9 @@ def relatorio(d, candidatos, modelos, coefs, diagnosticos, metricas, previsoes, 
         "Ljung–Box verifica autocorrelação; ARCH avalia heterocedasticidade condicional; "
         "Jarque–Bera avalia normalidade. Valores p pequenos sinalizam ressalvas, "
         "sem que a normalidade isoladamente determine a validade do modelo.",
-        tabela(diagnosticos)))
+        tabela(diagnosticos) + figura_html("residuos.png") +
+        figura_html("acf_residuos.png") + figura_html("histograma_residuos.png") +
+        figura_html("qq_residuos.png")))
     blocos.append(secao("previsao", "Avaliação temporal",
         "Previsões um passo à frente com atualização do estado e parâmetros fixos. "
         "Quando o regressor é contemporâneo, a previsão utiliza o desastre observado "
@@ -257,6 +297,8 @@ def relatorio(d, candidatos, modelos, coefs, diagnosticos, metricas, previsoes, 
     if not principal.empty and not base.empty:
         diff = float(principal["bic_treino"].iloc[0] - base["bic_treino"].iloc[0])
         txt += " Diferença BIC (total climático − SARIMA) no treino: %.3f." % diff
+        if not bool(base["diagnostico_ok"].iloc[0]):
+            txt += " Nenhum baseline testado apresentou p≥0,05 simultaneamente em Ljung–Box 6 e 12. Não se declara um modelo final adequado; estimativas são diagnósticas e exploratórias."
     blocos.append(secao("conclusao", "Conclusões e limitações", txt,
         "<p>A análise é observacional. O SARIMAX nacional não substitui o painel estadual "
         "dos DLMs: não representa heterogeneidade entre UFs. "
@@ -409,9 +451,14 @@ def main():
                         ("suporte", suporte), ("estacionariedade", estacionariedade)]:
         salvar(frame, nome)
     salvar_figura(d, previsoes)
+    figuras_diagnostico(d, escolhidos)
     relatorio(d, candidatos, escolhidos, coeficientes, diagnosticos, metricas,
               previsoes, estacionariedade, suporte)
-    resumo = dict(status="concluido", n_meses=144, treino_fim="2022-12-01",
+    ok_total = bool(escolhidos.loc[(escolhidos.periodo == "total") &
+                                     (escolhidos.categoria == "SARIMA"),
+                                     "diagnostico_ok"].iloc[0])
+    resumo = dict(status="executado_com_ressalvas" if not ok_total else "concluido",
+                  diagnostico_sarima_total_ok=ok_total, n_meses=144, treino_fim="2022-12-01",
                   teste_inicio="2023-01-01", teste_fim="2024-12-01",
                   modelos=len(escolhidos), exogenas_testadas=len(nomes),
                   ressalva="inferência exploratória condicionada à seleção por BIC")
