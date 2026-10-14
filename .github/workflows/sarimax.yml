@@ -4,6 +4,8 @@ on:
     branches: [analise/sarimax-nacional]
     paths:
       - "docs/sarimax_protocolo.md"
+      - "src/sarimax_validacao_final.py"
+      - "notebooks/25_sarimax_validacao_final.ipynb"
   workflow_dispatch:
 
 permissions:
@@ -26,26 +28,27 @@ jobs:
           pip install "numpy<3" pandas scipy statsmodels matplotlib
       - name: executar sarimax e verificar saidas
         run: |
-          python src/sarimax_diagnostico_lags.py | tee sarimax_triagem_lags.txt
-          python src/sarimax.py | tee sarimax_execucao.txt
+          python src/sarimax_validacao_final.py | tee sarimax_final_execucao.txt
           python - <<'PY'
           import json
           from pathlib import Path
           import pandas as pd
-          base = Path("outputs/tables/sarimax")
+          base = Path("outputs/tables/sarimax_final")
           for f in ["candidatos.csv", "modelos.csv", "coeficientes.csv",
                     "diagnosticos.csv", "metricas.csv", "previsoes.csv",
-                    "estacionariedade.csv", "suporte.csv", "resumo.json"]:
+                    "estacionariedade.csv", "suporte.csv", "resumo.json",
+                    "baselines.csv", "sensibilidade.csv"]:
               assert (base / f).exists(), f
           assert pd.read_csv(base / "previsoes.csv")["data"].nunique() == 24
-          assert Path("outputs/reports/relatorio_sarimax.html").exists()
+          assert Path("outputs/reports/relatorio_sarimax_final.html").exists()
+          assert Path("outputs/figures/sarimax_final/diagnosticos.png").exists()
           print(json.loads((base / "resumo.json").read_text(encoding="utf-8")))
           PY
       - name: publicar tabelas, figuras e relatorio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add outputs/tables/sarimax outputs/figures/sarimax outputs/reports/relatorio_sarimax.html
+          git add outputs/tables/sarimax_final outputs/figures/sarimax_final outputs/reports/relatorio_sarimax_final.html
           if ! git diff --staged --quiet; then
             git commit -m "publica resultados do sarimax"
             git push origin HEAD:analise/sarimax-nacional
@@ -55,5 +58,4 @@ jobs:
         with:
           name: sarimax-log
           path: |
-            sarimax_execucao.txt
-            sarimax_triagem_lags.txt
+            sarimax_final_execucao.txt
