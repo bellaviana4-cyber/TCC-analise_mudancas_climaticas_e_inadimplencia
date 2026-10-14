@@ -5,6 +5,7 @@ on:
     paths:
       - "docs/sarimax_protocolo.md"
       - "src/sarimax_validacao_final.py"
+      - "src/verificar_sarimax_final.py"
       - "notebooks/25_sarimax_validacao_final.ipynb"
   workflow_dispatch:
 
@@ -29,6 +30,7 @@ jobs:
       - name: executar sarimax e verificar saidas
         run: |
           python src/sarimax_validacao_final.py | tee sarimax_final_execucao.txt
+          python src/verificar_sarimax_final.py | tee sarimax_validacao.txt
           python - <<'PY'
           import json
           from pathlib import Path
@@ -59,3 +61,4 @@ jobs:
           name: sarimax-log
           path: |
             sarimax_final_execucao.txt
+            sarimax_validacao.txt
