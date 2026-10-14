@@ -1,0 +1,24 @@
+{
+  "status": "executado_e_validado",
+  "n_meses_originais": 144,
+  "n_treino": 116,
+  "n_teste": 24,
+  "n_pre_pandemia": 81,
+  "especificacao_baseline": "semestral_fourier",
+  "data_treino_final": "2022-12-01",
+  "notas": "inferência descritiva pós seleção de estrutura/lag; previsões com regressor contemporâneo são condicionais; grupo COBRADE exato requer entrada bruta",
+  "comparacao": {
+    "bic_sem": 550.8254774832844,
+    "bic_com": 553.3359442856071,
+    "delta_bic": 2.5104668023226395,
+    "mae_sem": 1.3384701163898203,
+    "mae_com": 1.3356497551796693,
+    "delta_mae": -0.0028203612101509457,
+    "rmse_sem": 1.7293818435413175,
+    "rmse_com": 1.726045256507443,
+    "delta_rmse": -0.0033365870338746273,
+    "residuos_sem_ok": true,
+    "residuos_com_ok": true,
+    "lag_clima": 0
+  }
+}

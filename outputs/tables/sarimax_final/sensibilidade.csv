@@ -1,0 +1,2 @@
+﻿especificacao,lag,bic_sem,bic_com,delta_bic,rmse_sem,rmse_com,delta_rmse,residuos_sem_ok,residuos_com_ok
+anual_esparso,0,553.7071549619548,553.7997662501274,0.09261128817263398,1.3772709270305201,1.4224153537956827,0.045144426765162615,True,True
