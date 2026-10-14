@@ -5,6 +5,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import scipy
+import statsmodels
+import matplotlib
 from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -81,6 +84,9 @@ def main():
         "n_meses": int(len(d)), "teste_meses": int(p.data.nunique()),
         "q_bh": "auditado", "resumo": "conciliado",
         "resultado": "etapa reproduzida; limitações inferenciais documentadas",
+        "versoes": {"numpy": np.__version__, "pandas": pd.__version__,
+                   "scipy": scipy.__version__, "statsmodels": statsmodels.__version__,
+                   "matplotlib": matplotlib.__version__},
     }
     (T / "manifest.json").write_text(json.dumps(manifesto,indent=2,ensure_ascii=False),
                                       encoding="utf-8")
