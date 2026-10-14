@@ -56,7 +56,14 @@ for periodo,train in [("total",d.loc[:"2022-12"]),("pre",d.loc[:"2020-01"])]:
                     fit=mod.fit(maxiter=150,disp=False)
                 if not fit.mle_retvals.get("converged",False):
                     continue
+                # Excluir soluções numéricas degeneradas, não apenas warnings.
+                if not np.isfinite([fit.llf,fit.aic,fit.bic,fit.params["sigma2"]]).all():
+                    continue
+                if fit.params["sigma2"] < 1e-8:
+                    continue
                 e=np.asarray(fit.filter_results.standardized_forecasts_error[0])
+                if not np.isfinite(e).all():
+                    continue
                 lb=acorr_ljungbox(e,lags=[6,12,24],return_df=True)
                 ac=acf(e,nlags=12)
                 rows.append(dict(periodo=periodo,deterministicas=nome,
