@@ -1,3 +1,5 @@
+> **Histórico:** resultados da primeira grade SARIMAX, anterior à correção de autocorrelação trimestral/semestral. Para a versão atual, utilize [resultados finais](sarimax_resultados_finais.md), [notebook 25](../notebooks/25_sarimax_validacao_final.ipynb) e [relatório final](../outputs/reports/relatorio_sarimax_final.html). Os números abaixo não são a conclusão final do TCC.
+
 # SARIMAX — resultados e interpretação
 
 Data de referência: 14/10/2026. Fonte: `outputs/tables/segunda_etapa/series_nacionais_agregadas.csv`. Tabelas completas: `outputs/tables/sarimax/`.
