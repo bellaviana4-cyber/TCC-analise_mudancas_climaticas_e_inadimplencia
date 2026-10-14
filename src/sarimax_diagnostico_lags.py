@@ -66,6 +66,11 @@ for periodo,train in [("total",d.loc[:"2022-12"]),("pre",d.loc[:"2020-01"])]:
                     continue
                 lb=acorr_ljungbox(e,lags=[6,12,24],return_df=True)
                 ac=acf(e,nlags=12)
+                # Mesmo com convergência, alguns fits degenerados dão Q/ACF NaN.
+                if not np.isfinite(lb["lb_pvalue"].to_numpy()).all():
+                    continue
+                if not np.isfinite(ac).all():
+                    continue
                 rows.append(dict(periodo=periodo,deterministicas=nome,
                         ordem=str(ordem),sazonal=str(saz),n=len(e),k=len(fit.params),
                         bic=float(fit.bic),aic=float(fit.aic),
