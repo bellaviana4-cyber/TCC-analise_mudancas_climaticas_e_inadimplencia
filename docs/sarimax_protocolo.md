@@ -16,7 +16,7 @@ A forma de implementação do `statsmodels` é uma regressão com erros SARIMA. 
 
 ## Grade pequena e comparação
 
-O baseline é selecionado com BIC no treino em sete estruturas ARMA, incluindo a opção ruído branco, AR(1), MA(1), ARMA(1,1), AR(2), e uma extensão AR sazonal em modelos simples. A análise pré-pandemia testa somente as cinco primeiras opções. A estrutura ARMA vencedora do baseline é fixada na comparação com SARIMAX, para isolar a adição de exposição e conter a complexidade; logo não se faz otimização exaustiva conjunta de ordens e exposição.
+O baseline é selecionado em uma grade curta de quinze estruturas ARMA, com ordens não sazonais de até três termos autorregressivos ou dois de médias móveis e, quando presente, apenas um termo sazonal AR ou MA. A análise pré-pandemia testa somente as onze primeiras opções. Havendo modelos com Ljung–Box p≥0,05 em 6 e 12 meses, escolhe-se o de menor BIC entre eles; caso nenhum satisfaça ambos diagnósticos, reporta-se o menor BIC com ressalva expressa. Isso impede declarar válido um modelo apenas por BIC. A estrutura ARMA vencedora do baseline é fixada na comparação com SARIMAX, para isolar a adição de exposição e conter a complexidade; logo não se faz otimização exaustiva conjunta de ordens e exposição.
 
 Cada SARIMAX inclui uma única exposição, com lag isolado 0, 1 ou 3 da série transformada de desastres; escolhe-se o menor BIC no treino. O uso de lag isolado é explicitado: o coeficiente não mede efeito acumulado. A amostra comum começa em maio/2013 (três lags após uma diferença), inclusive no baseline. Seleção não usa p-valores.
 
