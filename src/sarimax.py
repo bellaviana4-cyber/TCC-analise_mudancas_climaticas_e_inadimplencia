@@ -134,7 +134,7 @@ def prever_um_passo(modelo, treino, teste, coluna):
         p = r.get_forecast(steps=1, exog=futuro)
         previsto = float(np.asarray(p.predicted_mean)[0])
         # Atualiza com a informação já observada; coeficientes não são reajustados.
-        real = pd.Series([linha["y"]], index=pd.DatetimeIndex([data]))
+        real = pd.Series([linha["y"]], index=pd.DatetimeIndex([data]), name="y")
         r = r.append(real, exog=futuro, refit=False)
         linhas.append(dict(data=data.date().isoformat(), observado=float(real.iloc[0]),
                            previsto=previsto))
