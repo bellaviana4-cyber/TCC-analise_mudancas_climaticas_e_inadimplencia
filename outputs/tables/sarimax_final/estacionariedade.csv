@@ -1,9 +1,9 @@
 ﻿periodo,variavel,transformacao,adf_p,kpss_p
-total,I,nível,0.19575745846641762,0.01702715118686708
-total,I,primeira diferença,0.02081256669555698,0.1
-total,Clima | Protocolos,nível,0.5060042132036355,0.01
-total,Clima | Protocolos,primeira diferença,2.017016673936515e-09,0.1
-pré-pandemia,I,nível,0.12208466011907687,0.01
-pré-pandemia,I,primeira diferença,0.34287312590442987,0.1
-pré-pandemia,Clima | Protocolos,nível,0.0016519238534922723,0.1
-pré-pandemia,Clima | Protocolos,primeira diferença,1.7578193778924527e-05,0.1
+total,I,nível,0.19575745846641862,0.01702715118686708
+total,I,primeira diferença,0.02081256669555703,0.1
+total,Clima | Protocolos,nível,0.5060042132036375,0.01
+total,Clima | Protocolos,primeira diferença,2.0170166739367572e-09,0.1
+pré-pandemia,I,nível,0.12208466011907665,0.01
+pré-pandemia,I,primeira diferença,0.34287312590443514,0.1
+pré-pandemia,Clima | Protocolos,nível,0.001651923853492259,0.1
+pré-pandemia,Clima | Protocolos,primeira diferença,1.757819377892371e-05,0.1
