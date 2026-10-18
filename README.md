@@ -278,3 +278,11 @@ python src/executar_segunda_etapa.py --reproduzir
 ```
 
 A etapa 15 usa agregados com hash validado, sem publicar bases brutas. A ausência das bases impede recuperar códigos numéricos originais do Atlas e reconstruir integralmente 10–13; os nomes e contagens foram preservados. A retomada distingue verificação de arquivos, reprodução e diagnósticos estatísticos. Checkpoints históricos divergentes ou entradas ausentes interrompem a retomada sem recálculo silencioso. O HTML final é entregue fora do repositório.
+
+## Fechamento do DLM — versão 4 (outubro de 2026)
+
+A referência metodológica atual do DLM de painel está em [docs/dlm_fechamento_v4_decisao.md](docs/dlm_fechamento_v4_decisao.md). A especificação é o DLM irrestrito UF×mês com efeitos fixos de UF e mês-ano, y=Δlog(I), x=Δlog(1+D) e K selecionado por AIC (1–24) em amostra comum. A inferência principal utiliza Driscoll–Kraay com banda de Bartlett definida pela regra L=⌊4(T/100)^(2/9)⌋ (pré L=3; total L=4), proteção Bonferroni dos 24 horizontes candidatos e ajuste Holm entre exposições nas famílias definidas. DK6 e DK12 são sensibilidades; BH é comparação, não a referência principal.
+
+O [notebook 26](notebooks/26_dlm_fechamento_especificacao_inferencia_v4.ipynb), os scripts `src/dlm_inferencia_banda_regra_v3.py` e `src/dlm_fechamento_diagnosticos_v4.py`, os arquivos de [inferência](outputs/tables/dlm_inferencia_banda_regra_v3/resultados.csv) e a [apresentação DLM + SARIMAX](outputs/reports/apresentacao_dlm_sarimax_v4.html) documentam o fechamento. Com DK por regra + seleção protegida + Holm não houve rejeições a 5%; DK6 também não, ao passo que DK12 registrou sete rejeições complementares, não persistentes entre as bandas. Os achados são exploratórios e não estabelecem causalidade. A tentativa de calibração transversal que falhou foi preservada para auditoria; seus p-valores não fazem parte da inferência adotada.
+
+O relatório HTML original completo v4 e os arquivos numéricos auxiliares de grande porte continuam disponíveis no pacote de entrega de 07/10/2026; para reprodução integral são necessárias as bases locais não versionadas. As implementações antigas (como o notebook 23 e os resultados CR1/DK6 sem proteção de seleção) permanecem no histórico e não substituem o fechamento v4.
