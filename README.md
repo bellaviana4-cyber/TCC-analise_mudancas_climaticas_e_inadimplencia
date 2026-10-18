@@ -281,3 +281,8 @@ python src/executar_notebook_dlm_revisao.py notebooks/17_revisao_metodologica_dl
 ```
 
 O executor IPython evita sockets em ambientes restritos e executa células reais, preservando seus outputs. As bases locais devem estar nos caminhos documentados no checkpoint. Granger não foi reestimado; SARIMAX não foi executado. HTML standalone entregue separadamente, fora do Git. O PR da revisão tem como base `analise/dlm`; não há merge automático.
+
+
+## Validação final dos DLMs
+
+Notebook18 preserva a implementação e saídas dos notebooks16/17. Corrige metadados, avalia suporte da matriz/contrastes, sazonalidade estadual, DF, agregados conjuntos e influência nacional; valida bootstrap externamente. Consulte `docs/dlm_validacao_final_protocolo.md`, `docs/dlm_validacao_final_resultados.md` e `docs/dlm_validacao_final_checkpoint.md`. Saídas: `outputs/tables/dlm_validacao_final/` e `outputs/figures/dlm_validacao_final/`. Reprodução: `python src/dlm_validacao_final.py --reproduzir`, com bases locais e R/clubSandwich0.5.10. O HTML é entregue separadamente e não é versionado. Granger/SARIMAX não foram reexecutados.

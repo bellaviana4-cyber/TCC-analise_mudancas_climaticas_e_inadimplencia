@@ -1,0 +1,14 @@
+﻿verificacao,passou
+Primeira revisão intacta e hashes íntegros,True
+Metadados de spline/Almon/irrestrito correspondem à dimensão,True
+"Todos os lags/leads, ordenação e calendário",True
+Rejeita calendário fora de ordem/com lacuna antes de shift,True
+Sazonalidade UF: projeção e rank equivalem a FE explícitos,True
+Suporte da janela e invariância do contraste à escala,True
+HAC e lags em calendário com lacuna,True
+Resposta dinâmica: propagação AR e cauda após lag12,True
+Delta nacional: derivadas AR/exposição e covariâncias cruzadas,True
+Bootstrap externo escalares e refits conjuntos independentes,True
+CR2: 140 modelos reconciliados e indisponibilidade explícita,True
+Inversão bootstrap: resolução e regiões reportadas,True
+Rank por sorteio:278hipóteses sem pseudoinversa silenciosa,True

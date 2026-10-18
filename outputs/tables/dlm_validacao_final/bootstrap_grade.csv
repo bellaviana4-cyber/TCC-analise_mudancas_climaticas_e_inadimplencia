@@ -1,0 +1,540 @@
+﻿periodo,coluna,exposicao,nivel,especificacao,metodo,J,q_almon,n_parametros_exposicao,K,lag_inicio,FE,ponderado,medida,transformacao,data_inicio,data_fim,N,meses,ufs,null,p,status,singular
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.930959956789324,0.0226,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.7720879866932835,0.0274,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.6132160165972427,0.0328,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.4543440465012023,0.04,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.295472076405162,0.0476,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.136600106309121,0.0584,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.9777281362130807,0.0697,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.8188561661170404,0.0873,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.659984196021,0.1092,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.501112225924959,0.1379,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.342240255828919,0.1709,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.183368285732878,0.2107,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.0244963156368376,0.2535,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.8656243455407973,0.3061,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.7067523754447569,0.3673,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.547880405348716,0.4336,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.3890084352526757,0.4977,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.2301364651566353,0.5564,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.0712644950605945,0.6155,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.9123925249645541,0.667,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7535205548685138,0.7176,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.594648584772473,0.7646,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.4357766146764326,0.8133,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.2769046445803922,0.8557,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.1180326744843514,1.0,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.040839295611688975,0.6076,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.19971126570772935,0.1669,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.3585832358037697,0.111,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.5174552058998101,0.1266,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.6763271759958513,0.1429,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.8351991460918917,0.1611,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.9940711161879321,0.1731,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.1529430862839725,0.1794,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.3118150563800128,0.1787,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.4706870264760532,0.1759,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.6295589965720936,0.1681,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.7884309666681348,0.158,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.9473029367641752,0.1451,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.1061749068602156,0.1339,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.265046876956256,0.1188,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.4239188470522963,0.1063,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.5827908171483367,0.094,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.741662787244378,0.0815,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.9005347573404183,0.0701,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.0594067274364587,0.061,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.218278697532499,0.0547,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.3771506676285394,0.0498,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.53602263772458,0.0439,calculado,0
+Total,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.694894607820621,0.0388,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7715940659314094,0.0102,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7489681661178715,0.012,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7263422663043335,0.0155,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7037163664907956,0.0194,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.6810904666772576,0.0233,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.6584645668637197,0.0266,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.6358386670501817,0.0322,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.6132127672366438,0.0377,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.5905868674231057,0.0435,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.5679609676095678,0.0504,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.5453350677960298,0.0597,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.5227091679824919,0.0713,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.500083268168954,0.0862,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.47745736835541597,0.1056,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.454831468541878,0.1303,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.43220556872834004,0.1645,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.4095796689148021,0.208,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.3869537691012641,0.2587,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.36432786928772615,0.3254,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.3417019694741882,0.4045,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.3190760696606502,0.4984,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.29645016984711225,0.6133,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.2738242700335743,0.7296,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.2511983702200363,0.8585,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.22857247040649842,1.0,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.2059465705929604,0.8605,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.1833206707794225,0.7368,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.16069477096588447,0.6153,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.13806887115234656,0.5004,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.11544297133880854,0.4072,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.09281707152527063,0.3215,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.07019117171173261,0.2548,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.047565271898194705,0.1979,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.024939372084656797,0.1494,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.002313472271118777,0.1089,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.02031242754241913,0.0813,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.04293832735595715,0.0611,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.06556422716949506,0.0453,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.08819012698303308,0.0325,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.11081602679657099,0.0234,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.133441926610109,0.0167,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.15606782642364692,0.0125,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.17869372623718494,0.0103,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.20131962605072284,0.0093,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.22394552586426086,0.0087,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.24657142567779877,0.0071,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.2691973254913368,0.0065,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.2918232253048748,0.0058,calculado,0
+Total,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.3144491251184126,0.0052,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-10.720054413000533,0.0031,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-10.294668258595753,0.0034,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.869282104190972,0.0037,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.44389594978619,0.0051,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.01850979538141,0.0061,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.59312364097663,0.0072,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.16773748657185,0.0103,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.742351332167069,0.0139,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.316965177762288,0.0183,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.891579023357508,0.024,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.466192868952728,0.0294,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.040806714547947,0.034,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.615420560143167,0.039,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.190034405738386,0.044,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.764648251333606,0.0492,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.339262096928825,0.0564,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.9138759425240446,0.0637,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.4884897881192645,0.0704,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.0631036337144835,0.0794,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.6377174793097034,0.0884,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.2123313249049232,0.105,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.7869451705001413,0.1576,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.3615590160953612,0.3216,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.9361728616905811,0.6169,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.510786707285801,1.0,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.08540055288102089,0.6122,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.339985601523761,0.3031,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.7653717559285411,0.1705,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.1907579103333212,0.0985,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.6161440647381013,0.0693,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.0415302191428832,0.053,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.4669163735476634,0.0471,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.8923025279524435,0.0434,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.3176886823572236,0.0395,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.7430748367620037,0.0365,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.168460991166786,0.0342,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.593847145571566,0.0332,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.019233299976346,0.033,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.444619454381126,0.0324,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.870005608785906,0.0319,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,6.295391763190686,0.0313,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,6.720777917595466,0.0306,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,7.14616407200025,0.0298,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,7.57155022640503,0.0284,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,7.99693638080981,0.0257,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,8.42232253521459,0.0228,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,8.84770868961937,0.0203,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,9.27309484402415,0.0171,calculado,0
+Total,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,9.69848099842893,0.0144,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.9561501073996834,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.7759603867644778,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.595770666129272,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.4155809454940664,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.2353912248588608,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.055201504223655,0.0001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.875011783588449,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.694822062953244,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.5146323423180377,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.3344426216828325,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.1542529010476263,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.974063180412421,0.0002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.793873459777215,0.0005,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.6136837391420094,0.001,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.4334940185068037,0.0018,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.253304297871598,0.0042,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.0731145772363924,0.0073,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.8929248566011867,0.0116,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.712735135965981,0.0309,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.5325454153307754,0.119,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.3523556946955697,0.2019,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.17216597406036405,0.3207,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.008023746574841617,0.4739,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.18821346721004728,0.6476,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.3684031878452534,1.0,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.5485929084804586,0.7,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.7287826291156647,0.4376,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.9089723497508699,0.224,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.089162070386076,0.1066,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.2693517910212813,0.09,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.4495415116564874,0.0777,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.6297312322916926,0.0679,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.8099209529268987,0.0586,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.9901106735621048,0.049,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.17030039419731,0.0404,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.350490114832516,0.0327,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.5306798354677214,0.0261,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.7108695561029275,0.0218,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.8910592767381327,0.0167,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.071248997373339,0.0123,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.251438718008544,0.008,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.43162843864375,0.0055,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.6118181592789553,0.0042,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.7920078799141614,0.0027,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.9721976005493667,0.002,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.152387321184573,0.0013,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.332577041819778,0.0009,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.512766762454984,0.0004,calculado,0
+Total,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.69295648309019,0.0002,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-10.257089745206908,0.007,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.685976367895384,0.0077,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.114862990583857,0.0085,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.543749613272333,0.0091,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.972636235960808,0.0096,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.401522858649282,0.0105,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.830409481337757,0.0114,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.259296104026232,0.0133,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.6881827267147065,0.0155,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.117069349403181,0.017,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.545955972091656,0.0184,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.9748425947801307,0.0208,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.403729217468605,0.0231,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.8326158401570805,0.0251,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.261502462845555,0.0276,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.6903890855340293,0.0313,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.1192757082225047,0.0356,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.54816233091098,0.0404,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.02295104640054646,0.047,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.5940644237120711,0.0552,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.1651778010235958,0.0695,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.7362911783351223,0.0892,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.307404555646647,0.125,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.8785179329581716,0.2761,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.449631310269698,1.0,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.020744687581223,0.317,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.591858064892747,0.1934,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.162971442204272,0.1553,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.7340848195157985,0.1314,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,6.305198196827323,0.1139,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,6.87631157413885,0.1004,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,7.4474249514503725,0.0908,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,8.018538328761899,0.0818,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,8.589651706073425,0.0756,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,9.160765083384948,0.0709,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,9.731878460696475,0.067,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,10.302991838008001,0.0633,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,10.874105215319524,0.0597,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,11.44521859263105,0.0557,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,12.016331969942577,0.0528,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,12.5874453472541,0.0502,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,13.158558724565626,0.0477,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,13.729672101877153,0.045,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,14.300785479188676,0.0423,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,14.871898856500202,0.0404,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,15.443012233811729,0.0377,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,16.01412561112325,0.0357,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,16.585238988434778,0.0334,calculado,0
+Total,tipo_onda_de_calor_e_baixa_umidade,Tipologia | Onda de Calor e Baixa Umidade,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,17.156352365746304,0.0315,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.32529413092809,0.146,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-9.006227984321004,0.1632,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.687161837713917,0.1798,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.368095691106832,0.1995,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-8.049029544499746,0.2225,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.729963397892661,0.2478,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.410897251285576,0.2781,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-7.09183110467849,0.3102,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.772764958071404,0.3475,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.453698811464318,0.3866,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-6.134632664857232,0.4271,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.815566518250147,0.4702,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.496500371643061,0.512,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-5.1774342250359755,0.5495,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.8583680784288905,0.5849,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.539301931821805,0.6102,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-4.220235785214719,0.6294,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.901169638607633,0.6442,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.582103492000547,0.6536,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-3.263037345393462,0.6558,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.943971198786376,0.6576,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.6249050521792903,0.6538,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-2.3058389055722053,0.6528,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.9867727589651194,0.6507,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.6677066123580335,1.0,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.3486404657509476,0.3444,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-1.0295743191438618,0.3308,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.7105081725367768,0.3184,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.3914420259296918,0.3028,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,-0.07237587932260503,0.2846,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.24669026728447996,0.2658,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.5657564138915667,0.2454,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,0.8848225604986517,0.226,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.2038887071057367,0.2063,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.5229548537128235,0.187,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,1.8420210003199085,0.172,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.161087146926995,0.1549,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.48015329353408,0.1385,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,2.799219440141165,0.1259,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.118285586748252,0.1136,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.437351733355337,0.1024,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,3.756417879962422,0.0906,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.075484026569509,0.0801,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.394550173176594,0.0689,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,4.713616319783679,0.0603,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.032682466390765,0.0532,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.35174861299785,0.0465,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.670814759604937,0.0412,calculado,0
+Total,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2024-12-01,3564,132,27,5.989880906212021,0.0364,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-9.640216066927936,0.0398,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-9.307828417453909,0.0469,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-8.975440767979881,0.0538,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-8.643053118505854,0.0612,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-8.310665469031827,0.0696,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-7.9782778195578,0.0792,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-7.6458901700837725,0.0892,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-7.313502520609745,0.1013,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.981114871135718,0.1139,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.648727221661691,0.1265,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.316339572187664,0.1427,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.983951922713636,0.1593,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.65156427323961,0.1836,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.319176623765583,0.2151,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.986788974291556,0.2386,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.654401324817528,0.2527,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.322013675343501,0.2648,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.989626025869474,0.2919,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.657238376395447,0.3426,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.3248507269214196,0.423,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.9924630774473924,0.5191,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.660075427973365,0.6457,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.327687778499338,0.7753,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.9953001290253107,0.8569,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.6629124795512844,1.0,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.3305248300772572,0.853,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.99813718060323,0.7825,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.6657495311292028,0.7282,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.33336188165517555,0.6543,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.0009742321811483379,0.564,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.3314134172928789,0.4644,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.6638010667669061,0.3472,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.9961887162409333,0.2341,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.3285763657149605,0.1486,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.6609640151889877,0.0846,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.993351664663015,0.0424,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.325739314137042,0.0152,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.6581269636110694,0.0027,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.9905146130850966,0.0007,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.322902262559124,0.0004,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.655289912033151,0.0004,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.9876775615071782,0.0003,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.320065210981205,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.652452860455233,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.98484050992926,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.317228159403287,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.649615808877314,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.9820034583513415,0.0002,calculado,0
+Pré,tipo_alagamentos,Tipologia | Alagamentos,Tipologia,Principal,spline,4,,4,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.314391107825369,0.0001,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.106746368755593,0.0021,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.9898553851066936,0.0027,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.8729644014577946,0.003,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.7560734178088953,0.0035,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.639182434159996,0.004,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.5222914505110965,0.0045,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.405400466862197,0.005,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.288509483213298,0.0063,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.171618499564399,0.0074,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.0547275159154994,0.0095,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.9378365322666002,0.0112,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.820945548617701,0.0123,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.7040545649688017,0.0149,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.5871635813199023,0.0167,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.4702725976710032,0.0185,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.353381614022104,0.0231,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.2364906303732046,0.0326,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.1195996467243052,0.0513,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.0027086630754058,0.0802,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.8858176794265069,0.1194,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.7689266957776075,0.1604,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.6520357121287081,0.201,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.5351447284798092,0.3163,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.4182537448309098,0.6214,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.30136276118201044,1.0,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.18447177753311106,0.639,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.06758079388421168,0.4213,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.04931018976468726,0.3397,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.16620117341358664,0.2619,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.283092157062486,0.2025,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.39998314071138497,0.1565,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.5168741243602843,0.1122,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.6337651080091837,0.0847,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.7506560916580831,0.0637,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.8675470753069825,0.0401,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.9844380589558814,0.0266,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.1013290426047813,0.0218,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.2182200262536802,0.0176,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.3351110099025791,0.0148,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.452001993551479,0.0119,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.568892977200378,0.0102,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.6857839608492768,0.0081,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.8026749444981767,0.0066,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.9195659281470756,0.0053,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.0364569117959745,0.004,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.1533478954448744,0.0032,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.2702388790937733,0.0024,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.387129862742673,0.0022,calculado,0
+Pré,tipo_chuvas_intensas,Tipologia | Chuvas Intensas,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.504020846391572,0.0019,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-23.01811920535762,0.0034,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-22.039224494639186,0.0036,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-21.060329783920746,0.0038,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-20.081435073202307,0.0038,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-19.10254036248387,0.004,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-18.123645651765436,0.0042,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-17.144750941046997,0.0044,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-16.165856230328558,0.0045,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-15.186961519610122,0.0046,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-14.208066808891685,0.0049,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-13.229172098173247,0.0053,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-12.25027738745481,0.0056,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-11.271382676736373,0.0058,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-10.292487966017935,0.0061,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-9.313593255299498,0.0065,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-8.33469854458106,0.0082,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-7.355803833862623,0.0098,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.376909123144188,0.0126,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.3980144124257485,0.0198,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.419119701707309,0.0335,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.440224990988874,0.0553,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.461330280270438,0.1052,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.482435569551999,0.2853,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.5035408588335599,0.6014,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.47535385188487567,1.0,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.4542485626033113,0.6216,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.4331432733217504,0.3834,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.4120379840401895,0.2772,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.390932694758625,0.209,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.369827405477061,0.1684,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.3487221161955,0.1437,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,7.327616826913939,0.1161,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,8.306511537632375,0.0957,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,9.28540624835081,0.0913,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,10.264300959069246,0.0878,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,11.243195669787688,0.0847,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,12.222090380506124,0.081,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,13.20098509122456,0.0747,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,14.179879801943002,0.0663,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,15.158774512661438,0.0518,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,16.137669223379874,0.0334,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,17.11656393409831,0.0171,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,18.095458644816745,0.0097,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,19.074353355535187,0.0056,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,20.053248066253623,0.005,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,21.03214277697206,0.0047,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,22.0110374876905,0.0041,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,22.989932198408937,0.0039,calculado,0
+Pré,tipo_granizo,Tipologia | Granizo,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,23.968826909127372,0.0037,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.998183330161387,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.665872349670492,0.0002,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.333561369179597,0.0002,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.0012503886887005,0.0002,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.668939408197805,0.0005,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.33662842770691,0.0008,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.004317447216014,0.001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.672006466725119,0.0013,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.339695486234223,0.0017,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.007384505743328,0.002,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.6750735252524325,0.0032,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.342762544761537,0.0042,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.0104515642706415,0.0062,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.6781405837797463,0.0089,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.34582960328885,0.0131,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.013518622797955,0.0177,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.6812076423070597,0.0256,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.3488966618161644,0.0345,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.0165856813252692,0.0479,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.684274700834373,0.0915,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.3519637203434778,0.1822,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.019652739852582535,0.2288,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.3126582406383136,0.3153,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.6449692211292088,0.7375,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.9772802016201041,1.0,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.3095911821109993,0.6277,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.6419021626018946,0.4872,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.9742131430927898,0.3832,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.306524123583687,0.2934,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.638835104074582,0.2685,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.9711460845654774,0.2585,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.3034570650563726,0.2445,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.635768045547268,0.2192,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.968079026038163,0.1828,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.300390006529058,0.1419,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.632700987019954,0.1033,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.965011967510849,0.0687,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.297322948001746,0.0448,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.629633928492641,0.0246,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.961944908983536,0.0143,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.294255889474432,0.0081,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.626566869965327,0.0027,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.958877850456222,0.0002,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,7.291188830947117,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,7.623499811438014,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,7.95581079192891,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,8.288121772419805,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,8.6204327529107,0.0001,calculado,0
+Pré,tipo_inundacoes,Tipologia | Inundações,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,8.952743733401595,0.0001,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-24.76114537201818,0.0852,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-23.747429624723868,0.0886,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-22.73371387742955,0.0917,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-21.719998130135238,0.094,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-20.70628238284092,0.0973,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-19.69256663554661,0.1005,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-18.678850888252292,0.1029,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-17.66513514095798,0.1073,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-16.651419393663666,0.1111,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-15.63770364636935,0.1158,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-14.623987899075034,0.1225,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-13.61027215178072,0.1284,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-12.596556404486407,0.1355,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-11.582840657192092,0.1427,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-10.569124909897777,0.1508,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-9.555409162603462,0.1594,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-8.541693415309147,0.1691,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-7.5279776680148345,0.1764,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-6.514261920720518,0.1861,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-5.500546173426205,0.195,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-4.486830426131888,0.2011,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-3.4731146788375753,0.2061,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-2.4593989315432587,0.2151,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-1.4456831842489457,0.2858,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,-0.4319674369546327,1.0,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,0.5817483103396839,0.5819,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,1.595464057633997,0.4823,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,2.6091798049283135,0.3008,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,3.6228955522226265,0.2458,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,4.636611299516943,0.2449,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,5.650327046811256,0.242,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,6.664042794105573,0.244,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,7.677758541399886,0.2508,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,8.691474288694199,0.2608,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,9.705190035988512,0.2717,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,10.718905783282832,0.2796,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,11.732621530577145,0.2826,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,12.746337277871458,0.2815,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,13.760053025165771,0.2785,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,14.773768772460091,0.2742,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,15.787484519754404,0.2717,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,16.801200267048717,0.2663,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,17.81491601434303,0.2614,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,18.828631761637343,0.2531,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,19.842347508931663,0.2442,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,20.856063256225976,0.2365,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,21.86977900352029,0.2282,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,22.883494750814602,0.217,calculado,0
+Pré,tipo_onda_de_frio,Tipologia | Onda de Frio,Tipologia,Principal,spline,3,,3,12,0,UF + mês-ano,False,C_prop,identidade,2014-01-01,2020-01-01,1971,73,27,23.897210498108922,0.206,calculado,0
