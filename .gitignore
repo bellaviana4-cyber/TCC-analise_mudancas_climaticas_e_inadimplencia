@@ -102,3 +102,6 @@ Desktop.ini
 *.log
 # Backups locais antes de reprodução explicitamente solicitada
 .checkpoints_locais/
+
+# Relatorios e apresentacoes HTML: somente uso local, nao versionar
+*.html
