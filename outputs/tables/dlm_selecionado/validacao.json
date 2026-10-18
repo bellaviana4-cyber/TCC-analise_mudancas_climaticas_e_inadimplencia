@@ -1,0 +1,9 @@
+{
+  "status": "aprovado",
+  "verificacoes": 469,
+  "familias_planejadas": 48,
+  "modelos_painel": 46,
+  "modelos_nacional": 46,
+  "reconciliacoes_CR2_com_R": 5,
+  "inferência": "condicional à seleção, não ajustada para K/p"
+}

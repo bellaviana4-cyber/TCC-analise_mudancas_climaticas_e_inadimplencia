@@ -1,0 +1,10 @@
+{
+  "status": "aprovado",
+  "combinacoes": 48,
+  "desenhos": 2,
+  "modelos": 92,
+  "payload": "identidade exata com CSV",
+  "exportacao": "aprovada",
+  "erros_javascript": [],
+  "requisicoes_externas": []
+}

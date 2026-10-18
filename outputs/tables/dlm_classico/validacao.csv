@@ -1,0 +1,34 @@
+﻿teste,ok
+lag calendário 1,True
+lag calendário 2,True
+lag calendário 3,True
+lag calendário 4,True
+lag calendário 5,True
+lag calendário 6,True
+lag calendário 7,True
+lag calendário 8,True
+lag calendário 9,True
+lag calendário 10,True
+recusa calendário desordenado,True
+recusa lacuna antes dos shifts,True
+deduplicação somente B e cobertura invariante,True
+552 modelos e grade46×10,True
+parâmetros livres e metadados,True
+amostra comum por exposição e período,True
+FWL igual a OLS com FE explícitos,True
+acumulado usa covariâncias completas,True
+curva final igual acumulado,True
+BH48 K1,True
+BH48 K2,True
+BH48 K3,True
+BH48 K4,True
+BH48 K5,True
+BH48 K6,True
+BH48 K7,True
+BH48 K8,True
+BH48 K9,True
+BH48 K10,True
+bootstrap92 sem singularidade e B>=4999,True
+CR2 verificado para138 matrizes,True
+inferência indisponível permanece NA,True
+coeficientes Python/R,True

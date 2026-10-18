@@ -1,0 +1,6 @@
+﻿periodo,coluna,max_diferenca,aprovado
+Total,total_desastres,4.796163466380676e-14,True
+Pré,total_desastres,1.7763568394002505e-14,True
+Total,tipo_onda_de_frio,1.1965539670200087e-11,True
+Pré,tipo_onda_de_frio,8.856115840671919e-10,True
+Total,tipo_granizo,6.790124018607457e-13,True

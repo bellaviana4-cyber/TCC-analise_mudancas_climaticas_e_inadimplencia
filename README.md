@@ -1,14 +1,14 @@
-# Mudanças Climáticas e Inadimplência
+# Desastres e inadimplência: associações e precedência preditiva
 
-Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
+Este repositório contém códigos, análises e materiais do TCC sobre desastres e inadimplência no crédito brasileiro. O escopo empírico atual distingue associação defasada (DLM), precedência preditiva condicional (Granger) e causalidade não identificada. Não atribui os registros do Atlas às mudanças climáticas.
 
 ## Objetivo
 
-O trabalho tem como objetivo avaliar o impacto da ocorrência de desastres naturais sobre a inadimplência de pessoas físicas no sistema de crédito brasileiro no período de **2013 a 2024**.
+O trabalho investiga associações entre registros de desastres e a inadimplência de pessoas físicas no sistema de crédito brasileiro em **2013 a 2024**, bem como informação preditiva dos registros passados. Os modelos não identificam efeitos causais estruturais.
 
 Para isso, são combinadas informações sobre crédito e inadimplência provenientes do **Sistema de Informações de Crédito do Banco Central do Brasil (SCR/BACEN)** com dados de ocorrências de desastres naturais disponibilizados pelo **Atlas Digital de Desastres no Brasil**.
 
-A análise busca investigar tanto relações contemporâneas quanto efeitos temporalmente defasados entre a ocorrência de desastres naturais e o comportamento da inadimplência.
+A análise atual usa dois DLMs clássicos e preserva os testes Granger anteriores. Categorias administrativas, hidrometeorológicas, geológicas, biológicas e tecnológicas são distinguidas por código COBRADE; nem todo registro é exclusivamente climático.
 
 ## Dados
 
@@ -32,11 +32,11 @@ A análise empírica utiliza métodos de séries temporais para investigar a rel
 
 As principais técnicas consideradas são:
 
-* **Causalidade de Granger**, utilizada para avaliar se informações passadas sobre a ocorrência de desastres contribuem para prever o comportamento futuro da inadimplência;
+* **Teste de Granger**, utilizado para avaliar informação preditiva condicional dos registros anteriores, sem demonstração de causalidade estrutural ou validação fora da amostra;
 
-* **Modelos de Defasagens Distribuídas (Distributed Lag Models)**, utilizados para estimar como o efeito associado aos desastres se distribui ao longo dos períodos subsequentes;
+* **Modelos de Defasagens Distribuídas (Distributed Lag Models)**, utilizados para estimar associações defasadas condicionais, com coeficientes livres nos dois desenhos atuais;
 
-* **Painel dinâmico UF × mês**, para relacionar a exposição de cada estado à sua inadimplência;
+* **Painel UF × mês com efeitos fixos**, para estimar associações entre cobertura municipal de registros e variação mensal da inadimplência;
 
 * **Projeções locais, Toda–Yamamoto e previsão temporal**, como análises complementares, conforme os critérios de viabilidade documentados. SARIMAX não foi estimado nesta segunda etapa.
 
@@ -152,7 +152,7 @@ As etapas de processamento foram estruturadas de forma que as bases utilizadas n
 
 ## Status
 
-Projeto em desenvolvimento.
+Projeto em desenvolvimento. A entrega atual é a extensão 21, documentada no fim deste arquivo. Etapas anteriores abaixo são históricas e não substituem a inferência atual. O HTML final contém somente os DLMs clássicos atuais, o Granger preservado e uma comparação identificada com o clássico anterior.
 
 
 ## Ampliação: grupos e tipologias (2013–2024 e pré-pandemia)
@@ -286,3 +286,22 @@ O executor IPython evita sockets em ambientes restritos e executa células reais
 ## Validação final dos DLMs
 
 Notebook18 preserva a implementação e saídas dos notebooks16/17. Corrige metadados, avalia suporte da matriz/contrastes, sazonalidade estadual, DF, agregados conjuntos e influência nacional; valida bootstrap externamente. Consulte `docs/dlm_validacao_final_protocolo.md`, `docs/dlm_validacao_final_resultados.md` e `docs/dlm_validacao_final_checkpoint.md`. Saídas: `outputs/tables/dlm_validacao_final/` e `outputs/figures/dlm_validacao_final/`. Reprodução: `python src/dlm_validacao_final.py --reproduzir`, com bases locais e R/clubSandwich0.5.10. O HTML é entregue separadamente e não é versionado. Granger/SARIMAX não foram reexecutados.
+
+## Entrega atual 21: seleção, dependência, regimes e classificação
+
+[Protocolo](docs/dlm_ajustes5_protocolo.md), [resultados e interpretações](docs/dlm_ajustes5_resultados.md) e [notebook executado](notebooks/21_dlm_inferencia_selecao_regimes.ipynb). Extensão exploratória na mesma base; regras registradas antes dos novos ajustes, sem confirmação independente. DLMs clássicos, sem spline. BIC em amostra comum; proteção simultânea conservadora Bonferroni para a grade K/AR, seguida de BY principal entre categorias sobrepostas e BH comparativo.
+
+Painel: 46 modelos, inferência DK12 principal, DK6/18 sensibilidades; 138 covariâncias brutas conferidas independentemente. Auditoria de 351 pares de UFs por modelo evidencia dependência residual; bootstrap anterior por UF não a resolve automaticamente. Nacional: 69 ajustes com Selic, IPCA e crescimento IBC-Br defasados, fontes oficiais mensais SGS4390/433/24364. Total principal com regimes até fev/2020, mar/2020–dez/2021 e jan/2022–dez/2024; K/AR selecionados conjuntamente, histórico de lags contínuo. Pré mantém até jan/2020. Nacional comum total é comparação pré-definida.
+
+**Resultado atual:** nenhuma soma acumulada passa busca+BY/BH no principal. Vendavais/Ciclones mantém dois testes conjuntos nacionais após busca+BY (pré K3/AR0 e total/regimes K1/AR1), sem demonstrar aumento acumulado. Nenhuma igualdade específica da exposição entre regimes é rejeitada após a proteção e BY; isso não demonstra igualdade. Tecnológico/antrópico tem conjunto significativo somente no comparador comum total e não é exclusivamente climático. Doenças Infecciosas total/regimes não tem posto completo; Calor/Baixa Umidade e Barragens pré mantêm raridade. Fase de 22 meses limita a calibração HAC; covariância robusta não corrige confundimento.
+
+Auditoria por códigos preserva nomes originais do Atlas e explicita agregações/divergências; grupos administrativos não equivalem a clima exclusivo. Granger preserva dez rejeições BH42 com ressalvas. Título e conclusões distinguem associação, precedência preditiva e causalidade não identificada.
+
+```bash
+python src/dlm_ajustes5.py
+python src/verificar_dlm_ajustes5.py
+python src/relatorio_dlm_ajustes5.py
+python src/verificar_relatorio_dlm_ajustes5.py
+```
+
+Saídas em `outputs/tables/dlm_ajustes5/`, incluindo snapshots oficiais públicos dos controles, hashes, diagnósticos, candidatos inelegíveis e famílias planejadas. 898 verificações numéricas; HTML offline conferido em 312 cenários, sem erros JavaScript nem requisições externas, exportação e mobile aprovados. Notebook executado em processo Python/IPython com saídas gravadas. Entradas privadas locais exigidas pelo pipeline: `data/processed/df_tcc_2013_2024.csv` e `data/raw/atlas_desastres/atlas.csv`, hashes auditados. HTML final fora do Git; todos os pontos de entrada integrados geram a revisão atual. O gerador anterior expõe `build_baseline` somente para consulta histórica.

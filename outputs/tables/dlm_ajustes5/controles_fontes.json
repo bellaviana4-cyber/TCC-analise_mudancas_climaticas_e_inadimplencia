@@ -1,0 +1,32 @@
+[
+  {
+    "serie": "selic_mensal",
+    "SGS": 4390,
+    "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados?formato=json&dataInicial=01%2F01%2F2012&dataFinal=31%2F12%2F2024",
+    "sha256": "7f075f3cd1ad4a8ab840c1f185421c512126b14aed0e9254b0bd4d04f18e5a7c",
+    "observacoes": 156,
+    "extraido_em_UTC": "2026-10-05T18:01:14.560245+00:00",
+    "periodicidade": "mensal",
+    "snapshot": "revisão disponível na extração; não vintage histórico"
+  },
+  {
+    "serie": "ipca_mensal",
+    "SGS": 433,
+    "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01%2F01%2F2012&dataFinal=31%2F12%2F2024",
+    "sha256": "5019eb1019973807a8edbdd3d81ca68a4d5ed954634747e4f1ff83ad480f547a",
+    "observacoes": 156,
+    "extraido_em_UTC": "2026-10-05T18:01:22.714875+00:00",
+    "periodicidade": "mensal",
+    "snapshot": "revisão disponível na extração; não vintage histórico"
+  },
+  {
+    "serie": "ibc_br_sa",
+    "SGS": 24364,
+    "fonte": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24364/dados?formato=json&dataInicial=01%2F01%2F2012&dataFinal=31%2F12%2F2024",
+    "sha256": "c32cce5a06e0f67faa35055bd03e2f47522c52b10fdf9bbb6d5ef063f30ae3e3",
+    "observacoes": 156,
+    "extraido_em_UTC": "2026-10-05T18:01:33.604799+00:00",
+    "periodicidade": "mensal",
+    "snapshot": "revisão disponível na extração; não vintage histórico"
+  }
+]
