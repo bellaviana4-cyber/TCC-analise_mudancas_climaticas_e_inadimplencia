@@ -1,0 +1,15 @@
+﻿verificacao,passou
+Lags e leads: valores e limites por UF,True
+Chave municipal preserva municípios e códigos diferentes,True
+Atlas reconciliado em todas as células UF-mês,True
+"Spline, reconstrução beta, covariância e C(h)",True
+"Contrastes pré, pós e diferença",True
+Pesos fixos e período-base,True
+N_eff uniforme e concentrado,True
+BH preserva família planejada,True
+Absorção FE equivale a dummies explícitas,True
+WCR11 rápido equivale a reestimação sob H0 com FE,True
+Leave-out: 27 individuais e duas dominantes por período,True
+"Saídas: horizonte, rank, bootstrap, probabilidades e acumulado",True
+CR2: igualdade Python/R e indisponibilidade inferencial explícita,True
+Taxa nacional: razão de somas e não média simples,True

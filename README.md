@@ -265,3 +265,19 @@ python src/executar_segunda_etapa.py --reproduzir
 ```
 
 A etapa 15 usa agregados com hash validado, sem publicar bases brutas. A ausência das bases impede recuperar códigos numéricos originais do Atlas e reconstruir integralmente 10–13; os nomes e contagens foram preservados. A retomada distingue verificação de arquivos, reprodução e diagnósticos estatísticos. Checkpoints históricos divergentes ou entradas ausentes interrompem a retomada sem recálculo silencioso. O HTML final é entregue fora do repositório.
+
+## Revisão metodológica 17 — DLM
+
+[Notebook 17](notebooks/17_revisao_metodologica_dlm.ipynb), [protocolo pré-estimação](docs/dlm_revisao_protocolo.md), [resultados e discussão](docs/dlm_revisao_resultados.md) e [checkpoint de execução](docs/dlm_revisao_checkpoint_execucao.md).
+
+Revisão em painel UF × mês com cobertura municipal relativa, smooth DLM de horizonte comum 12 meses, curvas incrementais/acumuladas, CR2/Satterthwaite, wild cluster restricted bootstrap e DK. Resultados do notebook 16 preservados. O sinal positivo pré-pandemia de Onda de Frio não é robusto à inferência ampliada, mesmo mantendo a especificação histórica. Nenhuma rejeição principal do painel permanece após BH com CR2/WCR. A análise nacional complementar tem quatro acumulados diretos e dez perfis conjuntos após BH/HAC; seus estimandos e limitações são diferentes dos do painel.
+
+```bash
+python -m pip install -r requirements-dlm-revisao.txt
+# Instalar R e, no R: install.packages(c("clubSandwich", "plm"))
+python src/executar_dlm_revisao.py --reproduzir
+python src/executar_dlm_revisao.py --retomar
+python src/executar_notebook_dlm_revisao.py notebooks/17_revisao_metodologica_dlm.ipynb
+```
+
+O executor IPython evita sockets em ambientes restritos e executa células reais, preservando seus outputs. As bases locais devem estar nos caminhos documentados no checkpoint. Granger não foi reestimado; SARIMAX não foi executado. HTML standalone entregue separadamente, fora do Git. O PR da revisão tem como base `analise/dlm`; não há merge automático.
