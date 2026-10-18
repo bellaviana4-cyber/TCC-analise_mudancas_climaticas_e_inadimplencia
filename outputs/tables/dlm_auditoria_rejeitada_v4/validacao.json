@@ -1,0 +1,11 @@
+{
+  "aplicacoes": 39,
+  "calibracoes": 117,
+  "FWL_dummies_max_diff": 7.799316747991725e-15,
+  "estatistica_pandas": true,
+  "Holm_recalculado": true,
+  "hashes": true,
+  "banda_final_pre": 3,
+  "banda_final_total": 4,
+  "limite": "verificações computacionais; não prova validade finita, exogeneidade ou estacionariedade"
+}

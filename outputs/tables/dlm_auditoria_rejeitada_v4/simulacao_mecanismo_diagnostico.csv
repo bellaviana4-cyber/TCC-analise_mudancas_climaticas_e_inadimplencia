@@ -1,0 +1,5 @@
+T,rho_AR1,replicacoes,B,bloco_medio,taxa_rejeicao_nulo,limite
+60,0.0,50,199,6,0.04,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+60,0.5,50,199,6,0.74,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+119,0.0,50,199,6,0.06,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+119,0.5,50,199,6,0.6,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"

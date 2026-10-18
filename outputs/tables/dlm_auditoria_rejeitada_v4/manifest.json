@@ -1,0 +1,26 @@
+{
+  "B": 1999,
+  "seed": 2026100704,
+  "blocos_medios": [
+    3,
+    6,
+    12
+  ],
+  "metodo": "bootstrap estacionário marginal independente por UF, reprojeção TWFE e beta; estatística omnibus média rho²",
+  "limite": "calibração aproximada condicionada a K e desenho; sob memória curta/estacionariedade; não valida exogeneidade/raiz unitária nem inferência seletiva",
+  "papel": "diagnóstico complementar; sem regra de escolher covariância por preteste",
+  "inputs": {
+    "data/processed/df_tcc_2013_2024.csv": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+    "data/raw/atlas_desastres/atlas.csv": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+    "outputs/tables/dlm_painel_log_aic/selecao_K.csv": "a4337a2bd86cf774cbc591608a4176670e4faa731c6c75e1e32a59b37532a8e3"
+  },
+  "codigo": "69f0be56b8ce23180422c999e255165f655970af4f1dd5f4ad0439b3cff4f98d",
+  "outputs": {
+    "dependencia_calibrada.csv": "66352359c23f4fdc431458caf62472b85e743e25e493d02b12fb32e964a6d253",
+    "validacao_projecao.csv": "a625b14ea595ec4fe76ce2b512950592d0bf4b192cbb532b70f79625733f212d",
+    "resumo_diagnosticos.csv": "f39275d8811dc59fbf5b9684929a2c35b09aef1d5c1c71bc1deab76f431c77af"
+  },
+  "status": "REJEITADO: calibração inadequada; p não utilizar",
+  "motivo": "Nulo independente AR1 rho0.5: taxas rejeição .74 T60 / .60 T119 com 50 réplicas",
+  "arquivo_caminho": "outputs/tables/dlm_auditoria_rejeitada_v4"
+}

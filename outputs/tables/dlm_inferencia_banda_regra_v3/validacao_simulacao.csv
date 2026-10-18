@@ -1,0 +1,4 @@
+rho,replicacoes,erro_sem_protecao,erro_com_protecao,objetivo
+0.0,50000,0.70834,0.049,validar mecanismo de união sob testes normais válidos; não validar CR1/DK ou AIC do painel
+0.5,50000,0.45554,0.03474,validar mecanismo de união sob testes normais válidos; não validar CR1/DK ou AIC do painel
+0.95,50000,0.11838,0.00686,validar mecanismo de união sob testes normais válidos; não validar CR1/DK ou AIC do painel
