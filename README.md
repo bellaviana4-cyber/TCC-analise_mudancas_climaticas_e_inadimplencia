@@ -6,7 +6,7 @@ A terceira etapa foi **executada e publicada**, com diagnóstico residual e comp
 
 A referência principal é, tecnicamente, uma **regressão determinística com seno/cosseno anual e erros SARIMA semestrais**, sem variáveis de desastres. O modelo de comparação adiciona a exposição a desastres, preservando a mesma estrutura e os controles de calendário. ADF/KPSS sustentam primeira diferença logarítmica no período completo; no pré-pandemia divergem. Modelos de treino passaram na triagem Ljung–Box ajustada em 12/24 meses, mas houve **ARCH significativo** e **autocorrelação residual no reajuste completo**: p-valores permanecem exploratórios. O total climático não apresentou associação robusta após BH.
 
-- [Relatório HTML standalone com menu lateral](outputs/reports/relatorio_sarimax_final.html)
+- Relatório visual de consulta: gerado somente localmente a partir das tabelas e figuras do SARIMAX; não versionado no GitHub
 - [Tabelas completas](outputs/tables/sarimax_final/) e [figuras](outputs/figures/sarimax_final/)
 - [Scripts de auditoria diagnóstica](src/sarimax_diagnostico.py) e [triagem de lags 3/6](src/sarimax_diagnostico_lags.py)
 - Código reprodutível: `python src/sarimax_validacao_final.py` na raiz, com Python 3.11 e dependências indicadas no workflow [sarimax.yml](.github/workflows/sarimax.yml).
@@ -26,7 +26,7 @@ O notebook [23 — DLM em painel com seleção do horizonte por AIC](notebooks/2
 O total climático (COBRADE 12/13/14) escolheu K1 nos dois recortes e não apresentou rejeição acumulada a 5% em CR1 ou DK6. Algumas categorias complementares rejeitam após BH, com limitações de classificação, suporte e inferência. **Análise exploratória: estacionariedade estadual não uniforme; IC/p/q usuais ignoram a incerteza da seleção de K; não houve inferência seletiva formal.** K escolhido não comprova duração física dos impactos.
 
 - [Protocolo e decisões](docs/dlm_painel_log_aic_protocolo.md) · [Resultados, horizontes e limites](docs/dlm_painel_log_aic_resultados.md).
-- [Relatório HTML offline](outputs/reports/relatorio_dlm_painel_log_aic.html): filtros de período/exposição/covariância, ΔAIC dos 24 candidatos, perfis, somas, suporte, diagnósticos e cenários. Baixe para abrir no navegador.
+- Relatórios HTML de DLM: arquivos de consulta local gerados a partir dos resultados exportados; não versionados no GitHub.
 - Código: `src/dlm_painel_log_aic.py`; tabelas/manifesto: `outputs/tables/dlm_painel_log_aic/`; figuras: `outputs/figures/dlm_painel_log_aic/`.
 - Reprodução: instalar `requirements-dlm-painel-log.lock.txt`, colocar entradas nos caminhos do manifesto, executar `python src/executar_notebook_painel_log.py notebooks/23_dlm_painel_selecao_aic_1a24.ipynb`; depois `python src/relatorio_dlm_painel_log_aic.py`, `python src/verificar_dlm_painel_log_aic.py` e `node src/verificar_relatorio_dlm_painel_log_aic.cjs`.
 
