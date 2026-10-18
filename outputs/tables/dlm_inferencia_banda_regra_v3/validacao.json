@@ -1,0 +1,16 @@
+{
+  "linhas_resultados": 840,
+  "candidatos": 936,
+  "K_AIC_preservado": true,
+  "banda_somente_T": true,
+  "L_pre3_total4": true,
+  "DK_statsmodels_sintetico": true,
+  "v2_preservada": true,
+  "coeficientes_preservados": true,
+  "protecao24": true,
+  "intervalos_ampliados": true,
+  "conjuntos_sem_Wald": true,
+  "familias_BH_BY_Holm": true,
+  "simulacao_union_bound": true,
+  "limite": "checks de programação e mecanismo; não provam pressupostos do painel"
+}

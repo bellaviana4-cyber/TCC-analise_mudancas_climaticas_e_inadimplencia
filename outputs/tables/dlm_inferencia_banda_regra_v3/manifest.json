@@ -1,0 +1,30 @@
+{
+  "metodo": "Bonferroni simultâneo entre todos K planejados; Holm entre exposições; DK_regra principal, DK6/DK12 sensibilidades, CR1 comparação",
+  "K_final": "exclusivamente escolhido por AIC, sem reexpansão da amostra",
+  "M_scalar": 24,
+  "M_coef_completo": 324,
+  "M_coef_defasado": 300,
+  "M_cenarios": 696,
+  "familias": "periodo × nivel × covariancia × endpoint; global105 também reportado",
+  "limite": "proteção de seleção depende da validade uniforme dos testes pontuais; CR1/DK e t são aproximações, não PoSI exato nem inferência seletiva condicional",
+  "inputs": {
+    "data/processed/df_tcc_2013_2024.csv": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+    "data/raw/atlas_desastres/atlas.csv": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+    "outputs/tables/dlm_painel_log_aic/selecao_K.csv": "a4337a2bd86cf774cbc591608a4176670e4faa731c6c75e1e32a59b37532a8e3"
+  },
+  "codigo": "21ade261a676f8cd1ebaf6e39ee2e553fa3726942ff5e1edd694c49f9c755283",
+  "outputs": {
+    "coeficientes_todos_K.csv": "e10bc59b91fa9ffa62cd72ca32830deb9bf02c625f27864a44c1ce340b4d8a15",
+    "candidatos_conferidos.csv": "95904b5a8da2dca597929776354cb81339e8036ea035385e2620eec214921db3",
+    "perfis.csv": "09217b1e7f7aa7053586e415264e01fac86503a4835e6757af11025f0d2ad44d",
+    "resultados.csv": "57b2e88f5ac083cd00b07e8fc2b0d901ebe63e5223b5fbe30364057119b570c8",
+    "cenarios.csv": "14d9fe9a8689ff73e0d646477857b2b8b07e2bb6698d9906b30712c7bde727c8"
+  },
+  "regra_banda": "L=floor(4*(T/100)^(2/9)); Bartlett; T60->L3, T119->L4; regra de referência não ótima garantida; adotada após observar histórico, análise permanece exploratória",
+  "covariancia_principal": "DK_regra",
+  "codigo_base": "f508ab7c2d2ab9bc7ce85d8681d99b1ef2c65b091e59c547b146dac0e00ea0d4",
+  "protocolo": "6e1f5173d51e02290a035ee22ccb03be33b52ca506f93c8888ecc75c33189f86",
+  "capitulo_v3": "c35dbf56878da4417827053feff2a4ca6cb10cb9c3ab4b488e4a56e882007230",
+  "capitulo_v2_historico": "b63b576627af808bdec422d187f9ccca95fdd52e93e953bc2be4a9287817b68d",
+  "auditoria_banda_adicional": "auditoria_banda_DK.json"
+}

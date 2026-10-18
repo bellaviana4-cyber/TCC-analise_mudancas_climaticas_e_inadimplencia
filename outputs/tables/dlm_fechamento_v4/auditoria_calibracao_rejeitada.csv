@@ -1,0 +1,6 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: outputs--tables--dlm_fechamento_v4--auditoria_calibracao_rejeitada.csv>index,T,rho_AR1,replicacoes,B,bloco_medio,taxa_rejeicao_nulo,limite
+0,60,0.0,50,199,6,0.04,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+1,60,0.5,50,199,6,0.74,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+2,119,0.0,50,199,6,0.06,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"
+3,119,0.5,50,199,6,0.6,"experimento pequeno heteroscedástico estacionário; não valida cenário real, seleção AIC ou cobertura DK"

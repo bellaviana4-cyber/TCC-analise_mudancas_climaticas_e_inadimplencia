@@ -1,0 +1,23 @@
+{
+  "modelo_final": "DLM finito irrestrito TWFE; K_AIC1..24; Δlog(I)/Δlog(1+D)",
+  "inferencia_final": "DK/Bartlett L(T); Bonferroni seleção; Holm exposições; DK6/DK12 sensibilidades e CR1 comparação",
+  "diagnostico_rejeitado": "p da calibração transversal não utilizar; arquivo separado",
+  "status": "fechamento técnico exploratório; não certifica pressupostos; GitHub pendente",
+  "hashes": {
+    "docs/dlm_fechamento_v4_decisao.md": "6dd5ca120090e79a4924c205b13c87208fd792330b85264e3b511a1969d1d432",
+    "notebooks/26_dlm_fechamento_especificacao_inferencia_v4.ipynb": "ef3391b3d61df8c31eec2e22fa36fb6b7765b667dc89e09d74893de54e9b8272",
+    "tcc/capitulos/c3_metodologias_tg_referencia_v4.tex": "ea934150b2eb32ef6dc899445f6fc61c0b54d0a3707ca9b7620b0e35bbb3fff8",
+    "src/relatorio_tcc_fechamento_v4.py": "85df3ebc7e8b55139e6f9ecc66710b2fabb280e29f319202691e9a373b1cab2e",
+    "outputs/tables/dlm_inferencia_banda_regra_v3/resultados.csv": "57b2e88f5ac083cd00b07e8fc2b0d901ebe63e5223b5fbe30364057119b570c8",
+    "outputs/tables/dlm_fechamento_v4/resumo_diagnosticos.csv": "f39275d8811dc59fbf5b9684929a2c35b09aef1d5c1c71bc1deab76f431c77af",
+    "outputs/tables/dlm_fechamento_v4/auditoria_calibracao_rejeitada.csv": "d595882ab27fa5f5cc5f19cff52ec1099e6dd108ff2872bd6652286292afece8",
+    "src/verificar_relatorio_tcc_fechamento_v4.cjs": "91ee2f0cd4458b5c85368614da048240e14bf20efb45804ebf749f3335d5a79b"
+  },
+  "revisao_relatorio": "2026-10-07: menu lateral, três bandas, todos endpoints rejeitados por período, FAQ",
+  "covariancias_relatorio": [
+    "DK_regra",
+    "DK6",
+    "DK12"
+  ],
+  "regressoes_reestimadas_na_revisao": false
+}

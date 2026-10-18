@@ -1,0 +1,19 @@
+{
+  "bandas": [
+    3,
+    4,
+    6,
+    12,
+    18,
+    24
+  ],
+  "aplicacoes_estimadas": 39,
+  "covariancias_conferidas_statsmodels": 234,
+  "leitura_principal": "DK_regra principal: L3 pré/L4 total; sensibilidades exploratórias, sem escolher pelo p",
+  "ressalva": "L24/T60=0.4; sensibilidade não certifica validade finita; não controla escolha da banda",
+  "hash_codigo": "11e6afabb2e2896e12bcdfe4e9b43830c7608b24ad90f4e1bcae469aaa4f0dda",
+  "hash_outputs": {
+    "sensibilidade_banda_DK.csv": "2e5f6e15867b3da13a24ff7d5c03ba06d4a5e2f0d5281a154ceaee8778c57062",
+    "acf_scores_mensais.csv": "477dabe49ae9f9a665e728979e511f3094017ad8c6e74b748019dc8d90bdd46c"
+  }
+}
