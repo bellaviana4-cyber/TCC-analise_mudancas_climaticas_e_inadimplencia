@@ -1,0 +1,21 @@
+unidade,periodo,modelo,idx,ordem,sazonal,n_exog,n_train,convergiu,BIC,AIC,ljungbox_p,n_warnings,warnings,n_iteracoes
+Brasil,Pré,SARIMA,0,"(0, 0, 0)","(1, 0, 0, 12)",16,72,True,320.16441239592,313.33441403887184,0.0450194667199147,0,,6
+Brasil,Pré,SARIMAX,0,"(0, 0, 0)","(1, 0, 0, 12)",16,72,True,375.18785520189857,331.9311989405935,0.0051659752828558,0,,18
+Brasil,Pré,SARIMA,1,"(1, 0, 0)","(1, 0, 0, 12)",16,72,True,324.39850217034234,315.2918376942781,0.0468043903809529,0,,7
+Brasil,Pré,SARIMAX,1,"(1, 0, 0)","(1, 0, 0, 12)",16,72,True,379.4114457724114,333.87812339209034,0.0049068833988306,0,,19
+Brasil,Pré,SARIMA,2,"(0, 0, 1)","(1, 0, 0, 12)",16,72,True,324.40506977893995,315.2984053028757,0.0466483036369714,0,,9
+Brasil,Pré,SARIMAX,2,"(0, 0, 1)","(1, 0, 0, 12)",16,72,True,379.4226203326999,333.8892979523788,0.0049928908972557,0,,21
+Brasil,Pré,SARIMA,3,"(1, 0, 1)","(1, 0, 0, 12)",16,72,True,326.45538390186874,315.07205330678846,0.0595963556202387,2,UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters. | UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,24
+Brasil,Pré,SARIMAX,3,"(1, 0, 1)","(1, 0, 0, 12)",16,72,True,383.6633185479485,335.8533300486113,0.0048208722250445,2,UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters. | UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,29
+Brasil,Pré,SARIMA,4,"(1, 0, 0)","(0, 0, 1, 12)",16,72,True,327.028415826801,317.9217513507368,0.008351816455904,0,,10
+Brasil,Pré,SARIMAX,4,"(1, 0, 0)","(0, 0, 1, 12)",16,72,True,379.8994881692887,334.3661657889675,0.0060722871103064,0,,20
+Brasil,Total,SARIMA,0,"(0, 0, 0)","(1, 0, 0, 12)",16,119,True,580.8780419193663,572.5406714400317,3.477260795481026e-07,0,,6
+Brasil,Total,SARIMAX,0,"(0, 0, 0)","(1, 0, 0, 12)",16,119,True,649.2691398414656,596.4657934723466,1.4934639137932116e-07,0,,13
+Brasil,Total,SARIMA,1,"(1, 0, 0)","(1, 0, 0, 12)",16,119,True,566.3848140170036,555.2683200445574,0.0065559162589743,0,,7
+Brasil,Total,SARIMAX,1,"(1, 0, 0)","(1, 0, 0, 12)",16,119,True,630.2101379255818,574.6276680633512,0.003855627172277,0,,15
+Brasil,Total,SARIMA,2,"(0, 0, 1)","(1, 0, 0, 12)",16,119,True,572.1887460274066,561.0722520549605,0.0007491049408118,0,,8
+Brasil,Total,SARIMAX,2,"(0, 0, 1)","(1, 0, 0, 12)",16,119,True,636.6664981452856,581.084028283055,0.0008952420199979,0,,16
+Brasil,Total,SARIMA,3,"(1, 0, 1)","(1, 0, 0, 12)",16,119,True,565.6857831527044,551.7901656871468,0.0346643665850937,2,UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters. | UserWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,13
+Brasil,Total,SARIMAX,3,"(1, 0, 1)","(1, 0, 0, 12)",16,119,True,629.7934992360439,571.4319058807017,0.0261361215433166,0,,43
+Brasil,Total,SARIMA,4,"(1, 0, 0)","(0, 0, 1, 12)",16,119,True,575.5680144813927,564.4515205089465,3.902314277679108e-05,0,,8
+Brasil,Total,SARIMAX,4,"(1, 0, 0)","(0, 0, 1, 12)",16,119,True,639.9563515875633,584.3738817253327,8.10562725755033e-05,0,,13

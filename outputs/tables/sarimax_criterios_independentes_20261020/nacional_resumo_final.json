@@ -1,0 +1,22 @@
+{
+  "modo": "nacional",
+  "total_unidades_periodos": 2,
+  "comparaveis": 2,
+  "melhora_RMSE": 0,
+  "melhora_BIC": 0,
+  "mediana_melhora_RMSE_pct": -12.803545739821786,
+  "sazonal_em_todos_candidatos": true,
+  "busca_independente": true,
+  "melhor_entre_5_candidatos_por_BIC": true,
+  "diagnostico_LB_SARIMA_rejeita": 2,
+  "diagnostico_LB_SARIMAX_rejeita": 2,
+  "candidatos_total": 20,
+  "candidatos_com_warnings": 3,
+  "candidatos_nao_convergentes": 0,
+  "coeficientes_totais": 32,
+  "coeficientes_nominais": 0,
+  "coeficientes_BH_global": 0,
+  "testes_conjuntos_BH": 0,
+  "proveniencia": "df_tcc_2013_2024.csv SHA256 46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+  "observacoes": "Testes condicionais à seleção por BIC; exógenas contemporâneas observadas no teste."
+}

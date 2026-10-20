@@ -1,0 +1,3 @@
+unidade,periodo,tipologia,coef_original,se_original,p_individual,crit,n_exog_modelo,q_individual_BH_global,q_individual_BH_modelo
+PE,Pré,tipo_enxurradas,1.1591519079521573,0.3006892355512516,0.0001157376451763,BIC independente,5,0.022858184922319252,0.0005786882258815
+PE,Total,tipo_enxurradas,0.8297865737950025,0.207527947762447,6.376325185067467e-05,BIC independente,10,0.022858184922319252,0.0006376325185067466

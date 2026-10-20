@@ -1,0 +1,11 @@
+{
+  "dlm_casos_estimaveis": 58,
+  "dlm_K_superior_10": 4,
+  "dlm_casos_com_alerta_cond_X": 0,
+  "dlm_cov_cond_superior_1e6": 0,
+  "dlm_cov_eig_nao_positivos": 0,
+  "dlm_rejeicoes_grade_bh_com_alerta_cond_cov": 0,
+  "granger_estimados": 627,
+  "granger_apos_BH": 14,
+  "granger_BH_com_LB_rejeitado": 2
+}
