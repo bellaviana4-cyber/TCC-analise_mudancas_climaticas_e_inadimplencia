@@ -34,6 +34,16 @@ A matriz original 16×exógenas não tem posto completo no treino de **53 das 54
 
 **Warnings registrados (não suprimidos):** **550 candidatos** SARIMA/SARIMAX foram ajustados (530 estaduais e 20 nacionais); **41 candidatos** produziram algum warning na tentativa inicial ou repetição. Predominam mensagens `UserWarning` de parâmetros AR/MA iniciais não estacionários/não invertíveis, inicializados em zero; houve uma tentativa inicial sem convergência, repetida. Todos os candidatos terminaram com convergência válida na configuração final. Ao nível de 5%, Ljung–Box rejeita em **13 dos 53 SARIMAX estaduais** e **2 de 2 SARIMAX nacionais** escolhidos. Os modelos não são impedidos de serem ajustados por isso, porém o diagnóstico deve constar e a inferência em casos de autocorrelação remanescente deve ser tratada com cautela.
 
+## 4. ADF/KPSS: diagnóstico de warnings e falhas
+
+A rotina de estacionariedade foi reexecutada sem ocultar os avisos e os resultados numéricos foram comparados com o CSV histórico: **918 de 918 p-valores ADF e KPSS permaneceram idênticos**, incluindo as ausências. Foram registrados:
+
+- **400** `InterpolationWarning` do KPSS porque a estatística ultrapassou os limites da tabela de p-valores (em todos esses casos o p verdadeiro é **maior** que o limite tabulado).
+- **191** falhas KPSS `cannot convert float infinity to integer` em séries esparsas; esses casos permanecem sem p-valor KPSS, não como rejeição.
+- **17** `RuntimeWarning: divide by zero encountered in log` durante o ADF. A execução não foi interrompida.
+
+No total, os 918 testes incluíram **418 KPSS sem p-valor** e **231 ADF sem p-valor** (incluindo séries constantes). A classificação anterior da dependente preserva 16 séries pré e 24 completas favoráveis à estacionariedade; não rejeição do KPSS não é prova formal. As mensagens ficam agora registradas explicitamente em colunas `warning_ADF` e `warning_KPSS` da tabela, em vez de suprimidas.
+
 ## Reprodutibilidade e arquivos
 
 Scripts novos:
