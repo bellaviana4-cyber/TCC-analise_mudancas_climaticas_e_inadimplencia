@@ -2,6 +2,19 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
+## Comparação SARIMA/SARIMAX — revisão com exógenas estimáveis (19/10/2026)
+
+A auditoria da especificação **16 tipologias simultâneas por UF** confirmou deficiência de posto no treino em **53 de 54** aplicações (27 UFs × 2 períodos). O componente sazonal anual não elimina dependência linear dos regressores. A especificação nacional, entretanto, tem **posto 16/16** no treino em ambos os períodos e foi efetivamente ajustada.
+
+- **Principal (estadual):** SARIMA sazonal versus SARIMAX sazonal com tipologias selecionadas *apenas no treino* por meses positivos, posto, condicionamento e limites de parcimônia previamente declarados. **53 modelos pareados**, com **14 melhorias de RMSE** e **nenhuma melhoria de BIC** frente ao SARIMA.
+- **Complementar (Brasil):** SARIMAX sazonal com **16 tipologias simultâneas**, com regressoras obtidas ao agregar os registros nacionais antes de aplicar Δlog(1+D). Posto 16/16, mas RMSE piorou no pré (+29,01%) e no completo (+10,58%), sem melhora de BIC.
+- **Inferência:** não houve rejeição dos testes conjuntos após BH; dois coeficientes estaduais individuais (Enxurradas/PE, pré e total) permaneceram abaixo de q=0,05 global, mas sem superioridade preditiva nem conjunta; resultados exploratórios.
+- **Previsão:** condicional de um passo com exposição contemporânea observada, não previsão de desastres futuros. SARIMA e SARIMAX são comparados com a mesma ordem sazonal em cada par.
+
+**Arquivos:** [relatório HTML offline](outputs/reports/relatorio_sarimax_revisao_20261019.html) · [documentação e limites](docs/sarimax_revisao_estadual_nacional_20261019.md) · [tabelas e auditorias](outputs/tables/sarimax_revisao_20261019/) · [notebook estadual](notebooks/32_sarimax_estadual_tipologias_estimaveis.ipynb) · [notebook nacional](notebooks/33_sarimax_nacional_16_tipologias.ipynb) · [script de estimação](src/sarimax_revisao_final.py).
+
+Para reproduzir, disponibilize localmente a base mensal consolidada e execute `python src/sarimax_revisao_final.py estadual` e `python src/sarimax_revisao_final.py nacional`. A base bruta não é publicada no repositório.
+
 ## Revisão estadual das três metodologias — outubro de 2026
 
 Esta revisão amplia a aplicação para as **27 UFs** e os períodos **jan/2013–jan/2020** (pré-pandemia) e **jan/2013–dez/2024** (completo), com **16 tipologias** separadas nos DLMs/Granger e **16 variáveis exógenas simultâneas** em cada SARIMAX estadual. Mantém intactos os notebooks e os resultados históricos.
