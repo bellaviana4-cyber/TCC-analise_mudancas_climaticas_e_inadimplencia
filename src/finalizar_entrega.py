@@ -29,8 +29,10 @@ def consolidate():
  assert int(d.total_desastres.sum())==40339
  assert d[TIPOS].sum().sum()==40339
  # Verificação exata do conteúdo original compatível com manifesto histórico.
- base=Path(os.getenv('TCC_BASE_CSV','/mnt/data/tcc_bases/df_tcc_2013_2024_recovered.csv')).read_bytes()
- canonical=b'\xef\xbb\xbf'+base.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')
+ base=Path(os.getenv('TCC_BASE_CSV',str(ROOT/'data/processed/df_tcc_2013_2024.csv'))).read_bytes()
+ # Normaliza apenas BOM e quebras de linha; suporta CSV original e CSV reconstruído em LF.
+ base=base.removeprefix(b'\xef\xbb\xbf').replace(b'\r\n',b'\n')
+ canonical=b'\xef\xbb\xbf'+base.replace(b'\n',b'\r\n')
  sha=hashlib.sha256(canonical).hexdigest();assert sha=='46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36',sha
  # Verificação de q BH Granger em cada família fixa de 16 resultados:
  for _,z in g.groupby(['periodo','uf']):
