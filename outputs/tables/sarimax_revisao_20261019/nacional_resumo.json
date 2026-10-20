@@ -1,0 +1,16 @@
+{
+  "amostra": "2013-2019/2020 e 2013-2024",
+  "modo": "nacional",
+  "n_modelos": 2,
+  "n_comparaveis": 2,
+  "n_melhor_rmse": 0,
+  "n_melhor_bic": 0,
+  "n_LB_sarimax_nao_rejeita": 0,
+  "n_LB_sarima_nao_rejeita": 1,
+  "n_rejeicoes_conjunto_BH": 0,
+  "n_rejeicoes_coef_global_BH": 0,
+  "mediana_delta_RMSE_pct": 19.79604788857602,
+  "criterio_selecao": "apenas treino: suporte>=3 meses, posto completo, cond<=1000 e cap 9 ou 12 (estaduais)",
+  "exog_t": "Δlog(1+D), contemporâneo, conhecido no teste",
+  "y": "100 Δlog(CI/CA), Brasil calculado por soma das carteiras"
+}
