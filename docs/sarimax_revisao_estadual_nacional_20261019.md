@@ -4,7 +4,7 @@
 
 A análise principal compara SARIMA sazonal e SARIMAX sazonal em **27 UFs × 2 períodos**, com tipologias exógenas escolhidas **apenas por suporte e estimabilidade no treino**. A complementar compara SARIMA e SARIMAX na **série nacional**, com **as 16 tipologias simultaneamente**, após testar posto e condicionamento.
 
-A fonte é a base consolidada mensal `df_tcc_2013_2024.csv`; SHA-256 **46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36**. 27 UFs × 144 meses = 3.888 linhas. Sem reauditoria dos registros individuais do Atlas. Os nomes das 16 tipologias vêm da taxonomia administrativa; nem todas correspondem exclusivamente a fenômenos climáticos.
+A fonte é a base consolidada mensal `df_tcc_2013_2024.csv`; SHA-256 **46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36**. 27 UFs × 144 meses = 3.888 linhas. Sem reauditoria dos registros individuais do Atlas. As 16 tipologias são preservadas como classificação operacional de desastres do estudo, sem subdivisão ou reclassificação.
 
 ## Verificação anterior à alteração (16 exógenas, UF por UF)
 

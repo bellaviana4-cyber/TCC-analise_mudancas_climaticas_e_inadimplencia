@@ -2,9 +2,9 @@
 
 ## Escopo e proveniência
 
-A base mensal enviada anteriormente à Biblioteca do projeto foi recuperada por intervalos e reconstruída com o **SHA-256 idêntico ao manifesto de 06/10/2026: `46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36`**. O painel contém 27 UFs, 144 meses, 3.888 chaves únicas, sem lacunas; os valores de `taxa_inadimplencia` reproduzem `100 × carteira_inadimplencia_total / carteira_ativa_total`. O total de registros do painel é 40.339 e iguala a reconciliação histórica versionada; **não foi possível reler o Atlas bruto de 76,9 MB nesta sessão**. As 16 variáveis consolidadas e a classificação COBRADE auditada historicamente foram preservadas sem nova reclassificação.
+A base mensal enviada anteriormente à Biblioteca do projeto foi recuperada por intervalos e reconstruída com o **SHA-256 idêntico ao manifesto de 06/10/2026: `46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36`**. O painel contém 27 UFs, 144 meses, 3.888 chaves únicas, sem lacunas; os valores de `taxa_inadimplencia` reproduzem `100 × carteira_inadimplencia_total / carteira_ativa_total`. O total de registros do painel é 40.339 e iguala a reconciliação histórica versionada; **não foi possível reler o Atlas bruto de 76,9 MB nesta sessão**. As 16 tipologias do Atlas foram mantidas literalmente como variáveis operacionais, sem subdivisão por grupos ou reclassificação.
 
-Todos os resultados abaixo foram computados sobre essa base estadual; esta entrega NÃO substitui a auditoria original Atlas/SCR nem validação causal. O nome original das tipologias administrativas pode representar eventos geológicos, biológicos ou tecnológicos, não exclusivamente climáticos.
+Todos os resultados abaixo foram computados sobre essa base estadual; esta entrega NÃO substitui a auditoria original Atlas/SCR nem validação causal. Para o recorte definido neste TCC, todas as 16 tipologias do Atlas são tratadas na classificação operacional adotada, sem nova divisão.
 
 ## Granger: 27 UFs × 2 períodos × 16 tipologias
 
@@ -90,4 +90,4 @@ A análise encontra precedência preditiva local e associações dependentes do 
 
 ## Reprodução
 
-Instale numpy/pandas/scipy/statsmodels, defina (opcional) TCC_BASE_CSV e TCC_OUTPUT_DIR, disponibilize o painel original com hash acima e execute `python src/analise_estadual.py granger`, `python src/analise_estadual.py dlm`, `python src/estacionariedade_estadual.py`, `python src/sarimax_estadual.py Pré` e `python src/sarimax_estadual.py Total`. Para recomputar as tabelas-mestre e o HTML, execute `python src/finalizar_entrega.py`. O Atlas bruto não é requerido para reproduzir os modelos sobre o painel já auditado; é necessário para nova verificação de códigos COBRADE e registros individuais. O protocolo não adicionou modelos reduzidos como se fossem SARIMAX completos.
+Instale numpy/pandas/scipy/statsmodels, defina (opcional) TCC_BASE_CSV e TCC_OUTPUT_DIR, disponibilize o painel original com hash acima e execute `python src/analise_estadual.py granger`, `python src/analise_estadual.py dlm`, `python src/estacionariedade_estadual.py`, `python src/sarimax_estadual.py Pré` e `python src/sarimax_estadual.py Total`. Para recomputar as tabelas-mestre e o HTML, execute `python src/finalizar_entrega.py`. O Atlas bruto não é requerido para reproduzir os modelos sobre o painel já auditado; seria necessário somente para uma auditoria independente de registros individuais, não realizada nesta revisão. O protocolo não adicionou modelos reduzidos como se fossem SARIMAX completos.
