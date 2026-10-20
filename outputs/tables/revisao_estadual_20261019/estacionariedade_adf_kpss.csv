@@ -1,0 +1,919 @@
+﻿uf,periodo,serie,N,transformacao,p_ADF,p_KPSS,status,conclusao
+AC,Pré,y,84,Delta log(I),3.6778184141208124e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+AC,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+AC,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.2611885736515171e-19,,falha parcial,não determinado
+AC,Pré,x_tipo_enxurradas,84,Delta log(1+D),1.2174274304823678e-10,,falha parcial,não determinado
+AC,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.1932393601344264e-18,0.0416666666666664,calculado,inconclusivo ou divergente
+AC,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),7.209965786967353e-10,,falha parcial,não determinado
+AC,Pré,x_tipo_inundacoes,84,Delta log(1+D),6.463732822880864e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+AC,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AC,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_outros,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+AC,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.428531969877833e-12,,falha parcial,não determinado
+AL,Pré,y,84,Delta log(I),1.2211348841260983e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AL,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AL,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AL,Pré,x_tipo_erosao,84,Delta log(1+D),2.0256977770140602e-13,0.0416666666666657,calculado,inconclusivo ou divergente
+AL,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),7.307538182773456e-13,0.0979851862840247,calculado,favorável à estacionariedade (não é prova)
+AL,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AL,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.056955644172888e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_outros,84,Delta log(1+D),1.6716430007872385e-12,0.0416666666666671,calculado,inconclusivo ou divergente
+AL,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+AL,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+AM,Pré,y,84,Delta log(I),6.489769588411568e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_alagamentos,84,Delta log(1+D),0.0029364713092961,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.4364935637670362e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.6256377772681678e-23,,falha parcial,não determinado
+AM,Pré,x_tipo_enxurradas,84,Delta log(1+D),1.943048251870248e-14,,falha parcial,não determinado
+AM,Pré,x_tipo_erosao,84,Delta log(1+D),1.1447691219630895e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.2359037403179223e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+AM,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+AM,Pré,x_tipo_inundacoes,84,Delta log(1+D),7.933315189193209e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),8.798397690562867e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+AM,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+AM,Pré,x_tipo_outros,84,Delta log(1+D),2.8089406340572486e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+AM,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+AM,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.120446629430178e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Pré,y,84,Delta log(I),4.343429095825431e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.0796205784027494e-21,,falha parcial,não determinado
+AP,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_erosao,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),2.462990047493052e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.7679904484597033e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_outros,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+AP,Pré,x_tipo_tornado,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+AP,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.416261067514546e-13,,falha parcial,não determinado
+BA,Pré,y,84,Delta log(I),0.2760579003292882,0.1,calculado,inconclusivo ou divergente
+BA,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.1481758139635088e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),5.1729307058343116e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+BA,Pré,x_tipo_enxurradas,84,Delta log(1+D),1.318154986805453e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_erosao,84,Delta log(1+D),2.759844907712691e-13,0.0416666666666675,calculado,inconclusivo ou divergente
+BA,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.119084885452555e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_granizo,84,Delta log(1+D),1.1264384983969308e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.6627719728350802e-14,,falha parcial,não determinado
+BA,Pré,x_tipo_inundacoes,84,Delta log(1+D),1.877042427444859e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),8.653251645289541e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+BA,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+BA,Pré,x_tipo_outros,84,Delta log(1+D),1.8213648968004065e-14,0.041666666666667,calculado,inconclusivo ou divergente
+BA,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),3.8561490308761285e-08,,falha parcial,não determinado
+BA,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+BA,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),7.366294835889927e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,y,84,Delta log(I),9.859018317292101e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,x_tipo_alagamentos,84,Delta log(1+D),5.651516122529768e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.7511378046886632e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.74943949885584e-15,0.0416666666666669,calculado,inconclusivo ou divergente
+CE,Pré,x_tipo_erosao,84,Delta log(1+D),1.0578186256555929e-11,0.041666666666665,calculado,inconclusivo ou divergente
+CE,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),5.612412293786479e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),3.1588576881938663e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+CE,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),4.8441699994399513e-14,0.041666666666666,calculado,inconclusivo ou divergente
+CE,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_outros,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+CE,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+CE,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),1.2496389191774104e-07,0.1,calculado,favorável à estacionariedade (não é prova)
+DF,Pré,y,84,Delta log(I),5.5363695284641766e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+DF,Pré,x_tipo_alagamentos,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+DF,Pré,x_tipo_enxurradas,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+DF,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_inundacoes,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_outros,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+DF,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+ES,Pré,y,84,Delta log(I),2.861495867655825e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.5828897807675238e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.09467598050868e-20,0.0891687408773844,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.0796205784027494e-21,,falha parcial,não determinado
+ES,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.57310527650949e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_erosao,84,Delta log(1+D),2.2974948834167e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),7.174246983258486e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_granizo,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+ES,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.172509466379176e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_inundacoes,84,Delta log(1+D),1.3966771794254584e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.1150402488875876e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),4.1717389327888524e-16,,falha parcial,não determinado
+ES,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+ES,Pré,x_tipo_outros,84,Delta log(1+D),2.9037580943478e-17,0.0416666666666663,calculado,inconclusivo ou divergente
+ES,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),1.5006884433582602e-09,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+ES,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),9.515133002817414e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Pré,y,84,Delta log(I),0.2611887941068503,0.1,calculado,inconclusivo ou divergente
+GO,Pré,x_tipo_alagamentos,84,Delta log(1+D),4.3142127599547337e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.8585684858263185e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+GO,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.7202372989245948e-17,0.0416666666666674,calculado,inconclusivo ou divergente
+GO,Pré,x_tipo_erosao,84,Delta log(1+D),1.3450864593405156e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+GO,Pré,x_tipo_granizo,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+GO,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),1.2611885736514444e-19,,falha parcial,não determinado
+GO,Pré,x_tipo_inundacoes,84,Delta log(1+D),6.653559892684552e-15,0.0416666666666669,calculado,inconclusivo ou divergente
+GO,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+GO,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+GO,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+GO,Pré,x_tipo_outros,84,Delta log(1+D),3.509552739439071e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+GO,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+GO,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),6.4225459723702245e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,y,84,Delta log(I),0.4428605704000998,0.1,calculado,inconclusivo ou divergente
+MA,Pré,x_tipo_alagamentos,84,Delta log(1+D),8.326492226589106e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.3881336045050744e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_enxurradas,84,Delta log(1+D),6.139848499202808e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,x_tipo_erosao,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+MA,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.018661401701521e-06,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_inundacoes,84,Delta log(1+D),5.435036292058973e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+MA,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_outros,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+MA,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),,,constante ou inválida,não testável
+MG,Pré,y,84,Delta log(I),1.5767675285244505e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.0894538266254746e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),7.27049353592009e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),4.514078618840618e-19,0.045688545688547,calculado,inconclusivo ou divergente
+MG,Pré,x_tipo_enxurradas,84,Delta log(1+D),4.8612805750342266e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_erosao,84,Delta log(1+D),6.033764461959642e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),7.787069483527866e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_granizo,84,Delta log(1+D),7.944311135515616e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),4.0770811849306276e-10,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_inundacoes,84,Delta log(1+D),7.262245309178575e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.9885105180325376e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+MG,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),0.0,,falha parcial,não determinado
+MG,Pré,x_tipo_outros,84,Delta log(1+D),2.2991554428582e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+MG,Pré,x_tipo_tornado,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+MG,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),1.463167299828275e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,y,84,Delta log(I),0.1672391666634786,0.1,calculado,inconclusivo ou divergente
+MS,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.4070678175675533e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),5.154177166210794e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),5.125292963981952e-19,0.0416666666666672,calculado,inconclusivo ou divergente
+MS,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.213173042103e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_erosao,84,Delta log(1+D),2.2232279783978983e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),6.5472765933420525e-09,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_granizo,84,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),3.512632137082816e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_inundacoes,84,Delta log(1+D),4.1299083168314054e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.0538761719029214e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),1.200391712329538e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),1.0512325485781757e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_outros,84,Delta log(1+D),2.2201993732600755e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+MS,Pré,x_tipo_tornado,84,Delta log(1+D),3.1473197924987444e-26,0.0416666666666655,calculado,inconclusivo ou divergente
+MS,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),4.3370340799280174e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,y,84,Delta log(I),0.1193540380410573,0.1,calculado,inconclusivo ou divergente
+MT,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.289800087337384e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),7.705901619897042e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),7.799679229829171e-14,,falha parcial,não determinado
+MT,Pré,x_tipo_enxurradas,84,Delta log(1+D),4.360615544544613e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_erosao,84,Delta log(1+D),2.0601084577009888e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),8.255849952497968e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_granizo,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+MT,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.3304478247624673e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_inundacoes,84,Delta log(1+D),4.334062355675492e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.5702661981246697e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),2.722126718780799e-17,,falha parcial,não determinado
+MT,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+MT,Pré,x_tipo_outros,84,Delta log(1+D),7.391937435046728e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+MT,Pré,x_tipo_tornado,84,Delta log(1+D),2.4285319698777627e-12,,falha parcial,não determinado
+MT,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.832559347972469e-09,0.0497104247104227,calculado,inconclusivo ou divergente
+PA,Pré,y,84,Delta log(I),2.735727037748093e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_alagamentos,84,Delta log(1+D),9.751853627118329e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.0786861328652234e-09,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.2611885736514444e-19,,falha parcial,não determinado
+PA,Pré,x_tipo_enxurradas,84,Delta log(1+D),4.085936435760373e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_erosao,84,Delta log(1+D),1.9561894258947595e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),5.911376919651116e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_granizo,84,Delta log(1+D),2.4629900474930973e-14,0.0416666666666673,calculado,inconclusivo ou divergente
+PA,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),1.6796117190084174e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_inundacoes,84,Delta log(1+D),3.527253394330441e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),7.976773298626727e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+PA,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+PA,Pré,x_tipo_outros,84,Delta log(1+D),2.7089814162841146e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+PA,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+PA,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.310334011169313e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Pré,y,84,Delta log(I),1.6601679871496537e-15,0.0816181542325662,calculado,favorável à estacionariedade (não é prova)
+PB,Pré,x_tipo_alagamentos,84,Delta log(1+D),8.524061192177213e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),5.681624519089071e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_enxurradas,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+PB,Pré,x_tipo_erosao,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+PB,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.3696701367326033e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+PB,Pré,x_tipo_inundacoes,84,Delta log(1+D),1.8934134662720254e-28,,falha parcial,não determinado
+PB,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.462990047493052e-14,,falha parcial,não determinado
+PB,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_outros,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+PB,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),4.278485723575248e-11,,falha parcial,não determinado
+PE,Pré,y,84,Delta log(I),9.722810685213813e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.893413466272053e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),4.4365778350276475e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+PE,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.42512314660848e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_erosao,84,Delta log(1+D),6.053288617626147e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),4.2469004464286176e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+PE,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),3.1080982621627897e-22,,falha parcial,não determinado
+PE,Pré,x_tipo_inundacoes,84,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),6.613092719351214e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+PE,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+PE,Pré,x_tipo_outros,84,Delta log(1+D),1.2428315875980217e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+PE,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+PE,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),,0.1,falha parcial,não determinado
+PI,Pré,y,84,Delta log(I),1.4781567137607508e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Pré,x_tipo_alagamentos,84,Delta log(1+D),8.945680578557312e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+PI,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+PI,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.3434451537346378e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+PI,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.0632957433330589e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Pré,x_tipo_granizo,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+PI,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+PI,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+PI,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),,,constante ou inválida,não testável
+PI,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+PI,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+PI,Pré,x_tipo_outros,84,Delta log(1+D),2.4629900474930973e-14,0.041666666666664,calculado,inconclusivo ou divergente
+PI,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+PI,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+PI,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,y,84,Delta log(I),0.3804846782723543,0.1,calculado,inconclusivo ou divergente
+PR,Pré,x_tipo_alagamentos,84,Delta log(1+D),7.596227591142688e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),3.407570260829217e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.9622629381663308e-10,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.985495184963839e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.5018241563459614e-23,,falha parcial,não determinado
+PR,Pré,x_tipo_granizo,84,Delta log(1+D),7.3835858591734195e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,x_tipo_inundacoes,84,Delta log(1+D),3.5096801198706925e-10,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.8460715533504705e-08,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,x_tipo_outros,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+PR,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+PR,Pré,x_tipo_tornado,84,Delta log(1+D),1.0796205784027336e-21,,falha parcial,não determinado
+PR,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),7.667516693399313e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,y,84,Delta log(I),0.0710675155775321,0.1,calculado,inconclusivo ou divergente
+RJ,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.8857942075935566e-20,0.0690559010583987,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),8.647883208042394e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493052e-14,,falha parcial,não determinado
+RJ,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.4048208572864485e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_erosao,84,Delta log(1+D),6.049091402453943e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),7.875034857633107e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_granizo,84,Delta log(1+D),9.431608495753855e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),8.615109548163171e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_inundacoes,84,Delta log(1+D),4.2300444324002755e-25,0.0994772956162576,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.1047326106042242e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Pré,x_tipo_outros,84,Delta log(1+D),1.3292306873033437e-19,,falha parcial,não determinado
+RJ,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),7.113504351969715e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,y,84,Delta log(I),2.6135415009081376e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,x_tipo_alagamentos,84,Delta log(1+D),3.209885483181117e-07,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.333211749922745e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+RN,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.843349285209864e-15,0.0416666666666682,calculado,inconclusivo ou divergente
+RN,Pré,x_tipo_erosao,84,Delta log(1+D),6.710750263994057e-20,0.0416666666666655,calculado,inconclusivo ou divergente
+RN,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),4.105145525264464e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+RN,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),9.07844609402009e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+RN,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RN,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+RN,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+RN,Pré,x_tipo_outros,84,Delta log(1+D),2.416261067514546e-13,,falha parcial,não determinado
+RN,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),2.462990047493052e-14,,falha parcial,não determinado
+RN,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+RN,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),6.360787673948029e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Pré,y,84,Delta log(I),3.7683511590112106e-15,0.0451398973367424,calculado,inconclusivo ou divergente
+RO,Pré,x_tipo_alagamentos,84,Delta log(1+D),3.3931914207296373e-13,0.0416666666666673,calculado,inconclusivo ou divergente
+RO,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.0301412908781205e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_enxurradas,84,Delta log(1+D),5.8345176609382055e-19,,falha parcial,não determinado
+RO,Pré,x_tipo_erosao,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+RO,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_granizo,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RO,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+RO,Pré,x_tipo_inundacoes,84,Delta log(1+D),6.859345757945576e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.4885204877006351e-28,,falha parcial,não determinado
+RO,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_outros,84,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+RO,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),8.26085681789892e-18,0.041666666666667,calculado,inconclusivo ou divergente
+RR,Pré,y,84,Delta log(I),8.507455192706683e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.500688443358238e-09,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RR,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RR,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RR,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),3.9463494528731225e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RR,Pré,x_tipo_inundacoes,84,Delta log(1+D),8.260856817898803e-18,,falha parcial,não determinado
+RR,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_outros,84,Delta log(1+D),4.1717389327888524e-16,,falha parcial,não determinado
+RR,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+RR,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RS,Pré,y,84,Delta log(I),0.2432889885479979,0.1,calculado,inconclusivo ou divergente
+RS,Pré,x_tipo_alagamentos,84,Delta log(1+D),2.4327728919136432e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),1.0926848033879024e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+RS,Pré,x_tipo_enxurradas,84,Delta log(1+D),1.1349535299986011e-18,0.0576705487460149,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_erosao,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+RS,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),8.213841388051009e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_granizo,84,Delta log(1+D),1.2972806669824926e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),4.278485723575248e-11,,falha parcial,não determinado
+RS,Pré,x_tipo_inundacoes,84,Delta log(1+D),8.464202051726252e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),6.006566369251727e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+RS,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+RS,Pré,x_tipo_outros,84,Delta log(1+D),7.582728869221371e-20,,falha parcial,não determinado
+RS,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),4.1717389327888524e-16,,falha parcial,não determinado
+RS,Pré,x_tipo_tornado,84,Delta log(1+D),6.177324350018528e-20,0.0416666666666666,calculado,inconclusivo ou divergente
+RS,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),9.89104246644169e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,y,84,Delta log(I),0.3776024934833849,0.0488972815880546,calculado,sinais contrários à estacionariedade
+SC,Pré,x_tipo_alagamentos,84,Delta log(1+D),3.5182915513110594e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),8.091144367934417e-14,0.099184255745817,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+SC,Pré,x_tipo_enxurradas,84,Delta log(1+D),3.8544013792020604e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_erosao,84,Delta log(1+D),4.6889352664406826e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),8.68130978509083e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_granizo,84,Delta log(1+D),5.808978392799104e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),4.4904219608283046e-14,,falha parcial,não determinado
+SC,Pré,x_tipo_inundacoes,84,Delta log(1+D),3.9959697706033333e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),5.353438564484172e-12,0.0416666666666666,calculado,inconclusivo ou divergente
+SC,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),1.893413466272053e-28,,falha parcial,não determinado
+SC,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),2.7919512923490078e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_outros,84,Delta log(1+D),1.2785328243124046e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+SC,Pré,x_tipo_tornado,84,Delta log(1+D),6.5729521225186884e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),1.1214415269207106e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Pré,y,84,Delta log(I),0.3646635595271923,0.1,calculado,inconclusivo ou divergente
+SE,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.956013300933413e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.722126718780799e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+SE,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+SE,Pré,x_tipo_erosao,84,Delta log(1+D),1.1353770958002882e-14,,falha parcial,não determinado
+SE,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),2.8727582775745254e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.637335030200856e-17,0.0416666666666661,calculado,inconclusivo ou divergente
+SE,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),1.0796205784027336e-21,,falha parcial,não determinado
+SE,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_outros,84,Delta log(1+D),4.850708292325885e-13,,falha parcial,não determinado
+SE,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+SE,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+SP,Pré,y,84,Delta log(I),0.0135801191580567,0.0577063510822028,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_alagamentos,84,Delta log(1+D),6.041109504132966e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),4.731285529001988e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),8.336198916604277e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_enxurradas,84,Delta log(1+D),8.555634320755617e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_erosao,84,Delta log(1+D),8.253470101521028e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.0181107045174933e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_granizo,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+SP,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),9.545307775238517e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.478325249781164e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),4.985758766357908e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),2.4629900474930973e-14,,falha parcial,não determinado
+SP,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),3.856149030876356e-08,,falha parcial,não determinado
+SP,Pré,x_tipo_outros,84,Delta log(1+D),1.7858253106685872e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+SP,Pré,x_tipo_tornado,84,Delta log(1+D),1.2245182465516043e-09,,falha parcial,não determinado
+SP,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),1.6958763708313627e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Pré,y,84,Delta log(I),8.329130665788229e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Pré,x_tipo_alagamentos,84,Delta log(1+D),1.2163953988514189e-10,,falha parcial,não determinado
+TO,Pré,x_tipo_chuvas_intensas,84,Delta log(1+D),2.3397723504649e-17,0.0416666666666656,calculado,inconclusivo ou divergente
+TO,Pré,x_tipo_doencas_infecciosas,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_enxurradas,84,Delta log(1+D),2.462990047493124e-14,,falha parcial,não determinado
+TO,Pré,x_tipo_erosao,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_estiagem_e_seca,84,Delta log(1+D),1.0900356473635952e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Pré,x_tipo_granizo,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_incendio_florestal,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_inundacoes,84,Delta log(1+D),2.1491812039941213e-17,0.0416666666666668,calculado,inconclusivo ou divergente
+TO,Pré,x_tipo_movimento_de_massa,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_onda_de_calor_e_baixa_umidade,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_onda_de_frio,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_outros,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_rompimento_colapso_de_barragens,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_tornado,84,Delta log(1+D),,,constante ou inválida,não testável
+TO,Pré,x_tipo_vendavais_e_ciclones,84,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,y,143,Delta log(I),6.451654633332672e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+AC,Total,x_tipo_alagamentos,143,Delta log(1+D),3.466808947128848e-12,,falha parcial,não determinado
+AC,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+AC,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),2.1792050249203962e-18,,falha parcial,não determinado
+AC,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+AC,Total,x_tipo_erosao,143,Delta log(1+D),1.904782355583294e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+AC,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),5.4300167247137396e-18,0.0416666666666686,calculado,inconclusivo ou divergente
+AC,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,x_tipo_incendio_florestal,143,Delta log(1+D),6.527671973923674e-17,0.0416666666666678,calculado,inconclusivo ou divergente
+AC,Total,x_tipo_inundacoes,143,Delta log(1+D),2.6721551172626173e-13,0.0821950889978211,calculado,favorável à estacionariedade (não é prova)
+AC,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.6412040000838544e-17,,falha parcial,não determinado
+AC,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,x_tipo_outros,143,Delta log(1+D),1.8073119561519563e-16,0.0416666666666683,calculado,inconclusivo ou divergente
+AC,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+AC,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),9.922809352764744e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,y,143,Delta log(I),3.918911101844216e-07,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_alagamentos,143,Delta log(1+D),0.0,0.0416666666666675,calculado,inconclusivo ou divergente
+AL,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.179915632571217e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_enxurradas,143,Delta log(1+D),7.812203211528588e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_erosao,143,Delta log(1+D),3.1273388203845707e-19,0.0416666666666627,calculado,inconclusivo ou divergente
+AL,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),5.138572216906278e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_incendio_florestal,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_inundacoes,143,Delta log(1+D),2.493973355632293e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),5.605083165364667e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+AL,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_outros,143,Delta log(1+D),6.582869732978531e-20,0.0416666666666666,calculado,inconclusivo ou divergente
+AL,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+AL,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+AM,Total,y,143,Delta log(I),3.921347400944834e-07,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_alagamentos,143,Delta log(1+D),6.025808121981766e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),5.441855966643178e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.3007413939319054e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_enxurradas,143,Delta log(1+D),1.0585169547153537e-17,,falha parcial,não determinado
+AM,Total,x_tipo_erosao,143,Delta log(1+D),3.0333274490410112e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.335966979520365e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+AM,Total,x_tipo_incendio_florestal,143,Delta log(1+D),7.620649375606962e-17,0.0416666666666646,calculado,inconclusivo ou divergente
+AM,Total,x_tipo_inundacoes,143,Delta log(1+D),6.925558824659801e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),3.999312348423508e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+AM,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+AM,Total,x_tipo_outros,143,Delta log(1+D),1.3257155290156826e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+AM,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+AM,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+AM,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.0141812919927491e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,y,143,Delta log(I),5.095504580462187e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,x_tipo_alagamentos,143,Delta log(1+D),1.3760843276537991e-11,,falha parcial,não determinado
+AP,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.5850289964443773e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6179055519811142e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+AP,Total,x_tipo_erosao,143,Delta log(1+D),8.535513480190991e-20,0.041666666666668,calculado,inconclusivo ou divergente
+AP,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),3.45543178515849e-21,0.0416666666666666,calculado,inconclusivo ou divergente
+AP,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+AP,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+AP,Total,x_tipo_inundacoes,143,Delta log(1+D),2.1636330238777916e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),,,constante ou inválida,não testável
+AP,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+AP,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+AP,Total,x_tipo_outros,143,Delta log(1+D),1.138468493352914e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+AP,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+AP,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+AP,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),2.527502070411101e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,y,143,Delta log(I),0.0153410698443432,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_alagamentos,143,Delta log(1+D),1.2490135313294454e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.1098540123929202e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+BA,Total,x_tipo_enxurradas,143,Delta log(1+D),8.608167028708418e-27,0.0416666666666475,calculado,inconclusivo ou divergente
+BA,Total,x_tipo_erosao,143,Delta log(1+D),1.1625437758618665e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.827446791585496e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000838902e-17,,falha parcial,não determinado
+BA,Total,x_tipo_incendio_florestal,143,Delta log(1+D),3.0353534710387222e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_inundacoes,143,Delta log(1+D),1.2249755603341567e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.804029420150038e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+BA,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+BA,Total,x_tipo_outros,143,Delta log(1+D),4.482487458946048e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+BA,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+BA,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+BA,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),2.1704145272577863e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,y,143,Delta log(I),1.8125286568750325e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_alagamentos,143,Delta log(1+D),7.408920998332011e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.0747583817797832e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),,,constante ou inválida,não testável
+CE,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6001017853029663e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_erosao,143,Delta log(1+D),1.8170433610739386e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),3.032106368395873e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+CE,Total,x_tipo_incendio_florestal,143,Delta log(1+D),3.999905535034379e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_inundacoes,143,Delta log(1+D),6.2339192531884e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+CE,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+CE,Total,x_tipo_outros,143,Delta log(1+D),6.845907768589375e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+CE,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+CE,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+CE,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+DF,Total,y,143,Delta log(I),0.0023229795020557,0.1,calculado,favorável à estacionariedade (não é prova)
+DF,Total,x_tipo_alagamentos,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+DF,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+DF,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+DF,Total,x_tipo_enxurradas,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_erosao,143,Delta log(1+D),7.176151600468034e-16,0.0416666666666666,calculado,inconclusivo ou divergente
+DF,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+DF,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_incendio_florestal,143,Delta log(1+D),4.4592039207599934e-11,0.0416666666666677,calculado,inconclusivo ou divergente
+DF,Total,x_tipo_inundacoes,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_outros,143,Delta log(1+D),1.6412040000838544e-17,,falha parcial,não determinado
+DF,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+DF,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+ES,Total,y,143,Delta log(I),0.0004388821277224,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_alagamentos,143,Delta log(1+D),1.3020094288300358e-12,0.0958433807571731,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),7.502305407015754e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6179055519811142e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_enxurradas,143,Delta log(1+D),1.9287239341016918e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_erosao,143,Delta log(1+D),1.248285319047316e-16,0.0416666666666658,calculado,inconclusivo ou divergente
+ES,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),7.637791393005081e-17,0.0416666666666663,calculado,inconclusivo ou divergente
+ES,Total,x_tipo_granizo,143,Delta log(1+D),1.0487133339837008e-21,0.0918659585181069,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.0752637795844233e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_inundacoes,143,Delta log(1+D),2.1001652118166915e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.9032591010315485e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+ES,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+ES,Total,x_tipo_onda_de_frio,143,Delta log(1+D),4.7184066343973584e-21,,falha parcial,não determinado
+ES,Total,x_tipo_outros,143,Delta log(1+D),1.371583138012772e-19,0.0416666666666645,calculado,inconclusivo ou divergente
+ES,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.574828668716185e-15,0.0416666666666685,calculado,inconclusivo ou divergente
+ES,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+ES,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),6.526201330187414e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,y,143,Delta log(I),0.0001610009750226,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_alagamentos,143,Delta log(1+D),3.579177792802252e-13,0.0416666666666682,calculado,inconclusivo ou divergente
+GO,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),2.9340069062159e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),,,constante ou inválida,não testável
+GO,Total,x_tipo_enxurradas,143,Delta log(1+D),1.0693241571767126e-10,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_erosao,143,Delta log(1+D),6.542888815359887e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.0130113512539203e-24,0.0416666666666651,calculado,inconclusivo ou divergente
+GO,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+GO,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.5019396314655828e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_inundacoes,143,Delta log(1+D),6.220875910373067e-20,0.0416666666666626,calculado,inconclusivo ou divergente
+GO,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),4.282333401184827e-25,0.0416666666666677,calculado,inconclusivo ou divergente
+GO,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),3.1914148996649336e-10,,falha parcial,não determinado
+GO,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+GO,Total,x_tipo_outros,143,Delta log(1+D),3.172683009335093e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+GO,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000838544e-17,,falha parcial,não determinado
+GO,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+GO,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.835608752040709e-13,0.0416666666666685,calculado,inconclusivo ou divergente
+MA,Total,y,143,Delta log(I),0.0225964326947542,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_alagamentos,143,Delta log(1+D),1.2873881626687052e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),3.961099912411775e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+MA,Total,x_tipo_enxurradas,143,Delta log(1+D),4.469730055971436e-18,0.0416666666666654,calculado,inconclusivo ou divergente
+MA,Total,x_tipo_erosao,143,Delta log(1+D),8.857762838125551e-14,0.0416666666666662,calculado,inconclusivo ou divergente
+MA,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),2.4262357888038534e-08,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+MA,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.3461744898707445e-22,0.0416666666666697,calculado,inconclusivo ou divergente
+MA,Total,x_tipo_inundacoes,143,Delta log(1+D),7.953898524115276e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),5.111411461534607e-18,0.0416666666666664,calculado,inconclusivo ou divergente
+MA,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+MA,Total,x_tipo_onda_de_frio,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+MA,Total,x_tipo_outros,143,Delta log(1+D),1.8560603837442278e-10,0.1,calculado,favorável à estacionariedade (não é prova)
+MA,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+MA,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+MA,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+MG,Total,y,143,Delta log(I),4.778412744818023e-05,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_alagamentos,143,Delta log(1+D),1.1543890578918613e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),9.740190857943521e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.740093122538283e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_enxurradas,143,Delta log(1+D),3.848618663358359e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_erosao,143,Delta log(1+D),1.1703610649796285e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),2.656741849817809e-19,0.0416666666666673,calculado,inconclusivo ou divergente
+MG,Total,x_tipo_granizo,143,Delta log(1+D),2.5569795512338866e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_incendio_florestal,143,Delta log(1+D),3.9431359522077535e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_inundacoes,143,Delta log(1+D),3.9423339172076865e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),7.381280573761342e-17,,falha parcial,não determinado
+MG,Total,x_tipo_onda_de_frio,143,Delta log(1+D),5.81351242079935e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_outros,143,Delta log(1+D),7.914157263489883e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MG,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),3.1872102099409805e-17,0.0416666666666694,calculado,inconclusivo ou divergente
+MG,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+MG,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.991277841141604e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,y,143,Delta log(I),0.0023377913739127,0.0794093828529683,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_alagamentos,143,Delta log(1+D),3.8748167531830164e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.0864116301719335e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),9.509138525313974e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_enxurradas,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_erosao,143,Delta log(1+D),4.0179119405311954e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.579980216669378e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_granizo,143,Delta log(1+D),1.895259087724619e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_incendio_florestal,143,Delta log(1+D),5.273132638510368e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_inundacoes,143,Delta log(1+D),1.1176917571265e-23,0.0416666666666671,calculado,inconclusivo ou divergente
+MS,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),6.257683728766837e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_onda_de_frio,143,Delta log(1+D),2.439809149613984e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_outros,143,Delta log(1+D),4.3850470152955025e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_tornado,143,Delta log(1+D),1.4308675688451182e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MS,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.6137707665204704e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,y,143,Delta log(I),0.3371407480476426,0.0953289191433306,calculado,inconclusivo ou divergente
+MT,Total,x_tipo_alagamentos,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),2.761273221839728e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),0.0,,falha parcial,não determinado
+MT,Total,x_tipo_enxurradas,143,Delta log(1+D),9.85469130178189e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_erosao,143,Delta log(1+D),1.7545988488061253e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),5.254749231974703e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000838902e-17,,falha parcial,não determinado
+MT,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.689473571627258e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_inundacoes,143,Delta log(1+D),2.5227497193217423e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),9.332048208133195e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),3.652051498775252e-17,0.0416666666666657,calculado,inconclusivo ou divergente
+MT,Total,x_tipo_onda_de_frio,143,Delta log(1+D),2.1119093870746996e-19,,falha parcial,não determinado
+MT,Total,x_tipo_outros,143,Delta log(1+D),3.524924889801957e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+MT,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+MT,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+MT,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.2298247071271644e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,y,143,Delta log(I),0.0134172978026772,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_alagamentos,143,Delta log(1+D),9.617304775797304e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),7.864551316478414e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PA,Total,x_tipo_enxurradas,143,Delta log(1+D),2.1296379813761075e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_erosao,143,Delta log(1+D),1.97856221309228e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),4.503851667558827e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PA,Total,x_tipo_incendio_florestal,143,Delta log(1+D),4.310019626331206e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_inundacoes,143,Delta log(1+D),2.2330986670003787e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+PA,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+PA,Total,x_tipo_outros,143,Delta log(1+D),2.0599475108690068e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+PA,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+PA,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PA,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),7.339473092454061e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Total,y,143,Delta log(I),0.0031511544625258,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Total,x_tipo_alagamentos,143,Delta log(1+D),1.9241506860387505e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.5561613798129756e-15,0.041666666666666,calculado,inconclusivo ou divergente
+PB,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),5.6318689454894094e-14,,falha parcial,não determinado
+PB,Total,x_tipo_enxurradas,143,Delta log(1+D),1.641204000083984e-17,,falha parcial,não determinado
+PB,Total,x_tipo_erosao,143,Delta log(1+D),1.9194918995323612e-17,0.0416666666666649,calculado,inconclusivo ou divergente
+PB,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),4.089440308808266e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+PB,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_incendio_florestal,143,Delta log(1+D),4.799129224257087e-19,,falha parcial,não determinado
+PB,Total,x_tipo_inundacoes,143,Delta log(1+D),0.0,,falha parcial,não determinado
+PB,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),2.3104931415665707e-14,,falha parcial,não determinado
+PB,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_outros,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+PB,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+PE,Total,y,143,Delta log(I),1.1437191780456617e-05,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_alagamentos,143,Delta log(1+D),7.435995171884482e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),5.090433363003977e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838544e-17,,falha parcial,não determinado
+PE,Total,x_tipo_enxurradas,143,Delta log(1+D),8.538618315758043e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_erosao,143,Delta log(1+D),3.6437225312035067e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),9.16819016304752e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_granizo,143,Delta log(1+D),5.241114122898442e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.1999651860723109e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_inundacoes,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),7.754698428719435e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PE,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+PE,Total,x_tipo_outros,143,Delta log(1+D),5.532401016096983e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+PE,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+PE,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+PE,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),5.666975352076599e-18,0.0416666666666646,calculado,inconclusivo ou divergente
+PI,Total,y,143,Delta log(I),0.0016909675390428,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Total,x_tipo_alagamentos,143,Delta log(1+D),2.8008829766250054e-19,0.0416666666666623,calculado,inconclusivo ou divergente
+PI,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),2.2749023462986006e-25,0.0416666666666673,calculado,inconclusivo ou divergente
+PI,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+PI,Total,x_tipo_enxurradas,143,Delta log(1+D),1.1053548896128495e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Total,x_tipo_erosao,143,Delta log(1+D),,,constante ou inválida,não testável
+PI,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),9.667662735182811e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+PI,Total,x_tipo_granizo,143,Delta log(1+D),0.0,,falha parcial,não determinado
+PI,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.6343844751871098e-17,,falha parcial,não determinado
+PI,Total,x_tipo_inundacoes,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PI,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.943639593885213e-25,,falha parcial,não determinado
+PI,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+PI,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+PI,Total,x_tipo_outros,143,Delta log(1+D),4.109150283911002e-20,0.0416666666666665,calculado,inconclusivo ou divergente
+PI,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PI,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+PI,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),,,constante ou inválida,não testável
+PR,Total,y,143,Delta log(I),0.0002393154203513,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_alagamentos,143,Delta log(1+D),6.093953502026585e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),4.8965380799144337e-26,0.0557147116452826,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),3.849201370897258e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_enxurradas,143,Delta log(1+D),3.2840891438036316e-16,0.071277276425961,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_erosao,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+PR,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),4.300915389576934e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_granizo,143,Delta log(1+D),4.8364007041082686e-24,0.0416666666666672,calculado,inconclusivo ou divergente
+PR,Total,x_tipo_incendio_florestal,143,Delta log(1+D),6.690322183938066e-17,,falha parcial,não determinado
+PR,Total,x_tipo_inundacoes,143,Delta log(1+D),1.086688217835734e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),5.5654180606238796e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+PR,Total,x_tipo_onda_de_frio,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+PR,Total,x_tipo_outros,143,Delta log(1+D),7.195819177780268e-06,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,0.1,falha parcial,não determinado
+PR,Total,x_tipo_tornado,143,Delta log(1+D),1.6179055519810907e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+PR,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),5.358811237545197e-18,0.0416666666666638,calculado,inconclusivo ou divergente
+RJ,Total,y,143,Delta log(I),0.0237354963939422,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_alagamentos,143,Delta log(1+D),2.9089455825953325e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.4668435185694644e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+RJ,Total,x_tipo_enxurradas,143,Delta log(1+D),8.726575865516475e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_erosao,143,Delta log(1+D),1.7965017892044054e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),3.972162529397801e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_granizo,143,Delta log(1+D),1.4422852660815812e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.2953607422121286e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_inundacoes,143,Delta log(1+D),3.1046033809809535e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),2.3770400519357074e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Total,x_tipo_onda_de_frio,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+RJ,Total,x_tipo_outros,143,Delta log(1+D),3.9654955972363013e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+RJ,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+RJ,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),2.0182593819445422e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,y,143,Delta log(I),0.0001001055780659,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_alagamentos,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+RN,Total,x_tipo_enxurradas,143,Delta log(1+D),2.5204034822651144e-17,0.0416666666666693,calculado,inconclusivo ou divergente
+RN,Total,x_tipo_erosao,143,Delta log(1+D),1.6361876496966702e-19,0.0416666666666665,calculado,inconclusivo ou divergente
+RN,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+RN,Total,x_tipo_incendio_florestal,143,Delta log(1+D),6.358476592500117e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_inundacoes,143,Delta log(1+D),1.7446642713312074e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),7.565166071136707e-13,0.0416666666666638,calculado,inconclusivo ou divergente
+RN,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+RN,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+RN,Total,x_tipo_outros,143,Delta log(1+D),7.116562011141174e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+RN,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000838544e-17,,falha parcial,não determinado
+RN,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+RN,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.974768961877045e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Total,y,143,Delta log(I),0.0755513208306727,0.0205833876517734,calculado,sinais contrários à estacionariedade
+RO,Total,x_tipo_alagamentos,143,Delta log(1+D),2.045514034112382e-20,0.0416666666666679,calculado,inconclusivo ou divergente
+RO,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),2.665057694112486e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),,,constante ou inválida,não testável
+RO,Total,x_tipo_enxurradas,143,Delta log(1+D),1.2286557447019458e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Total,x_tipo_erosao,143,Delta log(1+D),1.6412040000839133e-17,0.0416666666666631,calculado,inconclusivo ou divergente
+RO,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.0,0.1,calculado,inconclusivo ou divergente
+RO,Total,x_tipo_granizo,143,Delta log(1+D),1.6412040000838902e-17,,falha parcial,não determinado
+RO,Total,x_tipo_incendio_florestal,143,Delta log(1+D),2.473315792069005e-16,0.0416666666666645,calculado,inconclusivo ou divergente
+RO,Total,x_tipo_inundacoes,143,Delta log(1+D),4.9330861983986364e-11,0.1,calculado,favorável à estacionariedade (não é prova)
+RO,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),0.0,,falha parcial,não determinado
+RO,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+RO,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+RO,Total,x_tipo_outros,143,Delta log(1+D),2.755426026046305e-28,0.0416666666666641,calculado,inconclusivo ou divergente
+RO,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+RO,Total,x_tipo_tornado,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RO,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),3.1632397799278416e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Total,y,143,Delta log(I),3.3211195279752254e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Total,x_tipo_alagamentos,143,Delta log(1+D),1.5748286687162305e-15,0.0416666666666685,calculado,inconclusivo ou divergente
+RR,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RR,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RR,Total,x_tipo_erosao,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),1.7019782827808815e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RR,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RR,Total,x_tipo_inundacoes,143,Delta log(1+D),6.5810561501873075e-15,0.0416666666666669,calculado,inconclusivo ou divergente
+RR,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_outros,143,Delta log(1+D),2.694630771031974e-12,,falha parcial,não determinado
+RR,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+RR,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),1.506842172407325e-10,0.0416666666666645,calculado,inconclusivo ou divergente
+RS,Total,y,143,Delta log(I),0.0237298660295225,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_alagamentos,143,Delta log(1+D),1.5381556405970725e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),5.379967388282062e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),0.0,,falha parcial,não determinado
+RS,Total,x_tipo_enxurradas,143,Delta log(1+D),4.100739643560416e-26,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_erosao,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RS,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),5.9463997568679814e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_granizo,143,Delta log(1+D),7.873849545260385e-15,0.0416666666666615,calculado,inconclusivo ou divergente
+RS,Total,x_tipo_incendio_florestal,143,Delta log(1+D),6.448037457974423e-14,0.0416666666666657,calculado,inconclusivo ou divergente
+RS,Total,x_tipo_inundacoes,143,Delta log(1+D),2.5373780468319738e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),5.784916951510075e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+RS,Total,x_tipo_onda_de_frio,143,Delta log(1+D),2.592005588655428e-13,,falha parcial,não determinado
+RS,Total,x_tipo_outros,143,Delta log(1+D),1.1335290641591335e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+RS,Total,x_tipo_tornado,143,Delta log(1+D),8.99251922673683e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+RS,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),8.893355720573161e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,y,143,Delta log(I),0.0016329715913227,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_alagamentos,143,Delta log(1+D),4.02526859003883e-18,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),1.2183453362374674e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000838418e-17,,falha parcial,não determinado
+SC,Total,x_tipo_enxurradas,143,Delta log(1+D),2.262025026365756e-17,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_erosao,143,Delta log(1+D),9.126677784583276e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),2.8545271144090983e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_granizo,143,Delta log(1+D),6.192718044425498e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_incendio_florestal,143,Delta log(1+D),9.606030105118085e-25,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_inundacoes,143,Delta log(1+D),1.6181877697904908e-23,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),2.2173332623103642e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),0.0,,falha parcial,não determinado
+SC,Total,x_tipo_onda_de_frio,143,Delta log(1+D),3.4222059277282115e-15,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_outros,143,Delta log(1+D),1.973513883515468e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+SC,Total,x_tipo_tornado,143,Delta log(1+D),6.489951045891247e-12,0.1,calculado,favorável à estacionariedade (não é prova)
+SC,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),2.274781859017599e-30,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,y,143,Delta log(I),0.0034162933840981,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_alagamentos,143,Delta log(1+D),5.248326851488189e-17,0.0416666666666676,calculado,inconclusivo ou divergente
+SE,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),2.5630967427676326e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+SE,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+SE,Total,x_tipo_erosao,143,Delta log(1+D),7.604448248085778e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),4.40833757428911e-24,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+SE,Total,x_tipo_incendio_florestal,143,Delta log(1+D),1.4263041043722514e-14,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_inundacoes,143,Delta log(1+D),5.3381730505699225e-27,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.208812857248059e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+SE,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+SE,Total,x_tipo_outros,143,Delta log(1+D),1.013738524742616e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SE,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+SE,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+SE,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),0.0,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,y,143,Delta log(I),0.0003627517985841,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_alagamentos,143,Delta log(1+D),1.83126178290378e-29,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),3.896998056438693e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),1.5270291319407204e-20,0.0416666666666678,calculado,inconclusivo ou divergente
+SP,Total,x_tipo_enxurradas,143,Delta log(1+D),4.799059153702338e-13,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_erosao,143,Delta log(1+D),4.542364467571954e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),4.994823868866583e-21,0.0416666666666638,calculado,inconclusivo ou divergente
+SP,Total,x_tipo_granizo,143,Delta log(1+D),3.432367635493353e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_incendio_florestal,143,Delta log(1+D),5.6147387259887544e-21,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_inundacoes,143,Delta log(1+D),2.6719004212492402e-20,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),1.2259673440343645e-17,0.08842103033847,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),1.0687272350944025e-17,0.041666666666666,calculado,inconclusivo ou divergente
+SP,Total,x_tipo_onda_de_frio,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+SP,Total,x_tipo_outros,143,Delta log(1+D),9.64867096331815e-16,0.1,calculado,favorável à estacionariedade (não é prova)
+SP,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),1.6412040000839133e-17,,falha parcial,não determinado
+SP,Total,x_tipo_tornado,143,Delta log(1+D),4.0123624366513876e-16,,falha parcial,não determinado
+SP,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),2.0969301413849912e-22,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Total,y,143,Delta log(I),0.3813851476887108,0.1,calculado,inconclusivo ou divergente
+TO,Total,x_tipo_alagamentos,143,Delta log(1+D),2.886108678187352e-19,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Total,x_tipo_chuvas_intensas,143,Delta log(1+D),9.605564225257237e-20,0.0416666666666641,calculado,inconclusivo ou divergente
+TO,Total,x_tipo_doencas_infecciosas,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_enxurradas,143,Delta log(1+D),1.6412040000839253e-17,,falha parcial,não determinado
+TO,Total,x_tipo_erosao,143,Delta log(1+D),,0.1,falha parcial,não determinado
+TO,Total,x_tipo_estiagem_e_seca,143,Delta log(1+D),2.236273490220398e-28,0.1,calculado,favorável à estacionariedade (não é prova)
+TO,Total,x_tipo_granizo,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_incendio_florestal,143,Delta log(1+D),2.408039045217408e-23,,falha parcial,não determinado
+TO,Total,x_tipo_inundacoes,143,Delta log(1+D),1.349556450903444e-19,0.041666666666666,calculado,inconclusivo ou divergente
+TO,Total,x_tipo_movimento_de_massa,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_onda_de_calor_e_baixa_umidade,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_onda_de_frio,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_outros,143,Delta log(1+D),,0.1,falha parcial,não determinado
+TO,Total,x_tipo_rompimento_colapso_de_barragens,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_tornado,143,Delta log(1+D),,,constante ou inválida,não testável
+TO,Total,x_tipo_vendavais_e_ciclones,143,Delta log(1+D),5.149092828217101e-19,,falha parcial,não determinado

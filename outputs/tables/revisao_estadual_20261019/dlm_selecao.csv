@@ -1,0 +1,65 @@
+﻿periodo,tipologia,criterio,status,K,AIC,BIC,N,meses,UFs_contemporaneas,uf_mes_positivos
+Pré,tipo_alagamentos,AIC,estimado,1.0,-7061.436501563218,-6587.100535879293,1620,60.0,25,259.0
+Pré,tipo_alagamentos,BIC,estimado,1.0,-7061.436501563218,-6587.100535879293,1620,60.0,25,259.0
+Pré,tipo_chuvas_intensas,AIC,estimado,15.0,-7073.515377677144,-6523.716871998048,1620,60.0,25,332.0
+Pré,tipo_chuvas_intensas,BIC,estimado,1.0,-7064.13192162968,-6589.795955945754,1620,60.0,25,332.0
+Pré,tipo_doencas_infecciosas,AIC,estimado,1.0,-7061.862335715964,-6587.526370032038,1620,60.0,16,39.0
+Pré,tipo_doencas_infecciosas,BIC,estimado,1.0,-7061.862335715964,-6587.526370032038,1620,60.0,16,39.0
+Pré,tipo_enxurradas,AIC,estimado,1.0,-7061.36080500307,-6587.024839319144,1620,60.0,25,301.0
+Pré,tipo_enxurradas,BIC,estimado,1.0,-7061.36080500307,-6587.024839319144,1620,60.0,25,301.0
+Pré,tipo_erosao,AIC,estimado,1.0,-7061.091923438171,-6586.755957754245,1620,60.0,18,162.0
+Pré,tipo_erosao,BIC,estimado,1.0,-7061.091923438171,-6586.755957754245,1620,60.0,18,162.0
+Pré,tipo_estiagem_e_seca,AIC,estimado,1.0,-7062.130801837062,-6587.794836153136,1620,60.0,25,494.0
+Pré,tipo_estiagem_e_seca,BIC,estimado,1.0,-7062.130801837062,-6587.794836153136,1620,60.0,25,494.0
+Pré,tipo_granizo,AIC,estimado,1.0,-7061.960118525098,-6587.624152841172,1620,60.0,13,109.0
+Pré,tipo_granizo,BIC,estimado,1.0,-7061.960118525098,-6587.624152841172,1620,60.0,13,109.0
+Pré,tipo_incendio_florestal,AIC,estimado,1.0,-7061.187367396177,-6586.851401712252,1620,60.0,19,119.0
+Pré,tipo_incendio_florestal,BIC,estimado,1.0,-7061.187367396177,-6586.851401712252,1620,60.0,19,119.0
+Pré,tipo_inundacoes,AIC,estimado,1.0,-7062.293757456013,-6587.957791772087,1620,60.0,25,204.0
+Pré,tipo_inundacoes,BIC,estimado,1.0,-7062.293757456013,-6587.957791772087,1620,60.0,25,204.0
+Pré,tipo_movimento_de_massa,AIC,estimado,1.0,-7061.067684550177,-6586.731718866251,1620,60.0,19,203.0
+Pré,tipo_movimento_de_massa,BIC,estimado,1.0,-7061.067684550177,-6586.731718866251,1620,60.0,19,203.0
+Pré,tipo_onda_de_calor_e_baixa_umidade,AIC,suporte insuficiente,,,,1620,,3,
+Pré,tipo_onda_de_calor_e_baixa_umidade,BIC,suporte insuficiente,,,,1620,,3,
+Pré,tipo_onda_de_frio,AIC,suporte insuficiente,,,,1620,,4,
+Pré,tipo_onda_de_frio,BIC,suporte insuficiente,,,,1620,,4,
+Pré,tipo_outros,AIC,estimado,1.0,-7061.391894090373,-6587.055928406448,1620,60.0,20,107.0
+Pré,tipo_outros,BIC,estimado,1.0,-7061.391894090373,-6587.055928406448,1620,60.0,20,107.0
+Pré,tipo_rompimento_colapso_de_barragens,AIC,suporte insuficiente,,,,1620,,6,
+Pré,tipo_rompimento_colapso_de_barragens,BIC,suporte insuficiente,,,,1620,,6,
+Pré,tipo_tornado,AIC,estimado,1.0,-7061.306720426799,-6586.970754742873,1620,60.0,8,25.0
+Pré,tipo_tornado,BIC,estimado,1.0,-7061.306720426799,-6586.970754742873,1620,60.0,8,25.0
+Pré,tipo_vendavais_e_ciclones,AIC,estimado,14.0,-7068.305552211795,-6523.897227960925,1620,60.0,23,281.0
+Pré,tipo_vendavais_e_ciclones,BIC,estimado,1.0,-7061.902394480439,-6587.566428796514,1620,60.0,23,281.0
+Total,tipo_alagamentos,AIC,estimado,1.0,-15038.857433651036,-14145.838260861005,3213,119.0,27,597.0
+Total,tipo_alagamentos,BIC,estimado,1.0,-15038.857433651036,-14145.838260861005,3213,119.0,27,597.0
+Total,tipo_chuvas_intensas,AIC,estimado,16.0,-15041.780930962615,-14057.637352785849,3213,119.0,27,863.0
+Total,tipo_chuvas_intensas,BIC,estimado,1.0,-15037.99310212861,-14144.97392933858,3213,119.0,27,863.0
+Total,tipo_doencas_infecciosas,AIC,estimado,1.0,-15033.0618129068,-14140.04264011677,3213,119.0,18,46.0
+Total,tipo_doencas_infecciosas,BIC,estimado,1.0,-15033.0618129068,-14140.04264011677,3213,119.0,18,46.0
+Total,tipo_enxurradas,AIC,estimado,1.0,-15035.28037206074,-14142.26119927071,3213,119.0,26,552.0
+Total,tipo_enxurradas,BIC,estimado,1.0,-15035.28037206074,-14142.26119927071,3213,119.0,26,552.0
+Total,tipo_erosao,AIC,estimado,1.0,-15033.269992888636,-14140.250820098605,3213,119.0,24,310.0
+Total,tipo_erosao,BIC,estimado,1.0,-15033.269992888636,-14140.250820098605,3213,119.0,24,310.0
+Total,tipo_estiagem_e_seca,AIC,estimado,1.0,-15032.55038873492,-14139.53121594489,3213,119.0,27,1097.0
+Total,tipo_estiagem_e_seca,BIC,estimado,1.0,-15032.55038873492,-14139.53121594489,3213,119.0,27,1097.0
+Total,tipo_granizo,AIC,estimado,1.0,-15033.414956560036,-14140.395783770004,3213,119.0,15,258.0
+Total,tipo_granizo,BIC,estimado,1.0,-15033.414956560036,-14140.395783770004,3213,119.0,15,258.0
+Total,tipo_incendio_florestal,AIC,estimado,6.0,-15033.60495516366,-14110.21098057805,3213,119.0,26,388.0
+Total,tipo_incendio_florestal,BIC,estimado,1.0,-15032.848327841562,-14139.829155051531,3213,119.0,26,388.0
+Total,tipo_inundacoes,AIC,estimado,1.0,-15035.025296082413,-14142.006123292382,3213,119.0,25,456.0
+Total,tipo_inundacoes,BIC,estimado,1.0,-15035.025296082413,-14142.006123292382,3213,119.0,25,456.0
+Total,tipo_movimento_de_massa,AIC,estimado,5.0,-15038.764908059618,-14121.445893833125,3213,119.0,22,495.0
+Total,tipo_movimento_de_massa,BIC,estimado,1.0,-15035.333890341608,-14142.314717551577,3213,119.0,22,495.0
+Total,tipo_onda_de_calor_e_baixa_umidade,AIC,estimado,14.0,-15041.280849875691,-14069.287192417154,3213,119.0,8,47.0
+Total,tipo_onda_de_calor_e_baixa_umidade,BIC,estimado,1.0,-15040.027938144502,-14147.00876535447,3213,119.0,8,47.0
+Total,tipo_onda_de_frio,AIC,estimado,1.0,-15036.982997120282,-14143.96382433025,3213,119.0,10,57.0
+Total,tipo_onda_de_frio,BIC,estimado,1.0,-15036.982997120282,-14143.96382433025,3213,119.0,10,57.0
+Total,tipo_outros,AIC,estimado,1.0,-15032.7674638819,-14139.74829109187,3213,119.0,26,470.0
+Total,tipo_outros,BIC,estimado,1.0,-15032.7674638819,-14139.74829109187,3213,119.0,26,470.0
+Total,tipo_rompimento_colapso_de_barragens,AIC,estimado,4.0,-15038.364632929788,-14127.12057906241,3213,119.0,13,26.0
+Total,tipo_rompimento_colapso_de_barragens,BIC,estimado,1.0,-15037.565035697697,-14144.545862907664,3213,119.0,13,26.0
+Total,tipo_tornado,AIC,estimado,1.0,-15032.403308452582,-14139.38413566255,3213,119.0,11,44.0
+Total,tipo_tornado,BIC,estimado,1.0,-15032.403308452582,-14139.38413566255,3213,119.0,11,44.0
+Total,tipo_vendavais_e_ciclones,AIC,estimado,9.0,-15040.983118561177,-14099.364262898218,3213,119.0,25,652.0
+Total,tipo_vendavais_e_ciclones,BIC,estimado,1.0,-15033.115182371204,-14140.096009581172,3213,119.0,25,652.0

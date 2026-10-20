@@ -1,0 +1,865 @@
+﻿uf,periodo,tipologia,status,n_eff,p_lags,criterio,BIC,F,df_num,df_den,p,ljungbox_p,diagnostico,n_positivos,q_bh,rejeicao_nominal,rejeicao_bh
+AC,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.5309925465874,1.687771940288861,1.0,64.0,0.1985557584497171,0.0793444295922469,sem rejeição LB nominal,1.0,1.0,False,False
+AC,Pré,tipo_chuvas_intensas,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.0288963280297,1.266289172041594,1.0,64.0,0.264666405132456,0.2308475234570582,sem rejeição LB nominal,3.0,1.0,False,False
+AC,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-501.17667532887873,0.5570770039361465,1.0,64.0,0.4581733528863309,0.0965313150729191,sem rejeição LB nominal,2.0,1.0,False,False
+AC,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-500.5152570556252,0.0119654366954985,1.0,64.0,0.9132380935879972,0.1347579409332341,sem rejeição LB nominal,4.0,1.0,False,False
+AC,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-500.5567452422526,0.0460224467928053,1.0,64.0,0.8308170848654963,0.1437125103399306,sem rejeição LB nominal,1.0,1.0,False,False
+AC,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-501.25324815037953,0.6204839880730938,1.0,64.0,0.4337752115965024,0.2069627388437199,sem rejeição LB nominal,10.0,1.0,False,False
+AC,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-500.8861713956323,0.3170872070082516,1.0,64.0,0.5753309334647733,0.1597031731057929,sem rejeição LB nominal,3.0,1.0,False,False
+AC,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-501.3850382997912,0.7297601672279431,1.0,64.0,0.3961473010406744,0.1181693256776928,sem rejeição LB nominal,1.0,1.0,False,False
+AC,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-500.93808911465766,0.3599116687134574,1.0,64.0,0.5506735798196849,0.1316448229876902,sem rejeição LB nominal,1.0,1.0,False,False
+AL,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-533.0881773173435,7.634112263101159,1.0,64.0,0.0074694546713286,0.2743906581223687,sem rejeição LB nominal,1.0,0.0398370915804195,True,True
+AL,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.1706679712456,6.796420989892415,1.0,64.0,0.0113518815291189,0.3107624726226522,sem rejeição LB nominal,2.0,0.0454075261164757,True,True
+AL,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-533.0881773173435,7.634112263101159,1.0,64.0,0.0074694546713286,0.2743906581223687,sem rejeição LB nominal,1.0,0.0398370915804195,True,True
+AL,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-524.7694684232858,0.3876133123266329,1.0,64.0,0.5357687001333208,0.1095995765121797,sem rejeição LB nominal,6.0,1.0,False,False
+AL,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-527.6216834007771,2.785643075636225,1.0,64.0,0.0999976987244987,0.1201868580979387,sem rejeição LB nominal,47.0,0.2285661685131398,False,False
+AL,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-533.0881773173435,7.634112263101159,1.0,64.0,0.0074694546713286,0.2743906581223681,sem rejeição LB nominal,1.0,0.0398370915804195,True,True
+AL,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-528.5749852647409,3.6068934656936342,1.0,64.0,0.062049489533966,0.3213917512316734,sem rejeição LB nominal,4.0,0.1654653054239093,False,False
+AL,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-524.6260261471666,0.2693130741324397,1.0,64.0,0.6055828631621413,0.0651683122341037,sem rejeição LB nominal,3.0,1.0,False,False
+AL,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+AL,Pré,tipo_vendavais_e_ciclones,estimado,78,2.0,BIC (lags 1..6; amostra comum),-527.7762713839944,3.095795636457608,2.0,62.0,0.0522982070976963,0.5374705774404864,sem rejeição LB nominal,1.0,0.1654653054239093,False,False
+AM,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-546.9934917984585,0.0050179626332508,1.0,64.0,0.9437479148226506,0.0179758322240018,autocorrelação residual LB nominal,17.0,1.0,False,False
+AM,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-548.5532337429954,1.2977890621321029,1.0,64.0,0.2588635014695623,0.0122800273068617,autocorrelação residual LB nominal,6.0,0.7812130881403091,False,False
+AM,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-548.3458598566222,1.1244163462736867,1.0,64.0,0.2929549080526159,0.0083084480381703,autocorrelação residual LB nominal,2.0,0.7812130881403091,False,False
+AM,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-553.9395150538123,3.967727638666653,3.0,60.0,0.0120156184532993,0.0425447514308634,autocorrelação residual LB nominal,3.0,0.19224989525279,True,False
+AM,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-546.9898464890141,0.0020267748829601,1.0,64.0,0.9642317698566372,0.017114593478202,autocorrelação residual LB nominal,22.0,1.0,False,False
+AM,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-547.8808537259154,0.7373245078572777,1.0,64.0,0.3937239344962772,0.0263039106749351,autocorrelação residual LB nominal,15.0,0.8999404217057766,False,False
+AM,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+AM,Pré,tipo_incendio_florestal,estimado,78,3.0,BIC (lags 1..6; amostra comum),-550.5724219169149,2.955105714889497,3.0,60.0,0.0395525383543056,0.1682702323558837,sem rejeição LB nominal,2.0,0.2109468712229633,True,False
+AM,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-547.2876842270471,0.2468813793621535,1.0,64.0,0.6209821494198069,0.0207691620471929,autocorrelação residual LB nominal,38.0,1.0,False,False
+AM,Pré,tipo_movimento_de_massa,estimado,78,4.0,BIC (lags 1..6; amostra comum),-552.231996910116,2.905569489257305,4.0,58.0,0.0292553509105823,0.4934220336028638,sem rejeição LB nominal,13.0,0.2109468712229633,True,False
+AM,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+AM,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+AM,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-550.3196829030755,2.7934459796812368,1.0,64.0,0.0995336887113326,0.0050938818569216,autocorrelação residual LB nominal,3.0,0.3981347548453307,False,False
+AM,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+AM,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+AM,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-547.0697654460148,0.0676369867794215,1.0,64.0,0.7956437872927368,0.0148226508734028,autocorrelação residual LB nominal,8.0,1.0,False,False
+AP,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-475.41324576422136,0.0328367588644121,1.0,64.0,0.8567760660036106,0.8687635353855474,sem rejeição LB nominal,5.0,1.0,False,False
+AP,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-476.6427029278093,1.0501361178411135,1.0,64.0,0.3093335479550456,0.7937054603609838,sem rejeição LB nominal,1.0,0.8248894612134549,False,False
+AP,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-475.4992716263884,0.1034972556025707,1.0,64.0,0.7487208791581372,0.8464488541556286,sem rejeição LB nominal,3.0,1.0,False,False
+AP,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-477.17881476971655,1.4987806350887636,1.0,64.0,0.2253466393382487,0.891993716653401,sem rejeição LB nominal,1.0,0.8248894612134549,False,False
+AP,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-477.62036608629074,1.8706150885127024,1.0,64.0,0.1761883323556945,0.6495279979738082,sem rejeição LB nominal,2.0,0.8248894612134549,False,False
+AP,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-481.8880053049391,5.575031756043646,1.0,64.0,0.0212747366786606,0.3442175311431923,sem rejeição LB nominal,2.0,0.3403957868585705,True,False
+AP,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-477.2720241740388,1.57709796272477,1.0,64.0,0.2137445872524937,0.835866681470543,sem rejeição LB nominal,6.0,0.8248894612134549,False,False
+AP,Pré,tipo_movimento_de_massa,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_outros,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+AP,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-476.6427029278093,1.0501361178411135,1.0,64.0,0.3093335479550456,0.7937054603609838,sem rejeição LB nominal,1.0,0.8248894612134549,False,False
+AP,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-475.3744016787753,0.0009562749297201,1.0,64.0,0.9754266278058564,0.8663338050223754,sem rejeição LB nominal,2.0,1.0,False,False
+BA,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.6782722300827,0.4193671431540378,1.0,64.0,0.5195693146224273,0.0599722104027087,sem rejeição LB nominal,16.0,0.9234680823101372,False,False
+BA,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.7546546576182,0.4824814721556992,1.0,64.0,0.4898144784334438,0.0387688046610413,autocorrelação residual LB nominal,24.0,0.9234680823101372,False,False
+BA,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-544.6097299501926,1.1932597537315972,1.0,64.0,0.2787680123112942,0.0112029461965476,autocorrelação residual LB nominal,1.0,0.9234680823101372,False,False
+BA,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-544.037867764247,0.7170388909802922,1.0,64.0,0.4002722491345156,0.035731244769625,autocorrelação residual LB nominal,31.0,0.9234680823101372,False,False
+BA,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.4458128912659,0.2276672558296188,1.0,64.0,0.6348843065882193,0.0373611766461679,autocorrelação residual LB nominal,14.0,0.9234680823101372,False,False
+BA,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.6638011964596,0.4074167795878147,1.0,64.0,0.5255610496705925,0.0478395655465483,autocorrelação residual LB nominal,85.0,0.9234680823101372,False,False
+BA,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.3431107855467,0.1431547441145217,1.0,64.0,0.7064168395915131,0.0424076457470365,autocorrelação residual LB nominal,3.0,0.9418891194553508,False,False
+BA,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-550.8896403712849,6.659160261254036,1.0,64.0,0.0121686482590232,0.0103113184603588,autocorrelação residual LB nominal,2.0,0.1946983721443721,True,False
+BA,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.2072002611001,0.031486293622736,1.0,64.0,0.8597202306519734,0.0396874177884576,autocorrelação residual LB nominal,17.0,1.0,False,False
+BA,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-544.251975088571,0.8949289821137253,1.0,64.0,0.3477031728813397,0.060549088467903,sem rejeição LB nominal,11.0,0.9234680823101372,False,False
+BA,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+BA,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+BA,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.6270700970215,0.3770937246261443,1.0,64.0,0.5413395296712413,0.031419192335769,autocorrelação residual LB nominal,4.0,0.9234680823101372,False,False
+BA,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.4846064971123,0.2596190830074402,1.0,64.0,0.612134472962092,0.0477588720831104,autocorrelação residual LB nominal,1.0,0.9234680823101372,False,False
+BA,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+BA,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-543.5532963371297,0.3162335328505615,1.0,64.0,0.5758444387793175,0.0303980204338718,autocorrelação residual LB nominal,7.0,0.9234680823101372,False,False
+CE,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-554.7655624515878,0.7930585582099802,1.0,64.0,0.3765124593904896,0.085688673819944,sem rejeição LB nominal,7.0,0.8669749798448494,False,False
+CE,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.0881150575867,1.0615513989442698,1.0,64.0,0.3067396808927889,0.1554417920338274,sem rejeição LB nominal,7.0,0.8669749798448494,False,False
+CE,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-556.6211002864902,2.352897065355976,1.0,64.0,0.1299793660100691,0.1948306779739152,sem rejeição LB nominal,5.0,0.7210393537747303,False,False
+CE,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.8384486083978,0.0274822721937305,1.0,64.0,0.8688544116142849,0.1683190198025325,sem rejeição LB nominal,11.0,1.0,False,False
+CE,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.8955517933814,0.0743734493557956,1.0,64.0,0.7859503464132797,0.1617643338818283,sem rejeição LB nominal,66.0,1.0,False,False
+CE,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-554.4984230032101,0.5715306657422716,1.0,64.0,0.4524250172432623,0.0755344373924648,sem rejeição LB nominal,7.0,0.9048500344865246,False,False
+CE,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-557.1926669290733,2.840902142107102,1.0,64.0,0.0967628831304799,0.1329295582128328,sem rejeição LB nominal,1.0,0.7210393537747303,False,False
+CE,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-554.7543928387165,0.7837808458333736,1.0,64.0,0.3793015536821216,0.1255653066874576,sem rejeição LB nominal,5.0,0.8669749798448494,False,False
+CE,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-556.546256685453,2.2892597839056097,1.0,64.0,0.1351948788327619,0.1554088471497084,sem rejeição LB nominal,4.0,0.7210393537747303,False,False
+CE,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+CE,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.4481682369162,1.3625740762126708,1.0,64.0,0.2474225726397961,0.1758821528177794,sem rejeição LB nominal,3.0,0.8669749798448494,False,False
+DF,Pré,tipo_alagamentos,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_chuvas_intensas,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.5477213385661,0.1970047191063225,1.0,64.0,0.6586465539711721,0.5582393851080851,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Pré,tipo_enxurradas,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.3100502615544,0.0016899866207264,1.0,64.0,0.9673366233091288,0.5319531928619528,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_inundacoes,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_movimento_de_massa,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_outros,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+DF,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.3158869753079,0.0064793907388479,1.0,64.0,0.9360950271785734,0.5423188376396004,sem rejeição LB nominal,2.0,1.0,False,False
+ES,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-533.3474049747026,1.5933139589695609,1.0,64.0,0.2114337125041989,0.0631973597225856,sem rejeição LB nominal,18.0,0.8457348500167959,False,False
+ES,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-534.0056407345951,2.1491928979380406,1.0,64.0,0.1475411248329247,0.3561370983993919,sem rejeição LB nominal,13.0,0.8457348500167959,False,False
+ES,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.5943981307362,0.1355827287168286,1.0,64.0,0.7139275948868119,0.0664427236835248,sem rejeição LB nominal,3.0,1.0,False,False
+ES,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-532.1841829932329,1.6650074905568562,3.0,60.0,0.1840974217169224,0.7675174178323901,sem rejeição LB nominal,27.0,0.8457348500167959,False,False
+ES,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.4929229105032,0.0521988727264698,1.0,64.0,0.8200087545008389,0.0986810549212735,sem rejeição LB nominal,10.0,1.0,False,False
+ES,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.5857480036882,0.1284705469516342,1.0,64.0,0.7212027407213579,0.0540087035178916,sem rejeição LB nominal,39.0,1.0,False,False
+ES,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.7673423106924,0.2779440298854715,1.0,64.0,0.59987477388563,0.0839735694560288,sem rejeição LB nominal,2.0,1.0,False,False
+ES,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.1262746112475,0.5744132055367102,1.0,64.0,0.4512922992767503,0.0991767621386074,sem rejeição LB nominal,27.0,1.0,False,False
+ES,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.6905723713455,0.2147108726606441,1.0,64.0,0.6446718340444583,0.0864464734579196,sem rejeição LB nominal,12.0,1.0,False,False
+ES,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.0770894013565,0.5337067326688626,1.0,64.0,0.4677186296129496,0.188984125204009,sem rejeição LB nominal,24.0,1.0,False,False
+ES,Pré,tipo_onda_de_calor_e_baixa_umidade,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.4535899213652,0.0199074710535558,1.0,64.0,0.8882389802402261,0.0781583158269004,sem rejeição LB nominal,1.0,1.0,False,False
+ES,Pré,tipo_onda_de_frio,sem modelo de posto completo na grade,78,,,,,,,,,,,,False,False
+ES,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.4300701020252,0.0006060651089139,1.0,64.0,0.980435950320925,0.0766379654626738,sem rejeição LB nominal,17.0,1.0,False,False
+ES,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-533.7170966871925,1.904940393813084,1.0,64.0,0.1723285815898008,0.154556555697946,sem rejeição LB nominal,2.0,0.8457348500167959,False,False
+ES,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+ES,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.3610203838516,0.7690465868365015,1.0,64.0,0.3837921469499581,0.1105147542471234,sem rejeição LB nominal,24.0,1.0,False,False
+GO,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.9387604611725,4.354868528924251,1.0,64.0,0.0408917203289753,0.0249735666677844,autocorrelação residual LB nominal,9.0,0.2180891750878683,True,False
+GO,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-530.860452564179,0.0463012309807792,1.0,64.0,0.8303133942024349,0.0507339833073727,sem rejeição LB nominal,11.0,1.0,False,False
+GO,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+GO,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.2047459847724,0.3296276149651629,1.0,64.0,0.5678908845561416,0.0707076467593381,sem rejeição LB nominal,11.0,1.0,False,False
+GO,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.2530368653938,1.2000296320919874,1.0,64.0,0.2774210929590209,0.0392981057952203,autocorrelação residual LB nominal,8.0,0.8877474974688668,False,False
+GO,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-530.8075728039423,0.0028960348872604,1.0,64.0,0.9572503356089104,0.0539406532044542,sem rejeição LB nominal,3.0,1.0,False,False
+GO,Pré,tipo_granizo,estimado,78,3.0,BIC (lags 1..6; amostra comum),-534.784832960941,4.597739050965301,3.0,60.0,0.0058084426979004,0.6959209342984494,sem rejeição LB nominal,1.0,0.0929350831664072,True,False
+GO,Pré,tipo_incendio_florestal,estimado,78,2.0,BIC (lags 1..6; amostra comum),-536.7496214189312,4.162569779950339,2.0,62.0,0.0201239713773665,0.4568772415662406,sem rejeição LB nominal,2.0,0.1609917710189325,True,False
+GO,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-531.9339130084165,0.9338196450693728,1.0,64.0,0.337509884128149,0.0351726405685886,autocorrelação residual LB nominal,4.0,0.9000263576750639,False,False
+GO,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-530.968773703195,0.1353062020484483,1.0,64.0,0.7142063550707858,0.0376895181411806,autocorrelação residual LB nominal,2.0,1.0,False,False
+GO,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+GO,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+GO,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-532.9248830799584,1.7640499984843108,1.0,64.0,0.1888373193682007,0.0268421050284686,autocorrelação residual LB nominal,5.0,0.7553492774728029,False,False
+GO,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+GO,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+GO,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-530.9230653490517,0.0977336313442527,1.0,64.0,0.7555829061885792,0.0590803762795395,sem rejeição LB nominal,6.0,1.0,False,False
+MA,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.9215671404136,0.6787306275259821,1.0,64.0,0.413083829333555,0.2559412698763333,sem rejeição LB nominal,9.0,1.0,False,False
+MA,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-503.3812680871196,1.0610468190850724,1.0,64.0,0.306853728215253,0.3426141503644903,sem rejeição LB nominal,8.0,1.0,False,False
+MA,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.1968055867495,0.0805313241427184,1.0,64.0,0.7774947040797282,0.2661099376459117,sem rejeição LB nominal,10.0,1.0,False,False
+MA,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-504.247085776451,1.7872623153761975,1.0,64.0,0.1859929190412928,0.4574653296222483,sem rejeição LB nominal,2.0,1.0,False,False
+MA,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.38580811960327,0.235993736817281,1.0,64.0,0.628773832519796,0.2900903602858827,sem rejeição LB nominal,30.0,1.0,False,False
+MA,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-502.51084075651744,0.3390454852334469,1.0,64.0,0.5624264484395182,0.2302235372945418,sem rejeição LB nominal,8.0,1.0,False,False
+MA,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-506.594161320655,3.7969324528049215,1.0,64.0,0.0557335548959354,0.3561444744685913,sem rejeição LB nominal,1.0,0.8917368783349665,False,False
+MA,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_outros,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+MA,Pré,tipo_vendavais_e_ciclones,exposição transformada constante,78,,,,,,,,,,,,False,False
+MG,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.7521690625415,0.0130692667477025,1.0,64.0,0.9093413137825036,0.3552628250511226,sem rejeição LB nominal,33.0,1.0,False,False
+MG,Pré,tipo_chuvas_intensas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-589.151788881504,7.094904602689612,3.0,60.0,0.0003700429235609,0.802679805867515,sem rejeição LB nominal,44.0,0.0059206867769751,True,True
+MG,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.7386011940043,0.0019353516895959,1.0,64.0,0.965047249144417,0.3559131146077807,sem rejeição LB nominal,16.0,1.0,False,False
+MG,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-580.745707464109,3.3758388814083027,1.0,64.0,0.0708020716834538,0.2674380301988312,sem rejeição LB nominal,29.0,0.3776110489784203,False,False
+MG,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.9373483665881,0.1652228294121218,1.0,64.0,0.6857488672089962,0.3685670605205236,sem rejeição LB nominal,9.0,1.0,False,False
+MG,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-577.6651777443517,0.7667600343758941,1.0,64.0,0.3844958609534768,0.3525089693399819,sem rejeição LB nominal,81.0,1.0,False,False
+MG,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.7809944757848,0.0367300894412396,1.0,64.0,0.8486223789477947,0.3623613905393672,sem rejeição LB nominal,17.0,1.0,False,False
+MG,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.8186677319206,0.0676666898140449,1.0,64.0,0.795599937996496,0.3509678903945686,sem rejeição LB nominal,7.0,1.0,False,False
+MG,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.8051963575588,0.0566025232042265,1.0,64.0,0.8127087321954894,0.3610347670137542,sem rejeição LB nominal,24.0,1.0,False,False
+MG,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.8389715726641,0.0843460362412944,1.0,64.0,0.7724309647774465,0.3540851062710784,sem rejeição LB nominal,33.0,1.0,False,False
+MG,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+MG,Pré,tipo_onda_de_frio,estimado,78,1.0,BIC (lags 1..6; amostra comum),-579.4953696343171,2.3044164373617178,1.0,64.0,0.1339313448162544,0.3156990155027675,sem rejeição LB nominal,2.0,0.5357253792650176,False,False
+MG,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.7636668616672,0.0225059803532941,1.0,64.0,0.8812206791934656,0.3556052075565393,sem rejeição LB nominal,10.0,1.0,False,False
+MG,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-576.7362632657962,1.702236173553442e-05,1.0,64.0,0.9967209176470436,0.3515462546734162,sem rejeição LB nominal,1.0,1.0,False,False
+MG,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-578.2728526614719,1.2733093208024209,1.0,64.0,0.2633590499229348,0.1932029679261442,sem rejeição LB nominal,1.0,0.8427489597533915,False,False
+MG,Pré,tipo_vendavais_e_ciclones,estimado,78,2.0,BIC (lags 1..6; amostra comum),-580.7126805096941,4.561245474907989,2.0,62.0,0.0141881788748077,0.1800293316036431,sem rejeição LB nominal,34.0,0.1135054309984618,True,False
+MS,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.5604852521496,0.2414355475160183,1.0,64.0,0.6248521026522451,0.3420227461255657,sem rejeição LB nominal,23.0,0.9501742916936564,False,False
+MS,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.7072301249982,0.362409581714389,1.0,64.0,0.5492979072056096,0.2429427670009219,sem rejeição LB nominal,45.0,0.9501742916936564,False,False
+MS,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.2683498029292,0.0012804215871421,1.0,64.0,0.9715667802204836,0.290772154621239,sem rejeição LB nominal,6.0,1.0,False,False
+MS,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.5932539119774,0.26842975263514,1.0,64.0,0.606173591216167,0.3270184621909912,sem rejeição LB nominal,23.0,0.9501742916936564,False,False
+MS,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.7567210326004,0.403260412882538,1.0,64.0,0.5276740954183518,0.2073104845177379,sem rejeição LB nominal,14.0,0.9501742916936564,False,False
+MS,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.5147027588885,0.2037397769718225,1.0,64.0,0.6532448255393887,0.3347741451427306,sem rejeição LB nominal,11.0,0.9501742916936564,False,False
+MS,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.825531206829,0.4601008600994461,1.0,64.0,0.5000221305689482,0.235378119615202,sem rejeição LB nominal,9.0,0.9501742916936564,False,False
+MS,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-523.9930317956175,1.4321938041611435,1.0,64.0,0.2358211224311624,0.2226648810915787,sem rejeição LB nominal,15.0,0.9501742916936564,False,False
+MS,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.3578946215857,0.0747967539290761,1.0,64.0,0.7853572823397934,0.2870415047808735,sem rejeição LB nominal,13.0,0.9665935782643612,False,False
+MS,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.2763611109003,0.007854271588628,1.0,64.0,0.9296572149782318,0.2974597212463812,sem rejeição LB nominal,4.0,1.0,False,False
+MS,Pré,tipo_onda_de_calor_e_baixa_umidade,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.674832764417,0.3356821559182537,1.0,64.0,0.5643661220618831,0.2904003708315569,sem rejeição LB nominal,10.0,0.9501742916936564,False,False
+MS,Pré,tipo_onda_de_frio,estimado,78,1.0,BIC (lags 1..6; amostra comum),-523.2232138504944,0.7895896245905203,1.0,64.0,0.3775518631355694,0.3526559041818703,sem rejeição LB nominal,8.0,0.9501742916936564,False,False
+MS,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.4233501088993,0.1285891552591027,1.0,64.0,0.7210795695074741,0.3214431610132291,sem rejeição LB nominal,4.0,0.9614394260099656,False,False
+MS,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+MS,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-523.5414393235567,1.0544590251838288,1.0,64.0,0.3083478720330784,0.3811729541476431,sem rejeição LB nominal,3.0,0.9501742916936564,False,False
+MS,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-522.8133672413353,0.4500492023175214,1.0,64.0,0.5047255293134595,0.3220259624292578,sem rejeição LB nominal,34.0,0.9501742916936564,False,False
+MT,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-451.8214307288037,1.6875413686164622,1.0,64.0,0.198586027879042,0.5455292133727294,sem rejeição LB nominal,25.0,0.7835358511780873,False,False
+MT,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-451.1449772651136,1.120330577185443,1.0,64.0,0.2938259441917827,0.1791643311387587,sem rejeição LB nominal,42.0,0.7835358511780873,False,False
+MT,Pré,tipo_doencas_infecciosas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-454.8082498993318,6.117915809182671,3.0,60.0,0.0010599858094889,0.7278619111123283,sem rejeição LB nominal,2.0,0.0169597729518233,True,True
+MT,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-452.6025455475297,2.34866041934091,1.0,64.0,0.130319369618254,0.5444730077850986,sem rejeição LB nominal,19.0,0.7835358511780873,False,False
+MT,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-451.20042631794985,1.1666401208897468,1.0,64.0,0.284146286956619,0.4283399687593693,sem rejeição LB nominal,17.0,0.7835358511780873,False,False
+MT,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-450.2774152698915,0.4000370506017195,1.0,64.0,0.529323388617164,0.3827177313606194,sem rejeição LB nominal,14.0,1.0,False,False
+MT,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-450.2831777281594,0.4047949510425781,1.0,64.0,0.5268921763425001,0.2851901519636975,sem rejeição LB nominal,1.0,1.0,False,False
+MT,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.8847993090949,0.0766914883352532,1.0,64.0,0.7827245800607167,0.3014037855473698,sem rejeição LB nominal,9.0,1.0,False,False
+MT,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-451.5343223022291,1.446198041156433,1.0,64.0,0.233569309991442,0.5044780134417925,sem rejeição LB nominal,11.0,0.7835358511780873,False,False
+MT,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.79242776733446,0.0008535465590071,1.0,64.0,0.9767836184600776,0.3217911476589279,sem rejeição LB nominal,11.0,1.0,False,False
+MT,Pré,tipo_onda_de_calor_e_baixa_umidade,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.8879858966066,0.079309310845769,1.0,64.0,0.7791441941702582,0.3339296063106092,sem rejeição LB nominal,3.0,1.0,False,False
+MT,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+MT,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.9983098735982,0.1700078515957625,1.0,64.0,0.6814827225678816,0.3590953613522506,sem rejeição LB nominal,14.0,1.0,False,False
+MT,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+MT,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.971630610381,0.148062777567181,1.0,64.0,0.7016693023382256,0.3522916094602948,sem rejeição LB nominal,1.0,1.0,False,False
+MT,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-449.8217896316604,0.024950189091779,1.0,64.0,0.8749885694774796,0.3333523988439764,sem rejeição LB nominal,23.0,1.0,False,False
+PA,Pré,tipo_alagamentos,estimado,78,2.0,BIC (lags 1..6; amostra comum),-573.8501403909399,7.436940974601929,2.0,62.0,0.0012735006998522,0.6812784098274359,sem rejeição LB nominal,30.0,0.0203760111976352,True,True
+PA,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.0797189585701,0.2143990651182033,1.0,64.0,0.6449117682590322,0.7186068975141349,sem rejeição LB nominal,18.0,1.0,False,False
+PA,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.2166879925721,0.3272594643080606,1.0,64.0,0.5692812973830116,0.6613711899155819,sem rejeição LB nominal,2.0,1.0,False,False
+PA,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.6269106005345,0.666464720559038,1.0,64.0,0.417315210448038,0.6675654452327349,sem rejeição LB nominal,32.0,1.0,False,False
+PA,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.9304955237999,0.0916665908914112,1.0,64.0,0.7630509188590853,0.6663079817115132,sem rejeição LB nominal,39.0,1.0,False,False
+PA,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.6288289579359,0.6680551682093713,1.0,64.0,0.4167628915986811,0.7396935221469683,sem rejeição LB nominal,9.0,1.0,False,False
+PA,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.1770163069887,0.2945502086509077,1.0,64.0,0.5892043810672242,0.7192964753130808,sem rejeição LB nominal,3.0,1.0,False,False
+PA,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.4134228534922,0.4897131550589446,1.0,64.0,0.4865912078964324,0.5809465504931406,sem rejeição LB nominal,11.0,1.0,False,False
+PA,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.0957832095498,0.2276255068603597,1.0,64.0,0.6349152888387778,0.6794036405395815,sem rejeição LB nominal,29.0,1.0,False,False
+PA,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-566.0868391491033,1.888227270569604,1.0,64.0,0.1741953643477577,0.6770126370442778,sem rejeição LB nominal,24.0,1.0,False,False
+PA,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+PA,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+PA,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.9122701282904,0.0766927509544347,1.0,64.0,0.7827228374229684,0.67712482758203,sem rejeição LB nominal,19.0,1.0,False,False
+PA,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+PA,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+PA,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.8189593506775,8.414697206300803e-05,1.0,64.0,0.9927095098376008,0.691924878597505,sem rejeição LB nominal,20.0,1.0,False,False
+PB,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.8018983210529,0.1701317942440369,1.0,64.0,0.6813731597126912,0.2034756192411578,sem rejeição LB nominal,3.0,1.0,False,False
+PB,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.6909925618279,0.0789551278422209,1.0,64.0,0.7796248386401673,0.1487839607858531,sem rejeição LB nominal,5.0,1.0,False,False
+PB,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.5960070584567,0.0009696494878701,1.0,64.0,0.975255437667464,0.1877063057371708,sem rejeição LB nominal,1.0,1.0,False,False
+PB,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.8619371504967,0.219544393541405,1.0,64.0,0.6409793109030318,0.2185477041989793,sem rejeição LB nominal,2.0,1.0,False,False
+PB,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-550.5687363594657,0.8041161706349796,1.0,64.0,0.3732263081481835,0.3040804817399242,sem rejeição LB nominal,25.0,1.0,False,False
+PB,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.7382227852227,0.1177676898432077,1.0,64.0,0.7325930559614101,0.1732002468623382,sem rejeição LB nominal,1.0,1.0,False,False
+PB,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-549.6334597346604,0.0317078951508681,1.0,64.0,0.8592327057289846,0.1825399657550789,sem rejeição LB nominal,1.0,1.0,False,False
+PB,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-550.2912069491772,0.5739483496733636,1.0,64.0,0.4514746646625771,0.2609067542630536,sem rejeição LB nominal,2.0,1.0,False,False
+PB,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_outros,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+PB,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-550.1101926652123,0.4242656006273422,1.0,64.0,0.517148332766582,0.0881582550760974,sem rejeição LB nominal,2.0,1.0,False,False
+PE,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-560.4177530081322,0.4691119913088151,1.0,64.0,0.4958691182968259,0.1060951482912698,sem rejeição LB nominal,13.0,1.0,False,False
+PE,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-560.2138042255285,0.3007629895410492,1.0,64.0,0.5853125302802611,0.1174464011282152,sem rejeição LB nominal,4.0,1.0,False,False
+PE,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.3212968840562,2.061797777841,1.0,64.0,0.1559018152273269,0.0565752485415861,sem rejeição LB nominal,2.0,0.7633805405609315,False,False
+PE,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-574.0047683089294,12.736596217699535,1.0,64.0,0.0006860359380189,0.3264329734818996,sem rejeição LB nominal,10.0,0.010976575008303,True,True
+PE,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-561.949806317609,1.7479133439388546,1.0,64.0,0.1908451351402328,0.1011441884248194,sem rejeição LB nominal,3.0,0.7633805405609315,False,False
+PE,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-560.0772037469262,0.1882523709036582,1.0,64.0,0.6658342788202639,0.1245003376481044,sem rejeição LB nominal,52.0,1.0,False,False
+PE,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+PE,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-559.8677040863051,0.0160809083040439,1.0,64.0,0.899487941224246,0.1151328792634397,sem rejeição LB nominal,1.0,1.0,False,False
+PE,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.520366414202,3.085191068531175,1.0,64.0,0.083791549270474,0.4183284216119627,sem rejeição LB nominal,3.0,0.6703323941637926,False,False
+PE,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-560.1031493095059,0.209607208532367,1.0,64.0,0.6486260636352221,0.1067373332727088,sem rejeição LB nominal,24.0,1.0,False,False
+PE,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+PE,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+PE,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-559.8490233117693,0.0007510777676778,1.0,64.0,0.9782213522915456,0.1245170157974407,sem rejeição LB nominal,2.0,1.0,False,False
+PE,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+PE,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+PE,Pré,tipo_vendavais_e_ciclones,sem modelo de posto completo na grade,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-489.7057495398081,0.0552941156462881,1.0,64.0,0.8148454021530176,0.7748684884889855,sem rejeição LB nominal,4.0,1.0,False,False
+PI,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-490.0212754104476,0.3149356109394889,1.0,64.0,0.5766269248252095,0.7293776759618747,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-489.8143078890286,0.1445066572860164,1.0,64.0,0.7050999385502091,0.772801866789217,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-492.09584206128847,2.0484717365607903,1.0,64.0,0.1572242736486052,0.7388596535727876,sem rejeição LB nominal,10.0,1.0,False,False
+PI,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-489.6880347234584,0.0407479755757047,1.0,64.0,0.8406654398992949,0.7310818179694227,sem rejeição LB nominal,66.0,1.0,False,False
+PI,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-490.41173692015246,0.6376980138844465,1.0,64.0,0.4274990684964865,0.8208884518859336,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-489.6581281610974,0.0161983409355525,1.0,64.0,0.8991236090799755,0.7350647910826971,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-490.0548741059784,0.3426453982806423,1.0,64.0,0.5603645930154362,0.8024444140145649,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_movimento_de_massa,exposição transformada constante,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_outros,estimado,78,4.0,BIC (lags 1..6; amostra comum),-493.1656241421005,6.264673017867532,4.0,58.0,0.000292560643641,0.3933290175531297,sem rejeição LB nominal,2.0,0.0046809702982565,True,True
+PI,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-490.0548741059784,0.3426453982806423,1.0,64.0,0.5603645930154362,0.802444414014566,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+PI,Pré,tipo_vendavais_e_ciclones,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-561.6021871920757,0.0039918646370968,1.0,64.0,0.9498191284430608,0.1001798251172644,sem rejeição LB nominal,12.0,1.0,False,False
+PR,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.7125618851667,0.9216414996769215,1.0,64.0,0.340657308280558,0.1695493905648217,sem rejeição LB nominal,18.0,0.9230814166559934,False,False
+PR,Pré,tipo_doencas_infecciosas,sem modelo de posto completo na grade,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-561.6047851366714,0.0061236799438141,1.0,64.0,0.9378702026931136,0.1018089650205769,sem rejeição LB nominal,34.0,1.0,False,False
+PR,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.6120405280606,2.522039751104914,1.0,64.0,0.1171938400839998,0.1607782176118473,sem rejeição LB nominal,2.0,0.7939405018778007,False,False
+PR,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.0723097054545,0.3909223585477292,1.0,64.0,0.534038069572085,0.1007655837964167,sem rejeição LB nominal,26.0,1.0,False,False
+PR,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.687436647358,0.9007324100027602,1.0,64.0,0.3461555312459975,0.1832988489676141,sem rejeição LB nominal,6.0,0.9230814166559934,False,False
+PR,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.6282783343602,1.688310137310873,1.0,64.0,0.1984851254694501,0.2112842308435814,sem rejeição LB nominal,3.0,0.7939405018778007,False,False
+PR,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_outros,sem modelo de posto completo na grade,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+PR,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.9057101974113,1.922367554077873,1.0,64.0,0.1704069879060406,0.1459190083231946,sem rejeição LB nominal,3.0,0.7939405018778007,False,False
+PR,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-564.3118055261496,2.2664774978588333,1.0,64.0,0.1371198496178198,0.153669620693098,sem rejeição LB nominal,22.0,0.7939405018778007,False,False
+RJ,Pré,tipo_alagamentos,estimado,78,3.0,BIC (lags 1..6; amostra comum),-600.2832379945005,0.6104983858061782,3.0,60.0,0.6108110019800131,0.5657305382212225,sem rejeição LB nominal,21.0,1.0,False,False
+RJ,Pré,tipo_chuvas_intensas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-599.219506743617,0.3313289866116059,3.0,60.0,0.8027059797344153,0.8950744383296887,sem rejeição LB nominal,25.0,1.0,False,False
+RJ,Pré,tipo_doencas_infecciosas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-598.0156734676797,0.019949196962082,3.0,60.0,0.9961310936210424,0.7510885005585193,sem rejeição LB nominal,2.0,1.0,False,False
+RJ,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-599.973856255253,0.5289101481323274,3.0,60.0,0.6641505294238348,0.7326844826438774,sem rejeição LB nominal,24.0,1.0,False,False
+RJ,Pré,tipo_erosao,estimado,78,3.0,BIC (lags 1..6; amostra comum),-598.8508964163042,0.2354744042611877,3.0,60.0,0.8712963089566736,0.662926532813277,sem rejeição LB nominal,8.0,1.0,False,False
+RJ,Pré,tipo_estiagem_e_seca,estimado,78,3.0,BIC (lags 1..6; amostra comum),-605.3669164315747,1.998536775346551,3.0,60.0,0.1238062856348483,0.3458684653520594,sem rejeição LB nominal,10.0,0.6603001900525246,False,False
+RJ,Pré,tipo_granizo,estimado,78,3.0,BIC (lags 1..6; amostra comum),-598.5034634848756,0.1455406143530301,3.0,60.0,0.932149841934479,0.5678198582282503,sem rejeição LB nominal,11.0,1.0,False,False
+RJ,Pré,tipo_incendio_florestal,estimado,78,3.0,BIC (lags 1..6; amostra comum),-601.4668746052525,0.9256442556069304,3.0,60.0,0.433981420391942,0.5771621916676428,sem rejeição LB nominal,18.0,1.0,False,False
+RJ,Pré,tipo_inundacoes,estimado,78,3.0,BIC (lags 1..6; amostra comum),-598.4011282147969,0.1191271844635109,3.0,60.0,0.948521895523696,0.8426281045799467,sem rejeição LB nominal,14.0,1.0,False,False
+RJ,Pré,tipo_movimento_de_massa,estimado,78,3.0,BIC (lags 1..6; amostra comum),-611.4979770589883,3.797470233359988,3.0,60.0,0.0146535140150963,0.8294463980925151,sem rejeição LB nominal,33.0,0.148608737632372,True,False
+RJ,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+RJ,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+RJ,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-602.243649073783,5.834980575361974,1.0,64.0,0.0185760922040465,0.0511786280526981,sem rejeição LB nominal,6.0,0.148608737632372,True,False
+RJ,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+RJ,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+RJ,Pré,tipo_vendavais_e_ciclones,estimado,78,3.0,BIC (lags 1..6; amostra comum),-600.0910668351805,0.5597821259762279,3.0,60.0,0.6436352022988543,0.6770418714507931,sem rejeição LB nominal,21.0,1.0,False,False
+RN,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.2987541179871,0.0002153702135509,1.0,64.0,0.9883367212670244,0.6023101455345428,sem rejeição LB nominal,3.0,1.0,False,False
+RN,Pré,tipo_chuvas_intensas,estimado,78,4.0,BIC (lags 1..6; amostra comum),-526.3690315239478,6.909790980990888,4.0,58.0,0.0001280113585165,0.7759857281471195,sem rejeição LB nominal,2.0,0.0020481817362644,True,True
+RN,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-519.5857500831712,1.064975701900961,1.0,64.0,0.305967178338915,0.5759291395033064,sem rejeição LB nominal,1.0,1.0,False,False
+RN,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-524.1132163178897,4.953394592211248,1.0,64.0,0.0295692755385772,0.7321635670897813,sem rejeição LB nominal,3.0,0.2365542043086183,True,False
+RN,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.9295381589891,0.5198819376200348,1.0,64.0,0.4735177431488254,0.6825335932137158,sem rejeição LB nominal,6.0,1.0,False,False
+RN,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-519.3575032815129,0.874858199768652,1.0,64.0,0.353129771534159,0.4550563454494701,sem rejeição LB nominal,34.0,1.0,False,False
+RN,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+RN,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.4962854280172,0.1624982881360469,1.0,64.0,0.688210268360399,0.5935070016699879,sem rejeição LB nominal,4.0,1.0,False,False
+RN,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.421926789317,0.1013603061029468,1.0,64.0,0.7512398994429094,0.609814337791112,sem rejeição LB nominal,1.0,1.0,False,False
+RN,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.6795090679129,0.3133945053944179,1.0,64.0,0.5775587855538399,0.6113022961599113,sem rejeição LB nominal,2.0,1.0,False,False
+RN,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+RN,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+RN,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-519.8283360316962,1.2676477377740794,1.0,64.0,0.264412761601715,0.3890411448793753,sem rejeição LB nominal,2.0,1.0,False,False
+RN,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-518.4219267893172,0.1013603061029564,1.0,64.0,0.7512398994428982,0.6098143377911114,sem rejeição LB nominal,1.0,1.0,False,False
+RN,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+RN,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-519.0039657874611,0.5814762144837501,1.0,64.0,0.4485356889850497,0.6429735637777687,sem rejeição LB nominal,2.0,1.0,False,False
+RO,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-554.1509349824064,0.4190373559657092,1.0,64.0,0.5197330287619722,0.6651163183959721,sem rejeição LB nominal,5.0,1.0,False,False
+RO,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-555.764115450206,1.7652117302265338,1.0,64.0,0.1886937409396785,0.7243367865015784,sem rejeição LB nominal,4.0,1.0,False,False
+RO,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-558.0608261199059,3.730460346914343,1.0,64.0,0.0578593577776963,0.5909889799070485,sem rejeição LB nominal,3.0,0.4628748622215708,False,False
+RO,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.8938272028438,0.2070454546726884,1.0,64.0,0.6506328985628204,0.6670781048533078,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Pré,tipo_estiagem_e_seca,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_granizo,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.6836805410403,0.034292424166032,1.0,64.0,0.8536717906278053,0.646817075106829,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.7680915849426,0.1036273890331031,1.0,64.0,0.7485684105306767,0.5750274208598813,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.7090056985573,0.0550865502576449,1.0,64.0,0.8151868079264999,0.5743542592607926,sem rejeição LB nominal,15.0,1.0,False,False
+RO,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-553.6614458234642,0.0160413793688175,1.0,64.0,0.899610882850196,0.6110621898357091,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-558.9327331911813,4.49181888392666,1.0,64.0,0.0379422808622155,0.7192127068697125,sem rejeição LB nominal,3.0,0.4628748622215708,True,False
+RO,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+RO,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-554.5286054443504,0.7317061101418498,1.0,64.0,0.3955218092825586,0.628506764479924,sem rejeição LB nominal,6.0,1.0,False,False
+RR,Pré,tipo_alagamentos,estimado,78,3.0,BIC (lags 1..6; amostra comum),-379.10654907454943,17.147206338586418,3.0,60.0,3.7118357102950614e-08,0.0038882897720606,autocorrelação residual LB nominal,2.0,2.969468568236049e-07,True,True
+RR,Pré,tipo_chuvas_intensas,estimado,78,5.0,BIC (lags 1..6; amostra comum),-394.3266528326108,20.336985382105546,5.0,56.0,1.6336531901836435e-11,0.1960252831995937,sem rejeição LB nominal,1.0,2.613845104293829e-10,True,True
+RR,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.33934353261265,0.0964654818365131,1.0,64.0,0.7571224067680363,0.0867169175641048,sem rejeição LB nominal,1.0,1.0,False,False
+RR,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.2246290313927,0.0022681761326833,1.0,64.0,0.9621631178906412,0.0767820398059906,sem rejeição LB nominal,2.0,1.0,False,False
+RR,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.55759986000174,0.2760686841674746,1.0,64.0,0.6011053024506847,0.0732399744658943,sem rejeição LB nominal,5.0,1.0,False,False
+RR,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-347.61875003206785,1.1564870201740096,1.0,64.0,0.2862327884506568,0.047194722841353,autocorrelação residual LB nominal,2.0,1.0,False,False
+RR,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.2992511423412,0.0635280436026499,1.0,64.0,0.8018118579306844,0.0779873920128433,sem rejeição LB nominal,4.0,1.0,False,False
+RR,Pré,tipo_movimento_de_massa,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.8226284280628,0.4948375049439895,1.0,64.0,0.4843286514826402,0.0432460670254588,autocorrelação residual LB nominal,1.0,1.0,False,False
+RR,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+RR,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-346.4376288660672,0.1772823177839856,1.0,64.0,0.6751299023476335,0.0868444152717289,sem rejeição LB nominal,2.0,1.0,False,False
+RS,Pré,tipo_alagamentos,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.0461544888212,0.7705976836487022,3.0,60.0,0.5150002160929593,0.9946036201306984,sem rejeição LB nominal,24.0,0.8240003457487349,False,False
+RS,Pré,tipo_chuvas_intensas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.2119230177225,0.8147870776297095,3.0,60.0,0.4907290618069991,0.9884254802953698,sem rejeição LB nominal,52.0,0.8240003457487349,False,False
+RS,Pré,tipo_doencas_infecciosas,sem modelo de posto completo na grade,78,,,,,,,,,,,,False,False
+RS,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.4841147094824,0.887550014581557,3.0,60.0,0.4528203725977543,0.98580208723065,sem rejeição LB nominal,57.0,0.8240003457487349,False,False
+RS,Pré,tipo_erosao,estimado,78,3.0,BIC (lags 1..6; amostra comum),-567.192561033228,1.904617777838332,3.0,60.0,0.1384750303249889,0.9958299016392884,sem rejeição LB nominal,1.0,0.8240003457487349,False,False
+RS,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-563.0993610166659,0.8521485176875443,1.0,64.0,0.3594124672488741,0.4784608902532018,sem rejeição LB nominal,20.0,0.8240003457487349,False,False
+RS,Pré,tipo_granizo,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.8377155880869,0.9824554335441288,3.0,60.0,0.4071457658549738,0.9997068294596188,sem rejeição LB nominal,45.0,0.8240003457487349,False,False
+RS,Pré,tipo_incendio_florestal,estimado,78,3.0,BIC (lags 1..6; amostra comum),-562.708466848802,0.6808693105628709,3.0,60.0,0.5671959258630852,0.999666690973162,sem rejeição LB nominal,2.0,0.8250122558008512,False,False
+RS,Pré,tipo_inundacoes,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.24145989682,0.822670670839609,3.0,60.0,0.4864985516302341,0.9955180845262256,sem rejeição LB nominal,27.0,0.8240003457487349,False,False
+RS,Pré,tipo_movimento_de_massa,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.2889589738652,0.8353547586490976,3.0,60.0,0.4797550933558537,0.9962673753795958,sem rejeição LB nominal,13.0,0.8240003457487349,False,False
+RS,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+RS,Pré,tipo_onda_de_frio,estimado,78,3.0,BIC (lags 1..6; amostra comum),-572.3812463688088,3.4113062534428025,3.0,60.0,0.0230524077688146,0.9735995212506204,sem rejeição LB nominal,1.0,0.368838524301034,True,False
+RS,Pré,tipo_outros,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.5039925882074,0.8928737722265578,3.0,60.0,0.4501463107785979,0.9963018267643968,sem rejeição LB nominal,3.0,0.8240003457487349,False,False
+RS,Pré,tipo_rompimento_colapso_de_barragens,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.0703060856267,0.0021725482988232,1.0,64.0,0.9629687219058504,0.4167876921264254,sem rejeição LB nominal,1.0,1.0,False,False
+RS,Pré,tipo_tornado,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.1643195033453,0.0793608896282116,1.0,64.0,0.7790742959148957,0.4235969803926813,sem rejeição LB nominal,11.0,1.0,False,False
+RS,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.0754972685656,0.0064322667930156,1.0,64.0,0.9363273309964076,0.4159523716395179,sem rejeição LB nominal,60.0,1.0,False,False
+SC,Pré,tipo_alagamentos,estimado,78,3.0,BIC (lags 1..6; amostra comum),-564.3270656256244,2.034694253701921,3.0,60.0,0.1185786567689669,0.7827574778367599,sem rejeição LB nominal,49.0,0.3162097513839119,False,False
+SC,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-558.150729050147,0.0502975870453256,1.0,64.0,0.8232606994995646,0.0771551091418601,sem rejeição LB nominal,63.0,0.9471577612979436,False,False
+SC,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-559.6965838595775,1.3323504229576202,1.0,64.0,0.2526795367568598,0.188244499908767,sem rejeição LB nominal,1.0,0.48695859725878,False,False
+SC,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-565.5964441026377,2.396222488910829,3.0,60.0,0.0769969026695247,0.9853454977790916,sem rejeição LB nominal,74.0,0.2463900885424791,False,False
+SC,Pré,tipo_erosao,estimado,78,4.0,BIC (lags 1..6; amostra comum),-560.2503221896603,2.4347350922453344,4.0,58.0,0.0573504154388411,0.911404959841444,sem rejeição LB nominal,27.0,0.2463900885424791,False,False
+SC,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-565.2650645749707,6.166999246987565,1.0,64.0,0.0156460964156944,0.1722919447579237,sem rejeição LB nominal,19.0,0.1251687713255555,True,False
+SC,Pré,tipo_granizo,estimado,78,3.0,BIC (lags 1..6; amostra comum),-573.2575042997311,4.707603400098341,3.0,60.0,0.0051234218778661,0.5399405827500947,sem rejeição LB nominal,36.0,0.0819747500458583,True,False
+SC,Pré,tipo_incendio_florestal,estimado,78,1.0,BIC (lags 1..6; amostra comum),-562.3631707172108,3.6044856690149807,1.0,64.0,0.0621343553891978,0.0438135700471099,autocorrelação residual LB nominal,4.0,0.2463900885424791,False,False
+SC,Pré,tipo_inundacoes,estimado,78,3.0,BIC (lags 1..6; amostra comum),-558.5972529786206,0.4740675175423455,3.0,60.0,0.7015035979068635,0.9427678899293224,sem rejeição LB nominal,31.0,0.9353381305424846,False,False
+SC,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-559.5597682881926,1.2178549334652964,1.0,64.0,0.2739142109580638,0.0482191486871915,autocorrelação residual LB nominal,33.0,0.48695859725878,False,False
+SC,Pré,tipo_onda_de_calor_e_baixa_umidade,estimado,78,3.0,BIC (lags 1..6; amostra comum),-561.0778424972642,1.1356569266035128,3.0,60.0,0.3419697302653139,0.8743409540330451,sem rejeição LB nominal,1.0,0.5026092731854702,False,False
+SC,Pré,tipo_onda_de_frio,estimado,78,1.0,BIC (lags 1..6; amostra comum),-558.1255427953115,0.0296190396644716,1.0,64.0,0.8639005339516849,0.0849734868128714,sem rejeição LB nominal,8.0,0.9471577612979436,False,False
+SC,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-559.1823356688633,0.9030358769286942,1.0,64.0,0.3455438753150108,0.0866789478060781,sem rejeição LB nominal,7.0,0.5026092731854702,False,False
+SC,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+SC,Pré,tipo_tornado,estimado,78,3.0,BIC (lags 1..6; amostra comum),-563.2149637637691,1.7227588643273093,3.0,60.0,0.1719114717365124,0.788961656643747,sem rejeição LB nominal,8.0,0.3929405068263141,False,False
+SC,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-558.1138332887128,0.0200075143806101,1.0,64.0,0.8879604012168221,0.0873801933727708,sem rejeição LB nominal,64.0,0.9471577612979436,False,False
+SE,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.8372024918995,0.7718709308913771,1.0,64.0,0.3829254756472338,0.0020170460933511,autocorrelação residual LB nominal,4.0,1.0,False,False
+SE,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-536.4606416092579,1.2916546353597076,1.0,64.0,0.2599809096335816,0.0023370672125451,autocorrelação residual LB nominal,6.0,1.0,False,False
+SE,Pré,tipo_doencas_infecciosas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-537.083983566557,1.8155275366937187,1.0,64.0,0.1825975973424934,0.0002086616397102,autocorrelação residual LB nominal,1.0,1.0,False,False
+SE,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.4417995787171,0.4443557830639392,1.0,64.0,0.507423608009246,0.0020462889657702,autocorrelação residual LB nominal,1.0,1.0,False,False
+SE,Pré,tipo_erosao,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.9402936703241,0.8575353302798511,1.0,64.0,0.3579082013768806,0.0012446588979217,autocorrelação residual LB nominal,2.0,1.0,False,False
+SE,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-534.9250832892394,0.01885072761142,1.0,64.0,0.8912263165532704,0.0005310710731021,autocorrelação residual LB nominal,49.0,1.0,False,False
+SE,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.7434851389175,0.6940939688913154,1.0,64.0,0.4078737730093149,0.0014282951011462,autocorrelação residual LB nominal,3.0,1.0,False,False
+SE,Pré,tipo_movimento_de_massa,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.1561712554173,0.2087984518581531,1.0,64.0,0.649258017861729,0.0009023670953143,autocorrelação residual LB nominal,3.0,1.0,False,False
+SE,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_outros,estimado,78,1.0,BIC (lags 1..6; amostra comum),-535.053727372173,0.1245230549672874,1.0,64.0,0.7253393022441046,0.0005362451872182,autocorrelação residual LB nominal,2.0,1.0,False,False
+SE,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+SE,Pré,tipo_vendavais_e_ciclones,estimado,78,1.0,BIC (lags 1..6; amostra comum),-536.0233994153664,0.9266751539124418,1.0,64.0,0.3393515339696275,0.0007606131975071,autocorrelação residual LB nominal,1.0,1.0,False,False
+SP,Pré,tipo_alagamentos,estimado,78,3.0,BIC (lags 1..6; amostra comum),-619.5024722067092,0.5836378378198646,3.0,60.0,0.628055532219409,0.8356592119724511,sem rejeição LB nominal,19.0,1.0,False,False
+SP,Pré,tipo_chuvas_intensas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-619.740992481054,0.6466779568664485,3.0,60.0,0.588099416649013,0.6736137695066352,sem rejeição LB nominal,41.0,1.0,False,False
+SP,Pré,tipo_doencas_infecciosas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-622.3193965953941,1.3405900556732364,3.0,60.0,0.2697043809352035,0.8430879935750955,sem rejeição LB nominal,7.0,1.0,False,False
+SP,Pré,tipo_enxurradas,estimado,78,3.0,BIC (lags 1..6; amostra comum),-620.1923146713517,0.7664896836614284,3.0,60.0,0.5173047347490312,0.812745556059205,sem rejeição LB nominal,20.0,1.0,False,False
+SP,Pré,tipo_erosao,estimado,78,3.0,BIC (lags 1..6; amostra comum),-621.8971049642676,1.2253643990660383,3.0,60.0,0.3083654416555447,0.6298962560234282,sem rejeição LB nominal,10.0,1.0,False,False
+SP,Pré,tipo_estiagem_e_seca,estimado,78,3.0,BIC (lags 1..6; amostra comum),-621.1715442205224,1.0288402255385778,3.0,60.0,0.3863276886515701,0.6939568723058744,sem rejeição LB nominal,12.0,1.0,False,False
+SP,Pré,tipo_granizo,estimado,78,3.0,BIC (lags 1..6; amostra comum),-627.1725401436158,2.710575221440336,3.0,60.0,0.0529115589361397,0.6374860062607648,sem rejeição LB nominal,6.0,0.8465849429782365,False,False
+SP,Pré,tipo_incendio_florestal,estimado,78,3.0,BIC (lags 1..6; amostra comum),-617.9555814411149,0.1794457165517012,3.0,60.0,0.909937218916259,0.7909240070080326,sem rejeição LB nominal,22.0,1.0,False,False
+SP,Pré,tipo_inundacoes,estimado,78,3.0,BIC (lags 1..6; amostra comum),-618.7058894872774,0.3744951621813582,3.0,60.0,0.7716951163544932,0.6946334165076975,sem rejeição LB nominal,23.0,1.0,False,False
+SP,Pré,tipo_movimento_de_massa,estimado,78,3.0,BIC (lags 1..6; amostra comum),-619.6017772730082,0.6098604180944661,3.0,60.0,0.6112168445152951,0.7027229951552612,sem rejeição LB nominal,23.0,1.0,False,False
+SP,Pré,tipo_onda_de_calor_e_baixa_umidade,estimado,78,3.0,BIC (lags 1..6; amostra comum),-618.624576074994,0.3532662329904472,3.0,60.0,0.7869242935500638,0.7507645978648084,sem rejeição LB nominal,1.0,1.0,False,False
+SP,Pré,tipo_onda_de_frio,estimado,78,3.0,BIC (lags 1..6; amostra comum),-622.1657711121732,1.2985999015462768,3.0,60.0,0.2832334635642038,0.4454641229439228,sem rejeição LB nominal,1.0,1.0,False,False
+SP,Pré,tipo_outros,estimado,78,3.0,BIC (lags 1..6; amostra comum),-618.5639161337966,0.3374438230233282,3.0,60.0,0.7983041491023589,0.6970809260922057,sem rejeição LB nominal,8.0,1.0,False,False
+SP,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+SP,Pré,tipo_tornado,estimado,78,3.0,BIC (lags 1..6; amostra comum),-617.7844079863278,0.135209844107028,3.0,60.0,0.9386663456050542,0.7706544802624893,sem rejeição LB nominal,3.0,1.0,False,False
+SP,Pré,tipo_vendavais_e_ciclones,estimado,78,3.0,BIC (lags 1..6; amostra comum),-617.5456919115737,0.0736809909123284,3.0,60.0,0.973884172799972,0.7477800616309178,sem rejeição LB nominal,22.0,1.0,False,False
+TO,Pré,tipo_alagamentos,estimado,78,1.0,BIC (lags 1..6; amostra comum),-493.3611231396762,0.2844547298679766,1.0,64.0,0.5956435781354961,0.2286677027191156,sem rejeição LB nominal,2.0,1.0,False,False
+TO,Pré,tipo_chuvas_intensas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-493.6158131710975,0.4947030542336083,1.0,64.0,0.4843877910128721,0.1501283681126486,sem rejeição LB nominal,5.0,1.0,False,False
+TO,Pré,tipo_doencas_infecciosas,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_enxurradas,estimado,78,1.0,BIC (lags 1..6; amostra comum),-493.0867142049535,0.0586953019515757,1.0,64.0,0.8093447641902518,0.2772922386203375,sem rejeição LB nominal,1.0,1.0,False,False
+TO,Pré,tipo_erosao,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_estiagem_e_seca,estimado,78,1.0,BIC (lags 1..6; amostra comum),-493.0450626347844,0.0244974432122563,1.0,64.0,0.8761185306287866,0.1855560725907613,sem rejeição LB nominal,14.0,1.0,False,False
+TO,Pré,tipo_granizo,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_incendio_florestal,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_inundacoes,estimado,78,1.0,BIC (lags 1..6; amostra comum),-493.0918028386189,0.0628745566529801,1.0,64.0,0.8028122207742131,0.2283060985562899,sem rejeição LB nominal,3.0,1.0,False,False
+TO,Pré,tipo_movimento_de_massa,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_onda_de_frio,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_outros,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_rompimento_colapso_de_barragens,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_tornado,exposição transformada constante,78,,,,,,,,,,,,False,False
+TO,Pré,tipo_vendavais_e_ciclones,exposição transformada constante,78,,,,,,,,,,,,False,False
+AC,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.850766043166,0.0333550826360307,1.0,123.0,0.8553860906734715,0.2054508360354267,sem rejeição LB nominal,3.0,1.0,False,False
+AC,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.9265683214612,0.1014484344549975,1.0,123.0,0.7506385263750137,0.1847767735270733,sem rejeição LB nominal,1.0,1.0,False,False
+AC,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.9873341013028,1.96714783367716,1.0,123.0,0.1632698889153175,0.3415979023031685,sem rejeição LB nominal,3.0,0.9128052209912452,False,False
+AC,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.1151739645566,1.1741173735408978,1.0,123.0,0.2806763308342763,0.1156320488853189,sem rejeição LB nominal,3.0,0.9128052209912452,False,False
+AC,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.2156424285904,1.265213420445268,1.0,123.0,0.2628567833817821,0.2727107648036693,sem rejeição LB nominal,6.0,0.9128052209912452,False,False
+AC,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.0906662129069,1.1519060140768458,1.0,123.0,0.2852516315597641,0.1665016971547233,sem rejeição LB nominal,8.0,0.9128052209912452,False,False
+AC,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+AC,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.268750255154,1.3133939657124392,1.0,123.0,0.2540058027262205,0.1885281049643916,sem rejeição LB nominal,3.0,0.9128052209912452,False,False
+AC,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.8194182169522,0.005206272309099,1.0,123.0,0.9425961487849264,0.1943883581515685,sem rejeição LB nominal,20.0,1.0,False,False
+AC,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.905461265995,0.0824841355154817,1.0,123.0,0.7744420693154553,0.1990222199464497,sem rejeição LB nominal,5.0,1.0,False,False
+AC,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+AC,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+AC,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.033220789722,0.197318398271013,1.0,123.0,0.6576746629372412,0.2028163801549441,sem rejeição LB nominal,5.0,1.0,False,False
+AC,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+AC,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+AC,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.9492068942778,0.1217920211173771,1.0,123.0,0.727695671716018,0.2109186133633159,sem rejeição LB nominal,6.0,1.0,False,False
+AL,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-958.40359158259,1.0895685544152551,2.0,121.0,0.3396384717166984,0.4958322990736562,sem rejeição LB nominal,4.0,1.0,False,False
+AL,Total,tipo_chuvas_intensas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-958.97297608521,1.3460730808829715,2.0,121.0,0.2641291563669561,0.5378313722695849,sem rejeição LB nominal,9.0,1.0,False,False
+AL,Total,tipo_doencas_infecciosas,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_enxurradas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-957.6907244758212,0.7699251449201541,2.0,121.0,0.4653026297117959,0.4831900304796696,sem rejeição LB nominal,8.0,1.0,False,False
+AL,Total,tipo_erosao,estimado,137,2.0,BIC (lags 1..6; amostra comum),-956.6507497786744,0.3065825555711306,2.0,121.0,0.7365277471915607,0.4914631394666243,sem rejeição LB nominal,10.0,1.0,False,False
+AL,Total,tipo_estiagem_e_seca,estimado,137,2.0,BIC (lags 1..6; amostra comum),-957.0085643862226,0.4656038779452782,2.0,121.0,0.6288758682595998,0.5574087962491228,sem rejeição LB nominal,78.0,1.0,False,False
+AL,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_incendio_florestal,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_inundacoes,estimado,137,2.0,BIC (lags 1..6; amostra comum),-956.6030850093556,0.285430529307485,2.0,121.0,0.7521952641764283,0.4964572797562974,sem rejeição LB nominal,6.0,1.0,False,False
+AL,Total,tipo_movimento_de_massa,estimado,137,2.0,BIC (lags 1..6; amostra comum),-956.4811907697986,0.231371415477984,2.0,121.0,0.7937949337334567,0.5733338004418929,sem rejeição LB nominal,12.0,1.0,False,False
+AL,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_outros,estimado,137,2.0,BIC (lags 1..6; amostra comum),-955.9890792348796,0.0136123246224219,2.0,121.0,0.986481414548786,0.4451659032718558,sem rejeição LB nominal,3.0,1.0,False,False
+AL,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+AL,Total,tipo_vendavais_e_ciclones,estimado,137,2.0,BIC (lags 1..6; amostra comum),-966.7899072553746,4.9774951144770165,2.0,121.0,0.0083681745063772,0.5207995189359564,sem rejeição LB nominal,1.0,0.1338907921020353,True,False
+AM,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.0327019794264,1.5019421685948966,1.0,123.0,0.2227142227545206,0.5670437021415107,sem rejeição LB nominal,24.0,0.7421353722357262,False,False
+AM,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.047656642068,1.5155333084995752,1.0,123.0,0.2206454782991227,0.2799881435008538,sem rejeição LB nominal,21.0,0.7421353722357262,False,False
+AM,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.576683275534,1.0882134973527176,1.0,123.0,0.2989133342656709,0.3184157303205811,sem rejeição LB nominal,2.0,0.7421353722357262,False,False
+AM,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.4332202051309,0.9583393483662034,1.0,123.0,0.3295271739108925,0.3394928704215446,sem rejeição LB nominal,4.0,0.7421353722357262,False,False
+AM,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.26471894954,0.8059722230832461,1.0,123.0,0.3710676861178631,0.4384352303999089,sem rejeição LB nominal,33.0,0.7421353722357262,False,False
+AM,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.3228239125898,0.8584924214453227,1.0,123.0,0.3559753789187296,0.4031454340270727,sem rejeição LB nominal,32.0,0.7421353722357262,False,False
+AM,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+AM,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-963.4626272747918,0.0832451421325619,1.0,123.0,0.7734325877903665,0.38019660336905,sem rejeição LB nominal,6.0,1.0,False,False
+AM,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-969.6224259272304,5.74361552852353,1.0,123.0,0.0180544174185969,0.3445383865896524,sem rejeição LB nominal,54.0,0.2888706786975513,True,False
+AM,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.0085429223748,0.5746839922753667,1.0,123.0,0.449853633804169,0.3913682893690317,sem rejeição LB nominal,21.0,0.7997397934296339,False,False
+AM,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+AM,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+AM,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.2923048285082,1.7380859716959358,1.0,123.0,0.1898312511002416,0.473552708949803,sem rejeição LB nominal,12.0,0.7421353722357262,False,False
+AM,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+AM,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+AM,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-963.3807122511516,0.0096732201446161,1.0,123.0,0.9218124676782524,0.3930499006278941,sem rejeição LB nominal,18.0,1.0,False,False
+AP,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.4241595472698,0.174638983641486,1.0,123.0,0.6767501212727457,0.6385165288193073,sem rejeição LB nominal,9.0,1.0,False,False
+AP,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.2325355863726,0.0024731966802655,1.0,123.0,0.9604172242421192,0.5927243567031235,sem rejeição LB nominal,7.0,1.0,False,False
+AP,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-892.2630265145793,0.9311654402651636,1.0,123.0,0.3364536786262983,0.6782758123612194,sem rejeição LB nominal,3.0,1.0,False,False
+AP,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.8123842630918,0.5241810099008903,1.0,123.0,0.4704384060494278,0.6486129238166687,sem rejeição LB nominal,1.0,1.0,False,False
+AP,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-892.4478730947803,1.0984918160933952,1.0,123.0,0.2966524379075211,0.5700150280977585,sem rejeição LB nominal,6.0,1.0,False,False
+AP,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-892.0609870750203,0.7485338396691112,1.0,123.0,0.3886251197478855,0.598165085129926,sem rejeição LB nominal,5.0,1.0,False,False
+AP,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.2439564851284,0.0127276298896828,1.0,123.0,0.9103597200461624,0.5929413220103876,sem rejeição LB nominal,1.0,1.0,False,False
+AP,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.2300618067161,0.0002521874194168,1.0,123.0,0.9873555289728928,0.5967242034702562,sem rejeição LB nominal,1.0,1.0,False,False
+AP,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-892.8391776417606,1.4534532765116812,1.0,123.0,0.2302887840628741,0.4935758915246333,sem rejeição LB nominal,11.0,1.0,False,False
+AP,Total,tipo_movimento_de_massa,exposição transformada constante,137,,,,,,,,,,,,False,False
+AP,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+AP,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+AP,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.244946262979,0.0136163577217433,1.0,123.0,0.9072967032127928,0.5910965224831357,sem rejeição LB nominal,6.0,1.0,False,False
+AP,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+AP,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-892.2115288113228,0.884589009481568,1.0,123.0,0.3487912998433486,0.4372258260054048,sem rejeição LB nominal,1.0,1.0,False,False
+AP,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-891.2500461885945,0.0181957151686796,1.0,123.0,0.8929181544121867,0.604869154459764,sem rejeição LB nominal,7.0,1.0,False,False
+BA,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.1697351564688,0.0506994392458578,2.0,121.0,0.9505845119480112,0.0684470824246897,sem rejeição LB nominal,24.0,1.0,False,False
+BA,Total,tipo_chuvas_intensas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-981.535591498838,0.6573943109582016,2.0,121.0,0.5200406255237559,0.0368134069739908,autocorrelação residual LB nominal,53.0,1.0,False,False
+BA,Total,tipo_doencas_infecciosas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-981.7366055299932,0.7471937097016758,2.0,121.0,0.475866791163103,0.0285505737723038,autocorrelação residual LB nominal,1.0,1.0,False,False
+BA,Total,tipo_enxurradas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.5113813200824,0.2018872480109299,2.0,121.0,0.8174617643652122,0.1071398403636497,sem rejeição LB nominal,38.0,1.0,False,False
+BA,Total,tipo_erosao,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.8844414929592,0.3674078108089559,2.0,121.0,0.6932970697837759,0.0401591899774616,autocorrelação residual LB nominal,20.0,1.0,False,False
+BA,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.4799224229226,0.6222063737450576,1.0,123.0,0.4317463143718951,0.0123793500935789,autocorrelação residual LB nominal,143.0,1.0,False,False
+BA,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.9224402399552,1.930741935484836,1.0,123.0,0.1671874187464643,0.0185837019057146,autocorrelação residual LB nominal,5.0,1.0,False,False
+BA,Total,tipo_incendio_florestal,estimado,137,2.0,BIC (lags 1..6; amostra comum),-982.66960210042,1.1657224909518975,2.0,121.0,0.3151728539162313,0.1231510551389325,sem rejeição LB nominal,16.0,1.0,False,False
+BA,Total,tipo_inundacoes,estimado,137,2.0,BIC (lags 1..6; amostra comum),-981.0640123201586,0.4472412201510973,2.0,121.0,0.6404423142015205,0.1054857434300472,sem rejeição LB nominal,25.0,1.0,False,False
+BA,Total,tipo_movimento_de_massa,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.2023654400324,0.0651229560711657,2.0,121.0,0.9369850691390664,0.0842099067892098,sem rejeição LB nominal,21.0,1.0,False,False
+BA,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+BA,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+BA,Total,tipo_outros,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.2874409143726,0.1027449031574488,2.0,121.0,0.9024357721678584,0.0643019368289096,sem rejeição LB nominal,24.0,1.0,False,False
+BA,Total,tipo_rompimento_colapso_de_barragens,estimado,137,2.0,BIC (lags 1..6; amostra comum),-981.1054071696262,0.4656593447082341,2.0,121.0,0.6288412539163625,0.1009797320109933,sem rejeição LB nominal,2.0,1.0,False,False
+BA,Total,tipo_tornado,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.1067612703092,0.0228728946224981,2.0,121.0,0.9773909318689592,0.0626071645655245,sem rejeição LB nominal,1.0,1.0,False,False
+BA,Total,tipo_vendavais_e_ciclones,estimado,137,2.0,BIC (lags 1..6; amostra comum),-982.2754815830856,0.9885779539853148,2.0,121.0,0.3750904334641133,0.1384125128222965,sem rejeição LB nominal,12.0,1.0,False,False
+CE,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.5269853177302,0.2815495510660949,1.0,123.0,0.5966440986705565,0.2610969984715237,sem rejeição LB nominal,14.0,1.0,False,False
+CE,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.3675771415228,0.1381870825753088,1.0,123.0,0.7107296043326757,0.2580733839665895,sem rejeição LB nominal,19.0,1.0,False,False
+CE,Total,tipo_doencas_infecciosas,exposição transformada constante,137,,,,,,,,,,,,False,False
+CE,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-983.50461376812,1.1644298534640154,1.0,123.0,0.2826602509835738,0.2728344987152478,sem rejeição LB nominal,13.0,1.0,False,False
+CE,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.234584465514,0.0187087551132024,1.0,123.0,0.8914283627080625,0.2568281519372505,sem rejeição LB nominal,16.0,1.0,False,False
+CE,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.3278111897516,0.1024498810246533,1.0,123.0,0.7494523315870787,0.2786114462593804,sem rejeição LB nominal,119.0,1.0,False,False
+CE,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+CE,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.335354353148,0.1092280376531759,1.0,123.0,0.7415870094845828,0.249632644332706,sem rejeição LB nominal,24.0,1.0,False,False
+CE,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.364989746702,0.1358615052109998,1.0,123.0,0.7130640512612323,0.2555498433673235,sem rejeição LB nominal,12.0,1.0,False,False
+CE,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.2924816772862,0.0707083568845447,1.0,123.0,0.7907533944437315,0.2653778883746952,sem rejeição LB nominal,17.0,1.0,False,False
+CE,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+CE,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+CE,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.7988242746022,0.5264108521282804,1.0,123.0,0.4694979234672699,0.2241221841886952,sem rejeição LB nominal,20.0,1.0,False,False
+CE,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-982.7970461484445,0.524807610398779,1.0,123.0,0.4701738160665052,0.1452593426696401,sem rejeição LB nominal,2.0,1.0,False,False
+CE,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+CE,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.9009133830112,2.436380578368835,1.0,123.0,0.1211187900911015,0.2824244690631137,sem rejeição LB nominal,4.0,1.0,False,False
+DF,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.8788756249766,0.1996085007521776,1.0,123.0,0.6558226972532913,0.8569739854198039,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.8371535508408,0.1620949198219682,1.0,123.0,0.6879339204957172,0.8196752869927413,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.6777238550168,0.0188520400331404,1.0,123.0,0.8910160133672631,0.8161910495203993,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Total,tipo_enxurradas,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.7034677156324,0.041970855759281,1.0,123.0,0.8380139710875706,0.8301277792058225,sem rejeição LB nominal,3.0,1.0,False,False
+DF,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.9020088050852,0.2204131676504474,1.0,123.0,0.6395564803596441,0.791225796657111,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.8313810465625,0.1569055859386375,1.0,123.0,0.6927078974085799,0.8072266825583655,sem rejeição LB nominal,2.0,1.0,False,False
+DF,Total,tipo_inundacoes,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_movimento_de_massa,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.8788756249766,0.1996085007521242,1.0,123.0,0.6558226972533344,0.8569739854198039,sem rejeição LB nominal,1.0,1.0,False,False
+DF,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+DF,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.7072736628456,0.0453890875172992,1.0,123.0,0.8316428926992745,0.8282240046047477,sem rejeição LB nominal,2.0,1.0,False,False
+ES,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.4406139077206,0.4458746950120071,1.0,123.0,0.5055514887130373,0.0179393182209546,autocorrelação residual LB nominal,35.0,0.7931991105281045,False,False
+ES,Total,tipo_chuvas_intensas,estimado,137,3.0,BIC (lags 1..6; amostra comum),-955.9478468058394,1.214170259855843,3.0,119.0,0.3076644923432223,0.9683108632960358,sem rejeição LB nominal,46.0,0.7931991105281045,False,False
+ES,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.4588809326924,0.4623355652159893,1.0,123.0,0.4978122159207155,0.0132050351912874,autocorrelação residual LB nominal,3.0,0.7931991105281045,False,False
+ES,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.4016184129048,0.4107422283677666,1.0,123.0,0.522785314797694,0.0101124650746634,autocorrelação residual LB nominal,39.0,0.7931991105281045,False,False
+ES,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.5604842944844,0.5539329453169143,1.0,123.0,0.4581346686850041,0.0106812192043673,autocorrelação residual LB nominal,13.0,0.7931991105281045,False,False
+ES,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.1830280401716,0.2139912029331214,1.0,123.0,0.6444742773040849,0.0088249591456216,autocorrelação residual LB nominal,51.0,0.7931991105281045,False,False
+ES,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.2339006209604,0.2597530836795145,1.0,123.0,0.6112030722809688,0.0137572009126562,autocorrelação residual LB nominal,12.0,0.7931991105281045,False,False
+ES,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-954.9518872672649,0.0062848838816818,1.0,123.0,0.936940928023566,0.0156598146465574,autocorrelação residual LB nominal,68.0,0.9994036565584704,False,False
+ES,Total,tipo_inundacoes,estimado,137,3.0,BIC (lags 1..6; amostra comum),-957.432213196475,1.6595138365743307,3.0,119.0,0.1794533259088611,0.9727879353378792,sem rejeição LB nominal,29.0,0.7178133036354447,False,False
+ES,Total,tipo_movimento_de_massa,estimado,137,3.0,BIC (lags 1..6; amostra comum),-955.9401481917104,1.2118730558701143,3.0,119.0,0.3085048298598357,0.937302023463278,sem rejeição LB nominal,45.0,0.7931991105281045,False,False
+ES,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,4.0,BIC (lags 1..6; amostra comum),-962.7579119987206,4.680982850336417,4.0,117.0,0.0015349682547332,0.6604750144816807,sem rejeição LB nominal,1.0,0.0245594920757324,True,True
+ES,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.3444637411292,0.3592675615464905,1.0,123.0,0.5500157713790369,0.010939748839152,autocorrelação residual LB nominal,2.0,0.7931991105281045,False,False
+ES,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-955.0013263421414,0.0506820688490979,1.0,123.0,0.8222542439220519,0.0147302812251169,autocorrelação residual LB nominal,45.0,0.9397191359109164,False,False
+ES,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-957.4614633268626,2.2802871257000685,1.0,123.0,0.1335923025957883,0.010759923444493,autocorrelação residual LB nominal,2.0,0.712492280510871,False,False
+ES,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+ES,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-959.373364163289,4.04089019408551,1.0,123.0,0.0465979646678983,0.0093102331581026,autocorrelação residual LB nominal,48.0,0.372783717343187,True,False
+GO,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-933.145694011405,1.3828601192304562,1.0,123.0,0.2418856211430058,0.124908665399409,sem rejeição LB nominal,20.0,0.9881868017858052,False,False
+GO,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.183847673006,0.5126542309796277,1.0,123.0,0.475349241854548,0.1345604307308278,sem rejeição LB nominal,26.0,0.9881868017858052,False,False
+GO,Total,tipo_doencas_infecciosas,exposição transformada constante,137,,,,,,,,,,,,False,False
+GO,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.473169966138,0.7737690063122051,1.0,123.0,0.3807689437237284,0.1382585413917678,sem rejeição LB nominal,16.0,0.9881868017858052,False,False
+GO,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.292225723106,0.6104013605526416,1.0,123.0,0.4361379290666301,0.0974132502985658,sem rejeição LB nominal,14.0,0.9881868017858052,False,False
+GO,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-931.6184289722372,0.0039502150856621,1.0,123.0,0.9499873854573544,0.1322947927138199,sem rejeição LB nominal,7.0,1.0,False,False
+GO,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.0694480461163,0.409560042869045,1.0,123.0,0.5233831799936971,0.1156831027660758,sem rejeição LB nominal,1.0,0.9881868017858052,False,False
+GO,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.2527263406816,0.5747675596432313,1.0,123.0,0.4498207628716988,0.1081868372631755,sem rejeição LB nominal,12.0,0.9881868017858052,False,False
+GO,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-935.43020337628,3.474365233806628,1.0,123.0,0.0647108880196297,0.0948022372406965,sem rejeição LB nominal,11.0,0.9881868017858052,False,False
+GO,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-931.6309446403573,0.0151877839914973,1.0,123.0,0.9021192090147514,0.1286497896684536,sem rejeição LB nominal,5.0,1.0,False,False
+GO,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-931.867410191475,0.2276985335024674,1.0,123.0,0.6340823731998982,0.1281926068289578,sem rejeição LB nominal,1.0,1.0,False,False
+GO,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+GO,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.0020228943356,0.3488384292400239,1.0,123.0,0.5558550760045154,0.1148744997058433,sem rejeição LB nominal,11.0,0.9881868017858052,False,False
+GO,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-931.6953449347428,0.0730277592980672,1.0,123.0,0.7874312223664282,0.1394012824685888,sem rejeição LB nominal,2.0,1.0,False,False
+GO,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+GO,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-932.5603619049904,0.85256834841464,1.0,123.0,0.357634557483507,0.2230433098172572,sem rejeição LB nominal,10.0,0.9881868017858052,False,False
+MA,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-918.9649391024012,0.1741915325458471,1.0,123.0,0.6771408057342895,0.0115969984797559,autocorrelação residual LB nominal,22.0,1.0,False,False
+MA,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.0537526726268,0.2540680755158995,1.0,123.0,0.6151267477261855,0.0105138824552178,autocorrelação residual LB nominal,30.0,1.0,False,False
+MA,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.1114028120932,0.3059447868976679,1.0,123.0,0.5811832936392363,0.0108986516286359,autocorrelação residual LB nominal,1.0,1.0,False,False
+MA,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-918.7710772996736,1.7197049429378957e-05,1.0,123.0,0.9966979543442582,0.0127271917082333,autocorrelação residual LB nominal,17.0,1.0,False,False
+MA,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-918.8563279418612,0.0765799242576653,1.0,123.0,0.7824513270499813,0.0124797032639883,autocorrelação residual LB nominal,4.0,1.0,False,False
+MA,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-918.9815648376024,0.1891403336913213,1.0,123.0,0.6643951685589193,0.0135417559940909,autocorrelação residual LB nominal,34.0,1.0,False,False
+MA,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+MA,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.3252618954824,0.49857755407332,1.0,123.0,0.481461100477474,0.0164670941735218,autocorrelação residual LB nominal,3.0,1.0,False,False
+MA,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-920.4912942244988,1.5541826331083683,1.0,123.0,0.2148879163481802,0.010424568777608,autocorrelação residual LB nominal,22.0,1.0,False,False
+MA,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-918.7723240991738,0.0011365916319656,1.0,123.0,0.9731603619713144,0.0126778358293518,autocorrelação residual LB nominal,6.0,1.0,False,False
+MA,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+MA,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.5302905592124,0.6835389028918211,1.0,123.0,0.4099717511237412,0.0098792279227856,autocorrelação residual LB nominal,1.0,1.0,False,False
+MA,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.4986072922688,0.6549385708761525,1.0,123.0,0.4199152642464991,0.0110727178654522,autocorrelação residual LB nominal,5.0,1.0,False,False
+MA,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+MA,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+MA,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-919.4208529855894,0.5847781612335226,1.0,123.0,0.4459101642396487,0.0161988055174929,autocorrelação residual LB nominal,1.0,1.0,False,False
+MG,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.2555440047374,0.1079754709195072,1.0,123.0,0.7430196853683156,0.1795166142095484,sem rejeição LB nominal,62.0,0.9920476632586764,False,False
+MG,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.161120613129,0.0231559990442241,1.0,123.0,0.8793014287521655,0.1987367455494567,sem rejeição LB nominal,82.0,0.9920476632586764,False,False
+MG,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.1651278728916,0.0267544877516337,1.0,123.0,0.8703397022860367,0.1984161401600195,sem rejeição LB nominal,17.0,0.9920476632586764,False,False
+MG,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.787511971862,0.5869302980441149,1.0,123.0,0.4450763750016127,0.2151165803059039,sem rejeição LB nominal,54.0,0.9920476632586764,False,False
+MG,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.1667215954603,0.0281856677197674,1.0,123.0,0.8669487917716052,0.212953420613405,sem rejeição LB nominal,18.0,0.9920476632586764,False,False
+MG,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.135442496973,9.974459310543144e-05,1.0,123.0,0.9920476632586764,0.2030928664402793,sem rejeição LB nominal,128.0,0.9920476632586764,False,False
+MG,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.6376178742998,0.4517856203381091,1.0,123.0,0.5027488361038751,0.2001900944337169,sem rejeição LB nominal,36.0,0.9920476632586764,False,False
+MG,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.1394913173576,0.0037348735721776,1.0,123.0,0.9513679199414056,0.1996672764184335,sem rejeição LB nominal,33.0,0.9920476632586764,False,False
+MG,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1029.720254915104,1.4312233235285332,1.0,123.0,0.2338658892465814,0.1690963531586843,sem rejeição LB nominal,42.0,0.9920476632586764,False,False
+MG,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.735541899442,0.5400572787475363,1.0,123.0,0.4638078103777145,0.184992881638622,sem rejeição LB nominal,61.0,0.9920476632586764,False,False
+MG,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.246981456795,0.1002814198145307,1.0,123.0,0.7520290038654337,0.1927782118453298,sem rejeição LB nominal,3.0,0.9920476632586764,False,False
+MG,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.3829794820977,0.2225420578766228,1.0,123.0,0.6379455509136647,0.1804725790945365,sem rejeição LB nominal,16.0,0.9920476632586764,False,False
+MG,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.1372714113895,0.0017417749379106,1.0,123.0,0.9667779602110214,0.1982378508104616,sem rejeição LB nominal,45.0,0.9920476632586764,False,False
+MG,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.6218235455224,0.4375540458927044,1.0,123.0,0.5095426264106633,0.2119777804674076,sem rejeição LB nominal,6.0,0.9920476632586764,False,False
+MG,Total,tipo_tornado,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1029.8443926841549,3.000574769985324,2.0,121.0,0.0534751437865678,0.3681076673143595,sem rejeição LB nominal,1.0,0.8556023005850848,False,False
+MG,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1028.325558408722,0.1709063787713895,1.0,123.0,0.6800274000808515,0.1991944361410654,sem rejeição LB nominal,67.0,0.9920476632586764,False,False
+MS,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.0501669972527,0.0494092157379306,1.0,123.0,0.82446315484956,0.8996981222413878,sem rejeição LB nominal,41.0,0.902470356250627,False,False
+MS,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-907.7404984743096,4.335071686824863,1.0,123.0,0.0394079778402423,0.8861533153333238,sem rejeição LB nominal,92.0,0.6305276454438783,True,False
+MS,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.073410441146,0.0702875710281527,1.0,123.0,0.7913623312719378,0.9176925679513112,sem rejeição LB nominal,9.0,0.902470356250627,False,False
+MS,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.6399093944332,0.5802403696156002,1.0,123.0,0.4476762186562691,0.9089096665599806,sem rejeição LB nominal,35.0,0.902470356250627,False,False
+MS,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.9358608358748,0.847490607421403,1.0,123.0,0.3590652279612651,0.8826645982591166,sem rejeição LB nominal,23.0,0.902470356250627,False,False
+MS,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.0548105556928,0.0535799953459091,1.0,123.0,0.8173315787042623,0.8801097693300033,sem rejeição LB nominal,24.0,0.902470356250627,False,False
+MS,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.4052973282704,1.2725873414387086,1.0,123.0,0.2614774862045563,0.9558379442367952,sem rejeição LB nominal,20.0,0.902470356250627,False,False
+MS,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-902.9999830689464,0.0043437275658323,1.0,123.0,0.94755890172802,0.8933859811101046,sem rejeição LB nominal,37.0,0.94755890172802,False,False
+MS,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-906.3768760572074,3.073935373391823,1.0,123.0,0.0820479046250004,0.8912595974594704,sem rejeição LB nominal,17.0,0.6563832370000038,False,False
+MS,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.2468030104668,0.2261487615742409,1.0,123.0,0.6352377544709954,0.8922594801491913,sem rejeição LB nominal,7.0,0.902470356250627,False,False
+MS,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.0485709160364,0.9494220246157544,1.0,123.0,0.331778851212518,0.8942652787888511,sem rejeição LB nominal,32.0,0.902470356250627,False,False
+MS,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.0372964763995,0.0378498318074574,1.0,123.0,0.8460659589849628,0.8843324355255435,sem rejeição LB nominal,17.0,0.902470356250627,False,False
+MS,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.0998551004687,0.0940457166889217,1.0,123.0,0.7596140613557752,0.8963418144875541,sem rejeição LB nominal,13.0,0.902470356250627,False,False
+MS,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.1613999003332,0.1493559379220647,1.0,123.0,0.6998193461683293,0.9110665869233586,sem rejeição LB nominal,2.0,0.902470356250627,False,False
+MS,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-904.135325370776,1.0279371336036147,1.0,123.0,0.3126339122934908,0.8377020992325822,sem rejeição LB nominal,5.0,0.902470356250627,False,False
+MS,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-903.300332288145,0.2743056634166423,1.0,123.0,0.6014004198021582,0.9000408072119013,sem rejeição LB nominal,68.0,0.902470356250627,False,False
+MT,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-826.398756957786,2.702734915046296,1.0,123.0,0.102729922177771,0.0245919598482022,autocorrelação residual LB nominal,42.0,0.4358648357382212,False,False
+MT,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-824.2501393804365,0.7466750564765733,1.0,123.0,0.3892129549427129,0.0174040784559573,autocorrelação residual LB nominal,67.0,0.6206404888328069,False,False
+MT,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-826.1675430585144,2.490766246835958,1.0,123.0,0.1170843604415666,0.0416491285250102,autocorrelação residual LB nominal,2.0,0.4358648357382212,False,False
+MT,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-824.8140868849079,1.257116376861482,1.0,123.0,0.2643818543777058,0.0525607125323971,sem rejeição LB nominal,23.0,0.5385201515137444,False,False
+MT,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-824.7859565183696,1.2316051403931132,1.0,123.0,0.2692600757568722,0.0549207940114528,sem rejeição LB nominal,20.0,0.5385201515137444,False,False
+MT,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-825.9040512546179,2.2496420784656057,1.0,123.0,0.1362077611681941,0.0339009078309112,autocorrelação residual LB nominal,31.0,0.4358648357382212,False,False
+MT,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-823.4209919148695,7.630208920775778e-07,1.0,123.0,0.9993044545437344,0.0262474003257954,autocorrelação residual LB nominal,2.0,1.0,False,False
+MT,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-824.1275852190203,0.6360262335432406,1.0,123.0,0.4266903360725547,0.0258277824557288,autocorrelação residual LB nominal,30.0,0.6206404888328069,False,False
+MT,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-825.2007689506795,1.6083271064218494,1.0,123.0,0.2071222994189824,0.0617249225029922,sem rejeição LB nominal,14.0,0.5385201515137444,False,False
+MT,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-824.397309396853,0.8796793306945789,1.0,123.0,0.3501275652940875,0.0249135743234854,autocorrelação residual LB nominal,20.0,0.6206404888328069,False,False
+MT,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-830.1634101403525,6.204845323440273,1.0,123.0,0.014073050395096,0.0555830264441192,sem rejeição LB nominal,4.0,0.2251688063215373,True,False
+MT,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-823.4702514729343,0.0442344497376425,1.0,123.0,0.8337660310513075,0.0257884238205541,autocorrelação residual LB nominal,2.0,0.9755287575997592,False,False
+MT,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-825.9650297280144,2.30540289558991,1.0,123.0,0.1314910340503522,0.0343318779826244,autocorrelação residual LB nominal,34.0,0.4358648357382212,False,False
+MT,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+MT,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-823.5869486038953,0.1490886567855556,1.0,123.0,0.7000748703512812,0.0291070327189741,autocorrelação residual LB nominal,1.0,0.933433160468375,False,False
+MT,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-823.4590779082731,0.0341995107154675,1.0,123.0,0.8535876628997894,0.0269028146615225,autocorrelação residual LB nominal,44.0,0.9755287575997592,False,False
+PA,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1010.399587944834,4.339600550180325,2.0,121.0,0.0151307397180738,0.8470521694087951,sem rejeição LB nominal,60.0,0.242091835489181,True,False
+PA,Total,tipo_chuvas_intensas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1005.5104384907818,2.066457637133975,2.0,121.0,0.1310796778424038,0.6340397789181567,sem rejeição LB nominal,57.0,0.991843035913554,False,False
+PA,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.4186402366388,0.0016786491063161,1.0,123.0,0.967385190781664,0.4472758194071612,sem rejeição LB nominal,2.0,1.0,False,False
+PA,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.6886196889257,0.2443112621324198,1.0,123.0,0.6219910987480385,0.4478794571362385,sem rejeição LB nominal,63.0,0.9987072691628092,False,False
+PA,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.467514464818,0.0455668574720604,1.0,123.0,0.8313185295357399,0.4644909817162468,sem rejeição LB nominal,68.0,1.0,False,False
+PA,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1005.5151905992508,0.990136746984036,1.0,123.0,0.3216624757510963,0.5976180063154295,sem rejeição LB nominal,24.0,0.991843035913554,False,False
+PA,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.6851980725718,0.2412332366945478,1.0,123.0,0.6241920432267557,0.4882634226628969,sem rejeição LB nominal,4.0,0.9987072691628092,False,False
+PA,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1005.8763723593398,1.317451052311245,1.0,123.0,0.2532775609449762,0.2752471718781976,sem rejeição LB nominal,31.0,0.991843035913554,False,False
+PA,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.4395512865692,0.0204544925373997,1.0,123.0,0.8865090436301024,0.4469728982698101,sem rejeição LB nominal,53.0,1.0,False,False
+PA,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1005.0984551049168,0.6135485549061539,1.0,123.0,0.4349604647425787,0.4591729537760219,sem rejeição LB nominal,46.0,0.991843035913554,False,False
+PA,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+PA,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+PA,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1005.17699849135,0.6844376817859414,1.0,123.0,0.4096649640756581,0.3821146981062022,sem rejeição LB nominal,67.0,0.991843035913554,False,False
+PA,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+PA,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1005.0650421785648,0.5834041259519496,1.0,123.0,0.4464437727407833,0.4833028010155202,sem rejeição LB nominal,1.0,0.991843035913554,False,False
+PA,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1004.9353002872352,0.4664234344017398,1.0,123.0,0.4959215179567769,0.4995146782315159,sem rejeição LB nominal,49.0,0.991843035913554,False,False
+PB,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-980.7690289395308,1.3486153550315845,2.0,121.0,0.2634731121140226,0.4369452808239603,sem rejeição LB nominal,6.0,1.0,False,False
+PB,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.3356858126546,0.1350091241949918,1.0,123.0,0.7139253693465845,0.0118657189554799,autocorrelação residual LB nominal,5.0,1.0,False,False
+PB,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.1989330451166,0.0121576516286583,1.0,123.0,0.9123815023195252,0.0180958426773899,autocorrelação residual LB nominal,2.0,1.0,False,False
+PB,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.6179312609688,0.3889516103533554,1.0,123.0,0.5340058549956777,0.0130470963152896,autocorrelação residual LB nominal,3.0,1.0,False,False
+PB,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.434335255257,0.2237067481036869,1.0,123.0,0.6370682184866456,0.0219848179208392,autocorrelação residual LB nominal,3.0,1.0,False,False
+PB,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-981.9048703098478,1.5534934645872558,1.0,123.0,0.2149889871547533,0.0466024008469131,autocorrelação residual LB nominal,61.0,1.0,False,False
+PB,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.18567406672,0.0002530047831895,1.0,123.0,0.9873350563129722,0.0182935602318305,autocorrelação residual LB nominal,3.0,1.0,False,False
+PB,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.4233381355758,0.213815861502868,1.0,123.0,0.6446098016804387,0.01484191620877,autocorrelação residual LB nominal,1.0,1.0,False,False
+PB,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.2099763665282,0.0220738381071088,1.0,123.0,0.882134144687662,0.0203510807880508,autocorrelação residual LB nominal,4.0,1.0,False,False
+PB,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_outros,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+PB,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-980.9889592347204,0.7235705970834535,1.0,123.0,0.3966280542600883,0.0045933895885962,autocorrelação residual LB nominal,3.0,1.0,False,False
+PE,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1010.9308748271492,0.2235438594475884,1.0,123.0,0.6371907499941326,0.0354409924107042,autocorrelação residual LB nominal,29.0,0.7842347692235478,False,False
+PE,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1011.2842914826224,0.5418319815364117,1.0,123.0,0.4630759692539046,0.0376509243113942,autocorrelação residual LB nominal,35.0,0.7842347692235478,False,False
+PE,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1015.8512835506552,4.729599782246619,1.0,123.0,0.0315613515552788,0.021374925458216,autocorrelação residual LB nominal,2.0,0.1683272082948206,True,False
+PE,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1020.1104055664856,8.76288870328451,1.0,123.0,0.0036894332410865,0.0519641797490035,sem rejeição LB nominal,20.0,0.0590309318573855,True,False
+PE,Total,tipo_erosao,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1011.3263533319014,1.039261858129247,2.0,121.0,0.3568511175301789,0.3837390051943793,sem rejeição LB nominal,11.0,0.7842347692235478,False,False
+PE,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1013.9753338918098,2.992510478249632,1.0,123.0,0.0861587906855392,0.0428001693719911,autocorrelação residual LB nominal,103.0,0.344635162742157,False,False
+PE,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1011.3320460049198,0.5849028539798391,1.0,123.0,0.4458617888749757,0.0469045405477876,autocorrelação residual LB nominal,4.0,0.7842347692235478,False,False
+PE,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1010.729489164626,0.042542217217032,1.0,123.0,0.8369306804092611,0.0385752138741105,autocorrelação residual LB nominal,14.0,0.9564922061820128,False,False
+PE,Total,tipo_inundacoes,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1011.517176345436,1.125037693898027,2.0,121.0,0.3280119694660282,0.5093256259719301,sem rejeição LB nominal,14.0,0.7842347692235478,False,False
+PE,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1011.2657778244374,0.5251381369136964,1.0,123.0,0.4700343442082408,0.0473172141048741,autocorrelação residual LB nominal,75.0,0.7842347692235478,False,False
+PE,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,2.0,BIC (lags 1..6; amostra comum),-1017.7838402068536,4.009359126353505,2.0,121.0,0.0206074929507506,0.3302813653733542,sem rejeição LB nominal,1.0,0.1648599436060049,True,False
+PE,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+PE,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1010.9871796761632,0.2741972094399391,1.0,123.0,0.6014722369429607,0.05499799605461,sem rejeição LB nominal,20.0,0.7842347692235478,False,False
+PE,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1011.0324983732728,0.3149822467843019,1.0,123.0,0.5756599257843288,0.032377879543935,autocorrelação residual LB nominal,1.0,0.7842347692235478,False,False
+PE,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+PE,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1011.1256331548674,0.3988422368381261,1.0,123.0,0.5288597352155928,0.0382334424859505,autocorrelação residual LB nominal,9.0,0.7842347692235478,False,False
+PI,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.6029141553036,0.4427845418093349,1.0,123.0,0.5070274043200043,0.2436606164900046,sem rejeição LB nominal,11.0,1.0,False,False
+PI,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.6022813342827,0.4422143446668787,1.0,123.0,0.507300554293069,0.2621413065066539,sem rejeição LB nominal,5.0,1.0,False,False
+PI,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-898.4658982035022,1.222823821300839,1.0,123.0,0.2709654004550416,0.3149269393919093,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.1993549115953,0.0796956595844849,1.0,123.0,0.7781847441025174,0.2706899864837415,sem rejeição LB nominal,16.0,1.0,False,False
+PI,Total,tipo_erosao,exposição transformada constante,137,,,,,,,,,,,,False,False
+PI,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.3915141832606,0.2524511272995748,1.0,123.0,0.6162527945237326,0.3061157076042317,sem rejeição LB nominal,106.0,1.0,False,False
+PI,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-898.2474022840494,1.0248636197596868,1.0,123.0,0.3133554261137461,0.3542774444775501,sem rejeição LB nominal,1.0,1.0,False,False
+PI,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.2809837787877,0.1530522277636493,1.0,123.0,0.6963123082604653,0.2277010981973383,sem rejeição LB nominal,3.0,1.0,False,False
+PI,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.6547611891634,0.4895097493654788,1.0,123.0,0.4854671612728775,0.3338317100213165,sem rejeição LB nominal,2.0,1.0,False,False
+PI,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.1377765839543,0.0243866174053429,1.0,123.0,0.8761612248825984,0.245455259552751,sem rejeição LB nominal,2.0,1.0,False,False
+PI,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+PI,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+PI,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.4054585151355,0.2649968247602687,1.0,123.0,0.6076316772456628,0.217935682663294,sem rejeição LB nominal,5.0,1.0,False,False
+PI,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-897.4275700877737,0.2848931962577286,1.0,123.0,0.5944751095853978,0.3226232882710874,sem rejeição LB nominal,2.0,1.0,False,False
+PI,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+PI,Total,tipo_vendavais_e_ciclones,exposição transformada constante,137,,,,,,,,,,,,False,False
+PR,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.5186853686004,0.6481272738160677,1.0,123.0,0.4223365104997107,0.6161819066538581,sem rejeição LB nominal,27.0,0.8894194184688725,False,False
+PR,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.8951352607328,1.8966915485155695,1.0,123.0,0.1709502468566518,0.684800515106335,sem rejeição LB nominal,26.0,0.8894194184688725,False,False
+PR,Total,tipo_doencas_infecciosas,sem modelo de posto completo na grade,137,,,,,,,,,,,,False,False
+PR,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.186613536899,0.348781741538985,1.0,123.0,0.5558871365430453,0.6583045673395946,sem rejeição LB nominal,48.0,0.8894194184688725,False,False
+PR,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.4120517874924,0.5519235317113794,1.0,123.0,0.4589493557837581,0.657425567536071,sem rejeição LB nominal,1.0,0.8894194184688725,False,False
+PR,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-983.8020153866296,0.0029920543345454,1.0,123.0,0.9564664774949432,0.6117265932094484,sem rejeição LB nominal,26.0,1.0,False,False
+PR,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.4374265937876,0.5748096374288719,1.0,123.0,0.4498042131477596,0.6170746812673642,sem rejeição LB nominal,46.0,0.8894194184688725,False,False
+PR,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-983.8013521977024,0.0023966234959049,1.0,123.0,0.9610343064498824,0.6113491995028113,sem rejeição LB nominal,2.0,1.0,False,False
+PR,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.2714555056046,0.4251933809753723,1.0,123.0,0.515573628351901,0.6696198571782421,sem rejeição LB nominal,13.0,0.8894194184688725,False,False
+PR,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.540290508037,0.6676283372238937,1.0,123.0,0.4154595272953294,0.6582238661774484,sem rejeição LB nominal,5.0,0.8894194184688725,False,False
+PR,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+PR,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-983.8827141778304,0.0754673595938679,1.0,123.0,0.7839974497406235,0.6069970674905205,sem rejeição LB nominal,2.0,1.0,False,False
+PR,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.2065192886716,0.3667053080899786,1.0,123.0,0.5459214156326914,0.5839791904124172,sem rejeição LB nominal,6.0,0.8894194184688725,False,False
+PR,Total,tipo_rompimento_colapso_de_barragens,sem modelo de posto completo na grade,137,,,,,,,,,,,,False,False
+PR,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.0147009496142,1.0966131026681014,1.0,123.0,0.2970640355261726,0.6905257006503172,sem rejeição LB nominal,3.0,0.8894194184688725,False,False
+PR,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-988.886426049275,4.653704919203778,1.0,123.0,0.0329311530171516,0.7177754538595609,sem rejeição LB nominal,51.0,0.526898448274427,True,False
+RJ,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1050.332798735535,2.229977435817013,1.0,123.0,0.1379165970217671,0.1414566970125733,sem rejeição LB nominal,42.0,0.9692452652533908,False,False
+RJ,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1049.0075874287895,1.0244583809275831,1.0,123.0,0.3134507202575963,0.1353028917508959,sem rejeição LB nominal,60.0,0.9850046657711352,False,False
+RJ,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.0145398775676,0.1287146632035957,1.0,123.0,0.7203835372719111,0.1359174710896692,sem rejeição LB nominal,2.0,1.0,False,False
+RJ,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1047.8717325673915,0.0004335010775687,1.0,123.0,0.983422432019556,0.1337614141339278,sem rejeição LB nominal,36.0,1.0,False,False
+RJ,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1047.899133208275,0.0250366234593366,1.0,123.0,0.8745353221625096,0.1260219385766589,sem rejeição LB nominal,16.0,1.0,False,False
+RJ,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1047.8863670666542,0.0135732521613466,1.0,123.0,0.9074428867261776,0.1357862375542955,sem rejeição LB nominal,17.0,1.0,False,False
+RJ,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1047.9070298069437,0.0321279179021445,1.0,123.0,0.8580421260817334,0.1321513930064848,sem rejeição LB nominal,17.0,1.0,False,False
+RJ,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.5649548321353,0.6243950244082943,1.0,123.0,0.4309395412748716,0.1279344948199034,sem rejeição LB nominal,37.0,0.9850046657711352,False,False
+RJ,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1052.0136339061878,3.7758715268218777,1.0,123.0,0.0542813566839301,0.1600298404267314,sem rejeição LB nominal,31.0,0.868501706942882,False,False
+RJ,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1047.9983965161048,0.1142066760422339,1.0,123.0,0.7359809013265435,0.1611335718365857,sem rejeição LB nominal,64.0,1.0,False,False
+RJ,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+RJ,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.9915274458297,1.0099203229313147,1.0,123.0,0.3168948424290172,0.0725892816463838,sem rejeição LB nominal,2.0,0.9850046657711352,False,False
+RJ,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1049.865709449379,1.803744007588648,1.0,123.0,0.1817334872350107,0.0699172045245589,sem rejeição LB nominal,32.0,0.9692452652533908,False,False
+RJ,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+RJ,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+RJ,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.7361121493552,0.778938401462121,1.0,123.0,0.3791876273430379,0.096276705378427,sem rejeição LB nominal,52.0,0.9850046657711352,False,False
+RN,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-938.3222103243618,0.3076136869712065,1.0,123.0,0.5801553460703157,0.6214960832122112,sem rejeição LB nominal,20.0,1.0,False,False
+RN,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-938.1107720574277,0.117454274720317,1.0,123.0,0.7323970909545675,0.6364477837679752,sem rejeição LB nominal,20.0,1.0,False,False
+RN,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-939.2393409879212,1.1358514309350425,1.0,123.0,0.2886182195607353,0.5507156745197057,sem rejeição LB nominal,1.0,1.0,False,False
+RN,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-941.9044316169052,3.5743342640171685,1.0,123.0,0.0610316712746765,0.8082177769966694,sem rejeição LB nominal,6.0,0.9765067403948244,False,False
+RN,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-937.9861276254558,0.0054913089124114,1.0,123.0,0.9410485157314912,0.6271311837448952,sem rejeição LB nominal,12.0,1.0,False,False
+RN,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-938.0412177074596,0.0549639018789535,1.0,123.0,0.8150302567824512,0.6622173528968354,sem rejeição LB nominal,87.0,1.0,False,False
+RN,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+RN,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-940.0228660301486,1.8478383810299688,1.0,123.0,0.176522021347347,0.5578724738422594,sem rejeição LB nominal,18.0,1.0,False,False
+RN,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-938.1644047051136,0.1656616302590091,1.0,123.0,0.684704009410654,0.687250239978346,sem rejeição LB nominal,6.0,1.0,False,False
+RN,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-937.993869695171,0.0124427249561432,1.0,123.0,0.9113644509547808,0.6243335941950854,sem rejeição LB nominal,14.0,1.0,False,False
+RN,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+RN,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+RN,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-937.9838237153564,0.0034227599282001,1.0,123.0,0.9534418327620005,0.6286966525151927,sem rejeição LB nominal,21.0,1.0,False,False
+RN,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-937.989061215887,0.0081252621659924,1.0,123.0,0.9283223962559742,0.6329642401194595,sem rejeição LB nominal,1.0,1.0,False,False
+RN,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+RN,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-938.9341821073058,0.8596543519102716,1.0,123.0,0.3556512005207064,0.6897059916250521,sem rejeição LB nominal,8.0,1.0,False,False
+RO,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.4874009038402,0.6323396377477744,1.0,123.0,0.4280302358862681,0.3748440000011495,sem rejeição LB nominal,8.0,1.0,False,False
+RO,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.1542610455148,0.3320708487688884,1.0,123.0,0.5654952085391846,0.4350640598439675,sem rejeição LB nominal,9.0,1.0,False,False
+RO,Total,tipo_doencas_infecciosas,exposição transformada constante,137,,,,,,,,,,,,False,False
+RO,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-987.8862968943282,2.816229724825737,1.0,123.0,0.0958544472887438,0.3903045936277115,sem rejeição LB nominal,9.0,1.0,False,False
+RO,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.9953838170844,0.1891270521183541,1.0,123.0,0.6644062225844642,0.3527319065367402,sem rejeição LB nominal,3.0,1.0,False,False
+RO,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.4901521910924,0.6348224953792748,1.0,123.0,0.4271271366145486,0.4606010141523072,sem rejeição LB nominal,8.0,1.0,False,False
+RO,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.9227799150682,0.123859593982443,1.0,123.0,0.7254878050279717,0.434485029209672,sem rejeição LB nominal,2.0,1.0,False,False
+RO,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.953567511313,0.1515319563481187,1.0,123.0,0.6977487673853612,0.393904290953685,sem rejeição LB nominal,4.0,1.0,False,False
+RO,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.8839457045044,0.0889636795354138,1.0,123.0,0.7660020477239474,0.3497609732328421,sem rejeição LB nominal,21.0,1.0,False,False
+RO,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.8321022294118,0.0423932243568565,1.0,123.0,0.8372124333115222,0.3695235567508677,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+RO,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+RO,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.9475861217136,1.0483209208631454,1.0,123.0,0.3079035824553867,0.4301262097680565,sem rejeição LB nominal,6.0,1.0,False,False
+RO,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+RO,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-984.7852237138152,0.0002979104105937,1.0,123.0,0.9862570976528154,0.3808546319874596,sem rejeição LB nominal,1.0,1.0,False,False
+RO,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-985.1502907383,0.3284966946418046,1.0,123.0,0.5675919873725623,0.3594192728663432,sem rejeição LB nominal,11.0,1.0,False,False
+RR,Total,tipo_alagamentos,estimado,137,3.0,BIC (lags 1..6; amostra comum),-758.0082340094403,27.887614978962144,3.0,119.0,9.93840852072289e-14,0.0012352167605631,autocorrelação residual LB nominal,2.0,1.5901453633156625e-12,True,True
+RR,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.4393110804915,0.060704041052459,1.0,123.0,0.8057973206126259,0.0738777691276932,sem rejeição LB nominal,10.0,1.0,False,False
+RR,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.926501170587,0.4991031947476416,1.0,123.0,0.4812305564272989,0.0809260328463846,sem rejeição LB nominal,1.0,1.0,False,False
+RR,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.4462749253873,0.0669594967935301,1.0,123.0,0.7962488425790639,0.0590078516273167,sem rejeição LB nominal,2.0,1.0,False,False
+RR,Total,tipo_erosao,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.7402783843518,0.3313460892150772,1.0,123.0,0.5659191693049663,0.0682563472403983,sem rejeição LB nominal,9.0,1.0,False,False
+RR,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-703.47159609133,0.9914596574133664,1.0,123.0,0.3213407129047531,0.0640745224906022,sem rejeição LB nominal,2.0,1.0,False,False
+RR,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.3818978011587,0.0091431773044306,1.0,123.0,0.9239780214042038,0.0748455990754117,sem rejeição LB nominal,8.0,1.0,False,False
+RR,Total,tipo_movimento_de_massa,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-702.4796340918574,0.0969296505030463,1.0,123.0,0.7560728093530019,0.0713892572778473,sem rejeição LB nominal,2.0,1.0,False,False
+RR,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+RR,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-703.0495457538384,0.6100719663952715,1.0,123.0,0.4362614486648656,0.0732155745462196,sem rejeição LB nominal,4.0,1.0,False,False
+RS,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.347834026114,0.3386470361997156,1.0,123.0,0.5616763042558293,0.3132731926958319,sem rejeição LB nominal,49.0,0.8278329162143985,False,False
+RS,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.2510506481384,0.2515454638882786,1.0,123.0,0.6168854778772238,0.2981883110223625,sem rejeição LB nominal,88.0,0.8278329162143985,False,False
+RS,Total,tipo_doencas_infecciosas,sem modelo de posto completo na grade,137,,,,,,,,,,,,False,False
+RS,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-966.4425352107264,1.32813490860483,1.0,123.0,0.2513721811962834,0.3404754709561334,sem rejeição LB nominal,87.0,0.8278329162143985,False,False
+RS,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-969.5718965604234,4.200727898546195,1.0,123.0,0.0425327175490782,0.1786419328854323,sem rejeição LB nominal,1.0,0.6805234807852512,True,False
+RS,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.0926552412524,0.1091279647585768,1.0,123.0,0.7417011359643301,0.2856195292543435,sem rejeição LB nominal,51.0,0.9128629365714832,False,False
+RS,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.9757532562688,0.9052489524480756,1.0,123.0,0.3432440427248415,0.3930865299606461,sem rejeição LB nominal,82.0,0.8278329162143985,False,False
+RS,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.9789751491973,0.0070166349447599,1.0,123.0,0.9333791698697658,0.3034401144114291,sem rejeição LB nominal,6.0,0.9956044478610836,False,False
+RS,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-966.809946691706,1.662010029302037,1.0,123.0,0.1997513193993147,0.3930232678720735,sem rejeição LB nominal,41.0,0.8278329162143985,False,False
+RS,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.3222290437938,0.3155974830908915,1.0,123.0,0.575287721176983,0.3255572595261724,sem rejeição LB nominal,25.0,0.8278329162143985,False,False
+RS,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.8026593225608,0.7487985598199639,1.0,123.0,0.3885415066123638,0.2818234036126577,sem rejeição LB nominal,1.0,0.8278329162143985,False,False
+RS,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.2447551414484,0.2458818646091022,1.0,123.0,0.6208746871607989,0.332273966202626,sem rejeição LB nominal,3.0,0.8278329162143985,False,False
+RS,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-965.665383393856,0.6248626246560561,1.0,123.0,0.4307674741250993,0.3182256321946865,sem rejeição LB nominal,18.0,0.8278329162143985,False,False
+RS,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-964.97901389911,0.0070514270016827,1.0,123.0,0.9332145941097368,0.311806648256998,sem rejeição LB nominal,2.0,0.9956044478610836,False,False
+RS,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-966.8362191731592,1.6859187476020323,1.0,123.0,0.1965690408051765,0.2922946686848384,sem rejeição LB nominal,16.0,0.8278329162143985,False,False
+RS,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-966.058444502132,0.980058968217329,1.0,123.0,0.3241277423929086,0.4328952345054295,sem rejeição LB nominal,101.0,0.8278329162143985,False,False
+SC,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-995.7019722302894,2.751632512744616,2.0,121.0,0.0678203386241512,0.546680019563252,sem rejeição LB nominal,85.0,0.2803182359200966,False,False
+SC,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.3400326329794,1.323011637336838e-05,1.0,123.0,0.9971037354699376,0.246755418142,sem rejeição LB nominal,116.0,0.9971037354699376,False,False
+SC,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-996.3586357404988,0.917933775728044,1.0,123.0,0.3398975212398799,0.327156954371831,sem rejeição LB nominal,1.0,0.6902349163189966,False,False
+SC,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-996.1070764519887,0.6906045413229718,1.0,123.0,0.4075691045679421,0.1949162051796644,sem rejeição LB nominal,114.0,0.7145623679948758,False,False
+SC,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.3505469296266,0.0094534363548479,1.0,123.0,0.9227029642504876,0.2520710839210785,sem rejeição LB nominal,39.0,0.9971037354699376,False,False
+SC,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-999.0094914520424,3.339008033488836,1.0,123.0,0.0700795589800241,0.2717426489688652,sem rejeição LB nominal,45.0,0.2803182359200966,False,False
+SC,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-996.336840199642,0.8982210490271036,1.0,123.0,0.3451174581594983,0.361163399508298,sem rejeição LB nominal,69.0,0.6902349163189966,False,False
+SC,Total,tipo_incendio_florestal,estimado,137,2.0,BIC (lags 1..6; amostra comum),-996.3013724144316,3.028976304895312,2.0,121.0,0.052047851063478,0.300915046273641,sem rejeição LB nominal,14.0,0.2803182359200966,False,False
+SC,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.3509568902786,0.0098215320568363,1.0,123.0,0.9212173142233496,0.2438407391162884,sem rejeição LB nominal,57.0,0.9971037354699376,False,False
+SC,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1001.5760323850924,5.728136212739497,1.0,123.0,0.0182069009469691,0.1379427680424359,sem rejeição LB nominal,67.0,0.2803182359200966,True,False
+SC,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-997.0527052015688,1.547319818815332,1.0,123.0,0.2158969425060997,0.2924029163265171,sem rejeição LB nominal,1.0,0.575725180016266,False,False
+SC,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.342622067603,0.0023380732038963,1.0,123.0,0.961512843339442,0.2456725709859212,sem rejeição LB nominal,18.0,0.9971037354699376,False,False
+SC,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.8153249406016,0.4274766346548743,1.0,123.0,0.5144502196127863,0.2675233286348502,sem rejeição LB nominal,44.0,0.7482912285276891,False,False
+SC,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-997.1777896607688,1.66108659465088,1.0,123.0,0.1998754497371538,0.2904957085650193,sem rejeição LB nominal,1.0,0.575725180016266,False,False
+SC,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.9878399029096,0.5829985221750108,1.0,123.0,0.4466014799967974,0.2737549076837278,sem rejeição LB nominal,17.0,0.7145623679948758,False,False
+SC,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-995.3415340805852,0.0013612526521669,1.0,123.0,0.9706284134713116,0.2445933399035823,sem rejeição LB nominal,118.0,0.9971037354699376,False,False
+SE,Total,tipo_alagamentos,estimado,137,2.0,BIC (lags 1..6; amostra comum),-949.5846806149444,0.1428219064817348,2.0,121.0,0.8670543714423262,0.0552627979683474,sem rejeição LB nominal,16.0,1.0,False,False
+SE,Total,tipo_chuvas_intensas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-949.3838911001512,0.05400786163667,2.0,121.0,0.9474474836559512,0.0627336112290347,sem rejeição LB nominal,17.0,1.0,False,False
+SE,Total,tipo_doencas_infecciosas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-951.9794196453206,1.2121679259665654,2.0,121.0,0.3011386973877478,0.0418165220934884,autocorrelação residual LB nominal,1.0,1.0,False,False
+SE,Total,tipo_enxurradas,estimado,137,2.0,BIC (lags 1..6; amostra comum),-950.3736367417248,0.4930595294057859,2.0,121.0,0.6119766048084209,0.0701761270083993,sem rejeição LB nominal,1.0,1.0,False,False
+SE,Total,tipo_erosao,estimado,137,2.0,BIC (lags 1..6; amostra comum),-949.5856343908883,0.1432440952850558,2.0,121.0,0.8666892510860182,0.0738067437495835,sem rejeição LB nominal,6.0,1.0,False,False
+SE,Total,tipo_estiagem_e_seca,estimado,137,2.0,BIC (lags 1..6; amostra comum),-951.320385223124,0.9160162644912584,2.0,121.0,0.4028661595548793,0.0791898019127456,sem rejeição LB nominal,82.0,1.0,False,False
+SE,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+SE,Total,tipo_incendio_florestal,estimado,137,2.0,BIC (lags 1..6; amostra comum),-952.9884281180134,1.6683574686901197,2.0,121.0,0.19286431560675,0.0983172816026578,sem rejeição LB nominal,3.0,1.0,False,False
+SE,Total,tipo_inundacoes,estimado,137,2.0,BIC (lags 1..6; amostra comum),-951.8377067291595,1.14836581130846,2.0,121.0,0.3205865217476268,0.1570050610250039,sem rejeição LB nominal,10.0,1.0,False,False
+SE,Total,tipo_movimento_de_massa,estimado,137,2.0,BIC (lags 1..6; amostra comum),-950.3639057139136,0.4887273828349362,2.0,121.0,0.6146120975078209,0.0765702321126681,sem rejeição LB nominal,8.0,1.0,False,False
+SE,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+SE,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+SE,Total,tipo_outros,estimado,137,2.0,BIC (lags 1..6; amostra comum),-950.4117833910656,0.5100449659591142,2.0,121.0,0.6017537275989513,0.0851899519364231,sem rejeição LB nominal,7.0,1.0,False,False
+SE,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+SE,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+SE,Total,tipo_vendavais_e_ciclones,estimado,137,2.0,BIC (lags 1..6; amostra comum),-957.4798556130428,3.7402711315731128,2.0,121.0,0.0265371676881572,0.0802905090112108,sem rejeição LB nominal,6.0,0.4245946830105161,True,False
+SP,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.6627800730128,0.0687889762918622,1.0,123.0,0.7935470106767228,0.6023032542940434,sem rejeição LB nominal,31.0,0.9769449696663418,False,False
+SP,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1052.6436372916485,3.697304314935582,1.0,123.0,0.0568122342801779,0.4645937873655329,sem rejeição LB nominal,69.0,0.3029985828276154,False,False
+SP,Total,tipo_doencas_infecciosas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1057.521730511546,8.289831145779978,1.0,123.0,0.0047034901052652,0.5666568347538365,sem rejeição LB nominal,7.0,0.075255841684244,True,False
+SP,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1051.5427731867046,2.683307012650188,1.0,123.0,0.1039606493013106,0.3960300138645705,sem rejeição LB nominal,27.0,0.332674077764194,False,False
+SP,Total,tipo_erosao,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1050.0919437381815,1.3593440518169828,1.0,123.0,0.2459070121357207,0.5952970368433739,sem rejeição LB nominal,15.0,0.6534161890615362,False,False
+SP,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1049.3252285107144,0.6653156319861894,1.0,123.0,0.4162663008486829,0.5851496179114888,sem rejeição LB nominal,20.0,0.7400289792865474,False,False
+SP,Total,tipo_granizo,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1053.7157013562487,4.692636146658154,1.0,123.0,0.0322208085120796,0.6687687257240422,sem rejeição LB nominal,9.0,0.2577664680966375,True,False
+SP,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.873007114572,0.257783488793368,1.0,123.0,0.612556270869859,0.63771198718957,sem rejeição LB nominal,35.0,0.9769449696663418,False,False
+SP,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.5916846761734,0.0049396733814752,1.0,123.0,0.9440827058919684,0.5941846040919443,sem rejeição LB nominal,31.0,0.9769449696663418,False,False
+SP,Total,tipo_movimento_de_massa,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1049.4340295681573,0.7635657141668208,1.0,123.0,0.3839178167851811,0.4727688225252303,sem rejeição LB nominal,33.0,0.7400289792865474,False,False
+SP,Total,tipo_onda_de_calor_e_baixa_umidade,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.587116887252,0.000838569482565,1.0,123.0,0.9769449696663418,0.5879231976623769,sem rejeição LB nominal,5.0,0.9769449696663418,False,False
+SP,Total,tipo_onda_de_frio,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.588312397762,0.0019119230359306,1.0,123.0,0.9651940841686748,0.5967552699764114,sem rejeição LB nominal,2.0,0.9769449696663418,False,False
+SP,Total,tipo_outros,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1051.825695005251,2.9431266582990387,1.0,123.0,0.0887615648473454,0.6341105146795671,sem rejeição LB nominal,31.0,0.332674077764194,False,False
+SP,Total,tipo_rompimento_colapso_de_barragens,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1049.859957706247,1.148940996431029,1.0,123.0,0.2858695827144221,0.4584351585109482,sem rejeição LB nominal,2.0,0.6534161890615362,False,False
+SP,Total,tipo_tornado,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.604235351788,0.0162087669078747,1.0,123.0,0.8989000563388565,0.5910377933290583,sem rejeição LB nominal,3.0,0.9769449696663418,False,False
+SP,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-1048.6080311777353,0.0196171945431747,1.0,123.0,0.8888405783304756,0.5844438603797253,sem rejeição LB nominal,38.0,0.9769449696663418,False,False
+TO,Total,tipo_alagamentos,estimado,137,1.0,BIC (lags 1..6; amostra comum),-878.9718607782964,0.4471676418176171,1.0,123.0,0.5049361489079915,0.0270205475969464,autocorrelação residual LB nominal,6.0,1.0,False,False
+TO,Total,tipo_chuvas_intensas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-880.4938548313622,1.8262434405652892,1.0,123.0,0.1790521829688744,0.0152045773183538,autocorrelação residual LB nominal,8.0,1.0,False,False
+TO,Total,tipo_doencas_infecciosas,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_enxurradas,estimado,137,1.0,BIC (lags 1..6; amostra comum),-879.1772476119928,0.6323752165412273,1.0,123.0,0.4280172742196266,0.0086259467455224,autocorrelação residual LB nominal,2.0,1.0,False,False
+TO,Total,tipo_erosao,sem modelo de posto completo na grade,137,,,,,,,,,,,,False,False
+TO,Total,tipo_estiagem_e_seca,estimado,137,1.0,BIC (lags 1..6; amostra comum),-878.5121323548472,0.0336124807802553,1.0,123.0,0.8548354258715269,0.0212752920352074,autocorrelação residual LB nominal,18.0,1.0,False,False
+TO,Total,tipo_granizo,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_incendio_florestal,estimado,137,1.0,BIC (lags 1..6; amostra comum),-878.5473713976004,0.0652631696589209,1.0,123.0,0.7987894621571269,0.0175700341895664,autocorrelação residual LB nominal,1.0,1.0,False,False
+TO,Total,tipo_inundacoes,estimado,137,1.0,BIC (lags 1..6; amostra comum),-878.4750446571805,0.0003101753661712,1.0,123.0,0.9859770825525382,0.0181533571618747,autocorrelação residual LB nominal,7.0,1.0,False,False
+TO,Total,tipo_movimento_de_massa,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_onda_de_calor_e_baixa_umidade,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_onda_de_frio,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_outros,sem modelo de posto completo na grade,137,,,,,,,,,,,,False,False
+TO,Total,tipo_rompimento_colapso_de_barragens,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_tornado,exposição transformada constante,137,,,,,,,,,,,,False,False
+TO,Total,tipo_vendavais_e_ciclones,estimado,137,1.0,BIC (lags 1..6; amostra comum),-878.532352516929,0.0517726499929456,1.0,123.0,0.8203847298095196,0.0176684311885173,autocorrelação residual LB nominal,1.0,1.0,False,False
