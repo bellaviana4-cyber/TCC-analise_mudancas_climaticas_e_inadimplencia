@@ -2,7 +2,34 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
-## Referência atual da etapa DLM — seleção AIC de 1 a 24 meses
+## Revisão estadual das três metodologias — outubro de 2026
+
+Esta revisão amplia a aplicação para as **27 UFs** e os períodos **jan/2013–jan/2020** (pré-pandemia) e **jan/2013–dez/2024** (completo), com **16 tipologias** separadas nos DLMs/Granger e **16 variáveis exógenas simultâneas** em cada SARIMAX estadual. Mantém intactos os notebooks e os resultados históricos.
+
+**Notebooks executados:** [27 — Granger UF × tipologia](notebooks/27_granger_por_uf_tipologia.ipynb), [28 — DLM AIC/BIC, FE/RE](notebooks/28_dlm_painel_aic_bic_fe_re.ipynb), [29 — SARIMA por UF](notebooks/29_sarima_por_uf.ipynb), [30 — SARIMAX de 16 exógenas](notebooks/30_sarimax_16_exogenas_por_uf.ipynb), [31 — comparação integrada](notebooks/31_comparacao_final_modelos.ipynb).
+
+**Relatório:** [HTML standalone interativo](outputs/reports/relatorio_tcc_analises_estaduais_20261019.html), com menu lateral, filtros, tabelas e comparação dos resultados. O HTML contém dados de modelos derivados do painel consolidado, não bases brutas completas.
+
+**Tabelas:** [revisão estadual](outputs/tables/revisao_estadual_20261019/), com Granger (864 status, 45 rejeições nominais, 14 BH), seleção de DLM (29/32 estimáveis, BIC K=1 em todas), candidatos, testes F/LM/Hausman, indicadores SARIMA/SARIMAX e rejeições nominais/BH. As tabelas completas maiores `dlm_hipoteses.csv` e `consolidado_mestre.csv` são reconstruídas localmente por `src/finalizar_entrega.py`; as famílias e rejeições principais estão disponíveis nos CSVs menores versionados.
+
+**Interpretação principal:** com BIC, proteção da grade e DK pela regra, nenhum dos cinco endpoints DLM rejeitou após BH. Dos 54 SARIMAX estaduais planejados, os dados identificam 16 coeficientes contemporâneos no período completo somente para MG, MS, RS, SC e SP; nenhuma UF no pré-pandemia. Nenhum teste conjunto dos cinco rejeitou H0 e nenhum coeficiente individual sobreviveu ao BH. Somente MG tem matriz de treino com posto 16, permitindo comparar previsões condicionais: RMSE SARIMA ≈1,3563 e SARIMAX ≈1,2861. Melhora de RMSE **não prova superioridade geral ou causalidade**.
+
+**Reprodução:** são necessárias as bases mensais originais, que não são versionadas no Git. A aplicação sobre a base consolidada usa o SHA-256 `46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36`. Salve o CSV em `data/processed/df_tcc_2013_2024.csv`; instale `requirements-revisao-estadual.txt` e execute:
+
+```bash
+python src/analise_estadual.py granger
+python src/analise_estadual.py dlm
+python src/estacionariedade_estadual.py
+python src/sarimax_estadual.py Pré
+python src/sarimax_estadual.py Total
+python src/finalizar_entrega.py
+```
+
+A reexecução dos scripts foi conferida sobre o painel com hash idêntico ao histórico. O Atlas bruto foi localizado na Biblioteca do projeto, mas a leitura integral de seus registros não foi reproduzida nesta revisão; códigos COBRADE e taxonomia permanecem conforme auditoria anterior, com essa ressalva. O estudo observa associações e precedência preditiva, não identifica causalidade.
+
+[Resultados e limitações detalhadas](docs/revisao_estadual_resultados_20261019.md).
+
+## Referência histórica da etapa DLM — seleção AIC de 1 a 24 meses
 
 O notebook [23 — DLM em painel com seleção do horizonte por AIC](notebooks/23_dlm_painel_selecao_aic_1a24.ipynb) é a referência atual: 27 UFs, Δlog(I), Δlog(1+D), efeitos fixos de UF e mês-ano completos, coeficientes livres de k=0 a K, sem lags de Y. **K escolhido pelo menor AIC entre 1 e 24, separadamente por exposição e período**, com amostra comum desde fev/2015 (N=1620 pré/3213 total), mantida no modelo final.
 
