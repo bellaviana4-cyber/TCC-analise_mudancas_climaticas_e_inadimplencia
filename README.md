@@ -2,7 +2,36 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
-## Comparação SARIMA/SARIMAX — revisão com exógenas estimáveis (19/10/2026)
+## Revisão estatística do código — 20/10/2026 (versão atual)
+
+A execução foi revisada sobre a base mensal de 27 UFs × 144 meses, usando **exclusivamente as 16 tipologias originais do Atlas**. Não foram criados grupos nem reclassificadas tipologias. A atualização não altera os capítulos de texto da monografia, que serão fechados depois da validação do código.
+
+**Notebooks com execução conferida:** [Granger UF × tipologia (34)](notebooks/34_granger_ufs_tipologias_validacao.ipynb) · [DLM painel AIC × BIC e curvas de coeficientes (35)](notebooks/35_dlm_painel_aic_bic_validacao.ipynb) · [SARIMA/SARIMAX estadual e nacional (36)](notebooks/36_sarima_sarimax_estadual_nacional_validacao.ipynb).
+
+- **Granger:** 627 estimados de 864 aplicações; 14 rejeições após BH local; dois resultados de Alagamentos/RR rejeitam Ljung–Box e permanecem com ressalva de inferência.
+- **DLM:** 29 tipologia×período estimáveis, duas escolhas de K (AIC e BIC); todos BIC K=1, oito diferenças AIC/BIC. Nenhuma rejeição protegida sob BIC + DK regra, quatro sob AIC + DK regra. Auditoria numérica dos 58 modelos selecionados não detectou matrizes de regressores com cond>1000 nem covariâncias com cond>10⁶. [Perfis β por defasagem e curvas acumuladas](outputs/tables/auditoria_metodologica_20261020/).
+- **SARIMAX corrigido:** statsmodels não possui seleção automática de ordens. A busca por BIC foi implementada sobre **cinco candidatos sazonais em separado para SARIMA e SARIMAX**, preservando também a comparação com ordens pareadas. As 16 exógenas simultâneas **não são identificáveis em treino em 53/54 aplicações estaduais**; a alternativa estadual reduz as exógenas exclusivamente por suporte, posto e parcimônia predefinida. **53 modelos comparáveis, 16 com melhora de RMSE e nenhum com melhora de BIC**. No Brasil, as 16 tipologias são identificáveis, mas o SARIMAX aumenta o RMSE em 15,02% no pré e em 10,58% no total; não melhora BIC.
+- **Significância SARIMAX:** dois coeficientes individuais de Enxurradas/PE sobreviveram BH global (395 testes). Nenhum conjunto de exógenas sobreviveu à correção BH.
+- **Warnings:** os 550 candidatos sazonais foram ajustados com registro de avisos; 41 candidatos emitiram warnings de inicialização ou primeira tentativa. Não houve candidatos finais sem convergência após repetição. Residual Ljung–Box rejeitado em 13 dos 53 SARIMAX estaduais e ambos SARIMAX nacionais.
+
+**Resultados e diagnósticos:** [checkpoint metodológico](docs/auditoria_metodologica_20261020.md) · [todas as 58 rejeições corrigidas por método e cenário](outputs/tables/auditoria_metodologica_20261020/rejeicoes_significativas_consolidadas.csv) · [candidatos SARIMA/SARIMAX, q-valores e warnings](outputs/tables/sarimax_criterios_independentes_20261020/).
+
+Reprodução com base original em `data/processed/df_tcc_2013_2024.csv` (não versionada):
+```bash
+python src/analise_estadual.py granger
+python src/analise_estadual.py dlm
+python src/auditoria_dlm_granger.py
+python src/selecionar_sarima_sarimax_statsmodels.py estadual Pré
+python src/selecionar_sarima_sarimax_statsmodels.py estadual Total
+python src/selecionar_sarima_sarimax_statsmodels.py nacional Pré
+python src/selecionar_sarima_sarimax_statsmodels.py nacional Total
+python src/consolidar_analises_finais.py
+python src/gerar_notebooks_revisionados.py
+```
+
+**Histórico:** as revisões de 19/10 abaixo permanecem para rastreabilidade, mas a seleção SARIMA/SARIMAX que forçava ordens iguais foi substituída, na comparação de modelos independentemente selecionados, pela busca individual por BIC descrita acima.
+
+## Histórico — comparação SARIMA/SARIMAX (19/10/2026)
 
 A auditoria da especificação **16 tipologias simultâneas por UF** confirmou deficiência de posto no treino em **53 de 54** aplicações (27 UFs × 2 períodos). O componente sazonal anual não elimina dependência linear dos regressores. A especificação nacional, entretanto, tem **posto 16/16** no treino em ambos os períodos e foi efetivamente ajustada.
 
@@ -38,7 +67,7 @@ python src/sarimax_estadual.py Total
 python src/finalizar_entrega.py
 ```
 
-A reexecução dos scripts foi conferida sobre o painel com hash idêntico ao histórico. O Atlas bruto foi localizado na Biblioteca do projeto, mas a leitura integral de seus registros não foi reproduzida nesta revisão; códigos COBRADE e taxonomia permanecem conforme auditoria anterior, com essa ressalva. O estudo observa associações e precedência preditiva, não identifica causalidade.
+A reexecução dos scripts foi conferida sobre o painel com hash idêntico ao histórico. O Atlas bruto foi localizado na Biblioteca do projeto, mas a leitura integral de seus registros não foi reproduzida nesta revisão; códigos classificação original do Atlas e taxonomia permanecem conforme auditoria anterior, com essa ressalva. O estudo observa associações e precedência preditiva, não identifica causalidade.
 
 [Resultados e limitações detalhadas](docs/revisao_estadual_resultados_20261019.md).
 
@@ -46,7 +75,7 @@ A reexecução dos scripts foi conferida sobre o painel com hash idêntico ao hi
 
 O notebook [23 — DLM em painel com seleção do horizonte por AIC](notebooks/23_dlm_painel_selecao_aic_1a24.ipynb) é a referência atual: 27 UFs, Δlog(I), Δlog(1+D), efeitos fixos de UF e mês-ano completos, coeficientes livres de k=0 a K, sem lags de Y. **K escolhido pelo menor AIC entre 1 e 24, separadamente por exposição e período**, com amostra comum desde fev/2015 (N=1620 pré/3213 total), mantida no modelo final.
 
-O total climático (COBRADE 12/13/14) escolheu K1 nos dois recortes e não apresentou rejeição acumulada a 5% em CR1 ou DK6. Algumas categorias complementares rejeitam após BH, com limitações de classificação, suporte e inferência. **Análise exploratória: estacionariedade estadual não uniforme; IC/p/q usuais ignoram a incerteza da seleção de K; não houve inferência seletiva formal.** K escolhido não comprova duração física dos impactos.
+O total climático (classificação original do Atlas 12/13/14) escolheu K1 nos dois recortes e não apresentou rejeição acumulada a 5% em CR1 ou DK6. Algumas categorias complementares rejeitam após BH, com limitações de classificação, suporte e inferência. **Análise exploratória: estacionariedade estadual não uniforme; IC/p/q usuais ignoram a incerteza da seleção de K; não houve inferência seletiva formal.** K escolhido não comprova duração física dos impactos.
 
 - [Protocolo e decisões](docs/dlm_painel_log_aic_protocolo.md) · [Resultados, horizontes e limites](docs/dlm_painel_log_aic_resultados.md).
 - Visualização interativa: o HTML é gerado somente para consulta local, a partir dos CSVs em `outputs/tables/dlm_painel_log_aic/`, com filtros de período, exposição, covariância, seleção de K, diagnósticos e cenários. O arquivo HTML não é versionado.
@@ -245,7 +274,7 @@ Extensão informada pela análise anterior; protocolo registrado **antes dos nov
 | Notebook executado | Conteúdo |
 |---|---|
 | `10_dinamica_nacional_segunda_etapa.ipynb` | ADL com ordens próprias/cruzadas diferentes, amostra comum BIC, sazonalidade, quebras, diagnósticos e TY condicionado à viabilidade |
-| `11_exposicao_gravidade_segunda_etapa.ipynb` | Auditoria de frequência, municípios, deslocamento e habitações; foco COBRADE12/13/14; modelos e BH da família nacional completa |
+| `11_exposicao_gravidade_segunda_etapa.ipynb` | Auditoria de frequência, municípios, deslocamento e habitações; foco classificação original do Atlas12/13/14; modelos e BH da família nacional completa |
 | `12_painel_uf_segunda_etapa.ipynb` | UF×mês, TWFE dinâmico, DK, sensibilidade SPJ e influência das UFs |
 | `13_resposta_previsao_segunda_etapa.ipynb` | Projeções locais1/3/6/12 meses; previsão expansiva sem divisão aleatória; IC e limitações de disponibilidade |
 
