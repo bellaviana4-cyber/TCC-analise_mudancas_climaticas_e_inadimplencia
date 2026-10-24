@@ -150,7 +150,19 @@ As tabelas estão em `outputs/tables/revisao_defasagens_20261024/` e
 notebooks unificados já existentes; a comparação prévia com SARIMAX
 independentemente selecionados e o SARIMAX nacional permanecem preservados.
 
-Uma revisão adicional estimou os DLMs com horizontes fixos de seis e doze
-meses e examinou a inclusão de K=0 na seleção pelo AIC. Veja
-`docs/revisao_dlm_horizontes_fixos_20261024.md` para os novos resultados;
-essa extensão também não substitui automaticamente a análise original.
+## 5. Auditoria da exclusão de K=0 da grade do DLM
+
+A grade por AIC começa em K=1 e, portanto, sempre inclui pelo menos um
+mês de atraso. Um cálculo auxiliar avaliou **K=0** na mesma amostra comum
+dos demais modelos e observou AIC menor em **18 das 29 combinações**,
+inclusive em **17 das 21** escolhas originais de K=1.
+
+Isso indica que a restrição inferior pode explicar parte da frequência
+de K=1. A auditoria não equivale a selecionar K=0 automaticamente nem
+estabelece ausência de efeitos defasados; é uma comparação de especificação
+à luz do mesmo AIC. O DLM principal continua com a seleção por AIC
+original, aguardando a definição metodológica com a orientadora.
+
+Reprodução: `python src/auditar_dlm_k0.py`. Tabela:
+`outputs/tables/revisao_defasagens_20261024/dlm_k0_comparacao_aic.csv`.
+Não são utilizados horizontes fixos de seis ou doze meses.

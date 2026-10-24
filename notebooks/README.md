@@ -14,4 +14,4 @@ A pasta [`historico/`](historico/) contém as versões antigas, mantidas sem alt
 
 **Extensão sobre defasagens (24/10/2026):** os notebooks 02 e 03 incluem, ao final, novas células de síntese com os dois menores AICs do DLM e a comparação do SARIMAX com defasagens `[0]`, `[0,1]` e `[0,1,3]`. Essas células leem os CSVs auditados versionados no repositório. Para refazer especificamente esses resultados complementares, use os quatro scripts descritos na [nota metodológica](../docs/nota_defasagens_20261024.md), mantendo a mesma base consolidada.
 
-O notebook 02 inclui ainda uma segunda síntese da [análise de sensibilidade com K=6 e K=12](../docs/revisao_dlm_horizontes_fixos_20261024.md) e da verificação de K=0. O código correspondente é `src/dlm_horizontes_predefinidos.py`.
+O notebook 02 também apresenta uma auditoria do candidato K=0, ausente da grade original (K=1–24). O script correspondente é `src/auditar_dlm_k0.py`; não foram adotados horizontes fixos para os DLMs.

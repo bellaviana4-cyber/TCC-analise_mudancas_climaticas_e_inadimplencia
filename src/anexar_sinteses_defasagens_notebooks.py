@@ -32,9 +32,18 @@ def add_to(path: Path, marker: str, md: str, code: str):
     repaired = len(clean) != len(book["cells"])
     book["cells"] = clean
     if marker + "a" in seen and marker + "b" in seen:
-        if repaired:
+        # Atualiza uma síntese já incorporada quando seu texto ou fonte mudar.
+        desired = {marker + "a": cell("markdown", marker + "a", md),
+                   marker + "b": cell("code", marker + "b", code)}
+        changed = repaired
+        for i, existing in enumerate(book["cells"]):
+            ident = existing.get("id")
+            if ident in desired and existing != desired[ident]:
+                book["cells"][i] = desired[ident]
+                changed = True
+        if changed:
             path.write_text(json.dumps(book, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-        print(f"já incorporado: {path.name}")
+        print(f"{'atualizado' if changed else 'já incorporado'}: {path.name}")
         return
     book["cells"].append(cell("markdown", marker + "a", md))
     book["cells"].append(cell("code", marker + "b", code))
@@ -113,51 +122,41 @@ display(_sar[['periodo','unidade','status','n_tipologias_elegiveis','lag_escolhi
               'delta_BIC','melhora_rmse_pct']].round(2))
 """
 
-FIXOS_MD = """
-## 11. Sensibilidade: horizontes comuns de 6 e 12 meses
+K0_MD = """
+## 11. Auditoria adicional da grade: inclusão de K=0
 
-A grade anterior começou em K=1. Uma auditoria com K=0 na mesma amostra
-mostrou AIC menor em 18 das 29 combinações estimáveis, sendo 17 casos que
-tinham escolhido K=1. Assim, a grade anterior não permitia concluir que
-um mês de atraso fosse necessário em todos esses modelos.
+O DLM principal mantém a seleção de `K=1,…,24` pelo AIC, com efeitos
+fixos de UF e mês-ano e a mesma amostra em todos os candidatos.
+Essa grade exclui o modelo com efeito apenas contemporâneo (`K=0`).
 
-Como alternativa, foram estimados dois DLMs finitos irrestritos com
-**K=12 como horizonte de referência** e K=6 como sensibilidade, mantendo
-TWFE, transformações e amostra comum. DK por regra permanece a inferência
-principal. A proteção de Holm abrange simultaneamente os dois horizontes e
-16 tipologias planejadas; testes conjuntos usam união de testes individuais.
+Uma auditoria calculou o AIC de `K=0` na **mesma amostra**. Ele seria
+menor que o AIC do vencedor original em **18 de 29** casos; entre as
+21 seleções originais de `K=1`, isso ocorreu em **17**. Portanto, a
+frequência de `K=1` reflete, em parte, o limite inferior da grade.
 
-Após o ajuste, K=12/DK por regra apresentou zero rejeições, enquanto
-K=6/DK por regra apresentou duas hipóteses conjuntas rejeitadas para
-Movimento de Massa no período completo. O resultado não foi estável no
-horizonte anual. A proposta é exploratória, pois os horizontes foram
-escolhidos após a inspeção dos resultados anteriores.
-
-O código reproduzível e a interpretação detalhada estão em
-`src/dlm_horizontes_predefinidos.py` e
-`docs/revisao_dlm_horizontes_fixos_20261024.md`.
+Esta é apenas uma verificação da regra de seleção, **não um DLM com
+horizonte fixado** nem uma alteração automática do modelo principal.
+O cálculo reproduzível está em `src/auditar_dlm_k0.py`.
 """
 
-FIXOS_CODE = """
+K0_CODE = """
 from pathlib import Path
 import pandas as pd
 from IPython.display import display, Markdown
 
 _raiz = Path.cwd().resolve()
 if _raiz.name == 'notebooks': _raiz = _raiz.parent
-_dir = _raiz / 'outputs/tables/dlm_horizontes_fixos_20261024'
-_k0 = pd.read_csv(_dir / 'k0_comparacao_aic.csv', encoding='utf-8-sig')
-_fixos = pd.read_csv(_dir / 'resumo_inferencia.csv', encoding='utf-8-sig')
-display(Markdown(f'**K=0 superaria a escolha original em {int(_k0.K0_seria_preferido.sum())} de {len(_k0)} combinações.**'))
-display(Markdown('**Hipóteses rejeitadas após Holm — horizontes comuns**'))
-display(_fixos.pivot(index='K', columns='banda', values='rejeicoes_apos_ajuste'))
+_k0 = pd.read_csv(_raiz / 'outputs/tables/revisao_defasagens_20261024/dlm_k0_comparacao_aic.csv', encoding='utf-8-sig')
+_preferencias = _k0.loc[_k0.K0_seria_preferido]
+display(Markdown(f'**K=0 teria menor AIC em {len(_preferencias)} de {len(_k0)} combinações.**'))
+display(_k0[['periodo','tipologia','K_AIC_original','AIC_K0','AIC_K_original','delta_AIC_K0_menos_original','K0_seria_preferido']].round(3))
 """
 
 
 def main():
     add_to(ROOT / "notebooks/02_dlm_painel_aic_bic.ipynb", "c0d24a1", DLM_MD, DLM_CODE)
     add_to(ROOT / "notebooks/03_sarima_sarimax_estadual_nacional.ipynb", "c0d24a2", SARIMAX_MD, SARIMAX_CODE)
-    add_to(ROOT / "notebooks/02_dlm_painel_aic_bic.ipynb", "c0d24a3", FIXOS_MD, FIXOS_CODE)
+    add_to(ROOT / "notebooks/02_dlm_painel_aic_bic.ipynb", "c0d24a3", K0_MD, K0_CODE)
 
 
 if __name__ == "__main__":
