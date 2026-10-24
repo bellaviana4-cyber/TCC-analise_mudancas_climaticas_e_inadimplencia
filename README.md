@@ -48,6 +48,8 @@ A análise de sensibilidade posterior à unificação dos notebooks está descri
 - **SARIMAX:** comparação de blocos climáticos `[0]`, `[0,1]` e `[0,1,3]` na mesma amostra e com as tipologias elegíveis simultaneamente. Em 53 casos estimáveis, o BIC escolheu `[0]`; nenhum SARIMAX superou o SARIMA pelo BIC, e 16 tiveram menor RMSE no teste.
 - **Reprodução:** `python src/auditar_dlm_aic_top2.py`, `python src/inferencia_dlm_top2_aic.py`, `python src/sarimax_com_defasagens.py` e `python src/gerar_painel_defasagens.py`. A extensão usa o mesmo painel auditado e preserva os resultados históricos.
 
+**Sensibilidade adicional de horizonte comum:** [nota do DLM K=6/K=12](docs/revisao_dlm_horizontes_fixos_20261024.md). A inclusão exploratória de K=0 mostrou AIC inferior em 18/29 combinações (17/21 escolhas K=1). Para não depender exclusivamente da busca por AIC, foram estimados DLMs irrestritos com K=12 fixo e K=6 como sensibilidade; a inferência DK por regra não rejeitou hipóteses após os ajustes em K=12 e rejeitou dois testes conjuntos de Movimento de Massa/Total em K=6. Para reproduzir: `python src/dlm_horizontes_predefinidos.py`. Essa extensão é exploratória, pois os horizontes foram propostos após a análise inicial.
+
 ## Organização e histórico
 
 ```text

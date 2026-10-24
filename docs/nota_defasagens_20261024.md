@@ -149,3 +149,8 @@ As tabelas estão em `outputs/tables/revisao_defasagens_20261024/` e
 **Nota:** este complemento é uma análise de sensibilidade sobre os três
 notebooks unificados já existentes; a comparação prévia com SARIMAX
 independentemente selecionados e o SARIMAX nacional permanecem preservados.
+
+Uma revisão adicional estimou os DLMs com horizontes fixos de seis e doze
+meses e examinou a inclusão de K=0 na seleção pelo AIC. Veja
+`docs/revisao_dlm_horizontes_fixos_20261024.md` para os novos resultados;
+essa extensão também não substitui automaticamente a análise original.

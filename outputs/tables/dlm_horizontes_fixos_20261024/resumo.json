@@ -1,0 +1,15 @@
+{
+  "modelo": "DLM painel TWFE irrestrito; Delta log I ~ Delta log(1+D) com K fixo",
+  "horizontes": [
+    6,
+    12
+  ],
+  "regra": "K=12 de referência e K=6 de sensibilidade, sem otimizar K por AIC",
+  "denominador": "amostra comum original que começa em 2015-02 devido à grade histórica K<=24",
+  "inferencia": "DK regra (principal), DK6 e DK12; min-p e Bonferroni para conjuntos; Holm entre 16 tipologias × dois K",
+  "advertencia": "horizontes escolhidos após observar o estudo; inferência exploratória; sem garantia seletiva formal",
+  "estimaveis": 29,
+  "k0_preferidos": 18,
+  "k1_que_iriam_para_0": 17,
+  "base_sha256": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36"
+}
