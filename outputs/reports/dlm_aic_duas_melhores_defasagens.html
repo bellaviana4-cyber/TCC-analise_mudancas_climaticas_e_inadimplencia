@@ -1,0 +1,62 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>DLM — dois menores AICs</title>
+<style>:root{color-scheme:light;font-family:Inter,system-ui,-apple-system,sans-serif;color:#283241}
+body{margin:0;background:#f7f8fb}main{max-width:1120px;margin:auto;padding:48px 24px 80px}
+h1{font-size:clamp(27px,4vw,42px);line-height:1.1;letter-spacing:-.04em;margin:12px 0}
+.tag{font-size:12px;text-transform:uppercase;letter-spacing:.15em;color:#95507c;font-weight:700}
+p{line-height:1.6;color:#687181;max-width:850px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.stat,.panel{background:white;border:1px solid #e3e6eb;border-radius:17px;padding:20px}.num{font-size:34px;font-weight:750;letter-spacing:-.05em}
+.stat small{color:#6c7280}.panel{overflow:auto}.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+select{background:white;border:1px solid #ced3dc;border-radius:9px;padding:10px 14px;color:#334155}
+table{border-collapse:collapse;width:100%;font-size:13px;white-space:nowrap}td,th{border-bottom:1px solid #e9edf2;text-align:right;padding:12px 14px}
+td:nth-child(-n+2),th:nth-child(-n+2){text-align:left}th{color:#647082;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+tbody tr:hover{background:#fcf8fb}strong{color:#8c3c70}.note{border-left:3px solid #95507c;padding:2px 15px;margin-top:28px}
+@media(max-width:680px){main{padding:32px 12px}.grid{grid-template-columns:1fr}.stat{padding:14px}}</style></head><body>
+<main><div class="tag">TCC · Modelos de defasagens distribuídas</div><h1>AIC: as duas melhores defasagens</h1>
+<p>Comparação dos horizontes de K selecionados entre 1 e 24 meses para cada tipologia e período.
+O AIC é calculado com a mesma amostra dentro de cada comparação, garantindo comparabilidade.</p>
+<div class="grid"><div class="stat"><div class="num">29</div><small>combinações estimáveis</small></div>
+<div class="stat"><div class="num">29</div><small>com ΔAIC menor que 2</small></div>
+<div class="stat"><div class="num">0,062–1,997</div><small>intervalo observado de ΔAIC</small></div></div>
+<div class="panel"><div class="controls"><b>Comparação por tipologia</b><label>Período: <select id="period">
+<option value="todos">Ambos</option><option value="Pré">Pré-pandemia</option><option value="Total">Total</option>
+</select></label></div><table><thead><tr><th>Período</th><th>Tipologia</th><th>1º K</th><th>2º K</th>
+<th>Menor AIC</th><th>Segundo AIC</th><th>ΔAIC</th><th>Peso do 1º</th><th>Peso do 2º</th></tr></thead>
+<tbody><tr data-period='Pré'><td>Pré</td><td>Alagamentos</td><td>1</td><td>2</td><td>-7061.437</td><td>-7059.650</td><td><strong>1.787</strong></td><td>45.6%</td><td>18.7%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Chuvas Intensas</td><td>15</td><td>16</td><td>-7073.515</td><td>-7073.209</td><td><strong>0.306</strong></td><td>26.3%</td><td>22.6%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Doencas Infecciosas</td><td>1</td><td>2</td><td>-7061.862</td><td>-7059.937</td><td><strong>1.925</strong></td><td>60.5%</td><td>23.1%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Enxurradas</td><td>1</td><td>2</td><td>-7061.361</td><td>-7059.640</td><td><strong>1.721</strong></td><td>59.2%</td><td>25.0%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Erosao</td><td>1</td><td>2</td><td>-7061.092</td><td>-7059.108</td><td><strong>1.983</strong></td><td>54.1%</td><td>20.1%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Estiagem E Seca</td><td>1</td><td>2</td><td>-7062.131</td><td>-7060.162</td><td><strong>1.968</strong></td><td>62.8%</td><td>23.5%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Granizo</td><td>1</td><td>2</td><td>-7061.960</td><td>-7059.964</td><td><strong>1.997</strong></td><td>60.7%</td><td>22.4%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Incendio Florestal</td><td>1</td><td>2</td><td>-7061.187</td><td>-7059.818</td><td><strong>1.370</strong></td><td>49.9%</td><td>25.1%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Inundacoes</td><td>1</td><td>2</td><td>-7062.294</td><td>-7060.622</td><td><strong>1.672</strong></td><td>46.8%</td><td>20.3%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Movimento De Massa</td><td>1</td><td>2</td><td>-7061.068</td><td>-7059.159</td><td><strong>1.909</strong></td><td>46.0%</td><td>17.7%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Outros</td><td>1</td><td>2</td><td>-7061.392</td><td>-7059.711</td><td><strong>1.680</strong></td><td>57.7%</td><td>24.9%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Tornado</td><td>1</td><td>2</td><td>-7061.307</td><td>-7061.245</td><td><strong>0.062</strong></td><td>26.7%</td><td>25.9%</td></tr>
+<tr data-period='Pré'><td>Pré</td><td>Vendavais E Ciclones</td><td>14</td><td>9</td><td>-7068.306</td><td>-7066.363</td><td><strong>1.942</strong></td><td>30.7%</td><td>11.6%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Alagamentos</td><td>1</td><td>3</td><td>-15038.857</td><td>-15038.268</td><td><strong>0.589</strong></td><td>33.5%</td><td>24.9%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Chuvas Intensas</td><td>16</td><td>15</td><td>-15041.781</td><td>-15040.803</td><td><strong>0.978</strong></td><td>20.5%</td><td>12.5%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Doencas Infecciosas</td><td>1</td><td>2</td><td>-15033.062</td><td>-15031.148</td><td><strong>1.913</strong></td><td>59.4%</td><td>22.8%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Enxurradas</td><td>1</td><td>2</td><td>-15035.280</td><td>-15033.910</td><td><strong>1.370</strong></td><td>54.1%</td><td>27.3%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Erosao</td><td>1</td><td>2</td><td>-15033.270</td><td>-15031.338</td><td><strong>1.932</strong></td><td>58.1%</td><td>22.1%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Estiagem E Seca</td><td>1</td><td>2</td><td>-15032.550</td><td>-15030.604</td><td><strong>1.947</strong></td><td>55.7%</td><td>21.0%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Granizo</td><td>1</td><td>2</td><td>-15033.415</td><td>-15031.429</td><td><strong>1.986</strong></td><td>59.9%</td><td>22.2%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Incendio Florestal</td><td>6</td><td>1</td><td>-15033.605</td><td>-15032.848</td><td><strong>0.757</strong></td><td>30.8%</td><td>21.1%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Inundacoes</td><td>1</td><td>2</td><td>-15035.025</td><td>-15034.370</td><td><strong>0.656</strong></td><td>42.1%</td><td>30.3%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Movimento De Massa</td><td>5</td><td>4</td><td>-15038.765</td><td>-15037.287</td><td><strong>1.478</strong></td><td>35.5%</td><td>17.0%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Onda De Calor E Baixa Umidade</td><td>14</td><td>15</td><td>-15041.281</td><td>-15040.114</td><td><strong>1.167</strong></td><td>24.8%</td><td>13.8%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Onda De Frio</td><td>1</td><td>2</td><td>-15036.983</td><td>-15035.436</td><td><strong>1.547</strong></td><td>49.3%</td><td>22.7%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Outros</td><td>1</td><td>2</td><td>-15032.767</td><td>-15030.776</td><td><strong>1.991</strong></td><td>54.2%</td><td>20.0%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Rompimento Colapso De Barragens</td><td>4</td><td>2</td><td>-15038.365</td><td>-15037.865</td><td><strong>0.500</strong></td><td>25.4%</td><td>19.8%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Tornado</td><td>1</td><td>2</td><td>-15032.403</td><td>-15031.500</td><td><strong>0.904</strong></td><td>46.1%</td><td>29.3%</td></tr>
+<tr data-period='Total'><td>Total</td><td>Vendavais E Ciclones</td><td>9</td><td>10</td><td>-15040.983</td><td>-15038.995</td><td><strong>1.989</strong></td><td>48.9%</td><td>18.1%</td></tr></tbody></table></div>
+<div class="note"><p><strong>Como interpretar:</strong> ΔAIC = AIC(2º) − AIC(1º). Como os modelos são
+aninhados e usam a mesma amostra, acrescentar um lag a K aumenta a penalização em 2,
+mas não diminui a verossimilhança: por isso, quando K&lt;24, haverá um candidato K+1
+com ΔAIC ≤ 2. A proximidade é parcialmente mecânica e não demonstra efeitos significativos.
+Os pesos de Akaike usam todos os candidatos K estimados, não apenas os dois exibidos.
+Cada K representa um modelo distinto com coeficientes para todos os lags de 0 até K.</p></div></main>
+<script>const control=document.getElementById('period');control.addEventListener('change',()=>{
+document.querySelectorAll('tbody tr').forEach(tr=>tr.hidden=control.value!=='todos'&&tr.dataset.period!==control.value);
+});</script></body></html>

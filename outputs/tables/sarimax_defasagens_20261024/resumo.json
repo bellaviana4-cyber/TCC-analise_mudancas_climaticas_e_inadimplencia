@@ -1,0 +1,29 @@
+{
+  "aplicacoes": 54,
+  "estimadas": 53,
+  "grade_lags": {
+    "l0": [
+      0
+    ],
+    "l0_1": [
+      0,
+      1
+    ],
+    "l0_1_3": [
+      0,
+      1,
+      3
+    ]
+  },
+  "selecao": "BIC no treino cronológico em amostra comum; ordens temporais fixadas pelo melhor SARIMA BIC",
+  "previsao": "um passo condicional, com x contemporânea observada quando lag 0 está presente",
+  "inferencia": "valores-p exploratórios condicionais à seleção, BH não corrige busca de lags/ordens",
+  "base_sha256": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+  "lags_escolhidos": {
+    "l0": 53
+  },
+  "melhor_bic_que_sarima": 0,
+  "melhor_rmse_que_sarima": 16,
+  "mediana_melhora_rmse_pct": -7.5874088176801635,
+  "conjuntos_BH_05": 0
+}

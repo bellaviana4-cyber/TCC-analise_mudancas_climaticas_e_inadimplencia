@@ -1,0 +1,6 @@
+{
+  "metodo": "painel TWFE em amostra comum; coeficientes MQO; matriz de covariância DK",
+  "comparacao": "K melhor e segundo menor AIC da mesma grade K=1..24",
+  "multiplicidade": "Bonferroni x24 para contrastes escalares; união com x324 (todos lags) ou x300 (lags 1..K) para conjuntos; Holm por família planejada de 16 tipologias, por período/covariância/endpoint/rank",
+  "ressalva": "Correção conservadora por grade; validade requer testes individuais bem calibrados, não corresponde a inferência seletiva exata. Os dois K não constituem dois efeitos independentes."
+}

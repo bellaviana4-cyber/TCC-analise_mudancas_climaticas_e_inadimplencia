@@ -1,0 +1,8 @@
+{
+  "modelos_estimaveis": 29,
+  "modelos_delta_aic_abaixo_2": 29,
+  "min_delta_aic": 0.06176235301063571,
+  "max_delta_aic": 1.9965637541845354,
+  "criterio": "AIC calculado na mesma amostra mensal dentro de cada período/tipologia",
+  "interpretacao": "A grade aninhada faz o candidato K+1 ter ΔAIC <= 2 quando o ótimo K é inferior a 24; isso não indica significância dos coeficientes"
+}

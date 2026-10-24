@@ -38,6 +38,16 @@ Os notebooks principais versionados contêm outputs de uma execução conferida 
 
 **Interpretação:** testes de Granger avaliam precedência preditiva; DLM estima associações condicionais às transformações e efeitos fixos; SARIMAX compara ajuste e previsão condicional. Nenhuma etapa, isoladamente, constitui identificação de efeitos causais.
 
+### Complemento sobre defasagens — outubro de 2026
+
+A análise de sensibilidade posterior à unificação dos notebooks está descrita na
+[nota metodológica sobre as defasagens](docs/nota_defasagens_20261024.md) e no
+[painel interativo de defasagens](outputs/reports/defasagens_metodos.html).
+
+- **DLM:** conferência dos dois menores AICs em cada tipologia/período. Nos 29 casos estimáveis, todos os segundos valores têm ΔAIC inferior a 2, proximidade em parte decorrente do aninhamento dos candidatos. A inferência principal com DK por regra permanece sem rejeições após os ajustes também para o segundo K.
+- **SARIMAX:** comparação de blocos climáticos `[0]`, `[0,1]` e `[0,1,3]` na mesma amostra e com as tipologias elegíveis simultaneamente. Em 53 casos estimáveis, o BIC escolheu `[0]`; nenhum SARIMAX superou o SARIMA pelo BIC, e 16 tiveram menor RMSE no teste.
+- **Reprodução:** `python src/auditar_dlm_aic_top2.py`, `python src/inferencia_dlm_top2_aic.py`, `python src/sarimax_com_defasagens.py` e `python src/gerar_painel_defasagens.py`. A extensão usa o mesmo painel auditado e preserva os resultados históricos.
+
 ## Organização e histórico
 
 ```text
