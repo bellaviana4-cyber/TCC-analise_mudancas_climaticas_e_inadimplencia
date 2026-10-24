@@ -11,3 +11,5 @@ Este diretório mantém **um notebook principal por metodologia**, com código d
 Em SARIMAX, `FORCAR_REESTIMACAO=True` por padrão força a reestimação integral dos candidatos; use `False` se estiver retomando uma execução interrompida. Os notebooks escrevem tabelas em `outputs/tables/` e não devem ser executados em paralelo.
 
 A pasta [`historico/`](historico/) contém as versões antigas, mantidas sem alterações. Os notebooks atuais substituem os anteriores como **fonte principal de execução**; os scripts em `src/` permanecem como material complementar e histórico.
+
+**Extensão sobre defasagens (24/10/2026):** os notebooks 02 e 03 incluem, ao final, novas células de síntese com os dois menores AICs do DLM e a comparação do SARIMAX com defasagens `[0]`, `[0,1]` e `[0,1,3]`. Essas células leem os CSVs auditados versionados no repositório. Para refazer especificamente esses resultados complementares, use os quatro scripts descritos na [nota metodológica](../docs/nota_defasagens_20261024.md), mantendo a mesma base consolidada.
