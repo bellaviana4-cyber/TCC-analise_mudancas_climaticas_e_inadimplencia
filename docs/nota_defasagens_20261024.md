@@ -4,9 +4,9 @@
 
 Esta nota registra três desdobramentos da revisão do TCC:
 
-1. Examinar a segunda escolha de (K) pelo AIC nos DLMs de painel.
+1. Examinar a segunda escolha de \(K\) pelo AIC nos DLMs de painel.
 2. Estimar SARIMAX com blocos explícitos de exposições climáticas defasadas.
-3. Distinguir a defasagem do modelo ((K)) da banda de Driscoll–Kraay ((L)).
+3. Distinguir a defasagem do modelo (\(K\)) da banda de Driscoll–Kraay (\(L\)).
 
 As análises usam o painel de 27 UFs, 2013–2024, com as 16 tipologias originais. A
 base processada não é versionada; seu SHA-256 auditado é
@@ -166,3 +166,7 @@ original, aguardando a definição metodológica com a orientadora.
 Reprodução: `python src/auditar_dlm_k0.py`. Tabela:
 `outputs/tables/revisao_defasagens_20261024/dlm_k0_comparacao_aic.csv`.
 Não são utilizados horizontes fixos de seis ou doze meses.
+
+## 6. Consolidação posterior
+
+O [roteiro de revisão de 26/10/2026](roteiro_respostas_orientadora_20261026.md) reúne os resultados das perguntas da orientação em ordem de interpretação, incluindo o efeito das três bandas DK nos erros-padrão e a ressalva de penalização do BIC ao adicionar blocos climáticos no SARIMAX. Essa consolidação **não envolve novas estimações** nem adota DLMs com horizonte fixo.

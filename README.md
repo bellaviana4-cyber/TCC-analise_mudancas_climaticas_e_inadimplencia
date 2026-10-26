@@ -4,12 +4,12 @@ Repositório do TCC **“Mudanças Climáticas e Inadimplência: uma análise do
 
 ## Análises estatísticas — notebooks principais
 
-A execução das três metodologias está concentrada em **três notebooks autossuficientes**, organizados para leitura, reprodução e revisão. Cada notebook contém o código integral necessário à sua metodologia, decisões de modelagem, diagnóstico de dados, estimação, testes, tabelas, gráficos e interpretação. Não é necessário executar scripts externos de `src/` para recalcular os modelos.
+A análise principal das três metodologias está organizada em **três notebooks**, com código, diagnósticos, tabelas e interpretação. As auditorias acrescentadas após a unificação — comparação dos dois menores AICs, inclusão de K=0 como verificação e SARIMAX com defasagens climáticas — possuem **scripts próprios em `src/`**, documentados e reproduzíveis; os notebooks apresentam suas sínteses. Para reproduzir também essas extensões, execute os scripts indicados abaixo.
 
 | Ordem | Notebook principal | Conteúdo |
 |---|---|---|
 | 1 | [Causalidade de Granger](notebooks/01_granger_ufs_tipologias.ipynb) | 27 UFs × 2 períodos × 16 tipologias; BIC com 1–6 defasagens, F conjunto, BH, ADF/KPSS e resíduos/Ljung–Box |
-| 2 | [DLM de painel — AIC × BIC](notebooks/02_dlm_painel_aic_bic.ipynb) | TWFE por MQO, grade K=1–24, seleção independente por AIC/BIC, testes FE/RE, DK, multiplicidade, perfis de coeficientes e curvas acumuladas |
+| 2 | [DLM de painel — AIC principal, BIC comparativo](notebooks/02_dlm_painel_aic_bic.ipynb) | TWFE por MQO, grade K=1–24, cinco hipóteses, testes FE/RE, DK, multiplicidade, perfis de coeficientes e curvas acumuladas |
 | 3 | [SARIMA × SARIMAX estadual e nacional](notebooks/03_sarima_sarimax_estadual_nacional.ipynb) | Diagnóstico de posto, exógenas por tipologia, sazonalidade anual, busca de ordens por BIC via `statsmodels`, comparação independente e pareada, previsão fora da amostra e warnings |
 
 > **Classificação:** utilizamos as 16 tipologias da base consolidada do Atlas, sem criar grupos de desastres. O painel cobre 2013–2024; os períodos pré-pandemia e completo se sobrepõem.
@@ -24,7 +24,8 @@ A execução das três metodologias está concentrada em **três notebooks autos
 
 2. Disponibilize a base consolidada `df_tcc_2013_2024.csv` em `data/processed/` (ou configure a variável de ambiente `TCC_BASE_CSV`). **Os dados brutos e processados não são versionados**; veja [`data/README.md`](data/README.md). O SHA-256 esperado da versão auditada é `46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36`.
 3. Abra os notebooks pelo Jupyter ou VS Code **a partir da raiz do projeto**, na ordem acima. Execute cada um com **Run All**. As células de cálculo incluem verificações e salvam tabelas em `outputs/tables/`.
-4. O notebook SARIMA/SARIMAX reestima os candidatos por padrão (`FORCAR_REESTIMACAO=True`), podendo levar alguns minutos. Se a execução for interrompida, ajuste para `False` para retomá-la a partir dos checkpoints por unidade e período. Evite executar notebooks simultaneamente sobre os mesmos arquivos de saída.
+4. O notebook SARIMA/SARIMAX reestima os candidatos da análise principal por padrão (`FORCAR_REESTIMACAO=True`). Se a execução for interrompida, ajuste para `False` para retomá-la a partir dos checkpoints. Evite executar notebooks simultaneamente sobre os mesmos arquivos de saída.
+5. Para reproduzir **também** as extensões acrescentadas posteriormente, execute na raiz os scripts listados na seção seguinte. `src/sarimax_com_defasagens.py` mantém as unidades já registradas nos CSVs, permitindo retomar execuções interrompidas; não interpreta automaticamente arquivos existentes como uma nova reestimação integral.
 
 ### Leitura dos resultados já executados
 
@@ -33,10 +34,16 @@ Os notebooks principais versionados contêm outputs de uma execução conferida 
 | Verificação | Resultado da execução atual |
 |---|---|
 | Granger | 864 aplicações; 627 estimáveis; 14 rejeições com BH local, sendo duas com Ljung–Box rejeitado |
-| DLM | 29 tipologia×período estimáveis; **K=1 em todos os casos pelo BIC**; oito escolhas AIC diferentes |
+| DLM | 29 tipologia×período estimáveis; o **AIC escolheu K=1 em 21/29**, e em oito casos escolheu K maior; DK por regra não apresentou rejeições após os ajustes na auditoria dos dois menores AICs |
 | SARIMA/SARIMAX | 53 comparações estaduais; em 16 o SARIMAX melhorou RMSE; nenhuma melhora BIC; série nacional com 16 exógenas e sem ganho de RMSE/BIC |
 
 **Interpretação:** testes de Granger avaliam precedência preditiva; DLM estima associações condicionais às transformações e efeitos fixos; SARIMAX compara ajuste e previsão condicional. Nenhuma etapa, isoladamente, constitui identificação de efeitos causais.
+
+### Respostas à orientação e revisão de defasagens — outubro de 2026
+
+O [roteiro completo da revisão de 26/10/2026](docs/roteiro_respostas_orientadora_20261026.md) reúne a construção do SARIMAX defasado, os dois menores AICs dos DLMs, a função do Driscoll–Kraay, o efeito das bandas nos erros-padrão, as escolhas metodológicas e os resultados auditados. **Os DLMs com horizontes fixados em 6 ou 12 meses foram retirados da análise corrente.**
+
+Para navegar pelas notas de cada etapa e distinguir resultados atuais de materiais históricos, veja também o [índice da documentação](docs/README.md).
 
 ### Complemento sobre defasagens — outubro de 2026
 
