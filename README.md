@@ -76,6 +76,46 @@ A análise de sensibilidade posterior à unificação dos notebooks está descri
 
 **Auditoria adicional do AIC (K=0):** a grade principal começa em K=1, mas o modelo apenas contemporâneo teria AIC menor em 18/29 combinações, incluindo 17/21 escolhas originais de K=1. Esse resultado alerta para a influência do limite inferior na seleção, sem alterar automaticamente os DLMs. Consulte [a revisão de defasagens](docs/nota_defasagens_20261024.md) e execute `python src/auditar_dlm_k0.py` para reproduzir.
 
+### Nova orientação: atraso de 90 dias e SARIMAX por tipologia — outubro de 2026
+
+Preservamos todos os modelos anteriores e acrescentamos duas análises
+complementares, sem substituir a seleção original de K=1 a 24 por AIC:
+
+1. **DLM de painel com somente as defasagens 3 a K**, selecionando
+   K entre 3 e 24 por AIC e mantendo o mesmo painel, efeitos fixos
+   e covariâncias Driscoll–Kraay. Foram 39 aplicações estimáveis de 42;
+   27 escolheram K=3. Não houve rejeições ajustadas sob DK pela banda
+   principal. A definição de inadimplência acima de 90 dias motiva uma
+   hipótese de sensibilidade; ela não identifica a data de início de
+   cada atraso. Veja [protocolo e resultados do DLM](docs/dlm_defasagens_3a24_20261026.md).
+2. **SARIMAX individual para cada uma das 16 tipologias**, por UF e
+   período, com blocos consecutivos de lags K=0,...,24 escolhidos
+   pelo BIC do treino entre candidatos identificáveis e convergidos.
+   Depois, **SARIMAX geral com os K individuais selecionados**, sem
+   limitar a priori o total de tipologias. Foram 452 modelos individuais
+   estimáveis de 896 aplicações, dos quais 420 escolheram K=0; apenas
+   22 melhoraram o BIC em relação ao SARIMA e 167 reduziram o RMSE de
+   teste, sendo quatro favoráveis nos dois critérios. Dos 56 gerais,
+   55 foram estimados; apenas um melhorou o BIC, mas piorou muito a
+   previsão. No Brasil, o geral incluiu todas as 16 tipologias e
+   piorou BIC e RMSE nos dois períodos. Veja [o roteiro metodológico
+   e resultados SARIMAX](docs/sarimax_por_tipologia_e_geral_20261026.md).
+
+Para reproduzir as extensões a partir da base processada auditada:
+
+```bash
+python src/dlm_lags_3a24_20261026.py
+python src/executar_sarimax_tipologias_20261026.py --workers 4
+python src/sarimax_por_tipologia_k0_24_20261026.py --fase gerais
+python src/sarimax_por_tipologia_k0_24_20261026.py --fase consolidar
+python src/verificar_revisao_90dias_sarimax_20261026.py
+```
+
+Os CSVs completos ficam em `outputs/tables/dlm_lags_3a24_20261026/`
+e `outputs/tables/sarimax_por_tipologia_k0_24_20261026/`. As conclusões
+são associativas e exploratórias, inclusive por haver seleção prévia
+de defasagens por critérios de informação.
+
 ## Organização e histórico
 
 ```text
