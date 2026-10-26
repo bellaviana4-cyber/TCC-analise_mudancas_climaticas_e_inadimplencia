@@ -45,6 +45,14 @@ O [roteiro completo da revisão de 26/10/2026](docs/roteiro_respostas_orientador
 
 Para navegar pelas notas de cada etapa e distinguir resultados atuais de materiais históricos, veja também o [índice da documentação](docs/README.md).
 
+### Auditoria das 16 tipologias simultâneas — 26/10/2026
+
+Foi realizada a tentativa de SARIMAX com **as 16 tipologias obrigatórias, sem exclusões por suporte ou teto numérico**, nos quatro blocos consecutivos. Das **216 matrizes estaduais** (27 UFs × 2 recortes × 4 blocos), somente **4 foram identificáveis**, todas de **Minas Gerais no período completo**. Nos outros casos, colunas sem variação e/ou dependência linear impossibilitaram estimar separadamente os coeficientes; não se atribuiu BIC, valor-p ou efeito nulo a modelos impossíveis de identificar.
+
+Em MG/total, os quatro SARIMAX com 16 tipologias convergiram. O BIC escolheu o bloco apenas contemporâneo entre eles, mas **nenhum venceu o SARIMA pelo BIC**; o contemporâneo melhorou RMSE condicional em 4,57%, enquanto os blocos com atrasos pioraram fortemente. Os resultados não representam as outras 53 aplicações. A especificação final depende da discussão sobre subconjuntos estaduais, tipologias raras, agrupamentos e análise nacional.
+
+**Protocolo e resultados:** [Auditoria do SARIMAX com 16 tipologias](docs/sarimax_16_tipologias_estimabilidade_20261026.md), [código reproduzível](src/sarimax_todas_tipologias_20261026.py) e [tabelas por UF/bloco](outputs/tables/sarimax_todas_tipologias_20261026/).
+
 ### Busca sistemática de defasagens climáticas no SARIMAX — 26/10/2026
 
 A sensibilidade estadual mais recente foi reestimada usando **quatro blocos consecutivos e aninhados de 0 a 3 meses**: `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]`. Para comparar os BICs na mesma amostra, mantivemos a ordem temporal SARIMA e as tipologias constantes entre os quatro candidatos; um limite amostral reduziu as tipologias elegíveis a no máximo **4 (pré)** e **6 (total)**, selecionadas por suporte, posto e condicionamento apenas no treino.

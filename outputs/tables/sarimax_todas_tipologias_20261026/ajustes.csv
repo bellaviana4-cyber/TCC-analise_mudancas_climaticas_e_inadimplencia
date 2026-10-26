@@ -1,0 +1,11 @@
+﻿periodo,unidade,modelo,bloco,n_exogenas,status,convergiu,BIC,AIC,rmse,mae,lb12_padronizado,ordem,sazonal,avisos,K,n_tipologias,delta_BIC,melhora_rmse_pct
+Total,MG,SARIMA,nenhum,0,estimado,True,560.4290104574403,549.4146496930149,1.3550326918369497,1.109856373908548,0.006800227547244491,"(1, 0, 0)","(1, 0, 0, 12)","DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new v",,,,
+Total,MG,SARIMAX,l0,16,estimado,True,625.2703106892313,570.198506867104,1.2930941837795018,1.0706039591564231,0.07273841965212446,"(1, 0, 0)","(1, 0, 0, 12)","DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new v",0.0,16.0,64.84130023179102,4.5709973221001015
+Total,MG,SARIMAX,l0_1,32,estimado,True,658.8183231401156,559.6890762602864,5.77886309439268,4.492496962478516,0.09434439610635073,"(1, 0, 0)","(1, 0, 0, 12)","DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new v",1.0,16.0,98.38931268267527,-326.47407174793443
+Total,MG,SARIMAX,l0_1_2,48,estimado,True,701.8403131234576,558.6536231859266,6.400486940447723,4.9641426163390605,0.015872650102841633,"(1, 0, 0)","(1, 0, 0, 12)","ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals | DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new v",2.0,16.0,141.41130266601726,-372.3492635274286
+Total,MG,SARIMAX,l0_1_2_3,64,estimado,True,724.5330304307765,537.2888974355437,9.206928240695168,7.086438803768925,0.0053354449630787434,"(1, 0, 0)","(1, 0, 0, 12)","ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals | DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new v",3.0,16.0,164.10401997333622,-579.4617056961038

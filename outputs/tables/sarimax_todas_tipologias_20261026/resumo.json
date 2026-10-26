@@ -1,0 +1,32 @@
+{
+  "amostra_sha256": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+  "n_tipos_exigidos": 16,
+  "n_ufs": 27,
+  "n_periodos": 2,
+  "n_casos": 54,
+  "n_candidatos": 216,
+  "n_matrizes_identificaveis": 4,
+  "matrizes_identificaveis_por_K": {
+    "l0": 1,
+    "l0_1": 1,
+    "l0_1_2": 1,
+    "l0_1_2_3": 1
+  },
+  "casos_com_todos_os_quatro_blocos_identificaveis": [
+    {
+      "periodo": "Total",
+      "uf": "MG"
+    }
+  ],
+  "criterio": "16 tipologias sem exclusão; posto completo, condicionamento até 1000, reserva temporal de 5",
+  "sem_cap_de_tipologias": true,
+  "comparacao": "não confundir impossibilidade algébrica com resultado de BIC",
+  "n_treino_comum": {
+    "Pré": 69,
+    "Total": 116
+  },
+  "n_sarimax_convergidos": 4,
+  "bic_sarimax_vence_sarima": 0,
+  "diagnostico_ljung_box": "lag 12, inovações padronizadas, df ARMA p+q+P+Q (sem subtrair exógenas)",
+  "diagnostico": "estatísticas SARIMAX somente para casos estimáveis; não generalizáveis às 54 aplicações"
+}

@@ -22,3 +22,8 @@ O notebook 02 também apresenta uma auditoria do candidato K=0, ausente da grade
 ## Sensibilidade SARIMAX atualizada — 26/10/2026
 
 O notebook 03 preserva a análise principal estadual/nacional; a **nova busca sistemática de atrasos climáticos** fica em [`src/sarimax_lags_sistematicos.py`](../src/sarimax_lags_sistematicos.py), separada para reprodução. Comparam-se `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]` por BIC sobre treino comum, com controle de tipologias/coeficientes. Os **212 SARIMAX** convergiram, e 53/53 modelos selecionados permaneceram com `[0]`; 0/53 superaram o SARIMA em BIC e 19/53 em RMSE condicional. O [protocolo completo](../docs/sarimax_busca_sistematica_lags_20261026.md) registra limitações e diagnóstico residual. Os três blocos manuais anteriores permanecem como histórico, não como busca sistemática.
+
+
+## Auditoria de inclusão das 16 tipologias — 26/10/2026
+
+A tentativa de incluir **as 16 tipologias sem exclusão** por UF e período é reproduzida pelo [script da auditoria](../src/sarimax_todas_tipologias_20261026.py). Entre 216 matrizes, apenas quatro foram identificáveis, todas de MG/total; os quatro SARIMAX foram estimados, mas nenhum melhorou BIC frente ao SARIMA. Consulte a [nota técnica com limitações e questões para orientação](../docs/sarimax_16_tipologias_estimabilidade_20261026.md). O notebook 03 continua documentando a análise original e não foi reescrito para apresentar resultados estaduais não estimáveis.

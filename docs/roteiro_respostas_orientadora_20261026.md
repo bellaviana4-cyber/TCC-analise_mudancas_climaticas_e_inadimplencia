@@ -4,6 +4,20 @@
 **Atualizado em:** 26/10/2026.  
 **Status:** o registro original abaixo foi preservado como histórico; a sensibilidade SARIMAX sistemática foi executada e auditada posteriormente no mesmo dia.
 
+## Atualização complementar — tentativa com todas as 16 tipologias
+
+A busca sistemática anterior utilizava subconjuntos de até quatro tipologias no pré e seis no total. Para verificar a exigência de **16 tipologias simultâneas, sem exclusões**, foi auditado um conjunto de **216 matrizes estaduais** (54 aplicações × quatro blocos 0–3), conferindo constância, posto, condicionamento e tamanho amostral.
+
+- **212/216 matrizes não identificáveis** com as 16 tipologias completas; não é possível atribuir BIC a essas especificações.
+- **4/216 identificáveis**, todas em MG no período completo; os quatro SARIMAX convergiram.
+- Em MG/total, o bloco contemporâneo teve menor BIC entre os SARIMAX, mas **nenhum superou SARIMA em BIC**. O contemporâneo melhorou RMSE em 4,57%, enquanto os blocos defasados apresentaram piora forte.
+- A inviabilidade das outras UFs não é evidência de ausência de associação, mas de colunas sem variação e dependência linear no treino.
+- A escolha entre SARIMAX estadual com tipos elegíveis, análises por tipologia, agrupamentos COBRADE ou abordagem nacional continua como **questão para a orientação**.
+
+Ver [método e resultados completos](sarimax_16_tipologias_estimabilidade_20261026.md), o script de estimação e [as tabelas auditáveis](../outputs/tables/sarimax_todas_tipologias_20261026/). O DLM permanece inalterado.
+
+---
+
 ## Atualização executada — seleção sistemática de lags SARIMAX
 
 A seção histórica sobre os blocos `[0]`, `[0,1]` e `[0,1,3]` documenta **a primeira revisão, agora substituída como sensibilidade de referência**. Sua limitação era não testar sistematicamente o lag 2. A revisão executada usou:
