@@ -167,6 +167,10 @@ período, houve apenas duas rejeições: movimento de massa/CE no pré
 O primeiro tem **RMSE 46,26% pior que SARIMA**, ilustrando por que
 valores-p pós-seleção não devem ser tomados como ganho preditivo.
 Nenhuma dessas rejeições é inferência causal ou seletiva formal.
+No diagnóstico Ljung–Box das inovações padronizadas (com ajuste de
+graus de liberdade ARMA), **29 modelos no pré e 86 no total**
+apresentaram p&lt;0,05, somando **115/452**. Essa autocorrelação residual
+é mais um limite para interpretações inferenciais de coeficientes.
 
 ### 3. Comparação direta de cada aplicação 0..K versus 3..K
 
