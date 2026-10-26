@@ -1,9 +1,11 @@
-"""SARIMAX por tipologia e SARIMAX geral com lags selecionados, 0..24.
+"""SARIMAX por tipologia e geral com lags 0..24 ou somente 3..24.
 
 São ajustados modelos SARIMA de referência (mesmas ordens e amostra) e
 SARIMAX univariados climáticos, um por tipologia em cada UF/período,
 além da análise Brasil ponderada por carteira. Os blocos consecutivos
 0..K são previamente auditados e comparados pelo BIC do treino.
+Ao definir TCC_SARIMAX_LAG_INICIAL=3, os blocos passam a ser 3..K
+e os resultados são gravados numa pasta separada (sem alterar 0..24).
 
 O SARIMAX geral combina os lags selecionados individualmente, tentando
 incluir as 16 tipologias. Sem posto ou suporte, reduz o conjunto por
@@ -37,11 +39,15 @@ from sarimax_com_defasagens import lag_design
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "data/processed/df_tcc_2013_2024.csv"
-OUT = ROOT / "outputs/tables/sarimax_por_tipologia_k0_24_20261026"
+MIN_LAG = int(os.environ.get("TCC_SARIMAX_LAG_INICIAL", "0"))
+if MIN_LAG not in (0, 3):
+    raise ValueError("TCC_SARIMAX_LAG_INICIAL deve ser 0 ou 3")
+OUT = ROOT / ("outputs/tables/sarimax_por_tipologia_k0_24_20261026" if MIN_LAG == 0
+              else "outputs/tables/sarimax_por_tipologia_k3_24_20261026")
 UNITS = OUT / "unidades"
 HASH = "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36"
 MAX_LAG = 24
-KS = tuple(range(25))
+KS = tuple(range(MIN_LAG, MAX_LAG + 1))
 RESERVE_TEMPORAL = 5
 MIN_POS = 3
 N_ITER = (70, 150)
@@ -138,13 +144,13 @@ def individually(df,period,unit):
         for K in KS:
             reg={"periodo":period,"unidade":unit,"tipologia":typ,"K":K,
                  "n_treino_comum":nt,"n_teste":len(yy)-nt,
-                 "n_ocorrencias_meses_treino":pos,"n_exog":K+1,
+                 "n_ocorrencias_meses_treino":pos,"n_exog":K-MIN_LAG+1,
                  "ordem":str(order),"sazonal":str(seasonal)}
             if pos<MIN_POS:
                 reg["status"]="suporte menor que três meses positivos"
                 audited.append(reg)
                 continue
-            A=lag_design(x,[j],MAX_LAG,tuple(range(K+1)))
+            A=lag_design(x,[j],MAX_LAG,tuple(range(MIN_LAG,K+1)))
             standardized, audit=audit_matrix(A,nt)
             reg.update(audit)
             if standardized is None:
@@ -169,8 +175,9 @@ def individually(df,period,unit):
         if feasible:
             K,fitted,Z,sd,rec=min(feasible,key=lambda z:(z[1].bic,z[0]))
             pred=predicted_1step(fitted,yy,Z,nt)
+            ncols=K-MIN_LAG+1
             raw_coeff=np.asarray([fitted.params[fitted.param_names.index(f"x{a+1}")]/sd[a]
-                                  for a in range(K+1)])
+                                  for a in range(ncols)])
             raw_sd=float(x[:train0,j].std())
             # Escores padronizados em unidade da resposta 100*Delta log I,
             # para um pulso no X transformado igual a 1 desvio-padrão.
@@ -182,17 +189,17 @@ def individually(df,period,unit):
                  "soma_beta":float(raw_coeff.sum()),
                  "impulso_padronizado_100dlogI":delta,
                  "associacao_acumulada_pct":float(100*np.expm1(delta/100)),
-                 "n_exog":K+1,"lb12_padronizado":lb12_arma_inovacoes_padronizadas(fitted),
+                 "n_exog":ncols,"lb12_padronizado":lb12_arma_inovacoes_padronizadas(fitted),
                  "lb12_sarima":base_lp,
                  "criterio":"menor BIC do treino entre candidatos convergidos"}
-            for a in range(K+1):
+            for a in range(ncols):
                 kpar=fitted.param_names.index(f"x{a+1}")
-                coeffs.append(dict(periodo=period,unidade=unit,tipologia=typ,K=K,lag=a,
+                coeffs.append(dict(periodo=period,unidade=unit,tipologia=typ,K=K,lag=MIN_LAG+a,
                                    coef_original=float(raw_coeff[a]),
                                    se_original=float(fitted.bse[kpar]/sd[a]),
                                    p_condicional=float(fitted.pvalues[kpar])))
             # Wald acumulado, exploratório e condicionado a toda a seleção.
-            names=[fitted.param_names.index(f"x{a+1}") for a in range(K+1)]
+            names=[fitted.param_names.index(f"x{a+1}") for a in range(ncols)]
             cov=np.asarray(fitted.cov_params())[np.ix_(names,names)]
             v=float(np.sum(cov/np.outer(sd,sd)))
             if v>0:
@@ -242,7 +249,7 @@ def combined(df,period,unit):
             excluded[typ]="modelo individual não estimável"
             continue
         k=int(by_name[typ].K)
-        A=lag_design(x,[j],MAX_LAG,tuple(range(k+1)))
+        A=lag_design(x,[j],MAX_LAG,tuple(range(MIN_LAG,k+1)))
         trial=np.column_stack(matrices+[A]) if matrices else A
         checked, audit=audit_matrix(trial,nt)
         if checked is None:
@@ -315,14 +322,17 @@ def consolidate():
             summaries["gerais_estimados"]=int(df.status.eq("estimado").sum())
             summaries["gerais_BIC_melhor"]=int(df.delta_BIC.lt(0).sum())
     summary={**summaries,"amostra_comum_max_lag":MAX_LAG,
+             "lag_inicial":MIN_LAG,
              "lags_testados":list(KS),"periodos":list(PERIODS),
              "modelos_individuais_planejados":16*2*28,
              "modelos_gerais_planejados":2*28,
              "base_sha256":HASH,
-             "regra":"BIC treino, blocos [0..K] consecutivos, amostra comum 24 meses; rank/condição/graus de liberdade auditados candidato a candidato",
+             "regra":f"BIC treino, blocos [{MIN_LAG}..K] consecutivos, amostra comum 24 meses; rank/condição/graus de liberdade auditados candidato a candidato",
              "nacional":"carteira agregada ponderada por UF, não média simples das taxas",
              "inferência":"valores-p e BH condicionais à escolha de K e ordens; exploratórios, não causalidade",
-             "previsao":"um passo condicional, X contemporâneo realizado disponível"}
+             "previsao":("um passo condicional, X contemporâneo realizado disponível"
+                         if MIN_LAG == 0 else
+                         "um passo com X dos meses t-3 e anteriores, potencialmente conhecido antes do mês previsto")}
     (OUT/"resumo.json").write_text(json.dumps(summary,ensure_ascii=False,indent=2,default=str),encoding="utf-8")
     print(json.dumps(summary,ensure_ascii=False,indent=2,default=str),flush=True)
 

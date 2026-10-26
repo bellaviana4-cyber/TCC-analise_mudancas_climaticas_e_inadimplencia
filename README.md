@@ -116,6 +116,41 @@ e `outputs/tables/sarimax_por_tipologia_k0_24_20261026/`. As conclusões
 são associativas e exploratórias, inclusive por haver seleção prévia
 de defasagens por critérios de informação.
 
+### Sensibilidade SARIMAX com exposições a partir de três meses — outubro de 2026
+
+Foi acrescentada uma nova especificação dos SARIMAX individuais e gerais
+que mantém **somente os lags climáticos de 3 a K**, com seleção de
+K por BIC do treino entre 3 e 24. O estudo de referência com lags
+de 0 a K foi preservado integralmente para a comparação pareada.
+As 27 UFs e o agregado Brasil são avaliados nos recortes pré e total,
+com a mesma amostra comum, o mesmo SARIMA de referência, os mesmos
+testes cronológicos e auditorias de posto, suporte e condicionamento.
+
+**Procedimento e resultados:** [SARIMAX 3–24 e comparação 0–24](docs/sarimax_sensibilidade_3a24_20261026.md).
+
+```bash
+python src/executar_sarimax_tipologias_20261026.py --workers 6 --inicio-lags 3
+python src/sarimax_por_tipologia_lags3_24_20261026.py --fase gerais
+python src/sarimax_por_tipologia_lags3_24_20261026.py --fase consolidar
+python src/comparar_sarimax_lags3_24_20261026.py
+python src/verificar_sarimax_lags3_24_20261026.py
+```
+
+Os resultados ficam em
+`outputs/tables/sarimax_por_tipologia_k3_24_20261026/`; os CSVs
+anteriores em `.../sarimax_por_tipologia_k0_24_20261026/` não são
+sobrescritos. O corte em três meses representa uma hipótese temporal
+de sensibilidade para inadimplência acima de 90 dias, não um teste
+causal do início do atraso.
+
+**Resultado auditado:** 452 SARIMAX individuais estimáveis, dos quais
+424 escolheram K=3; 29 melhoraram o BIC do SARIMA e 179 tiveram RMSE
+menor, mas apenas **cinco** melhoraram ambos. Dos 55 SARIMAX gerais
+estimados, três melhoraram o BIC e nove o RMSE, porém **nenhum nos
+dois critérios simultaneamente**. No agregado nacional, as 16
+tipologias foram incluídas em ambos os períodos, mas os SARIMAX
+continuaram com BIC e RMSE piores que os SARIMA.
+
 ## Organização e histórico
 
 ```text

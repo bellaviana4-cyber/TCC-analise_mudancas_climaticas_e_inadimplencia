@@ -1,0 +1,50 @@
+{
+  "individuais": {
+    "Pré": {
+      "aplicacoes": 448,
+      "estimaveis_0aK": 194,
+      "estimaveis_3aK": 194,
+      "estimaveis_em_ambos": 194,
+      "BIC_3aK_melhor_em_pares": 100,
+      "RMSE_3aK_melhor_em_pares": 110,
+      "ambos_criterios_melhores_3aK": 40,
+      "delta_BIC_mediano_3_menos_0": -0.015633830165256768,
+      "delta_RMSE_mediano_3_menos_0": -0.0083116474650613
+    },
+    "Total": {
+      "aplicacoes": 448,
+      "estimaveis_0aK": 258,
+      "estimaveis_3aK": 258,
+      "estimaveis_em_ambos": 258,
+      "BIC_3aK_melhor_em_pares": 136,
+      "RMSE_3aK_melhor_em_pares": 126,
+      "ambos_criterios_melhores_3aK": 51,
+      "delta_BIC_mediano_3_menos_0": -0.04589493435565828,
+      "delta_RMSE_mediano_3_menos_0": 0.0009129284243498681
+    }
+  },
+  "gerais": {
+    "Pré": {
+      "aplicacoes": 28,
+      "estimaveis_0aK": 27,
+      "estimaveis_3aK": 27,
+      "estimaveis_em_ambos": 27,
+      "BIC_3aK_melhor_em_pares": 16,
+      "RMSE_3aK_melhor_em_pares": 14,
+      "ambos_criterios_melhores_3aK": 4,
+      "delta_BIC_mediano_3_menos_0": -1.3863152594589678,
+      "delta_RMSE_mediano_3_menos_0": -0.07452545178712677
+    },
+    "Total": {
+      "aplicacoes": 28,
+      "estimaveis_0aK": 28,
+      "estimaveis_3aK": 28,
+      "estimaveis_em_ambos": 28,
+      "BIC_3aK_melhor_em_pares": 19,
+      "RMSE_3aK_melhor_em_pares": 13,
+      "ambos_criterios_melhores_3aK": 8,
+      "delta_BIC_mediano_3_menos_0": -1.724127503298405,
+      "delta_RMSE_mediano_3_menos_0": 0.012906377963182725
+    }
+  }
+}

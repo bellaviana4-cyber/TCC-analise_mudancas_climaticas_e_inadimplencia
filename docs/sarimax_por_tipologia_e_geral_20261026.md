@@ -271,3 +271,11 @@ quanto o desempenho no teste nos dois recortes.
    seleção por BIC; pré/total se sobrepõem. A checagem de dependência
    residual e a validação fora da amostra limitam a interpretação de
    rejeições isoladas.
+
+### Sensibilidade posterior: excluir os lags 0, 1 e 2
+
+Foi acrescentada a análise com **somente as defasagens 3 a K**,
+mantendo intactos os resultados deste documento. A comparação
+pareada dos dois protocolos, incluindo os indicadores de BIC e RMSE
+por UF, período e tipologia, está em
+[`sarimax_sensibilidade_3a24_20261026.md`](sarimax_sensibilidade_3a24_20261026.md).
