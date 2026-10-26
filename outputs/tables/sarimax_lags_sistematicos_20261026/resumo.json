@@ -1,0 +1,48 @@
+{
+  "aplicacoes": 54,
+  "estimadas": 53,
+  "base_sha256": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+  "max_lag_testado": 3,
+  "grade_lags": {
+    "l0": [
+      0
+    ],
+    "l0_1": [
+      0,
+      1
+    ],
+    "l0_1_2": [
+      0,
+      1,
+      2
+    ],
+    "l0_1_2_3": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "amostra_comum": {
+    "Pré": 69,
+    "Total": 116
+  },
+  "limite_parametros": {
+    "regra": "4 observacoes de treino por parametro climatico, com reserva de 5 para termos temporais",
+    "min_meses_positivos": 3,
+    "cond_maximo": 1000.0
+  },
+  "ordem_sarima": "menor BIC dos cinco modelos auditados na mesma amostra; refit verificado",
+  "selecao_K": "menor BIC de treinamento entre 0,1,2,3, mesma amostra/ordem/tipologias",
+  "avaliacao": "um passo condicional com X_t observado, parametros fixos no teste",
+  "diagnostico": "Ljung-Box 12 sobre inovacoes padronizadas, graus de liberdade ajustados",
+  "inferencia": "exploratoria apos selecao; BH nao corrige selecao adaptativa de K",
+  "lags_escolhidos": {
+    "l0": 53
+  },
+  "melhor_bic_que_sarima": 0,
+  "melhor_rmse_que_sarima": 19,
+  "mediana_melhora_rmse_pct": -2.340302393736704,
+  "conjuntos_BH_05": 0,
+  "lb12_sarimax_rejeita": 39
+}

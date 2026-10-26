@@ -17,3 +17,8 @@ A pasta [`historico/`](historico/) contém as versões antigas, mantidas sem alt
 O notebook 02 também apresenta uma auditoria do candidato K=0, ausente da grade original (K=1–24). O script correspondente é `src/auditar_dlm_k0.py`; não foram adotados horizontes fixos para os DLMs.
 
 **Roteiro atualizado para a orientação (26/10/2026):** [metodologia, decisões, DLM/AIC, DK, SARIMAX e resultados](../docs/roteiro_respostas_orientadora_20261026.md). As células finais que leem CSVs são sínteses de análises já executadas, não novas estimações. Para reproduzir a extensão SARIMAX com defasagens, execute `python src/sarimax_com_defasagens.py` a partir da raiz do repositório.
+
+
+## Sensibilidade SARIMAX atualizada — 26/10/2026
+
+O notebook 03 preserva a análise principal estadual/nacional; a **nova busca sistemática de atrasos climáticos** fica em [`src/sarimax_lags_sistematicos.py`](../src/sarimax_lags_sistematicos.py), separada para reprodução. Comparam-se `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]` por BIC sobre treino comum, com controle de tipologias/coeficientes. Os **212 SARIMAX** convergiram, e 53/53 modelos selecionados permaneceram com `[0]`; 0/53 superaram o SARIMA em BIC e 19/53 em RMSE condicional. O [protocolo completo](../docs/sarimax_busca_sistematica_lags_20261026.md) registra limitações e diagnóstico residual. Os três blocos manuais anteriores permanecem como histórico, não como busca sistemática.

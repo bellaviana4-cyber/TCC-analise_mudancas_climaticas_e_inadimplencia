@@ -45,7 +45,18 @@ O [roteiro completo da revisão de 26/10/2026](docs/roteiro_respostas_orientador
 
 Para navegar pelas notas de cada etapa e distinguir resultados atuais de materiais históricos, veja também o [índice da documentação](docs/README.md).
 
-### Complemento sobre defasagens — outubro de 2026
+### Busca sistemática de defasagens climáticas no SARIMAX — 26/10/2026
+
+A sensibilidade estadual mais recente foi reestimada usando **quatro blocos consecutivos e aninhados de 0 a 3 meses**: `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]`. Para comparar os BICs na mesma amostra, mantivemos a ordem temporal SARIMA e as tipologias constantes entre os quatro candidatos; um limite amostral reduziu as tipologias elegíveis a no máximo **4 (pré)** e **6 (total)**, selecionadas por suporte, posto e condicionamento apenas no treino.
+
+- **54** aplicações UF × período; **53** estimáveis, totalizando **212** ajustes climáticos convergidos.
+- O **BIC selecionou `[0]` nos 53/53** modelos, e nenhum SARIMAX venceu o SARIMA pelo BIC.
+- Em **19/53** testes o SARIMAX teve RMSE menor que SARIMA; a mediana geral de melhora foi **−2,34%**.
+- O Ljung–Box sobre **inovações padronizadas com ajuste de graus de liberdade ARMA** rejeitou em **39/53** modelos; isso limita a interpretação de inferência e não deve ser confundido com o diagnóstico de resíduos brutos usado na revisão anterior.
+
+**Reprodução:** `python src/sarimax_lags_sistematicos.py`. Veja o [protocolo, resultados, limitações e tabelas da revisão](docs/sarimax_busca_sistematica_lags_20261026.md), além dos CSVs em [`outputs/tables/sarimax_lags_sistematicos_20261026/`](outputs/tables/sarimax_lags_sistematicos_20261026/). As análises anteriores continuam preservadas para comparação histórica. A busca é sistemática **dentro dessa grade curta** — não escolhe lags por tipologia nem prova ótimo global.
+
+### Complemento anterior sobre defasagens — 24/10/2026
 
 A análise de sensibilidade posterior à unificação dos notebooks está descrita na
 [nota metodológica sobre as defasagens](docs/nota_defasagens_20261024.md) e no

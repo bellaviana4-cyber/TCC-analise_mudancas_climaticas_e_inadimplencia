@@ -1,5 +1,7 @@
 # Revisão de defasagens — 24/10/2026
 
+> **Nota histórica.** A comparação SARIMAX com três blocos manuais descrita abaixo foi substituída como sensibilidade de referência em 26/10/2026 por uma [busca sistemática dos blocos consecutivos 0–3 meses](sarimax_busca_sistematica_lags_20261026.md). Os resultados históricos são preservados. O DLM não sofreu alteração.
+
 ## Objetivo
 
 Esta nota registra três desdobramentos da revisão do TCC:

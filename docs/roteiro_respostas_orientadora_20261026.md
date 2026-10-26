@@ -2,7 +2,24 @@
 
 **TCC:** Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro.  
 **Atualizado em:** 26/10/2026.  
-**Status:** registro dos resultados já executados e das decisões metodológicas; os aprimoramentos pendentes não foram estimados nesta revisão de organização.
+**Status:** o registro original abaixo foi preservado como histórico; a sensibilidade SARIMAX sistemática foi executada e auditada posteriormente no mesmo dia.
+
+## Atualização executada — seleção sistemática de lags SARIMAX
+
+A seção histórica sobre os blocos `[0]`, `[0,1]` e `[0,1,3]` documenta **a primeira revisão, agora substituída como sensibilidade de referência**. Sua limitação era não testar sistematicamente o lag 2. A revisão executada usou:
+
+1. **Horizonte curto pré-fixado: 0 a 3 meses**, com os quatro blocos consecutivos `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]`.
+2. **Mesmo treino** (69 meses pré, 116 total), **mesma ordem SARIMA** e **mesmo conjunto de tipos climáticos para cada UF/recorte** em todos os blocos; ordem SARIMA do menor BIC entre cinco opções, reajustada e verificada.
+3. **Limite de parâmetros climáticos** do maior bloco: ao menos quatro observações de treino por coeficiente, com reserva de cinco para a dinâmica temporal. Máximo de 4 tipologias no pré e 6 no completo; suporte, posto e condicionamento auditados só no treino.
+4. **Seleção por BIC de treino** e avaliação RMSE/MAE exclusivamente nos testes cronológicos. Ainda é previsão condicional de um passo com exposição `X_t` conhecida.
+
+**Resultados auditados:** 54 aplicações, 53 estimáveis, **212 ajustes SARIMAX convergidos**; todos os 53 selecionaram `[0]`, 0/53 melhor BIC que SARIMA, **19/53** melhor RMSE, mediana da melhora **−2,34%**. A diferença entre primeiro e segundo BIC climático variou **2,68–26,77** (mediana 14,80). Testes conjuntos BH a 5%: 0; coeficientes individuais BH global: 2 (Enxurradas/PE, pré e total, exploratórios).
+
+**Limitação importante:** o Ljung–Box de 12 meses aplicado às **inovações padronizadas**, ajustando graus de liberdade ARMA, rejeitou em **39/53** SARIMAX selecionados. O número anterior (9/53) veio de outra definição de resíduos/teste; não são diretamente comparáveis. Antes de defender inferência dos coeficientes, essa inadequação residual precisa ser discutida e auditada.
+
+O processo e suas limitações estão descritos detalhadamente em [SARIMAX — busca sistemática de lags](sarimax_busca_sistematica_lags_20261026.md), código `src/sarimax_lags_sistematicos.py` e [tabelas de saída](../outputs/tables/sarimax_lags_sistematicos_20261026/). **O DLM permanece com K=1,...,24 por AIC**, e incluir K=0 segue apenas como pergunta para a orientadora; os horizontes fixos de DLM não foram adotados.
+
+---
 
 ## 1. Contexto e decisões adotadas
 
