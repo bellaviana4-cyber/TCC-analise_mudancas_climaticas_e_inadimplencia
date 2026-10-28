@@ -192,7 +192,6 @@ Arquivos desta revisão, separados dos históricos:
 | [`coeficientes.csv`](../outputs/tables/sarimax_lags_sistematicos_20261026/coeficientes.csv) | Coeficientes, atrasos e BH global |
 | [`resumo.json`](../outputs/tables/sarimax_lags_sistematicos_20261026/resumo.json) | Metadados da grade e síntese auditável |
 
-O DLM **permanece na grade principal K=1,...,24 por AIC**; eventual
-inclusão de K=0 é pergunta à orientadora. O Driscoll–Kraay continua sendo
+O DLM **permanece na grade principal K=1,...,24 por AIC**; a inclusão de K=0 foi avaliada em auditoria separada, sem alterar a grade principal. O Driscoll–Kraay continua sendo
 uma escolha de **covariância para inferência do DLM**, não uma correção ou
 seleção de lags do SARIMAX.

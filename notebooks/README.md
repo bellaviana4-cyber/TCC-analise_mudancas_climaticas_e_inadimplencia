@@ -1,29 +1,11 @@
-# Notebooks principais — TCC
+# Notebooks do TCC
 
-Este diretório mantém **um notebook principal por metodologia**, com código de estimação, verificações de entrada, diagnósticos, saídas e interpretação da análise principal. As extensões posteriores têm scripts complementares em `src/`, cujas tabelas são exibidas nos notebooks.
+Os três cadernos abaixo organizam as metodologias efetivamente utilizadas. Os resultados completos estão nos CSVs versionados em `outputs/tables/`.
 
-1. [`01_granger_ufs_tipologias.ipynb`](01_granger_ufs_tipologias.ipynb) — Granger por UF e tipologia, seleção BIC entre 1 e 6 meses, correção BH e análise residual.
-2. [`02_dlm_painel_aic_bic.ipynb`](02_dlm_painel_aic_bic.ipynb) — DLM TWFE por MQO, com AIC e BIC no mesmo notebook; cinco hipóteses, covariâncias, auditorias e curvas de efeitos por lag.
-3. [`03_sarima_sarimax_estadual_nacional.ipynb`](03_sarima_sarimax_estadual_nacional.ipynb) — busca independente SARIMA/SARIMAX por BIC e comparação com ordens pareadas; séries estaduais e nacional.
+1. [Granger — UFs e tipologias](01_granger_ufs_tipologias.ipynb): seleção de lags, testes de precedência temporal e diagnósticos.
+2. [DLM — painel com efeitos fixos](02_dlm_painel_aic_bic.ipynb): comparação AIC/BIC, inferência robusta e sensibilidade com exposições somente de 3 a K.
+3. [SARIMA × SARIMAX — análise por tipologia e geral](03_sarima_sarimax_estadual_nacional.ipynb): seleção dos blocos 0–K e 3–K, comparações com o SARIMA e resultados nacional e estaduais. **Este é o notebook vigente da etapa SARIMAX.**
 
-**Ordem de leitura:** 01 → 02 → 03. Cada notebook pode ser executado isoladamente, desde que a base mensal auditada esteja em `../data/processed/df_tcc_2013_2024.csv` ou apontada por `TCC_BASE_CSV` e as dependências estejam instaladas.
+O notebook 03 lê os resultados auditados das execuções por scripts. Suas células de consulta podem ser executadas sem a base bruta. Para reestimar os modelos, é necessário preparar `data/processed/df_tcc_2013_2024.csv` e executar os comandos do [README principal](../README.md). Não confundir leitura das tabelas já produzidas com reestimação.
 
-Em SARIMAX, `FORCAR_REESTIMACAO=True` por padrão força a reestimação integral dos candidatos; use `False` se estiver retomando uma execução interrompida. Os notebooks escrevem tabelas em `outputs/tables/` e não devem ser executados em paralelo.
-
-A pasta [`historico/`](historico/) contém as versões antigas, mantidas sem alterações. Os notebooks atuais substituem os anteriores como **fonte principal de execução**; os scripts em `src/` permanecem como material complementar e histórico.
-
-**Extensão sobre defasagens (24/10/2026):** os notebooks 02 e 03 incluem, ao final, novas células de síntese com os dois menores AICs do DLM e a comparação do SARIMAX com defasagens `[0]`, `[0,1]` e `[0,1,3]`. Essas células leem os CSVs auditados versionados no repositório. Para refazer especificamente esses resultados complementares, use os quatro scripts descritos na [nota metodológica](../docs/nota_defasagens_20261024.md), mantendo a mesma base consolidada.
-
-O notebook 02 também apresenta uma auditoria do candidato K=0, ausente da grade original (K=1–24). O script correspondente é `src/auditar_dlm_k0.py`; não foram adotados horizontes fixos para os DLMs.
-
-**Roteiro atualizado para a orientação (26/10/2026):** [metodologia, decisões, DLM/AIC, DK, SARIMAX e resultados](../docs/roteiro_respostas_orientadora_20261026.md). As células finais que leem CSVs são sínteses de análises já executadas, não novas estimações. Para reproduzir a extensão SARIMAX com defasagens, execute `python src/sarimax_com_defasagens.py` a partir da raiz do repositório.
-
-
-## Sensibilidade SARIMAX atualizada — 26/10/2026
-
-O notebook 03 preserva a análise principal estadual/nacional; a **nova busca sistemática de atrasos climáticos** fica em [`src/sarimax_lags_sistematicos.py`](../src/sarimax_lags_sistematicos.py), separada para reprodução. Comparam-se `[0]`, `[0,1]`, `[0,1,2]`, `[0,1,2,3]` por BIC sobre treino comum, com controle de tipologias/coeficientes. Os **212 SARIMAX** convergiram, e 53/53 modelos selecionados permaneceram com `[0]`; 0/53 superaram o SARIMA em BIC e 19/53 em RMSE condicional. O [protocolo completo](../docs/sarimax_busca_sistematica_lags_20261026.md) registra limitações e diagnóstico residual. Os três blocos manuais anteriores permanecem como histórico, não como busca sistemática.
-
-
-## Auditoria de inclusão das 16 tipologias — 26/10/2026
-
-A tentativa de incluir **as 16 tipologias sem exclusão** por UF e período é reproduzida pelo [script da auditoria](../src/sarimax_todas_tipologias_20261026.py). Entre 216 matrizes, apenas quatro foram identificáveis, todas de MG/total; os quatro SARIMAX foram estimados, mas nenhum melhorou BIC frente ao SARIMA. Consulte a [nota técnica com limitações e questões para orientação](../docs/sarimax_16_tipologias_estimabilidade_20261026.md). O notebook 03 continua documentando a análise original e não foi reescrito para apresentar resultados estaduais não estimáveis.
+As extensões principais são documentadas em [metodologia e sensibilidades](../docs/metodologia_e_sensibilidades.md). A pasta [`historico/`](historico/) conserva cadernos de outras etapas e a versão anterior do notebook SARIMA/SARIMAX, que trabalhava com seleção de regressores e blocos de defasagem diferentes.

@@ -162,13 +162,12 @@ inclusive em **17 das 21** escolhas originais de K=1.
 Isso indica que a restrição inferior pode explicar parte da frequência
 de K=1. A auditoria não equivale a selecionar K=0 automaticamente nem
 estabelece ausência de efeitos defasados; é uma comparação de especificação
-à luz do mesmo AIC. O DLM principal continua com a seleção por AIC
-original, aguardando a definição metodológica com a orientadora.
+à luz do mesmo AIC. O DLM principal continua com a seleção por AIC original.
 
 Reprodução: `python src/auditar_dlm_k0.py`. Tabela:
 `outputs/tables/revisao_defasagens_20261024/dlm_k0_comparacao_aic.csv`.
 Não são utilizados horizontes fixos de seis ou doze meses.
 
-## 6. Consolidação posterior
+## 6. Análises posteriores
 
-O [roteiro de revisão de 26/10/2026](roteiro_respostas_orientadora_20261026.md) reúne os resultados das perguntas da orientação em ordem de interpretação, incluindo o efeito das três bandas DK nos erros-padrão e a ressalva de penalização do BIC ao adicionar blocos climáticos no SARIMAX. Essa consolidação **não envolve novas estimações** nem adota DLMs com horizonte fixo.
+Esta nota documenta a sensibilidade de 24/10. A análise posterior por tipologia, com lags 0–K e 3–K até 24 meses, está descrita em [metodologia e sensibilidades](metodologia_e_sensibilidades.md). As comparações antigas de blocos climáticos permanecem apenas como histórico.
