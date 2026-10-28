@@ -12,9 +12,7 @@ climática ocorrida três ou mais meses antes da referência da inadimplência.
 Logo, excluir os meses contemporâneo, t−1 e t−2 é uma hipótese de sensibilidade,
 não exigência algébrica do indicador ou demonstração de causalidade.
 
-Fonte: Nota metodológica de operações de crédito, Banco Central do Brasil,
-item “Atraso até 90 dias e inadimplência”:
-https://www.bcb.gov.br/content/estatisticas/Documents/notas_metodologicas/emprestimos-sfn/notaempr.pdf
+Fonte: Banco Central do Brasil, [metodologia do SCR.data](https://www.bcb.gov.br/content/estabilidadefinanceira/scr/scr.data/scr_data_metodologia.pdf), definição operacional de inadimplência. A [nota metodológica das estatísticas de crédito](https://www.bcb.gov.br/content/estatisticas/Documents/notas_metodologicas/emprestimos-sfn/notaempr.pdf) também descreve o arrasto das parcelas a vencer.
 
 ## Modelo e alterações
 

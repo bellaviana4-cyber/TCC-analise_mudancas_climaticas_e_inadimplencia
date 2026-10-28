@@ -2,7 +2,7 @@
 
 ## Dados e medidas
 
-O painel combina os registros mensais do SCR/Banco Central do Brasil e do Atlas Digital de Desastres do Brasil, agregados por UF e mês de 2013 a 2024. São 27 UFs observadas por 144 meses (3.888 registros). A taxa de inadimplência é calculada como 100 vezes o saldo de crédito inadimplente dividido pela carteira ativa. O Brasil é calculado pela razão entre as somas dos saldos, não pela média simples das taxas estaduais.
+O painel combina os registros mensais do SCR/Banco Central do Brasil e do Atlas Digital de Desastres do Brasil, agregados por UF e mês de 2013 a 2024. São 27 UFs observadas por 144 meses (3.888 registros). A taxa de inadimplência é calculada como 100 vezes o saldo de crédito inadimplente dividido pela carteira ativa. O Brasil é calculado pela razão entre as somas dos saldos, não pela média simples das taxas estaduais. Na definição do [SCR.data](https://www.bcb.gov.br/content/estabilidadefinanceira/scr/scr.data/scr_data_metodologia.pdf), a inadimplência considera o saldo de operações com pelo menos uma parcela vencida há mais de 90 dias, e não apenas a parcela atrasada.
 
 O conjunto operacional tem 16 tipologias. A exposição climática central do DLM é um subconjunto auditado por códigos COBRADE (11 tipologias, 37.643 registros), distinto do total de 40.339 registros das 16 tipologias. Grupos e tipologias são analisados separadamente no DLM, sem atribuir a todas elas a mesma interpretação climática.
 

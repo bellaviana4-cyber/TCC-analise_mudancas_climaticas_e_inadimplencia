@@ -2,6 +2,8 @@
 
 A análise utiliza dados mensais do Sistema de Informações de Crédito (SCR/Banco Central do Brasil) e do Atlas Digital de Desastres do Brasil. Os dados brutos, intermediários e a base processada não estão publicados neste repositório.
 
+Fontes institucionais: [SCR.data — Banco Central do Brasil](https://www.bcb.gov.br/estabilidadefinanceira/scrdata) ([metodologia do indicador](https://www.bcb.gov.br/content/estabilidadefinanceira/scr/scr.data/scr_data_metodologia.pdf)) e [Atlas Digital de Desastres no Brasil](https://atlasdigital.mdr.gov.br/paginas/index.xhtml). Para reproduzir os resultados, deve-se usar a mesma edição das bases e as transformações descritas no código.
+
 ## Organização esperada
 
 | Pasta | Conteúdo |
