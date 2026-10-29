@@ -1,11 +1,15 @@
-# Notebooks do TCC
+# Notebooks
 
-Os três cadernos abaixo organizam as metodologias efetivamente utilizadas. Os resultados completos estão nos CSVs versionados em `outputs/tables/`.
+Os cinco notebooks organizam as análises do trabalho na ordem de apresentação. O processamento dos dados está em `src/`; as tabelas e figuras correspondentes estão em `outputs/`.
 
-1. [Granger — UFs e tipologias](01_granger_ufs_tipologias.ipynb): seleção de lags, testes de precedência temporal e diagnósticos.
-2. [DLM — painel com efeitos fixos](02_dlm_painel_aic_bic.ipynb): comparação AIC/BIC, inferência robusta e sensibilidade com exposições somente de 3 a K.
-3. [SARIMA × SARIMAX — análise por tipologia e geral](03_sarima_sarimax_estadual_nacional.ipynb): seleção dos blocos 0–K e 3–K, comparações com o SARIMA e resultados nacional e estaduais. **Este é o notebook vigente da etapa SARIMAX.**
+1. [Análise descritiva](01_analise_descritiva.ipynb): cobertura, evolução temporal, distribuição de desastres e inadimplência por região e UF.
+2. [Estacionariedade](02_estacionariedade.ipynb): séries em nível, decomposições, transformações, testes ADF/KPSS e gráficos ACF/PACF.
+3. [Causalidade de Granger](03_granger_ufs_tipologias.ipynb): testes de precedência temporal por UF e tipologia, seleção de defasagens e diagnósticos.
+4. [DLM em painel](04_dlm_painel_aic_bic.ipynb): efeitos fixos, seleção por AIC e BIC, inferência robusta e defasagens de 3 a K.
+5. [SARIMA e SARIMAX](05_sarima_sarimax_estadual_nacional.ipynb): modelos por tipologia e geral, blocos de 0 a K e de 3 a K, comparação de ajuste e previsão.
 
-O notebook 03 lê os resultados auditados das execuções por scripts. Suas células de consulta podem ser executadas sem a base bruta. Para reestimar os modelos, é necessário preparar `data/processed/df_tcc_2013_2024.csv` e executar os comandos do [README principal](../README.md). Não confundir leitura das tabelas já produzidas com reestimação.
+Os dois primeiros notebooks utilizam as tabelas descritivas e as séries nacionais disponíveis no repositório. Para reestimar os modelos dos demais notebooks é necessário preparar a base UF-mês indicada em [dados e reprodução](../data/README.md). As tabelas de resultados já obtidos podem ser consultadas sem refazer a estimação.
 
-As extensões principais são documentadas em [metodologia e sensibilidades](../docs/metodologia_e_sensibilidades.md). A pasta [`historico/`](historico/) conserva cadernos de outras etapas e a versão anterior do notebook SARIMA/SARIMAX, que trabalhava com seleção de regressores e blocos de defasagem diferentes.
+Os demais cadernos de desenvolvimento e as análises complementares estão em [historico/](historico/), com as respectivas especificações e resultados preservados.
+
+Detalhes de metodologia, correções para testes múltiplos e análise das defasagens estão em [metodologia e sensibilidades](../docs/metodologia_e_sensibilidades.md).
