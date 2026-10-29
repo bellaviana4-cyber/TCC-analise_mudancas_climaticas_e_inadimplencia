@@ -1,6 +1,6 @@
-# Referência atual: DLM em painel com K escolhido por AIC entre 1 e 24
+# DLM em painel com K escolhido por AIC entre 1 e 24
 
-Revisão solicitada em 06/10/2026, registrada antes desta execução. Substitui a escolha fixa K6 como referência; notebook 22 e suas saídas permanecem históricos, sem alteração. O pedido completo foi recuperado. Main de partida: ba0865e, versão K6 já publicada. Nenhum AGENTS.md foi encontrado em main ou nas quatro branches DLM listadas no histórico. Capítulo de metodologia preservado; não refazer Granger nem executar SARIMAX.
+Este protocolo documenta a seleção de K por AIC aplicada ao painel de diferenças logarítmicas. A especificação anterior com K=6 fixo e os resultados correspondentes constam do notebook 22. O capítulo metodológico apresenta a formulação do DLM; a preparação das bases define os recortes e as unidades da aplicação.
 
 ## Equação e seleção
 
@@ -20,10 +20,10 @@ K* = argmin(K=1,...,24) AIC(K), separadamente por exposição e período. Cada c
 | Empates e incerteza | regra reproduzível, sem escolher pelo p | empate numérico até 1e−8: menor K; reportar todos ΔAIC e K com ΔAIC≤2 | modelos próximos não tornam K identificado com precisão |
 | Candidatos não identificáveis | não mascarar falta de variação | rank completo, desvio TWFE>1e−12, condição padronizada<1e8; excluir só candidato falho, registrar razão | mínimo entre candidatos estimáveis; sem pseudoinversa silenciosa |
 | Suporte na janela e amostra comum | não transferir suporte de meses retirados | mínimo 24 registros, 12 UF-mês positivos, 5 UFs, 8 meses positivos em ambas | aplicação insuficiente registrada sem inferência; UFs com zero ficam no painel |
-| Inferência usual após seleção de K* | escopo clássico solicitado | CR1 UF, t26/F(r,26); DK6 Bartlett fixo independente de K, t(T−1)/F(r,T−1) | IC/p/q não incorporam seleção de K; resultados exploratórios, inclusive após BH |
+| Inferência usual após seleção de K* | estrutura clássica de inferência | CR1 UF, t26/F(r,26); DK6 Bartlett fixo independente de K, t(T−1)/F(r,T−1) | IC/p/q não incorporam seleção de K; resultados exploratórios, inclusive após BH |
 | DK largura 6 | preservar única comparação de inferência e separar lag do modelo da banda de covariância | seis meses dos scores mensais para todos K | banda DK não é K; não escolher banda pelo menor p; aproximação em T grande |
 | BH por família | exposições analisadas em paralelo | período × nível (central/grupo/tipologia) × covariância × endpoint | ajuste aplicado ao resultado escolhido, não corrige incerteza de seleção AIC |
-| Fronteiras K1/K24 | intervalo finito solicitado | destacar limite inferior/superior | K24 pode indicar horizonte truncado; K1 não prova ausência após um mês |
+| Fronteiras K1/K24 | intervalo finito de busca | destacar limite inferior/superior | K24 pode indicar horizonte truncado; K1 não prova ausência após um mês |
 | Modelos longos e 27 clusters | testes conjuntos podem ter muitas restrições | reportar rank da covariância e suporte efetivo | K24 usa 25 coeficientes frente a 27 clusters; Wald conjunto pode ser instável |
 
 ## Bases e interpretação preservadas
@@ -42,7 +42,7 @@ Exogeneidade estrita condiciona todo histórico de x e efeitos fixos. Origem nat
 
 Exportar 1008 linhas de candidatos planejados (42×24), incluindo inelegíveis, e uma seleção por aplicação. Conferir mesma amostra, minimum AIC, aninhamento dos regressores, contagem dos FE, dummies explícitas nas centrais e candidatos extremos, CR1, DK contra statsmodels, covariância completa da soma, convolução e lags até 24 por UF.
 
-Notebook 23 executado com explicação antes e interpretação depois; tabelas/figuras em dlm_painel_log_aic, HTML standalone com filtros e curva ΔAIC, documentação e README atualizados. Publicar diretamente na main sem PR/force push, conforme autorização expressa do pedido anterior; confirmar SHA remoto.
+O notebook 23 contém a estimação e a interpretação desta especificação. As tabelas e figuras correspondentes estão em dlm_painel_log_aic, com seleção de K, diagnósticos e curvas de ΔAIC.
 
 Referências de implementação: https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.OLSResults.aic.html e https://www.statsmodels.org/stable/generated/statsmodels.stats.sandwich_covariance.cov_nw_groupsum.html . AIC gaussiano com variância estimada pode incluir mais 2 pela contagem da escala: constante comum a todos candidatos, não altera K; usamos a convenção OLSResults (coeficientes de regressão).
 

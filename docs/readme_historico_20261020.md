@@ -297,7 +297,7 @@ python src/executar_segunda_etapa.py --recalcular
 python src/verificar_saidas_publicadas.py
 # Verificação original com os intermediários disponíveis:
 # python src/verificar_segunda_etapa.py
-# O HTML final e seu gerador são entregues separadamente no chat.
+# O relatório HTML foi mantido fora do controle de versão.
 ```
 
 O executor usa processosPython novos e captura tabelas/Markdown/PNG sem depender de socketsJupyter. `--recalcular` é um alias de `--reproduzir` e preserva um backup local antes de reexecutar; para retomar trabalho validado, leia tabelas/checkpoints antes de executar novamente. Checkpoints registram hashes de entradas, código, protocolo e tabelas; etapas futuras só podem reutilizá-los após conferir diferenças de código/entradas. Não certificar equivalência de código modificado por mera presença deCSV.

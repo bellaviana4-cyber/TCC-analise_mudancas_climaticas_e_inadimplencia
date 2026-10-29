@@ -3,7 +3,7 @@
 **Data:** 26/10/2026. **Escopo:** análise estadual por UF e período, comparando
 SARIMA e SARIMAX sazonal com defasagens climáticas consecutivas.
 
-## 1. O que foi solicitado e o que se pode estimar
+## 1. Objetivo e condições de estimabilidade
 
 O objetivo é verificar se é possível **incluir as 16 tipologias de desastres
 simultaneamente, sem nenhuma exclusão**, em cada SARIMAX estadual. Isso não
@@ -16,7 +16,7 @@ podem ser identificadas separadamente. Quando uma tipologia não varia no
 treino, a coluna correspondente é constante; quando existe dependência
 linear, combinações distintas de coeficientes geram a mesma contribuição.
 Nesses casos, não existe uma estimativa única e interpretável dos
-coeficientes das 16 tipologias na especificação solicitada. A rotina
+coeficientes das 16 tipologias na especificação avaliada. A rotina
 **registra a impossibilidade** em vez de excluir silenciosamente colunas
 ou interpretar um ajuste singular como evidência estatística.
 

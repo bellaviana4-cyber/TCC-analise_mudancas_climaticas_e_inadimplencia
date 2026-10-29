@@ -30,4 +30,4 @@ A triagem não rejeitar não comprova adequação; múltiplos diagnósticos pode
 
 ## Relatório
 
-Novo HTML externo: oito seções com guia, fichas porcenário, filtros locais, todos os campos, motivos separados de q0, comparações visuais de diagnósticos, unidades explicadas, grupos/tipologias, exposição temporal, resposta e previsão anteriores. HTML e seu template/gerador não enviados aoGitHub; entregues no chat. Resultados anteriores não são apagados. Fontes metodológicas oficiais: https://www.statsmodels.org/stable/examples/notebooks/generated/stationarity_detrending_adf_kpss.html e https://www.statsmodels.org/stable/diagnostic.html.
+O relatório HTML de consulta local contém oito seções com fichas por cenário, filtros, diagnósticos, unidades de medida e comparações visuais. As tabelas analíticas e o código de estimação constam do repositório. Fontes metodológicas: https://www.statsmodels.org/stable/examples/notebooks/generated/stationarity_detrending_adf_kpss.html e https://www.statsmodels.org/stable/diagnostic.html.

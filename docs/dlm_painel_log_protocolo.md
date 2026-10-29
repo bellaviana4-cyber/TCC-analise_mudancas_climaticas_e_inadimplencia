@@ -8,7 +8,7 @@ Protocolo definido em 06/10/2026 antes da estimação. O capítulo `c3_metodolog
 |---|---|---|---|
 | Painel não ponderado de 27 UFs | mesma estrutura em ambos recortes | UF + mês-ano completos, MQO/FWL | coeficiente comum; UFs sem registros permanecem |
 | y=Δlog(I); x=Δlog(1+D) | escolha substantiva da autora, comparação coerente | log natural antes da diferença, dentro da UF e do recorte | unidades logarítmicas, não pontos percentuais |
-| D=registros administrativos | preservar medida solicitada | linha original do CSV, identificada pelo hash da fonte + número de linha; contar por UF e mês de Data_Evento | não eventos físicos únicos, intensidade ou área atingida |
+| D=registros administrativos | preservar medida de exposição | linha original do CSV, identificada pelo hash da fonte + número de linha; contar por UF e mês de Data_Evento | não eventos físicos únicos, intensidade ou área atingida |
 | Total climático central | classificação sem sobreposição | selecionar uma vez linhas cujo COBRADE começa em 12/13/14 | hidrológico/meteorológico/climatológico; geológicos excluídos mesmo quando chuva pode ser gatilho |
 | Grupos/tipologias originais complementares | preservar taxonomia e ambiguidades | um modelo por coluna original, nunca simultâneos | Outros/biológicos/barragens não exclusivamente climáticos |
 | K=6 fixo, incluindo k=0 | janela mensal de curto prazo: choque imediato, perda de renda e transmissão à inadimplência nos meses seguintes; parcimônia | 7 coeficientes livres; nenhuma seleção AIC/BIC | não exclui associação após 6 meses; não prova duração do fenômeno |

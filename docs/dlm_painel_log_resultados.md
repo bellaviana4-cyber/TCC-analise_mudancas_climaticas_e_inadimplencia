@@ -26,7 +26,7 @@ CR1 com G/(G−1)×(n−1)/(n−p_total), p_total=G+T−1+7; contrastes t26 e co
 
 ADF intercepto/AIC, maxlag min(12, limite Schwert admissível); KPSS intercepto/banda auto. Estatísticas, determinísticos, n, lags, críticos e limites p estão nas tabelas. Não concatenar estados. Δlog(I): pré 6 favoráveis, 19 inconclusivas, 2 desfavoráveis (RO, SC); total 18 favoráveis, 8 inconclusivas, 1 desfavorável (RO). A exposição climática Δlog1p(D): 26/25 favoráveis, 1/2 divergentes (ambos testes rejeitam). Séries constantes continuam indisponíveis.
 
-Evidência desfavorável na dependente é um comprometimento da validação: a regressão completa **não é apresentada como validada**; resultados são associações exploratórias condicionadas às hipóteses. Não eliminar UFs para melhorar testes, não substituir transformação, não assumir cointegração. FE e covariância robusta não corrigem raízes unitárias. O diagnóstico nacional fornecido no pedido é referência externa a esta execução; o CIPS anterior foi sobre I/ΔI/cobertura, não prova da transformação atual. Testes por UF não certificam painel nem corrigem dependência transversal.
+Evidência desfavorável na dependente compromete a validação: a regressão completa **não é apresentada como validada**; resultados são associações exploratórias condicionadas às hipóteses. Não se eliminam UFs para melhorar testes nem se presume cointegração. FE e covariância robusta não corrigem raízes unitárias. O diagnóstico nacional é uma referência separada; o CIPS anterior foi sobre I/ΔI/cobertura, não prova da transformação atual. Testes por UF não certificam painel nem corrigem dependência transversal.
 
 ## Principais resultados centrais
 

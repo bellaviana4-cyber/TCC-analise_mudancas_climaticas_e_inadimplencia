@@ -35,4 +35,4 @@ Não selecionar retrospectivamente a transformação que produza p menor ou todo
 
 ## Reprodução e fontes
 
-Reutilizar Parquet intermediário e painel validados, conferir entradas por SHA256 e preservar saída antiga. Statsmodels: documentação oficial de stationarity_detrending_adf_kpss e stats.diagnostic. Novos arquivos: src/adequacao_series.py, notebook14, outputs/tables/adequacao. Checkpoint registra hashes e famílias. Relatório HTML offline somente no chat, com guia, fichas por cenário, diagnóstico item a item e gráficos; não publicar HTML nem template.
+O procedimento utiliza os arquivos intermediários e o painel validados, com conferência de SHA256 nas entradas. Referências: documentação oficial do statsmodels para ADF, KPSS e diagnósticos. A execução está em src/adequacao_series.py e no notebook 14, com tabelas em outputs/tables/adequacao. Os checkpoints identificam entradas, código e famílias de testes. O relatório HTML complementar é mantido para consulta local.

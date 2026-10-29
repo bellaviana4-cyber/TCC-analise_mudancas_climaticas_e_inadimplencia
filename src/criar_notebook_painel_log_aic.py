@@ -6,7 +6,7 @@ cells=[]
 def md(s):cells.append(dict(cell_type='markdown',metadata={},source=s.splitlines(True)))
 def code(s):cells.append(dict(cell_type='code',metadata={},source=s.splitlines(True),execution_count=None,outputs=[]))
 md(r'''# 23 · DLM em painel: escolha do horizonte por AIC
-Isabella Viana Bambirra · Estatística/UFSCar · revisão solicitada em 06/10/2026.
+Isabella Viana Bambirra · Estatística/UFSCar · análise DLM com seleção de K por AIC.
 
 Referência atual: escolher separadamente **K=1,...,24** por exposição e período. A versão K6 do notebook 22 permanece histórica. Granger não é reestimado; SARIMAX não é executado. O capítulo orienta o DLM clássico; os dados atuais definem recortes e unidade.
 
