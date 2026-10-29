@@ -20,7 +20,7 @@ Usar datas comuns começando no índice25 original para todas as especificaçõe
 1. ΔI e Δlog(1+D), mesmos lags fixos, intercepto +11 dummies mensais.
 2. 100Δ12Δlog(I) e Δ12Δlog(1+D), mesmos lags fixos, intercepto; I>0 exigido.
 3. Principal sazonal com p próprio1..6 no total/1..3 no pré, I12 fixo, q=0..3, BIC em amostra comum e limites de GL. Reportar melhor q>0 para teste conjunto e ótimo geral incluindo q0, como no14. Sensibilidade pós-seleção explícita; não substituir principal pelo menor p.
-Variação relativa sem diferença sazonal e demais modelos05–14 permanecem disponíveis como evidência anterior; não reexecutar indiscriminadamente. Não executar painel, previsão ou outro método novo nesta solicitação.
+As especificações sem diferença sazonal e os modelos dos cadernos 05–14 constituem análises complementares, com hipóteses e famílias de testes diferentes. Seus resultados não são somados aos testes desta especificação.
 
 ## Estacionariedade, adequação e estabilidade
 
@@ -37,8 +37,8 @@ Família PRINCIPAL42. Família SENSIBILIDADES126 (3×42). BH, BY e Holm das fam�
 Estabilidade: família separada de84 cenários totais (21 exposições×4 especificações), para o teste geral; mesma dimensão para os testes de interações de exposição. Não misturar diagnóstico com família de Granger nem usar correção de estabilidade para esconder rejeição nominal.
 Os resultados05–14 mantêm p ajustados/famílias originais. Onda de Frio do14 permanece exploratória. Comparações pré/total não são teste de mudança nem confirmação independente.
 
-## Entrega e retomada
+## Arquivos e verificação
 
-Notebook15 executado, matriz42, tabelas completas168, coeficientes, estacionariedade, diagnósticos, ambiente, validações e checkpoint com hashes. HTML standalone externo, todas categorias e os dois períodos, inclusive exclusões. Código/template do HTML permanecem externos nesta etapa. Registrar conclusão de encerramento de Granger mesmo se não houver cenários adequados. Nenhum próximo método é executado.
+O caderno 15 registra a matriz de 42 cenários de referência, 168 resultados considerando as sensibilidades, coeficientes, estacionariedade, diagnósticos e validações. As tabelas correspondentes estão na pasta de saídas de Granger; as conclusões desta rodada são específicas à transformação sazonal e à estrutura de lags adotadas.
 Executor antigo: implementar --retomar por etapas/hashes com manifestos novos versionados. Checkpoints10–13 anteriores são snapshots históricos, não garantem que todas as tabelas atuais tenham hashes antigos. Não relabelar execução histórica como reprodução atual. Sem entradas originais, verificar saídas/histórico e registrar limites; não reconstruir hashes brutos a partir de arquivos agregados. Invalidação não provoca recálculo silencioso.
 Publicar protocolo antes de estimar, commits separados, PR/merge sem force push, preservar05–14. Fontes metodológicas: documentação oficial statsmodels (ADF/KPSS, BG, RESET, CUSUM, Wald/HAC); nenhum p ajustado certifica pressupostos ou identifica impacto climático causal.

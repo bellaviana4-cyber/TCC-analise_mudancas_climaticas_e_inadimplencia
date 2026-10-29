@@ -66,4 +66,4 @@ Saídas (sem reclassificar tipologias):
 
 As tabelas originais de 19/10 e seus notebooks históricos **foram preservados como histórico**. Quando houver divergência na comparação de SARIMA/SARIMAX, a revisão de 20/10 prevalece, pois permite seleção separada da ordem temporal e registra warnings.
 
-Este checkpoint não reescreve o capítulo metodológico nem fixa quais resultados serão classificados como principais na monografia: essas decisões serão feitas após a validação do código, conforme a orientação atual.
+Este registro reúne os diagnósticos da rodada de 20/10. A especificação final e a interpretação integrada são descritas em [metodologia e sensibilidades](metodologia_e_sensibilidades.md).

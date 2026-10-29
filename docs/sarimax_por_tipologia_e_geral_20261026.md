@@ -7,7 +7,7 @@ no pré e seis no total, e comparava lags até três meses. Essa seleção
 favorecia especificações com poucas exógenas; a tentativa de impor todas
 as 16 simultaneamente mostrou-se não identificável na maioria das UFs.
 
-Na revisão posterior, adotou-se a seguinte sequência:
+O procedimento de estimação segue as etapas:
 
 1. **Um SARIMAX por tipologia**, UF e período, em vez de começar com as 16
    exposições simultâneas. São auditadas todas as 16, sem escolher somente

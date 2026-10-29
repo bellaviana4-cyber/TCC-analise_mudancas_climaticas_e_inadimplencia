@@ -8,6 +8,12 @@ O conjunto operacional tem 16 tipologias. A exposição climática central do DL
 
 São usados dois recortes: pré-pandemia (até janeiro de 2020) e período completo (até dezembro de 2024). Como o primeiro está contido no segundo, os resultados não são independentes nem constituem, por si, teste de mudança estrutural.
 
+## Análise descritiva e estacionariedade
+
+A distribuição dos registros por mês, região, UF e tipologia e a evolução da inadimplência são apresentadas na [análise descritiva](../notebooks/01_analise_descritiva.ipynb). A [análise temporal](../notebooks/02_estacionariedade.ipynb) apresenta as séries nacionais em nível, decomposições clássica e STL, transformações, ADF, KPSS e gráficos ACF/PACF. Os resultados estaduais de estacionariedade estão nas tabelas publicadas.
+
+As explorações nacionais iniciais trabalharam com `ΔI` e `Δlog(1+D)`. Nas estimações estaduais de Granger e DLM, a inadimplência é modelada em `Δlog(I)`, com exposição em `Δlog(1+D)`. Essas respostas não têm a mesma unidade e não devem ser confundidas.
+
 ## 1. Precedência temporal: Granger
 
 A primeira etapa verifica se os valores passados de uma tipologia acrescentam informação sobre a variação da inadimplência, além do histórico da própria resposta. As séries passam por transformações e verificações de estacionariedade; a grade de 1 a 6 defasagens é comparada por BIC na mesma amostra. O teste de hipótese é conjunto, com correção BH nas famílias planejadas e avaliação de autocorrelação residual.
@@ -38,7 +44,7 @@ A inferência usa covariância Driscoll–Kraay (DK) com banda por regra como an
 
 As duas rejeições sob DK12 ocorreram em Tornado no pré, K=4 (soma dos coeficientes e teste da união de coeficientes); a categoria tem ocorrência concentrada em poucas UFs. A divergência entre bandas impede tratar essas rejeições como conclusão estável.
 
-A regra de 90 dias não impõe matematicamente um lag climático de três meses. A taxa de inadimplência é uma medida de estoque: as exposições podem afetar o fluxo de novas entradas com horizontes distintos. O corte em `t−3` é uma hipótese substantiva submetida a análise de sensibilidade, não uma nova definição da variável.
+A defasagem mínima de três meses permite investigar uma sequência temporal compatível com a classificação de inadimplência por atraso superior a 90 dias. Um registro de desastre no mês atual não pode explicar o início de um atraso que já ultrapassou 90 dias e levou a operação à classificação naquele mesmo mês. Ao excluir `t`, `t−1` e `t−2`, a análise prioriza exposições anteriores à possível deterioração do pagamento. Contudo, a taxa é calculada sobre o estoque de saldos e a base não informa a data de entrada de cada operação em atraso: o corte de três meses é uma escolha substantiva para a sensibilidade, não uma equivalência exata entre o momento do desastre e a classificação contábil nem uma prova de que o efeito começa em K=3.
 
 ## 3. SARIMA e SARIMAX
 
@@ -104,8 +110,8 @@ Em todos os casos nacionais, o BIC foi maior e o RMSE pior no SARIMAX. Assim, o 
 
 ## 5. Arquivos para conferência
 
-- [Notebook de Granger](../notebooks/01_granger_ufs_tipologias.ipynb) e [tabelas](../outputs/tables/granger_fechamento/).
-- [Notebook DLM](../notebooks/02_dlm_painel_aic_bic.ipynb), [protocolo 3–K](dlm_defasagens_3a24_20261026.md) e [tabelas](../outputs/tables/dlm_lags_3a24_20261026/).
-- [Notebook SARIMAX](../notebooks/03_sarima_sarimax_estadual_nacional.ipynb), [referência 0–K](sarimax_por_tipologia_e_geral_20261026.md), [sensibilidade 3–K](sarimax_sensibilidade_3a24_20261026.md) e [comparações pareadas](../outputs/tables/sarimax_por_tipologia_k3_24_20261026/).
+- [Notebook de Granger](../notebooks/03_granger_ufs_tipologias.ipynb) e [tabelas](../outputs/tables/granger_fechamento/).
+- [Notebook DLM](../notebooks/04_dlm_painel_aic_bic.ipynb), [protocolo 3–K](dlm_defasagens_3a24_20261026.md) e [tabelas](../outputs/tables/dlm_lags_3a24_20261026/).
+- [Notebook SARIMAX](../notebooks/05_sarima_sarimax_estadual_nacional.ipynb), [referência 0–K](sarimax_por_tipologia_e_geral_20261026.md), [sensibilidade 3–K](sarimax_sensibilidade_3a24_20261026.md) e [comparações pareadas](../outputs/tables/sarimax_por_tipologia_k3_24_20261026/).
 
 A execução está vinculada ao hash da base processada informado no README. As saídas publicadas permitem conferir as contagens e as comparações, mesmo sem distribuir os arquivos brutos do SCR e do Atlas.

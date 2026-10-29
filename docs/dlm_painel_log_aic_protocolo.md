@@ -14,8 +14,8 @@ K* = argmin(K=1,...,24) AIC(K), separadamente por exposição e período. Cada c
 
 | decisão | por que | implementação | consequência para interpretação |
 |---|---|---|---|
-| K candidato 1–24 | solicitação da autora; impactos podem ter horizontes distintos | 24 candidatos por exposição × período; incluir k0 | K é horizonte de ajuste nesse conjunto, não duração física comprovada |
-| Seleção pelo menor AIC | critério solicitado, sem selecionar por significância | AIC = n[log(2π)+1+log(SQR/n)] + 2p_total; p_total=27+T−1+(K+1) | verossimilhança gaussiana de trabalho; dependência residual limita interpretação preditiva do AIC |
+| K candidato 1–24 | associações podem surgir em diferentes horizontes | 24 candidatos por exposição × período; incluir k0 | K é horizonte de ajuste nesse conjunto, não duração física comprovada |
+| Seleção pelo menor AIC | critério de ajuste penalizado, sem selecionar por significância | AIC = n[log(2π)+1+log(SQR/n)] + 2p_total; p_total=27+T−1+(K+1) | verossimilhança gaussiana de trabalho; dependência residual limita interpretação preditiva do AIC |
 | Amostra comum e final mantida | comparar AIC na mesma variável resposta e calendário | diferença e 24 lags dentro de UF/recorte; primeira equação fev2015 em todos candidatos; não reexpandir final | N=1620 pré e 3213 total; perda de 675 UF-mês por recorte |
 | Empates e incerteza | regra reproduzível, sem escolher pelo p | empate numérico até 1e−8: menor K; reportar todos ΔAIC e K com ΔAIC≤2 | modelos próximos não tornam K identificado com precisão |
 | Candidatos não identificáveis | não mascarar falta de variação | rank completo, desvio TWFE>1e−12, condição padronizada<1e8; excluir só candidato falho, registrar razão | mínimo entre candidatos estimáveis; sem pseudoinversa silenciosa |

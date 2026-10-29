@@ -59,7 +59,7 @@ Reproduzir inferência: scripts v3. Auditoria rejeitada, apenas para reproduzir 
 
 ## revisão do relatório: menu lateral e todas as rejeições (2026-10-07)
 
-A pedido da autora, as visões de análise apresentam somente DK por regra (L3 pré/L4 total), DK6 e DK12. CR1 e bandas adicionais ficam no histórico numérico, sem competir pela conclusão principal. Nenhuma regressão foi reestimada: a revisão preserva K, coeficientes, amostra e p da v3.
+As comparações são apresentadas com DK por regra (L3 pré/L4 total), DK6 e DK12. CR1 e bandas adicionais constam do histórico numérico. A comparação preserva K, coeficientes, amostra e estatísticas da especificação correspondente.
 
 A aba Principais resultados conta e lista todos os cinco endpoints rejeitados, nos dois períodos. Com proteção da seleção e Holm por família: DK por regra=0 e DK6=0 em ambos; DK12=2 no pré e 5 no total. Pré: Vendavais/Ciclones K14 rejeita conjunto0K (0,000487) e conjunto1K (0,000451). Total: Movimento de Massa K5 rejeita soma0K (0,033607), conjunto0K (0,000862), conjunto1K (0,000798); Barragens K4 rejeita soma0K (0,017135) e soma1K (0,011639). Com BH, acrescentam-se as duas somas0K de Movimento de Massa/Barragens em DK6 total (q=0,042135). Não há rejeição Holm persistente nas três bandas.
 

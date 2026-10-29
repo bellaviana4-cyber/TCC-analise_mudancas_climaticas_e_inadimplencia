@@ -4,21 +4,24 @@
 
 O indicador de inadimplência do Banco Central corresponde ao saldo de operações
 com parcelas vencidas há mais de 90 dias, incorporando o arrasto do restante
-da operação. A sugestão da orientação foi investigar apenas a exposição
-climática ocorrida três ou mais meses antes da referência da inadimplência.
+da operação. Se a classificação em um mês decorre de um atraso já superior a
+90 dias, um evento climático observado naquele mesmo mês não pode explicar
+o início desse atraso. Por isso, é pertinente examinar separadamente os
+registros de desastres ocorridos três ou mais meses antes do mês de referência.
 
-**Ressalva:** mais de 90 dias de atraso é um critério de classificação de um
-*estoque* de operações, não a data conhecida de início de cada inadimplemento.
-Logo, excluir os meses contemporâneo, t−1 e t−2 é uma hipótese de sensibilidade,
-não exigência algébrica do indicador ou demonstração de causalidade.
+Como a inadimplência é medida pelo *estoque* de operações e não pelo fluxo
+de novos atrasos, a data de entrada em inadimplência não é observada diretamente.
+A exclusão de t, t−1 e t−2 procura respeitar melhor uma sequência temporal
+plausível, mas não estabelece um prazo causal exato nem impede que existam
+outros canais de associação contemporânea.
 
 Fonte: Banco Central do Brasil, [metodologia do SCR.data](https://www.bcb.gov.br/content/estabilidadefinanceira/scr/scr.data/scr_data_metodologia.pdf), definição operacional de inadimplência. A [nota metodológica das estatísticas de crédito](https://www.bcb.gov.br/content/estatisticas/Documents/notas_metodologicas/emprestimos-sfn/notaempr.pdf) também descreve o arrasto das parcelas a vencer.
 
 ## Modelo e alterações
 
-Foi preservada **integralmente** a análise anterior que escolhe K entre 1 e 24
-e ajusta regressoras contemporâneas e defasadas entre 0 e K. Este novo
-experimento é separado; nenhum arquivo anterior foi substituído.
+São comparadas duas especificações: a que inclui regressoras de 0 a K,
+com K escolhido entre 1 e 24, e a que utiliza apenas as defasagens de
+3 a K, com K entre 3 e 24. Ambas são documentadas e apresentadas separadamente.
 
 Em cada exposição e período, ajusta-se o painel UF×mês, com efeitos fixos
 de UF e mês-ano:
@@ -123,10 +126,11 @@ O total climático escolheu K=3 em ambos recortes. A soma β₃ foi
 
 ## Limitações importantes
 
-1. Como 27/39 escolhas estão em K=3, o limite inferior da grade pode estar
-   influenciando a concentração das escolhas, assim como K=1 influenciava
-   a apresentação antiga. K=3 selecionado **não prova** que o efeito começa
-   necessariamente no terceiro mês.
+1. A restrição da grade a lags de pelo menos três meses é motivada pela ordem
+   temporal entre um desastre e uma classificação que requer mais de 90 dias
+   de atraso. Como 27/39 escolhas estão em K=3, o limite inferior da grade
+   também pode influenciar a concentração. K=3 selecionado **não prova**
+   que o efeito começa necessariamente no terceiro mês.
 2. Excluir lags 0–2 testa uma hipótese temporal mais restrita; se houver
    associação contemporânea verdadeira, omiti-la pode mudar os coeficientes
    de lags mais longos. Uma relação causal não foi identificada.

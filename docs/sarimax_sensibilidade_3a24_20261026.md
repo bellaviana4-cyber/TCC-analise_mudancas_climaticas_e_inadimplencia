@@ -3,17 +3,18 @@
 ## Pergunta da análise
 
 O indicador de inadimplência de pessoas físicas do Banco Central é calculado
-com operações que apresentam atraso superior a 90 dias. Para investigar
-possíveis associações entre desastres anteriores ao início do atraso e a
-inadimplência observada, reestimamos os SARIMAX com **somente as exposições
-climáticas defasadas de 3 a K meses**, onde K pode variar entre 3 e 24.
+com operações que apresentam atraso superior a 90 dias. Um desastre ocorrido
+no mês da medição não pode explicar o início de um atraso que já ultrapassou
+esse prazo. Para dar prioridade à sequência temporal entre a exposição e a
+classificação da operação como inadimplente, também foram estimados SARIMAX
+com **somente as exposições defasadas de 3 a K meses**, onde K varia de 3 a 24.
 
-Essa hipótese **não implica que o início do atraso seja observado**: a
-inadimplência da carteira é uma medida de estoque, e a ocorrência de
-desastres não identifica automaticamente a data do primeiro pagamento
-descumprido. Em particular, alguns contratos podem estar em atraso há
-mais de 90 dias e continuar contabilizados no indicador. A regra de
-arrasto do Bacen considera o saldo da operação, não só a parcela vencida.
+O início individual do atraso **não é observado** nessa base: a inadimplência
+da carteira é medida pelo saldo das operações classificadas, incluindo
+contratos que já estavam inadimplentes em meses anteriores. Assim, o corte
+de três meses é uma hipótese temporal mais compatível com a pergunta do
+trabalho, sem representar uma regra causal exata. A regra de arrasto do
+Bacen considera o saldo da operação, não só a parcela vencida.
 
 **Fonte primária:** Banco Central do Brasil, [Nota Metodológica — Nova
 estrutura de dados de crédito](https://www.bcb.gov.br/content/estatisticas/Documents/notas_metodologicas/emprestimos-sfn/notaempr.pdf),

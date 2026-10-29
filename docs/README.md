@@ -1,29 +1,28 @@
-# Documentação da análise
+# Documentação
 
-Este índice reúne as especificações e os resultados considerados na leitura principal. As notas de experimentos anteriores permanecem disponíveis para reconstituir a evolução das análises, mas não substituem as especificações apresentadas aqui.
+Os documentos detalham os procedimentos de estimação, as análises de sensibilidade e os resultados disponíveis. A leitura pode começar pelos [cinco notebooks](../notebooks/README.md), que apresentam a sequência descritiva, estacionariedade, Granger, DLM e SARIMAX.
 
-## Metodologia e resultados atuais
+## Metodologia e resultados
 
-1. [Metodologia e sensibilidades](metodologia_e_sensibilidades.md) — comparação integrada das três etapas, escolhas de defasagem e limites de interpretação.
-2. [DLM com defasagens de 3 a K](dlm_defasagens_3a24_20261026.md) — amostra comum, AIC, seleção K=3–24, covariância DK e rejeições.
-3. [SARIMAX por tipologia e geral com lags 3 a K](sarimax_sensibilidade_3a24_20261026.md) — seleção individual, composição dos gerais e comparação pareada.
-4. [SARIMAX por tipologia e geral com lags 0 a K](sarimax_por_tipologia_e_geral_20261026.md) — referência necessária para avaliar a mudança de janela.
-5. [Notebooks principais](../notebooks/README.md) — código e sínteses de Granger, DLM e SARIMAX.
+1. [Metodologia e sensibilidades](metodologia_e_sensibilidades.md): variáveis, transformações, recortes, especificações e limitações.
+2. [DLM com exposições de 3 a K meses](dlm_defasagens_3a24_20261026.md): amostra comum, seleção AIC, covariância Driscoll-Kraay e inferência.
+3. [SARIMAX com exposições de 3 a K meses](sarimax_sensibilidade_3a24_20261026.md): seleção individual, composição dos modelos gerais e comparação com o SARIMA.
+4. [SARIMAX com exposições de 0 a K meses](sarimax_por_tipologia_e_geral_20261026.md): especificação comparativa e resultados por UF e tipologia.
 
-## Tabelas de resultados
+## Tabelas disponíveis
 
-| Análise | Arquivos |
+| Etapa | Tabelas |
 | --- | --- |
-| Granger | [Testes e diagnósticos](../outputs/tables/granger_fechamento/) |
+| Descritiva | [Distribuições por tipologia](../outputs/tables/desastres_por_tipologia_2013_2024.csv), [região e ano](../outputs/tables/tabela_regiao_ano_2013_2024.csv) e [UF e ano](../outputs/tables/tabela_uf_ano_2013_2024.csv) |
+| Estacionariedade | [Séries mensais nacionais](../outputs/tables/segunda_etapa/series_nacionais_agregadas.csv), [ADF/KPSS nacionais](../outputs/tables/testes_adf_kpss_series_granger_2013_2024.csv) e [diagnósticos estaduais](../outputs/tables/revisao_estadual_20261019/estacionariedade_adf_kpss.csv) |
+| Granger | [Testes e diagnósticos](../outputs/tables/revisao_estadual_20261019/) |
 | DLM por AIC/BIC | [Modelos de painel](../outputs/tables/dlm_painel_log_aic/) |
-| DLM somente 3 a K | [Candidatos, modelos e inferência](../outputs/tables/dlm_lags_3a24_20261026/) |
-| SARIMAX individual e geral, 0 a K | [Candidatos, coeficientes e métricas](../outputs/tables/sarimax_por_tipologia_k0_24_20261026/) |
-| SARIMAX individual e geral, 3 a K | [Candidatos, métricas e comparações pareadas](../outputs/tables/sarimax_por_tipologia_k3_24_20261026/) |
+| DLM de 3 a K | [Candidatos e inferência](../outputs/tables/dlm_lags_3a24_20261026/) |
+| SARIMAX de 0 a K | [Modelos individuais e gerais](../outputs/tables/sarimax_por_tipologia_k0_24_20261026/) |
+| SARIMAX de 3 a K | [Modelos e comparações](../outputs/tables/sarimax_por_tipologia_k3_24_20261026/) |
 
-Os dois recortes analisados são sobrepostos. Os modelos não estimáveis permanecem identificados nas tabelas, e os valores-p dos coeficientes SARIMAX devem ser lidos como exploratórios após seleção.
+## Análises complementares
 
-## Experimentos e auditorias anteriores
+O desenvolvimento também incluiu [busca sistemática de defasagens](sarimax_busca_sistematica_lags_20261026.md), [viabilidade de 16 exógenas simultâneas](sarimax_16_tipologias_estimabilidade_20261026.md), [revisão estadual](sarimax_revisao_estadual_nacional_20261019.md) e [auditoria metodológica](auditoria_metodologica_20261020.md). Esses documentos identificam os recortes e as especificações de cada exercício, permitindo comparar os resultados sem somar testes de diferentes famílias.
 
-As seguintes notas registram etapas anteriores e não compõem a especificação principal de defasagens SARIMAX: [busca de blocos curtos](sarimax_busca_sistematica_lags_20261026.md), [tentativa com 16 tipologias simultâneas](sarimax_16_tipologias_estimabilidade_20261026.md), [revisão de defasagens de 24/10](nota_defasagens_20261024.md) e [análise estadual anterior](sarimax_revisao_estadual_nacional_20261019.md).
-
-A [auditoria metodológica](auditoria_metodologica_20261020.md) e as [versões históricas dos notebooks](../notebooks/historico/) registram diagnósticos e decisões das etapas anteriores. Os painéis HTML antigos são documentos históricos, não a referência para a seleção atual de defasagens.
+Os recortes pré-pandemia e completo se sobrepõem. Resultados não estimáveis são identificados nas tabelas, e os valores-p individuais de modelos com escolha prévia de ordens e defasagens devem ser interpretados com cautela.

@@ -154,7 +154,7 @@ imposição das 16 tipologias. Não se deve afirmar que 53/53 modelos com
 elegíveis**. Na execução com 16 obrigatórias, só existe um caso estadual
 estimável.
 
-## 6. Questões para a orientação
+## 6. Questões metodológicas
 
 1. **Unidade de análise.** Diante da impossibilidade de identificar as
    16 tipologias simultaneamente na maioria das UFs, o SARIMAX estadual
@@ -203,4 +203,4 @@ Saídas distintas, preservando integralmente os resultados anteriores:
 - `.../resumo.json`: protocolo e contagens.
 
 O DLM e sua grade principal `K=1..24` não foram alterados; incluir `K=0`
-continua como questão aberta para a orientação.
+é discutida separadamente na auditoria de defasagens.

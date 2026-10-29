@@ -2,7 +2,7 @@
 
 Este repositório contém os códigos, análises e materiais desenvolvidos para o Trabalho de Conclusão de Curso **“Mudanças Climáticas e Inadimplência: uma análise do impacto de desastres naturais no sistema de crédito brasileiro”**.
 
-## Revisão estatística do código — 20/10/2026 (versão atual)
+## Revisão estatística de 20/10/2026
 
 A execução foi revisada sobre a base mensal de 27 UFs × 144 meses, usando **exclusivamente as 16 tipologias originais do Atlas**. Não foram criados grupos nem reclassificadas tipologias. A atualização não altera os capítulos de texto da monografia, que serão fechados depois da validação do código.
 
