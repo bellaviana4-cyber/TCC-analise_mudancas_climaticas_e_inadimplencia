@@ -1,0 +1,30 @@
+{
+  "metodo": "Bonferroni simultâneo entre todos K planejados; Holm entre exposições; DK_regra principal, DK6/DK12 sensibilidades, CR1 comparação",
+  "K_final": "exclusivamente escolhido por AIC, sem reexpansão da amostra",
+  "M_scalar": 24,
+  "M_coef_completo": 324,
+  "M_coef_defasado": 300,
+  "M_cenarios": 696,
+  "familias": "periodo × nivel × covariancia × endpoint; global105 também reportado",
+  "limite": "proteção de seleção depende da validade uniforme dos testes pontuais; CR1/DK e t são aproximações, não PoSI exato nem inferência seletiva condicional",
+  "inputs": {
+    "data\\processed\\df_tcc_2013_2024.csv": "d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043",
+    "data\\raw\\atlas_desastres\\atlas.csv": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+    "outputs\\tables\\modalidades_excluidas_20261104\\dlm0\\selecao_K.csv": "d68823475d78146e5c6ed2afdd6a002f0e588ed7728655699fff3674bf936dd7"
+  },
+  "codigo": "6bf941af5ae5d5ba8890023bae7752b1599f20f8ccf2e283b0ed122c3183421b",
+  "outputs": {
+    "candidatos_conferidos.csv": "79785d7c9a68c582200913be9c797c473be625d57956bee1867a6ac716067d70",
+    "cenarios.csv": "6770397f6f5a66f52923502a5aab05d42049cabb1b7fcc2611624302bc0fd4a3",
+    "coeficientes_todos_K.csv": "34e6ac5edd931e8366d24c01d0a48d567ec02337a005cb31811e0ec0be2cc7c7",
+    "perfis.csv": "4b5c88a10cda7aa481d6cd772cbd0c5f64367c6224ef48d6b7891bd46181421b",
+    "resultados.csv": "9ad15c23e2fe31954ad9d827842fe4e71ad38f4121ea3771b3e1281519703c7a"
+  },
+  "regra_banda": "L=floor(4*(T/100)^(2/9)); Bartlett; T60->L3, T119->L4; regra de referência não ótima garantida; adotada após observar histórico, análise permanece exploratória",
+  "covariancia_principal": "DK_regra",
+  "codigo_base": "8bce6d2a2809b4a5994aef9250036d6eae7931ee29dbb40820db383db9ae36fd",
+  "protocolo": "63a1855e4b450c60e69b68303311fc39868b11ceb56ffbb40ccd82c9495c093a",
+  "capitulo_v3": null,
+  "capitulo_v3_disponivel": false,
+  "auditoria_banda_adicional": "auditoria_banda_DK.json"
+}

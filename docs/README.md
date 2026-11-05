@@ -1,5 +1,7 @@
 # Documentação
 
+**Base corrigida com três exclusões:** comece pela [correção das modalidades e resultados reestimados](correcao_modalidades_20261104.md). Os documentos abaixo preservam as especificações e os resultados históricos; suas contagens anteriores não devem ser atribuídas à base corrigida. As novas tabelas estão exclusivamente em `outputs/tables/modalidades_excluidas_20261104/`.
+
 Os documentos detalham os procedimentos de estimação, as análises de sensibilidade e os resultados disponíveis. A leitura pode começar pelos [cinco notebooks](../notebooks/README.md), que apresentam a sequência descritiva, estacionariedade, Granger, DLM e SARIMAX.
 
 ## Metodologia e resultados

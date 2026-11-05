@@ -16,6 +16,8 @@ Período: janeiro/2013 a dezembro/2024. Painel: 27 UFs × 144 meses = 3.888 obse
 | --- | --- |
 | Granger | 627 de 864 estimáveis; 56 rejeições nominais, 16 após BH local; 3 dessas rejeições com autocorrelação residual |
 | DLM 0..K | 39 de 42 aplicações com seleção AIC estimável |
+| DLM por tipologia, AIC/BIC | 29 de 32 estimáveis por critério; os dois menores AICs são comparados separadamente |
+| DLM 0..K, inferência ampliada | 5 contrastes rejeitam após ajustes da grade e Holm por família em DK pela regra; nenhum do total climático central |
 | DLM 3..K | 39 de 42 estimáveis; nenhuma rejeição após os ajustes nas três bandas DK |
 | SARIMAX 0..K | Reestimação em andamento; resultados da base anterior não são válidos para esta versão |
 | SARIMAX 3..K | Reestimação em andamento; resultados da base anterior não são válidos para esta versão |
@@ -45,6 +47,9 @@ python src/reestimar_com_exclusoes.py granger
 python src/reestimar_com_exclusoes.py estacionariedade
 python src/verificar_granger_com_exclusoes.py
 python src/reestimar_com_exclusoes.py dlm0
+python src/reestimar_com_exclusoes.py dlm0_inferencia
+python src/reestimar_com_exclusoes.py dlm_aic_bic
+python src/reestimar_com_exclusoes.py dlm_top2
 python src/reestimar_com_exclusoes.py dlm3
 python src/executar_reestimacao_sarimax.py
 python src/gerar_sintese_base_corrigida.py

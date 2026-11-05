@@ -17,13 +17,14 @@ from analise_estadual import load, design_panel, robust_cov, wald
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs/tables/revisao_defasagens_20261024"
+CANDIDATOS_ORIGINAIS = ROOT / "outputs/tables/revisao_estadual_20261019/dlm_candidatos.csv"
 ENDPOINTS = ("beta0", "soma0K", "soma1K", "conjunto0K", "conjunto1K")
 BANDS = ("dk_regra", "dk6", "dk12")
 
 
 def run():
     selections = pd.read_csv(OUT / "dlm_dois_menores_aic.csv", encoding="utf-8-sig")
-    orig = pd.read_csv(ROOT / "outputs/tables/revisao_estadual_20261019/dlm_candidatos.csv", encoding="utf-8-sig")
+    orig = pd.read_csv(CANDIDATOS_ORIGINAIS, encoding="utf-8-sig")
     df = load()
     rows = []
     for (period, tip), choice in selections.groupby(["periodo", "tipologia"]):

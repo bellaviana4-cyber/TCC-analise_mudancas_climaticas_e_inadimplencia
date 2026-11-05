@@ -19,6 +19,9 @@ data/processed/*
 !data/processed/.gitkeep
 !data/processed/df_tcc_2013_2024.csv
 
+# Relatório HTML auxiliar de consulta local, fora da publicação.
+outputs/reports/modalidades_excluidas_20261104/
+
 
 # ==========================================================
 # PYTHON

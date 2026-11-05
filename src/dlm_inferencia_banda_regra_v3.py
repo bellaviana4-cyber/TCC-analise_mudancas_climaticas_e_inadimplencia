@@ -118,7 +118,9 @@ def run():
  manifest['covariancia_principal']='DK_regra'
  manifest['codigo_base']=base.sha(ROOT/'src/dlm_painel_log_aic.py')
  manifest['protocolo']=base.sha(ROOT/'docs/dlm_banda_regra_v3_protocolo.md')
- manifest['capitulo_v3']=base.sha(ROOT/'tcc/capitulos/c3_metodologias_tg_referencia_v3.tex')
+ chapter=ROOT/'tcc/capitulos/c3_metodologias_tg_referencia_v3.tex'
+ manifest['capitulo_v3']=base.sha(chapter) if chapter.exists() else None
+ manifest['capitulo_v3_disponivel']=chapter.exists()
  manifest['auditoria_banda_adicional']='auditoria_banda_DK.json'
  (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
  print(r[(r.endpoint=='soma0K')&(r.p_Holm_familia<.05)][['periodo','rotulo','covariancia','K','p_selecao','p_Holm_familia','q_BH_selecao']].to_string(index=False))

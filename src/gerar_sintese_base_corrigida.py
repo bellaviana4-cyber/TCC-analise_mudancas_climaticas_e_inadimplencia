@@ -11,6 +11,9 @@ def main():
     g=pd.read_csv(B/'granger/granger_aplicacoes.csv')
     d3=json.loads((B/'dlm3/resumo.json').read_text(encoding='utf-8'))
     sel=pd.read_csv(B/'dlm0/selecao_K.csv')
+    tip=pd.read_csv(B/'dlm_aic_bic/dlm_selecao.csv')
+    inf=pd.read_csv(B/'dlm0_inferencia/resultados.csv')
+    tests0=inf[inf.covariancia.eq('DK_regra') & inf.p_Holm_familia.lt(.05)]
     rows=[]
     for lag in [0,3]:
         p=B/f'sarimax{lag}/resumo.json'
@@ -40,6 +43,8 @@ Período: janeiro/2013 a dezembro/2024. Painel: 27 UFs × 144 meses = 3.888 obse
 | --- | --- |
 | Granger | {int(g.status.eq('estimado').sum())} de 864 estimáveis; {int(g.rejeicao_nominal.sum())} rejeições nominais, {int(g.rejeicao_bh.sum())} após BH local; {int((g.rejeicao_bh & g.ljungbox_p.lt(.05)).sum())} dessas rejeições com autocorrelação residual |
 | DLM 0..K | {int(sel.status.eq('selecionado').sum())} de 42 aplicações com seleção AIC estimável |
+| DLM por tipologia, AIC/BIC | {int(tip[tip.criterio.eq('AIC')].status.eq('estimado').sum())} de 32 estimáveis por critério; os dois menores AICs são comparados separadamente |
+| DLM 0..K, inferência ampliada | {len(tests0)} contrastes rejeitam após ajustes da grade e Holm por família em DK pela regra; nenhum do total climático central |
 | DLM 3..K | {d3['estimaveis']} de 42 estimáveis; nenhuma rejeição após os ajustes nas três bandas DK |
 {chr(10).join(rows)}
 
@@ -68,6 +73,9 @@ python src/reestimar_com_exclusoes.py granger
 python src/reestimar_com_exclusoes.py estacionariedade
 python src/verificar_granger_com_exclusoes.py
 python src/reestimar_com_exclusoes.py dlm0
+python src/reestimar_com_exclusoes.py dlm0_inferencia
+python src/reestimar_com_exclusoes.py dlm_aic_bic
+python src/reestimar_com_exclusoes.py dlm_top2
 python src/reestimar_com_exclusoes.py dlm3
 python src/executar_reestimacao_sarimax.py
 python src/gerar_sintese_base_corrigida.py

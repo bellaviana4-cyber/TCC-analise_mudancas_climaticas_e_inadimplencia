@@ -14,6 +14,8 @@ data/interim/scr_uf_mes_2013_2024.parquet
 
 A unidade observacional da saída é UF x mês.
 Somente registros de pessoas físicas (PF) são utilizados.
+Antes da agregação, excluem-se financiamentos imobiliários,
+financiamentos de títulos e valores mobiliários e outros créditos.
 """
 
 from pathlib import Path

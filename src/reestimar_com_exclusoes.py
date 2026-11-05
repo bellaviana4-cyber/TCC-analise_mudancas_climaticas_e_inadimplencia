@@ -9,6 +9,7 @@ import hashlib
 import json
 import os
 import sys
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / 'data/processed/df_tcc_2013_2024.csv'
@@ -17,7 +18,7 @@ RESULT = ROOT / 'outputs/tables/modalidades_excluidas_20261104'
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('etapa', choices=['granger', 'estacionariedade', 'dlm0', 'dlm3', 'sarimax'])
+    ap.add_argument('etapa', choices=['granger', 'estacionariedade', 'dlm0', 'dlm0_inferencia', 'dlm_aic_bic', 'dlm_top2', 'dlm3', 'sarimax'])
     ap.add_argument('--lag', type=int, choices=[0, 3], default=0)
     ap.add_argument('--fase', choices=['individuais', 'gerais', 'consolidar'], default='individuais')
     ap.add_argument('--uf', default='todas')
@@ -48,6 +49,26 @@ def main():
             metadata['data_reestimacao'] = '2026-11-04'
             metadata['wrapper_sha256'] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
             p.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding='utf-8')
+        elif args.etapa == 'dlm0_inferencia':
+            import dlm_painel_log_aic as d
+            import dlm_inferencia_banda_regra_v3 as v
+            d.OUT = RESULT / 'dlm0'
+            v.OUT = RESULT / 'dlm0_inferencia'
+            v.run()
+        elif args.etapa == 'dlm_aic_bic':
+            ae.OUT = RESULT / 'dlm_aic_bic'
+            ae.OUT.mkdir(parents=True, exist_ok=True)
+            ae.dlm(ae.load())
+        elif args.etapa == 'dlm_top2':
+            import auditar_dlm_aic_top2 as a
+            import inferencia_dlm_top2_aic as v
+            a.SOURCE = RESULT / 'dlm_aic_bic/dlm_candidatos.csv'
+            a.OUT = RESULT / 'dlm_top2'
+            a.REPORT = ROOT / 'outputs/reports/modalidades_excluidas_20261104/dlm_top2.html'
+            a.run()
+            v.OUT = a.OUT
+            v.CANDIDATOS_ORIGINAIS = a.SOURCE
+            v.run()
         elif args.etapa == 'dlm3':
             import dlm_lags_3a24_20261026 as d
             d.OUT = RESULT / 'dlm3'
@@ -61,7 +82,26 @@ def main():
             s.HASH = digest
             # A função main verifica o hash novo antes de ler qualquer checkpoint.
             sys.argv = [sys.argv[0], '--fase', args.fase, '--uf', args.uf, '--periodo', args.periodo]
-            s.main()
+            if args.uf == 'todas' or args.fase == 'consolidar':
+                s.main()
+            else:
+                # Evita dois processos reestimando e gravando a mesma unidade
+                # durante retomadas paralelas; não altera a estimação.
+                locks = ROOT.parent / '.locks-sarimax'
+                locks.mkdir(exist_ok=True)
+                period = 'pre' if args.periodo == 'Pré' else 'total'
+                lock = locks / f'{args.lag}_{period}_{args.uf}_{args.fase}.lock'
+                while True:
+                    try:
+                        with lock.open('x', encoding='utf-8') as f:
+                            f.write(str(os.getpid()))
+                        break
+                    except FileExistsError:
+                        time.sleep(2)
+                try:
+                    s.main()
+                finally:
+                    lock.unlink()
     print('CONCLUÍDO', args.etapa, args.uf, args.periodo, flush=True)
 
 

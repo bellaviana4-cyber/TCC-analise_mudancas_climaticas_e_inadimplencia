@@ -4,6 +4,7 @@ import hashlib
 import json
 import os
 import importlib.util
+import tempfile
 import pandas as pd
 import numpy as np
 import duckdb
@@ -22,6 +23,33 @@ def sha(p):
     return h.hexdigest()
 
 
+def verificar_filtro_modalidades(mod):
+    # Um resultado manual conhecido detecta tanto inclusão indevida quanto
+    # a exclusão acidental de modalidades permitidas ou a inclusão de PJ.
+    cases=[('PF','Empréstimos','100,00','10,00'),
+           ('PF','Financiamentos','200,00','20,00'),
+           ('PF',' FINANCIAMENTOS IMOBILIARIOS ','1000,00','100,00'),
+           ('PF','Financiamentos de títulos e valores mobiliários','1000,00','100,00'),
+           ('PF','OUTROS CREDITOS','1000,00','100,00'),
+           ('PJ','Empréstimos','5000,00','500,00')]
+    fixture=pd.DataFrame(cases,columns=['cliente','modalidade','carteira_ativa','carteira_inadimplencia'])
+    fixture['uf']='SP'
+    with tempfile.TemporaryDirectory(dir=ROOT/'data/interim') as folder:
+        file=Path(folder)/'scrdata_201301.csv'
+        fixture.to_csv(file,sep=';',index=False)
+        got=mod.processar_mes(pd.Period('2013-01',freq='M'),file).iloc[0]
+        assert got.carteira_ativa_total==300 and got.carteira_inadimplencia_total==30
+        assert got.taxa_inadimplencia==10 and got.qtd_registros==2
+        fixture.loc[0,'modalidade']=None
+        fixture.to_csv(file,sep=';',index=False)
+        try:
+            mod.processar_mes(pd.Period('2013-01',freq='M'),file)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError('Modalidade ausente deveria impedir agregação')
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     base = ROOT / 'data/processed/df_tcc_2013_2024.csv'
@@ -37,6 +65,7 @@ def main():
     spec = importlib.util.spec_from_file_location('scr', ROOT/'src/01_consolidar_scr.py')
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
+    verificar_filtro_modalidades(mod)
     files = mod.listar_arquivos()
     mod.validar_cobertura(files)
     # Consulta independente: exclusão pelos rótulos exatos da fonte e saldos DECIMAL.
