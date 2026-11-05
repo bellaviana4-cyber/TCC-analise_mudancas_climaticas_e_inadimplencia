@@ -17,6 +17,7 @@ data/interim/*
 # Bases processadas
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/df_tcc_2013_2024.csv
 
 
 # ==========================================================

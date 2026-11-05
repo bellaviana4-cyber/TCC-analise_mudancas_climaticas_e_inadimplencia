@@ -1,0 +1,40 @@
+{
+  "periodo": [
+    "2013-01",
+    "2024-12"
+  ],
+  "linhas": 3888,
+  "ufs": 27,
+  "meses": 144,
+  "base_sha256": "d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043",
+  "atlas_sha256": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+  "modalidades_excluidas": [
+    "Financiamentos imobiliários",
+    "Financiamentos de títulos e valores mobiliários",
+    "Outros créditos"
+  ],
+  "filtro": "PF; exclusão por modalidade antes de somar ambos os saldos por UF-mês",
+  "total_atlas": 40339,
+  "validacao_extremos": [
+    {
+      "mes": "2013-01",
+      "campo": "carteira_ativa_total",
+      "diferenca_maxima_reais": 0.0
+    },
+    {
+      "mes": "2013-01",
+      "campo": "carteira_inadimplencia_total",
+      "diferenca_maxima_reais": 0.0
+    },
+    {
+      "mes": "2024-12",
+      "campo": "carteira_ativa_total",
+      "diferenca_maxima_reais": 1.9073486328125e-06
+    },
+    {
+      "mes": "2024-12",
+      "campo": "carteira_inadimplencia_total",
+      "diferenca_maxima_reais": 0.0
+    }
+  ]
+}

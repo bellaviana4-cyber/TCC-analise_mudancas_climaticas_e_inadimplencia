@@ -18,6 +18,8 @@ Somente registros de pessoas físicas (PF) são utilizados.
 
 from pathlib import Path
 import re
+import os
+import unicodedata
 
 import numpy as np
 import pandas as pd
@@ -27,7 +29,7 @@ ANO_INICIAL = 2013
 ANO_FINAL = 2024
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_BACEN = ROOT / "data" / "raw" / "bacen"
+RAW_BACEN = Path(os.environ.get("TCC_RAW_BACEN", ROOT / "data" / "raw" / "bacen"))
 INTERIM = ROOT / "data" / "interim"
 
 ARQUIVO_CSV = INTERIM / f"scr_uf_mes_{ANO_INICIAL}_{ANO_FINAL}.csv"
@@ -36,6 +38,7 @@ ARQUIVO_PARQUET = INTERIM / f"scr_uf_mes_{ANO_INICIAL}_{ANO_FINAL}.parquet"
 COLUNAS_NECESSARIAS = [
     "uf",
     "cliente",
+    "modalidade",
     "carteira_ativa",
     "carteira_inadimplencia",
 ]
@@ -148,6 +151,13 @@ def processar_mes(periodo: pd.Period, caminho: Path) -> pd.DataFrame:
     df["cliente"] = df["cliente"].str.strip().str.upper()
 
     df = df.loc[df["cliente"].eq("PF")].copy()
+    if df["modalidade"].isna().any():
+        raise ValueError(f"{caminho}: modalidade ausente em registro PF")
+    def normalizar_modalidade(valor):
+        return " ".join(unicodedata.normalize("NFKD", str(valor)).encode("ascii", "ignore").decode().casefold().split())
+    excluidas = {"financiamentos imobiliarios", "financiamentos de titulos e valores mobiliarios", "outros creditos"}
+    modalidade = df["modalidade"].map(normalizar_modalidade)
+    df = df.loc[~modalidade.isin(excluidas)].copy()
 
     df["carteira_ativa"] = converter_numero_ptbr(df["carteira_ativa"])
     df["carteira_inadimplencia"] = converter_numero_ptbr(

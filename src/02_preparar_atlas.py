@@ -20,6 +20,7 @@ A base agregada possui uma linha por UF x mês.
 from pathlib import Path
 import re
 import unicodedata
+import os
 
 import pandas as pd
 
@@ -28,7 +29,7 @@ ANO_INICIAL = 2013
 ANO_FINAL = 2024
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW_ATLAS = ROOT / "data" / "raw" / "atlas_desastres"
+RAW_ATLAS = Path(os.environ.get("TCC_RAW_ATLAS", ROOT / "data" / "raw" / "atlas_desastres"))
 INTERIM = ROOT / "data" / "interim"
 
 EVENTOS_CSV = INTERIM / f"atlas_eventos_{ANO_INICIAL}_{ANO_FINAL}.csv"

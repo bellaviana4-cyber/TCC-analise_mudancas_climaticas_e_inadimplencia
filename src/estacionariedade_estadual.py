@@ -9,7 +9,7 @@ def _teste_com_warnings(func,*args,**kwargs):
     with warnings.catch_warnings(record=True) as captured:
         warnings.simplefilter('always')
         p=float(func(*args,**kwargs)[1])
-    return p,' | '.join(sorted(set(f'{w.category.__name__}: {str(w.message).strip().replace(chr(10),' ')}' for w in captured)))
+    return p,' | '.join(sorted(set(f"{w.category.__name__}: {str(w.message).strip().replace(chr(10), ' ')}" for w in captured)))
 
 def main():
     df=load();rows=[]
