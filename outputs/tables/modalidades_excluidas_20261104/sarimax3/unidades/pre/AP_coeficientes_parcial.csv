@@ -1,0 +1,4 @@
+﻿periodo,unidade,tipologia,K,lag,coef_original,se_original,p_condicional
+Pré,AP,tipo_alagamentos,3,3,-1.456687430946615,5.925068531259264,0.8057971308776337
+Pré,AP,tipo_doencas_infecciosas,3,3,-6.022574425722099,2.0184437684381624,0.00284719571695922
+Pré,AP,tipo_inundacoes,3,3,-0.2336375836517034,3.64889880716635,0.948946646291964

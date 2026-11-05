@@ -1,0 +1,353 @@
+﻿periodo,unidade,tipologia,K,n_treino_comum,n_teste,n_ocorrencias_meses_treino,n_exog,ordem,sazonal,status,n_constantes,posto,condicao,BIC,AIC,avisos,convergiu
+Pré,AM,tipo_alagamentos,3,48,12,15,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,225.70538846268997,214.47818239724262,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,4,48,12,15,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.5248405409673391,229.1659333238526,216.06752624749737,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,5,48,12,15,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,2.0386077186369342,230.7081114565457,215.73850336928257,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,6,48,12,15,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,2.3314785840777854,233.56006385103387,216.71925475286284,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,7,48,12,15,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,2.554803083926734,237.41922613271458,218.70721602363568,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,8,48,12,15,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,2.590221365290944,240.2158164011118,219.632605281125,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,9,48,12,15,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,2.67045209082419,243.9215658477235,221.46715371682882,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,10,48,12,15,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,2.8499006431170177,247.29228368505963,222.96667054325704,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,11,48,12,15,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,3.0136648307096947,251.15809241869124,224.96127826598075,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,12,48,12,15,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,3.339776452673053,250.3607152717774,222.29270010815904,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,13,48,12,15,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,4.022067244467089,254.23004906638067,224.29083289185442,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_alagamentos,14,48,12,15,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,5.077763662042847,257.01783807422896,225.2074208887948,,True
+Pré,AM,tipo_alagamentos,15,48,12,15,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,6.719294090850982,259.6862289675707,226.00461077122864,,True
+Pré,AM,tipo_alagamentos,16,48,12,15,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,7.373465724213905,263.3227730848987,227.76995387764876,,True
+Pré,AM,tipo_alagamentos,17,48,12,15,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,8.568165302024681,266.9129806652314,229.48896044707357,,True
+Pré,AM,tipo_alagamentos,18,48,12,15,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,9.687050438417574,270.4924642382562,231.1972430091905,,True
+Pré,AM,tipo_alagamentos,19,48,12,15,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,10.166760580801736,270.21945258308347,229.05303034310987,,True
+Pré,AM,tipo_alagamentos,20,48,12,15,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,10.683128445336417,273.00465878382977,229.96703553294827,,True
+Pré,AM,tipo_alagamentos,21,48,12,15,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,11.701771733073626,276.58000490076273,231.67118063897334,,True
+Pré,AM,tipo_alagamentos,22,48,12,15,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,12.673036202060144,275.44471386812484,228.66468859542758,,True
+Pré,AM,tipo_alagamentos,23,48,12,15,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,13.388972788914225,272.2971302439977,223.64590396039253,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_alagamentos,24,48,12,15,22,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,22.0,14.218877441185029,265.34702906999826,214.82460177548518,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_chuvas_intensas,3,48,12,5,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,225.7227735642982,214.49556749885085,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,4,48,12,5,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.7320508075688776,229.23766409402285,216.1392570176676,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,5,48,12,5,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,2.4142135623730945,231.1280989797993,216.15849089253615,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,6,48,12,5,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,3.694322752034564,234.89786010479202,218.057051006621,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,7,48,12,5,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,5.836966619444008,238.7672692641481,220.0552591550692,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,8,48,12,5,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,7.532508156333577,242.48722788388477,221.90401676389797,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,9,48,12,5,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,8.782344382053292,243.39505906521723,220.94064693432253,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,10,48,12,5,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,9.440306535374805,246.7938005288054,222.4681873870028,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,11,48,12,5,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,9.815425204392557,250.5256679386573,224.32885378594682,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,12,48,12,5,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,10.058728063920464,252.85522278888436,224.787207625266,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,13,48,12,5,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,10.45561481490867,255.70558002833718,225.76636385381093,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,14,48,12,5,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,10.70261612624016,258.4423706044073,226.63195341897313,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,15,48,12,5,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,10.863518394432047,262.03934245671087,228.3577242603688,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,16,48,12,5,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,10.926777997200034,263.25131496725646,227.69849576000655,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,17,48,12,5,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,11.038338713345594,263.52984249228126,226.10582227412345,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,18,48,12,5,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,11.666980717054996,267.07774338538445,227.78252215631875,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,19,48,12,5,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,12.227057538121866,265.58511124140006,224.41868900142646,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,20,48,12,5,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,12.620775170559659,269.3670103981631,226.32938714728158,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,21,48,12,5,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,13.621804915467754,273.04947989044126,228.14065562865187,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_chuvas_intensas,22,48,12,5,20,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,20.0,15.410462046753612,276.50130360003266,229.7212783273354,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,False
+Pré,AM,tipo_chuvas_intensas,23,48,12,5,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,17.246102773086054,269.35820301586443,220.70697673225925,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_chuvas_intensas,24,48,12,5,22,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,22.0,17.778639421792608,267.7379264302142,217.21549913570112,Maximum Likelihood optimization failed to converge. Check mle_retvals,False
+Pré,AM,tipo_doencas_infecciosas,3,48,12,2,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,4,48,12,2,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,5,48,12,2,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,6,48,12,2,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,7,48,12,2,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,8,48,12,2,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,9,48,12,2,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,10,48,12,2,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,11,48,12,2,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,12,48,12,2,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,13,48,12,2,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,14,48,12,2,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,15,48,12,2,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,16,48,12,2,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,17,48,12,2,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,18,48,12,2,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,19,48,12,2,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,20,48,12,2,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,21,48,12,2,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,22,48,12,2,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,23,48,12,2,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_doencas_infecciosas,24,48,12,2,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_enxurradas,3,48,12,3,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,226.85606848429936,215.628862418852,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,4,48,12,3,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.7320508075688774,230.56261291594467,217.46420583958943,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,5,48,12,3,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,2.4142135623730954,233.6543026842481,218.68469459698497,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,6,48,12,3,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,3.0776835371752536,237.51600923087017,220.67520013269913,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,7,48,12,3,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,3.732050807568878,241.3799248598637,222.6679147507848,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,8,48,12,3,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,4.381286267534822,245.087523199722,224.5043120797352,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,9,48,12,3,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,5.027339492125848,245.39989049838414,222.94547836748944,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,10,48,12,3,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,5.671281819617708,249.0406796558378,224.71506651403521,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,11,48,12,3,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,6.313751514675043,252.02169625061924,225.82488209790878,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,12,48,12,3,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,6.955152771773472,254.8765930531518,226.8085778895334,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,13,48,12,3,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,7.595754112725148,255.34677865168942,225.40756247716317,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,14,48,12,3,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,8.235740954498489,257.65509831771305,225.84468113227894,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,15,48,12,3,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,8.87524547496976,261.3459679866215,227.66434979027943,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,16,48,12,3,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,9.514364454222584,264.75936476673763,229.20654555948772,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,17,48,12,3,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,10.153170387608862,266.79792017597873,229.37389995782092,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,18,48,12,3,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,10.791718657261583,285.39720684175364,246.10198561268794,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,19,48,12,3,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,11.430052302761343,271.57593930645174,230.40951706647814,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,20,48,12,3,18,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,18.0,12.068205279497754,287.6020001613561,244.5643769104746,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,False
+Pré,AM,tipo_enxurradas,21,48,12,3,19,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,19.0,12.706204736174705,290.21373367371336,245.30490941192394,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,False
+Pré,AM,tipo_enxurradas,22,48,12,3,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,13.344072639597712,281.71297814410525,234.93295287140796,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,23,48,12,3,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,13.668035243486447,284.53239367099695,235.8811673873918,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_enxurradas,24,48,12,3,22,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,22.0,14.00898935127119,285.6919677155189,235.16954042100582,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,3,48,12,20,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,226.7048199988574,215.47761393341005,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,4,48,12,20,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.9006255166864978,229.5286951836442,216.43028810728896,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,5,48,12,20,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,2.829859817920983,232.8191340442024,217.84952595693926,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,6,48,12,20,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,4.336324908938079,236.5900808964373,219.74927179826628,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,7,48,12,20,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,5.803482345779214,240.45500071699928,221.74299060792038,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,8,48,12,20,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,6.754017766251131,243.0488653421568,222.46565422217,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,9,48,12,20,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,7.79718862316142,245.95535860024233,223.50094646934764,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,10,48,12,20,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,8.695343551096503,249.25664074172292,224.93102759992033,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,11,48,12,20,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,9.058740405267107,253.10734928768744,226.91053513497695,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,12,48,12,20,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,9.240234365063221,252.38057677684992,224.31256161323154,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,13,48,12,20,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,9.437572628909539,254.71195642543975,224.7727402509135,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,14,48,12,20,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,9.959280280159772,258.5829225429608,226.77250535752665,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,15,48,12,20,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,10.983999178754775,257.9795566982624,224.29793850192036,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,16,48,12,20,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,12.186069005464487,261.8403156639697,226.2874964567198,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,17,48,12,20,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,13.834905775092498,265.5432740055865,228.1192537874287,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,18,48,12,20,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,15.108123485461926,268.492571405895,229.19735017682927,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_erosao,19,48,12,20,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,15.95350594704608,269.7175435028658,228.5511212628922,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_erosao,20,48,12,20,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,17.07214111458073,267.8970671435513,224.8594438926698,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_erosao,21,48,12,20,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,18.5288060789832,268.3588876133989,223.4500633516095,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_erosao,22,48,12,20,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,19.698040832074636,266.96488767650965,220.18486240381236,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_erosao,23,48,12,20,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,21.486446899264937,270.44971497715557,221.7984886935504,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_erosao,24,48,12,20,22,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,22.0,23.83278887449851,266.43666223194566,215.91423493743258,Maximum Likelihood optimization failed to converge. Check mle_retvals,False
+Pré,AM,tipo_estiagem_e_seca,3,48,12,14,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,226.86818464457613,215.64097857912878,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,4,48,12,14,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.4338092963189946,230.72324296754792,217.62483589119267,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,5,48,12,14,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,1.7842033417675285,234.53692803791932,219.56731995065618,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,6,48,12,14,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,2.0943332612730665,237.16295218839178,220.32214309022075,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,7,48,12,14,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,2.431451424447737,240.95323402941946,222.24122392034056,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,8,48,12,14,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,3.0483151583660764,243.43127597237006,222.84806485238326,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,9,48,12,14,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,3.7999619496785457,245.19986802093445,222.74545589003975,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,10,48,12,14,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,4.489519437501828,248.57278007387146,224.24716693206886,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,11,48,12,14,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,5.06204077060387,250.4003193224072,224.2035051696967,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,12,48,12,14,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,5.6196918167348935,253.97644004835854,225.90842488474019,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,13,48,12,14,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,6.151641767702301,254.02173796740323,224.08252179287697,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,14,48,12,14,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,6.88316449468424,257.63935358821595,225.82893640278178,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,15,48,12,14,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,8.388335962068407,261.5073783910567,227.8257601947147,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,16,48,12,14,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,9.090689289495458,265.27192672829597,229.71910752104606,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,17,48,12,14,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,9.96027945142084,268.5136392677926,231.08961904963476,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,18,48,12,14,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,10.49355166678242,271.9802368032921,232.68501557422638,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,19,48,12,14,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,10.868844197975278,275.775541187324,234.6091189473504,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,20,48,12,14,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,11.681095090214638,279.57745333378625,236.53983008290476,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_estiagem_e_seca,21,48,12,14,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,12.324038289628202,282.57776202164246,237.66893775985307,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_estiagem_e_seca,22,48,12,14,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,12.932252015634472,284.69370198331,237.91367671061272,,True
+Pré,AM,tipo_estiagem_e_seca,23,48,12,14,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,13.791879793941021,287.61725699487715,238.966030711272,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_estiagem_e_seca,24,48,12,14,22,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,22.0,14.560207370899136,291.07617938299904,240.55375208848596,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_granizo,3,48,12,0,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,4,48,12,0,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,5,48,12,0,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,6,48,12,0,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,7,48,12,0,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,8,48,12,0,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,9,48,12,0,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,10,48,12,0,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,11,48,12,0,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,12,48,12,0,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,13,48,12,0,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,14,48,12,0,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,15,48,12,0,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,16,48,12,0,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,17,48,12,0,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,18,48,12,0,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,19,48,12,0,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,20,48,12,0,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,21,48,12,0,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,22,48,12,0,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,23,48,12,0,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_granizo,24,48,12,0,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,3,48,12,2,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,4,48,12,2,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,5,48,12,2,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,6,48,12,2,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,7,48,12,2,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,8,48,12,2,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,9,48,12,2,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,10,48,12,2,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,11,48,12,2,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,12,48,12,2,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,13,48,12,2,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,14,48,12,2,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,15,48,12,2,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,16,48,12,2,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,17,48,12,2,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,18,48,12,2,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,19,48,12,2,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,20,48,12,2,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,21,48,12,2,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,22,48,12,2,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,23,48,12,2,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_incendio_florestal,24,48,12,2,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_inundacoes,3,48,12,31,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,225.74166025160932,214.51445418616197,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,4,48,12,31,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.130828439620578,229.3362080124729,216.23780093611765,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,5,48,12,31,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,1.2028428326822465,232.9522138158306,217.98260572856745,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,6,48,12,31,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,1.259284704248928,236.82335502752056,219.98254592934953,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,7,48,12,31,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,1.2993237277508085,240.38692052020926,221.67491041113036,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,8,48,12,31,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,1.5013894022557759,241.28449687760124,220.70128575761444,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,9,48,12,31,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,1.7264188914252898,243.86418665702257,221.40977452612788,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,10,48,12,31,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,1.9861634070321592,247.1266217328656,222.801008591063,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,11,48,12,31,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,2.1711048537719035,250.36973072310855,224.1729165703981,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,12,48,12,31,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,2.428286505878556,251.62191631899833,223.55390115537995,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_inundacoes,13,48,12,31,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,2.8595815764153967,251.99796776638712,222.05875159186087,,True
+Pré,AM,tipo_inundacoes,14,48,12,31,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,3.1159323242293,255.2523382586877,223.44192107325355,,True
+Pré,AM,tipo_inundacoes,15,48,12,31,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,3.4498032321882817,257.7315243945228,224.04990619818074,,True
+Pré,AM,tipo_inundacoes,16,48,12,31,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,3.749704866067038,260.6141925788037,225.06137337155377,,True
+Pré,AM,tipo_inundacoes,17,48,12,31,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,3.9477631966629723,263.4206389195983,225.99661870144047,,True
+Pré,AM,tipo_inundacoes,18,48,12,31,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,4.199403233098443,267.09592855451683,227.80070732545113,,True
+Pré,AM,tipo_inundacoes,19,48,12,31,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,4.574390579764821,270.7116290240552,229.54520678408159,,True
+Pré,AM,tipo_inundacoes,20,48,12,31,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,4.844052771832932,272.3210086979955,229.28338544711403,,True
+Pré,AM,tipo_inundacoes,21,48,12,31,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,5.2034841371881,275.45352901415265,230.54470475236326,,True
+Pré,AM,tipo_inundacoes,22,48,12,31,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,5.7591363186987765,274.778754032688,227.99872875999074,,True
+Pré,AM,tipo_inundacoes,23,48,12,31,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,6.371337831707728,278.1918479680811,229.54062168447595,,True
+Pré,AM,tipo_inundacoes,24,48,12,31,22,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,22.0,7.110452108971225,281.1672550909332,230.64482779642015,,True
+Pré,AM,tipo_movimento_de_massa,3,48,12,12,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,226.1066310238738,214.87942495842645,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,4,48,12,12,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.3122194075631666,228.14295481071431,215.04454773435907,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,5,48,12,12,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,1.536566394310799,231.67547141399106,216.70586332672792,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,6,48,12,12,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,1.8716189418928437,235.514978046585,218.67416894841398,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,7,48,12,12,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,2.6569897241327074,239.30522043272276,220.59321032364386,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,8,48,12,12,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,3.350208948230233,241.61951504476622,221.03630392477942,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,9,48,12,12,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,3.9510926440131526,244.97865306348075,222.52424093258605,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,10,48,12,12,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,4.416806027444264,261.7607417624905,237.43512862068795,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,11,48,12,12,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,4.992376497347491,265.6187995442578,239.42198539154734,Maximum Likelihood optimization failed to converge. Check mle_retvals | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,12,48,12,12,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,5.5048779969380055,255.4271700623193,227.35915489870092,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,13,48,12,12,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,6.436153299141513,256.4663490024124,226.52713282788613,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,14,48,12,12,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,7.54471510920187,260.24814268725277,228.4377255018186,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,15,48,12,12,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,8.503036188192564,263.8437868197434,230.16216862340139,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,16,48,12,12,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,9.523151247266554,267.55236726104295,231.999548053793,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,17,48,12,12,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,10.31970542543227,268.7391749679862,231.31515474982834,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,18,48,12,12,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,10.893260157646944,272.5940073146472,233.29878608558147,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,19,48,12,12,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,11.587840070163457,274.03858148176954,232.87215924179594,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,20,48,12,12,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,12.298399217781848,274.1645032210022,231.1268799701207,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,21,48,12,12,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,13.214013728838692,276.5284212400421,231.61959697825273,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,22,48,12,12,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,15.050665193760711,275.68783090256136,228.90780562986407,,True
+Pré,AM,tipo_movimento_de_massa,23,48,12,12,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,19.261249506034464,277.3213516471537,228.67012536354852,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_movimento_de_massa,24,48,12,12,22,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,22.0,22.207704856224105,273.61148900270433,223.08906170819128,,True
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,3,48,12,0,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,4,48,12,0,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,5,48,12,0,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,6,48,12,0,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,7,48,12,0,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,8,48,12,0,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,9,48,12,0,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,10,48,12,0,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,11,48,12,0,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,12,48,12,0,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,13,48,12,0,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,14,48,12,0,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,15,48,12,0,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,16,48,12,0,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,17,48,12,0,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,18,48,12,0,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,19,48,12,0,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,20,48,12,0,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,21,48,12,0,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,22,48,12,0,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,23,48,12,0,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_calor_e_baixa_umidade,24,48,12,0,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,3,48,12,0,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,4,48,12,0,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,5,48,12,0,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,6,48,12,0,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,7,48,12,0,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,8,48,12,0,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,9,48,12,0,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,10,48,12,0,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,11,48,12,0,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,12,48,12,0,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,13,48,12,0,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,14,48,12,0,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,15,48,12,0,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,16,48,12,0,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,17,48,12,0,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,18,48,12,0,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,19,48,12,0,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,20,48,12,0,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,21,48,12,0,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,22,48,12,0,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,23,48,12,0,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_onda_de_frio,24,48,12,0,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,3,48,12,2,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,4,48,12,2,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,5,48,12,2,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,6,48,12,2,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,7,48,12,2,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,8,48,12,2,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,9,48,12,2,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,10,48,12,2,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,11,48,12,2,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,12,48,12,2,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,13,48,12,2,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,14,48,12,2,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,15,48,12,2,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,16,48,12,2,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,17,48,12,2,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,18,48,12,2,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,19,48,12,2,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,20,48,12,2,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,21,48,12,2,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,22,48,12,2,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,23,48,12,2,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_outros,24,48,12,2,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,3,48,12,0,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,4,48,12,0,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,5,48,12,0,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,6,48,12,0,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,7,48,12,0,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,8,48,12,0,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,9,48,12,0,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,10,48,12,0,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,11,48,12,0,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,12,48,12,0,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,13,48,12,0,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,14,48,12,0,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,15,48,12,0,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,16,48,12,0,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,17,48,12,0,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,18,48,12,0,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,19,48,12,0,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,20,48,12,0,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,21,48,12,0,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,22,48,12,0,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,23,48,12,0,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_rompimento_colapso_de_barragens,24,48,12,0,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,3,48,12,0,1,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,4,48,12,0,2,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,5,48,12,0,3,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,6,48,12,0,4,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,7,48,12,0,5,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,8,48,12,0,6,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,9,48,12,0,7,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,10,48,12,0,8,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,11,48,12,0,9,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,12,48,12,0,10,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,13,48,12,0,11,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,14,48,12,0,12,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,15,48,12,0,13,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,16,48,12,0,14,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,17,48,12,0,15,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,18,48,12,0,16,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,19,48,12,0,17,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,20,48,12,0,18,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,21,48,12,0,19,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,22,48,12,0,20,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,23,48,12,0,21,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_tornado,24,48,12,0,22,"(1, 0, 1)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,AM,tipo_vendavais_e_ciclones,3,48,12,6,1,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,226.8666601249909,215.63945405954354,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,4,48,12,6,2,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,2.0,1.7744162733073225,229.25591331507593,216.15750623872069,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,5,48,12,6,3,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,3.0,2.8901915580491306,232.27610724204538,217.30649915478224,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,6,48,12,6,4,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,4.0,3.9577443644992307,235.98901528334318,219.14820618517217,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,7,48,12,6,5,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,5.0,4.974930397995722,238.49775170890757,219.78574159982867,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,8,48,12,6,6,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,6.0,5.642716350724952,241.95119328016597,221.36798216017917,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.,True
+Pré,AM,tipo_vendavais_e_ciclones,9,48,12,6,7,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,7.0,6.219214856128706,241.71816870784286,219.26375657694817,,True
+Pré,AM,tipo_vendavais_e_ciclones,10,48,12,6,8,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,8.0,6.683757997564375,242.6858121176152,218.3601989758126,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,11,48,12,6,9,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,9.0,7.518211783058335,246.55656911424586,220.35975496153537,,True
+Pré,AM,tipo_vendavais_e_ciclones,12,48,12,6,10,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,10.0,9.90827558134399,250.38580350579804,222.31778834217965,,True
+Pré,AM,tipo_vendavais_e_ciclones,13,48,12,6,11,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,11.0,12.472850780637105,253.97383859032047,224.03462241579422,,True
+Pré,AM,tipo_vendavais_e_ciclones,14,48,12,6,12,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,12.0,15.022744622062913,257.7543526731858,225.94393548775165,,True
+Pré,AM,tipo_vendavais_e_ciclones,15,48,12,6,13,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,13.0,16.632709809999717,261.6230354521234,227.94141725578135,,True
+Pré,AM,tipo_vendavais_e_ciclones,16,48,12,6,14,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,14.0,20.656591686552254,263.6304946117141,228.07767540446417,,True
+Pré,AM,tipo_vendavais_e_ciclones,17,48,12,6,15,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,15.0,23.20800592859971,267.4994754622306,230.07545524407277,,True
+Pré,AM,tipo_vendavais_e_ciclones,18,48,12,6,16,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,16.0,25.159727273095672,269.7732567408303,230.47803551176455,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,19,48,12,6,17,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,17.0,28.652020543184843,273.3321705128674,232.16574827289378,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,20,48,12,6,18,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,18.0,30.580883634283175,277.2011153707106,234.16349211982913,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,21,48,12,6,19,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,19.0,33.19813257288538,281.03630067431936,236.12747641252994,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,22,48,12,6,20,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,20.0,35.73966398530556,284.8619412188521,238.08191594615482,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,23,48,12,6,21,"(1, 0, 1)","(1, 0, 0, 12)",estimado,0.0,21.0,37.53029223949337,288.7205257225026,240.06929943889745,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,AM,tipo_vendavais_e_ciclones,24,48,12,6,22,"(1, 0, 1)","(1, 0, 0, 12)",não convergiu,0.0,22.0,39.6389314404301,291.97138723591644,241.44895994140336,Maximum Likelihood optimization failed to converge. Check mle_retvals,False

@@ -1,0 +1,3 @@
+﻿periodo,unidade,tipologia,K,lag,coef_original,se_original,p_condicional
+Pré,SE,tipo_chuvas_intensas,0,0,3.235376922518822,1.1630269401511648,0.005404852177897927
+Pré,SE,tipo_estiagem_e_seca,0,0,0.9347038974420546,0.542570322011741,0.08493678680968127

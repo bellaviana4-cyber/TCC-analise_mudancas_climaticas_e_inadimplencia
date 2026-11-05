@@ -1,0 +1,6 @@
+﻿periodo,unidade,modelo,ordem,sazonal,n_treino,status,BIC,AIC,avisos
+Total,AP,SARIMA,"(0, 0, 0)","(1, 0, 0, 12)",95,estimado,530.8945799746907,523.2329492998891,
+Total,AP,SARIMA,"(1, 0, 0)","(1, 0, 0, 12)",95,estimado,535.2874824337488,525.0719748673466,
+Total,AP,SARIMA,"(0, 0, 1)","(1, 0, 0, 12)",95,estimado,535.3433153144655,525.1278077480633,
+Total,AP,SARIMA,"(1, 0, 1)","(1, 0, 0, 12)",95,estimado,539.4673114154931,526.6979269574904,
+Total,AP,SARIMA,"(1, 0, 0)","(0, 0, 1, 12)",95,estimado,536.8442998345471,526.6287922681449,

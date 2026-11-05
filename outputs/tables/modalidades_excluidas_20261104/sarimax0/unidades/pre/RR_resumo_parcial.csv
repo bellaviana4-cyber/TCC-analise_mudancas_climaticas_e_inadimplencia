@@ -1,0 +1,17 @@
+﻿periodo,unidade,tipologia,status,n_treino,n_teste,n_ocorrencias_meses_treino,bic_sarima,rmse_sarima,ordem,sazonal,n_candidatos_estimaveis,K,K_max_testado,bic_sarimax,delta_BIC,rmse_sarimax,mae_sarimax,melhora_rmse_pct,soma_beta,impulso_padronizado_100dlogI,associacao_acumulada_pct,n_exog,lb12_padronizado,lb12_sarima,criterio,p_soma_condicional
+Pré,RR,tipo_alagamentos,não estimável,48,12,2,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_chuvas_intensas,não estimável,48,12,1,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_doencas_infecciosas,não estimável,48,12,1,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_enxurradas,não estimável,48,12,1,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_erosao,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_estiagem_e_seca,estimado,48,12,4,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",25,0.0,24.0,373.88377834185985,3.7010671793850634,2.81050635236048,2.3943716411927447,-4.595309251611246,0.9643984699307427,0.5012714137041822,0.5025298807550136,1.0,0.3553926122999838,0.37741768221241534,menor BIC do treino entre candidatos convergidos,0.900103173627673
+Pré,RR,tipo_granizo,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_incendio_florestal,não estimável,48,12,1,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_inundacoes,estimado,48,12,4,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",19,17.0,24.0,328.51430745069933,-41.668403711775454,11.376044295936898,8.883436981849478,-323.3688602746598,209.349452600661,48.369994273972026,62.20648602861984,18.0,0.16585705958077493,0.37741768221241534,menor BIC do treino entre candidatos convergidos,0.5193062921213285
+Pré,RR,tipo_movimento_de_massa,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_onda_de_calor_e_baixa_umidade,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_onda_de_frio,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_outros,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_rompimento_colapso_de_barragens,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_tornado,não estimável,48,12,0,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,
+Pré,RR,tipo_vendavais_e_ciclones,não estimável,48,12,2,370.1827111624748,2.6870290574882407,"(0, 0, 0)","(1, 0, 0, 12)",0,,,,,,,,,,,,,,,

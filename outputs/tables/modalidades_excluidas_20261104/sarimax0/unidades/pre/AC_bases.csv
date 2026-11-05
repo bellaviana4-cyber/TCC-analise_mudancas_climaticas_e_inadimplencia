@@ -1,0 +1,6 @@
+﻿periodo,unidade,modelo,ordem,sazonal,n_treino,status,BIC,AIC,avisos
+Pré,AC,SARIMA,"(0, 0, 0)","(1, 0, 0, 12)",48,estimado,248.22588969275296,242.6122866600293,
+Pré,AC,SARIMA,"(1, 0, 0)","(1, 0, 0, 12)",48,estimado,250.37123745758967,242.88643341395812,
+Pré,AC,SARIMA,"(0, 0, 1)","(1, 0, 0, 12)",48,estimado,250.31054357120755,242.825739527576,
+Pré,AC,SARIMA,"(1, 0, 1)","(1, 0, 0, 12)",48,estimado,254.14499351951852,244.78898846497907,
+Pré,AC,SARIMA,"(1, 0, 0)","(0, 0, 1, 12)",48,estimado,250.37487526377035,242.8900712201388,Non-invertible starting seasonal moving average Using zeros as starting parameters.

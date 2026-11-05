@@ -1,0 +1,401 @@
+﻿periodo,unidade,tipologia,K,n_treino_comum,n_teste,n_ocorrencias_meses_treino,n_exog,ordem,sazonal,status,n_constantes,posto,condicao,BIC,AIC,avisos,convergiu
+Pré,PA,tipo_alagamentos,0,48,12,21,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,199.67710715797884,192.19230311434728,,True
+Pré,PA,tipo_alagamentos,1,48,12,21,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.1608920365782325,203.53042801040098,194.17442295586153,,True
+Pré,PA,tipo_alagamentos,2,48,12,21,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.2407444261397071,206.89914558211396,195.6719395166666,,True
+Pré,PA,tipo_alagamentos,3,48,12,21,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,1.2608902614321809,209.23598933711443,196.1375822607592,,True
+Pré,PA,tipo_alagamentos,4,48,12,21,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,1.3351407484583955,212.7612976100798,197.79168952281665,,True
+Pré,PA,tipo_alagamentos,5,48,12,21,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,1.6603187794937408,213.3789165211989,196.5381074230279,,True
+Pré,PA,tipo_alagamentos,6,48,12,21,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,1.8555922935293887,217.2406619420587,198.5286518329798,,True
+Pré,PA,tipo_alagamentos,7,48,12,21,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,1.9723651883678592,220.908856600565,200.3256454805782,,True
+Pré,PA,tipo_alagamentos,8,48,12,21,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,2.3388972203909035,223.39609643348786,200.94168430259316,,True
+Pré,PA,tipo_alagamentos,9,48,12,21,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,3.044501817328252,226.25939552942137,201.93378238761878,,True
+Pré,PA,tipo_alagamentos,10,48,12,21,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,3.6932554353406006,229.85722511843414,203.66041096572368,,True
+Pré,PA,tipo_alagamentos,11,48,12,21,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,4.603718704889741,232.49314494332447,204.42512977970608,,True
+Pré,PA,tipo_alagamentos,12,48,12,21,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,5.55030707299419,235.77890490666013,205.83968873213388,,True
+Pré,PA,tipo_alagamentos,13,48,12,21,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,6.950234568848282,239.5828470345661,207.77242984913195,,True
+Pré,PA,tipo_alagamentos,14,48,12,21,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,7.907416706530181,239.80808857042555,206.1264703740835,,True
+Pré,PA,tipo_alagamentos,15,48,12,21,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,8.536210055411381,243.67702892434266,208.12420971709275,,True
+Pré,PA,tipo_alagamentos,16,48,12,21,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,9.0381267841342,247.1928093159883,209.76878909783048,,True
+Pré,PA,tipo_alagamentos,17,48,12,21,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,9.804565704562489,246.67085373840376,207.37563250933806,,True
+Pré,PA,tipo_alagamentos,18,48,12,21,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,10.139471747508702,250.518948403074,209.3525261631004,,True
+Pré,PA,tipo_alagamentos,19,48,12,21,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,10.412751511347706,254.24043796568694,211.20281471480544,,True
+Pré,PA,tipo_alagamentos,20,48,12,21,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,10.694549828806972,257.79791894234233,212.88909468055294,,True
+Pré,PA,tipo_alagamentos,21,48,12,21,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,10.805981789959198,257.7120795782588,210.93205430556154,,True
+Pré,PA,tipo_alagamentos,22,48,12,21,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,10.914112074163182,260.1435347520588,211.49230846845364,,True
+Pré,PA,tipo_alagamentos,23,48,12,21,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,11.733359251718019,261.0246354450874,210.50220815057435,,True
+Pré,PA,tipo_alagamentos,24,48,12,21,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,13.383026696109237,264.19108668659607,211.79745838117512,,True
+Pré,PA,tipo_chuvas_intensas,0,48,12,13,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,197.91289324713725,190.4280892035057,,True
+Pré,PA,tipo_chuvas_intensas,1,48,12,13,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.5337757859300152,200.9584751852847,191.60247013074525,,True
+Pré,PA,tipo_chuvas_intensas,2,48,12,13,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.9027846504750405,204.34503687381488,193.11783080836753,,True
+Pré,PA,tipo_chuvas_intensas,3,48,12,13,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.2182868293749043,208.21465448295643,195.1162474066012,,True
+Pré,PA,tipo_chuvas_intensas,4,48,12,13,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,2.5975444096074876,212.00116025360003,197.0315521663369,,True
+Pré,PA,tipo_chuvas_intensas,5,48,12,13,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,2.991911579454822,215.81739273894726,198.97658364077625,,True
+Pré,PA,tipo_chuvas_intensas,6,48,12,13,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.364389215489923,218.2143895155178,199.5023794064389,,True
+Pré,PA,tipo_chuvas_intensas,7,48,12,13,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,3.851608395961525,221.6475968293289,201.0643857093421,,True
+Pré,PA,tipo_chuvas_intensas,8,48,12,13,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,4.48128808550184,224.94299511282637,202.48858298193167,,True
+Pré,PA,tipo_chuvas_intensas,9,48,12,13,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,4.865698038169663,228.7259896471051,204.40037650530252,,True
+Pré,PA,tipo_chuvas_intensas,10,48,12,13,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,5.9410775918936185,230.1400258013653,203.94321164865482,,True
+Pré,PA,tipo_chuvas_intensas,11,48,12,13,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,8.127040667532157,230.24420219197498,202.17618702835662,,True
+Pré,PA,tipo_chuvas_intensas,12,48,12,13,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,9.504788375897899,233.94532550884932,204.00610933432307,,True
+Pré,PA,tipo_chuvas_intensas,13,48,12,13,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,11.097412895492441,231.08267272076054,199.2722555353264,,True
+Pré,PA,tipo_chuvas_intensas,14,48,12,13,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,12.622130383312907,234.75681834567777,201.07520014933573,,True
+Pré,PA,tipo_chuvas_intensas,15,48,12,13,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,13.927178728605172,235.25171880461494,199.69889959736503,,True
+Pré,PA,tipo_chuvas_intensas,16,48,12,13,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,14.84693016049593,238.83866074494364,201.4146405267858,,True
+Pré,PA,tipo_chuvas_intensas,17,48,12,13,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,15.50058613701062,242.69617316200515,203.40095193293942,,True
+Pré,PA,tipo_chuvas_intensas,18,48,12,13,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,16.14613968145267,244.6737838489942,203.5073616090206,,True
+Pré,PA,tipo_chuvas_intensas,19,48,12,13,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,17.17040765194536,248.27369575325034,205.23607250236884,,True
+Pré,PA,tipo_chuvas_intensas,20,48,12,13,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,18.141965746071527,252.13303288047356,207.22420861868417,,True
+Pré,PA,tipo_chuvas_intensas,21,48,12,13,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,18.600356569692828,251.30362120763323,204.52359593493594,,True
+Pré,PA,tipo_chuvas_intensas,22,48,12,13,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,18.771445871970815,251.8758033328216,203.2245770492164,,True
+Pré,PA,tipo_chuvas_intensas,23,48,12,13,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,18.9943170579122,255.22517185739764,204.70274456288456,,True
+Pré,PA,tipo_chuvas_intensas,24,48,12,13,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,19.19552096984245,253.5369316452197,201.14330333979876,,True
+Pré,PA,tipo_doencas_infecciosas,0,48,12,2,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,1,48,12,2,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,2,48,12,2,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,3,48,12,2,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,4,48,12,2,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,5,48,12,2,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,6,48,12,2,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,7,48,12,2,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,8,48,12,2,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,9,48,12,2,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,10,48,12,2,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,11,48,12,2,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,12,48,12,2,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,13,48,12,2,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,14,48,12,2,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,15,48,12,2,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,16,48,12,2,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,17,48,12,2,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,18,48,12,2,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,19,48,12,2,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,20,48,12,2,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,21,48,12,2,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,22,48,12,2,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,23,48,12,2,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_doencas_infecciosas,24,48,12,2,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_enxurradas,0,48,12,26,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,201.6783841402827,194.19358009665115,,True
+Pré,PA,tipo_enxurradas,1,48,12,26,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.11205753585681,205.52664465628212,196.17063960174266,,True
+Pré,PA,tipo_enxurradas,2,48,12,26,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.1374693326783363,209.31571808275547,198.08851201730812,,True
+Pré,PA,tipo_enxurradas,3,48,12,26,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,1.2133877955519632,213.06583355443908,199.96742647808384,,True
+Pré,PA,tipo_enxurradas,4,48,12,26,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,1.2520164153943092,216.66736722216868,201.69775913490554,,True
+Pré,PA,tipo_enxurradas,5,48,12,26,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,1.519384626458848,219.54512011197028,202.70431101379927,,True
+Pré,PA,tipo_enxurradas,6,48,12,26,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,1.6178603654598698,222.3215206593518,203.6095105502729,,True
+Pré,PA,tipo_enxurradas,7,48,12,26,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,1.711566517518562,226.09395689234577,205.51074577235897,,True
+Pré,PA,tipo_enxurradas,8,48,12,26,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,2.433012789509118,228.91732832019605,206.46291618930135,,True
+Pré,PA,tipo_enxurradas,9,48,12,26,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,2.978560107481254,232.72258004457873,208.39696690277614,,True
+Pré,PA,tipo_enxurradas,10,48,12,26,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,3.425322343039466,236.47542675690164,210.27861260419115,,True
+Pré,PA,tipo_enxurradas,11,48,12,26,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,4.647127272669948,240.3451440680737,212.27712890445534,,True
+Pré,PA,tipo_enxurradas,12,48,12,26,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,5.814428694418994,243.78884159194706,213.8496254174208,,True
+Pré,PA,tipo_enxurradas,13,48,12,26,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,6.220050987499378,247.65176202727545,215.8413448418413,,True
+Pré,PA,tipo_enxurradas,14,48,12,26,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,6.49675997058689,251.46464517482386,217.78302697848181,,True
+Pré,PA,tipo_enxurradas,15,48,12,26,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,6.789938586380715,253.7008397362784,218.14802052902849,,True
+Pré,PA,tipo_enxurradas,16,48,12,26,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,7.089414991166249,255.06432431778222,217.64030409962442,,True
+Pré,PA,tipo_enxurradas,17,48,12,26,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,7.226423377920752,257.468445653372,218.17322442430628,,True
+Pré,PA,tipo_enxurradas,18,48,12,26,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,7.6603772253520495,255.73191099193502,214.56548875196142,,True
+Pré,PA,tipo_enxurradas,19,48,12,26,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,7.7783970330955485,255.0598484971632,212.0222252462817,,True
+Pré,PA,tipo_enxurradas,20,48,12,26,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,8.064703959243154,256.68917416631393,211.7803499045245,,True
+Pré,PA,tipo_enxurradas,21,48,12,26,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,8.072935104967389,260.48863682561165,213.70861155291436,,True
+Pré,PA,tipo_enxurradas,22,48,12,26,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,8.14104690712401,263.743207388356,215.0919811047508,,True
+Pré,PA,tipo_enxurradas,23,48,12,26,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,8.388927529815769,261.40495448940777,210.8825271948947,,True
+Pré,PA,tipo_enxurradas,24,48,12,26,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,8.396076736711471,260.7786730606156,208.38504475519466,,True
+Pré,PA,tipo_erosao,0,48,12,32,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,203.78995421766038,196.30515017402882,,True
+Pré,PA,tipo_erosao,1,48,12,32,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.4415642663831014,207.6284199046759,198.27241485013644,,True
+Pré,PA,tipo_erosao,2,48,12,32,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.719015986748058,211.04705738674144,199.8198513212941,,True
+Pré,PA,tipo_erosao,3,48,12,32,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.0436462889464453,212.92035860116,199.82195152480475,,True
+Pré,PA,tipo_erosao,4,48,12,32,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,2.2706479396857984,216.69552851944414,201.725920432181,,True
+Pré,PA,tipo_erosao,5,48,12,32,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,2.6106760724414007,220.55996514910993,203.71915605093892,,True
+Pré,PA,tipo_erosao,6,48,12,32,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.1185960876139776,222.60230317494774,203.89029306586883,,True
+Pré,PA,tipo_erosao,7,48,12,32,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,4.152704851601912,224.5202221226628,203.937011002676,,True
+Pré,PA,tipo_erosao,8,48,12,32,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,5.560044267533105,228.24910839782876,205.79469626693407,,True
+Pré,PA,tipo_erosao,9,48,12,32,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,7.09376311120687,231.98505491206666,207.65944177026407,,True
+Pré,PA,tipo_erosao,10,48,12,32,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,8.351726720575511,235.1682487745004,208.9714346217899,,True
+Pré,PA,tipo_erosao,11,48,12,32,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,10.281871180249771,238.81410429774928,210.7460891341309,,True
+Pré,PA,tipo_erosao,12,48,12,32,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,11.56575639402297,242.006845032387,212.06762885786074,,True
+Pré,PA,tipo_erosao,13,48,12,32,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,13.66965881616698,240.97676898562526,209.1663518001911,,True
+Pré,PA,tipo_erosao,14,48,12,32,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,15.815112540057314,244.35752837656298,210.67591018022094,,True
+Pré,PA,tipo_erosao,15,48,12,32,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,18.82536449404407,248.0457977848589,212.492978577609,,True
+Pré,PA,tipo_erosao,16,48,12,32,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,21.89534297308402,251.22573834659931,213.8017181284415,,True
+Pré,PA,tipo_erosao,17,48,12,32,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,25.021420606110915,254.71902894303645,215.42380771397072,,True
+Pré,PA,tipo_erosao,18,48,12,32,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,27.888194669339963,256.97243588043824,215.80601364046464,,True
+Pré,PA,tipo_erosao,19,48,12,32,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,29.929156647567428,260.3443665996259,217.30674334874442,,True
+Pré,PA,tipo_erosao,20,48,12,32,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,30.44284180480236,263.67108622279363,218.76226196100427,,True
+Pré,PA,tipo_erosao,21,48,12,32,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,31.44138512278552,266.7127864891746,219.93276121647736,,True
+Pré,PA,tipo_erosao,22,48,12,32,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,32.30276497076194,270.58160103076096,221.9303747471558,,True
+Pré,PA,tipo_erosao,23,48,12,32,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,34.04902910001673,272.8553741025707,222.3329468080576,,True
+Pré,PA,tipo_erosao,24,48,12,32,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,36.00803676446025,275.77308282737613,223.37945452195515,,True
+Pré,PA,tipo_estiagem_e_seca,0,48,12,8,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,204.6503757089826,197.16557166535105,,True
+Pré,PA,tipo_estiagem_e_seca,1,48,12,8,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.4398815721972644,207.3163812997809,197.96037624524143,,True
+Pré,PA,tipo_estiagem_e_seca,2,48,12,8,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.9417026808810687,211.17894404166077,199.95173797621342,,True
+Pré,PA,tipo_estiagem_e_seca,3,48,12,8,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.308993669343141,212.88521278072804,199.7868057043728,,True
+Pré,PA,tipo_estiagem_e_seca,4,48,12,8,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,2.7216645626562572,216.17206999369475,201.2024619064316,,True
+Pré,PA,tipo_estiagem_e_seca,5,48,12,8,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,3.0180144833986016,220.00765561545444,203.1668465172834,,True
+Pré,PA,tipo_estiagem_e_seca,6,48,12,8,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.3081236774206544,223.60074442971973,204.88873432064082,,True
+Pré,PA,tipo_estiagem_e_seca,7,48,12,8,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,3.708239352348794,226.78553365591375,206.20232253592695,,True
+Pré,PA,tipo_estiagem_e_seca,8,48,12,8,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,4.069026963581396,229.72151787474334,207.26710574384865,,True
+Pré,PA,tipo_estiagem_e_seca,9,48,12,8,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,4.880300763959406,233.53942292005735,209.21380977825476,,True
+Pré,PA,tipo_estiagem_e_seca,10,48,12,8,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,5.68700834940083,236.25606903928423,210.05925488657374,,True
+Pré,PA,tipo_estiagem_e_seca,11,48,12,8,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,6.253566158867513,240.12275954412354,212.05474438050516,,True
+Pré,PA,tipo_estiagem_e_seca,12,48,12,8,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,7.285255793436223,243.21060490131484,213.2713887267886,,True
+Pré,PA,tipo_estiagem_e_seca,13,48,12,8,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,8.276033483463276,246.39083088554278,214.58041370010864,,True
+Pré,PA,tipo_estiagem_e_seca,14,48,12,8,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,8.973226154474458,248.69237168460185,215.0107534882598,,True
+Pré,PA,tipo_estiagem_e_seca,15,48,12,8,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,10.18788862507233,251.9240991065397,216.37127989928976,,True
+Pré,PA,tipo_estiagem_e_seca,16,48,12,8,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,15.216608399154683,247.59168738908664,210.1676671709288,,True
+Pré,PA,tipo_estiagem_e_seca,17,48,12,8,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,17.37249434481721,243.04011260112736,203.74489137206166,,True
+Pré,PA,tipo_estiagem_e_seca,18,48,12,8,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,19.211789899514415,244.5122803369092,203.34585809693561,,True
+Pré,PA,tipo_estiagem_e_seca,19,48,12,8,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,20.34104956284126,242.0974011726155,199.059777921734,,True
+Pré,PA,tipo_estiagem_e_seca,20,48,12,8,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,20.43874929340579,245.96273879310758,201.05391453131818,,True
+Pré,PA,tipo_estiagem_e_seca,21,48,12,8,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,20.73198771864139,246.3160921769442,199.53606690424695,,True
+Pré,PA,tipo_estiagem_e_seca,22,48,12,8,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,21.586067376082575,250.11578077266398,201.46455448905883,,True
+Pré,PA,tipo_estiagem_e_seca,23,48,12,8,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,22.19541650109565,253.95504586734808,203.432618572835,,True
+Pré,PA,tipo_estiagem_e_seca,24,48,12,8,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,22.557387156383722,257.7961652228594,205.40253691743843,,True
+Pré,PA,tipo_granizo,0,48,12,2,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,1,48,12,2,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,2,48,12,2,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,3,48,12,2,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,4,48,12,2,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,5,48,12,2,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,6,48,12,2,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,7,48,12,2,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,8,48,12,2,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,9,48,12,2,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,10,48,12,2,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,11,48,12,2,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,12,48,12,2,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,13,48,12,2,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,14,48,12,2,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,15,48,12,2,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,16,48,12,2,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,17,48,12,2,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,18,48,12,2,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,19,48,12,2,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,20,48,12,2,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,21,48,12,2,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,22,48,12,2,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,23,48,12,2,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_granizo,24,48,12,2,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_incendio_florestal,0,48,12,8,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,204.06033130316553,196.57552725953397,,True
+Pré,PA,tipo_incendio_florestal,1,48,12,8,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.0929876257681357,207.8669724984483,198.51096744390884,,True
+Pré,PA,tipo_incendio_florestal,2,48,12,8,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.22320779390813,211.43464681170562,200.20744074625827,,True
+Pré,PA,tipo_incendio_florestal,3,48,12,8,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,1.328923348843516,215.24994324967483,202.15153617331958,,True
+Pré,PA,tipo_incendio_florestal,4,48,12,8,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,1.5391668008245873,218.7698470537808,203.80023896651767,,True
+Pré,PA,tipo_incendio_florestal,5,48,12,8,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,1.8281081046664813,220.58501380940248,203.74420471123148,,True
+Pré,PA,tipo_incendio_florestal,6,48,12,8,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,2.1201890255740383,224.34102428449805,205.62901417541914,,True
+Pré,PA,tipo_incendio_florestal,7,48,12,8,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,2.675922893409668,228.1152921972571,207.5320810772703,,True
+Pré,PA,tipo_incendio_florestal,8,48,12,8,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,3.1848529300012878,231.97440643397687,209.51999430308217,,True
+Pré,PA,tipo_incendio_florestal,9,48,12,8,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,3.977879607882273,235.33618442913595,211.01057128733336,,True
+Pré,PA,tipo_incendio_florestal,10,48,12,8,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,5.158525001756538,239.18870343651764,212.99188928380715,,True
+Pré,PA,tipo_incendio_florestal,11,48,12,8,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,6.3212621800076025,242.57222792675668,214.5042127631383,,True
+Pré,PA,tipo_incendio_florestal,12,48,12,8,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,6.955507478102471,246.08060051162877,216.14138433710252,,True
+Pré,PA,tipo_incendio_florestal,13,48,12,8,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,7.814648073382852,248.99669004530193,217.18627285986778,,True
+Pré,PA,tipo_incendio_florestal,14,48,12,8,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,8.944577579574158,251.04163851430445,217.3600203179624,,True
+Pré,PA,tipo_incendio_florestal,15,48,12,8,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,9.320873175648892,253.2301426166381,217.67732340938818,,True
+Pré,PA,tipo_incendio_florestal,16,48,12,8,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,9.48143473055872,256.11214821384914,218.68812799569133,,True
+Pré,PA,tipo_incendio_florestal,17,48,12,8,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,9.581111123051105,253.99496697252766,214.69974574346196,,True
+Pré,PA,tipo_incendio_florestal,18,48,12,8,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,9.63710611939057,255.47648930570722,214.31006706573362,,True
+Pré,PA,tipo_incendio_florestal,19,48,12,8,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,9.67843695956436,259.2613245405764,216.2237012896949,,True
+Pré,PA,tipo_incendio_florestal,20,48,12,8,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,9.769675896550016,262.4189464205139,217.51012215872453,,True
+Pré,PA,tipo_incendio_florestal,21,48,12,8,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,10.290709879902812,265.9950165352961,219.2149912625988,,True
+Pré,PA,tipo_incendio_florestal,22,48,12,8,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,10.841333684214524,269.8575314829194,221.20630519931422,,True
+Pré,PA,tipo_incendio_florestal,23,48,12,8,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,11.892223717230713,273.26179765316783,222.73937035865475,,True
+Pré,PA,tipo_incendio_florestal,24,48,12,8,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,12.752543172028723,276.75607862694744,224.36245032152652,,True
+Pré,PA,tipo_inundacoes,0,48,12,22,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,204.6892029116644,197.20439886803285,,True
+Pré,PA,tipo_inundacoes,1,48,12,22,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.21667177696429,207.99956418327812,198.64355912873867,,True
+Pré,PA,tipo_inundacoes,2,48,12,22,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.3110631396207455,211.71750400042933,200.49029793498198,,True
+Pré,PA,tipo_inundacoes,3,48,12,22,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,1.39224292593044,214.9786865783549,201.88027950199967,,True
+Pré,PA,tipo_inundacoes,4,48,12,22,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,1.7691403458184622,216.50844641426602,201.53883832700288,,True
+Pré,PA,tipo_inundacoes,5,48,12,22,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,1.9451683057598557,220.23560437715497,203.39479527898396,,True
+Pré,PA,tipo_inundacoes,6,48,12,22,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,1.9604055725783243,223.52888443393806,204.81687432485916,,True
+Pré,PA,tipo_inundacoes,7,48,12,22,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,1.9952363285083627,227.30263994037472,206.71942882038792,,True
+Pré,PA,tipo_inundacoes,8,48,12,22,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,2.7621564155531257,231.15745270157248,208.70304057067779,,True
+Pré,PA,tipo_inundacoes,9,48,12,22,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,3.616629305960231,234.20488113131898,209.8792679895164,,True
+Pré,PA,tipo_inundacoes,10,48,12,22,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,3.8672183808887843,238.04680808222787,211.8499939295174,,True
+Pré,PA,tipo_inundacoes,11,48,12,22,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,4.548514670315451,241.45986824696195,213.39185308334356,,True
+Pré,PA,tipo_inundacoes,12,48,12,22,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,4.851517692227374,243.2855361968232,213.34632002229694,,True
+Pré,PA,tipo_inundacoes,13,48,12,22,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,5.154413112850419,247.00726016888575,215.1968429834516,,True
+Pré,PA,tipo_inundacoes,14,48,12,22,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,5.718679644267088,249.96983009080665,216.2882118944646,,True
+Pré,PA,tipo_inundacoes,15,48,12,22,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,6.285004781152167,249.8316108990175,214.2787916917676,,True
+Pré,PA,tipo_inundacoes,16,48,12,22,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,6.655554531654414,253.6967436358646,216.27272341770677,,True
+Pré,PA,tipo_inundacoes,17,48,12,22,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,7.043618282529836,257.4962823726267,218.201061143561,,True
+Pré,PA,tipo_inundacoes,18,48,12,22,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,7.512887165283905,259.7758554807829,218.60943324080932,,True
+Pré,PA,tipo_inundacoes,19,48,12,22,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,7.84592889995314,260.31721999884286,217.27959674796136,,True
+Pré,PA,tipo_inundacoes,20,48,12,22,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,8.206434681562168,262.5453210348918,217.6364967731024,,True
+Pré,PA,tipo_inundacoes,21,48,12,22,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,8.880232731120959,264.53027935524733,217.75025408255004,,True
+Pré,PA,tipo_inundacoes,22,48,12,22,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,9.267996560751472,266.33933641463227,217.68811013102712,,True
+Pré,PA,tipo_inundacoes,23,48,12,22,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,9.547710191391609,269.1689560013385,218.6465287068254,,True
+Pré,PA,tipo_inundacoes,24,48,12,22,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,9.6293873703417,272.25605799783693,219.86242969241596,,True
+Pré,PA,tipo_movimento_de_massa,0,48,12,19,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,203.29393506022828,195.80913101659672,,True
+Pré,PA,tipo_movimento_de_massa,1,48,12,19,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.6433934438637374,206.6625866669996,197.30658161246015,,True
+Pré,PA,tipo_movimento_de_massa,2,48,12,19,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,2.00918567237856,209.4489620455696,198.22175598012225,,True
+Pré,PA,tipo_movimento_de_massa,3,48,12,19,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.304476787766608,213.15413131689155,200.0557242405363,,True
+Pré,PA,tipo_movimento_de_massa,4,48,12,19,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,2.5582186702766867,215.97148033350547,201.00187224624233,,True
+Pré,PA,tipo_movimento_de_massa,5,48,12,19,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,2.804982659455272,218.53914826236434,201.69833916419333,,True
+Pré,PA,tipo_movimento_de_massa,6,48,12,19,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.0316540249062007,222.3167761352699,203.604766026191,,True
+Pré,PA,tipo_movimento_de_massa,7,48,12,19,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,3.1674806708130703,225.53114183376758,204.94793071378078,,True
+Pré,PA,tipo_movimento_de_massa,8,48,12,19,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,3.401880770558193,227.40316282473495,204.94875069384025,,True
+Pré,PA,tipo_movimento_de_massa,9,48,12,19,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,4.011012387613582,225.3341982902768,201.0085851484742,,True
+Pré,PA,tipo_movimento_de_massa,10,48,12,19,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,5.20769684884043,226.5620277635865,200.36521361087603,,True
+Pré,PA,tipo_movimento_de_massa,11,48,12,19,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,7.019406579759398,230.28738646593888,202.2193713023205,,True
+Pré,PA,tipo_movimento_de_massa,12,48,12,19,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,8.402962544205948,231.35286290270724,201.413646728181,,True
+Pré,PA,tipo_movimento_de_massa,13,48,12,19,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,8.990115646413978,234.81211385320964,203.0016966677755,,True
+Pré,PA,tipo_movimento_de_massa,14,48,12,19,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,9.378147047670097,232.2602888383602,198.57867064201815,,True
+Pré,PA,tipo_movimento_de_massa,15,48,12,19,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,9.577433246738487,234.6289407674426,199.0761215601927,,True
+Pré,PA,tipo_movimento_de_massa,16,48,12,19,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,9.7277454060212,238.499439229291,201.0754190111332,,True
+Pré,PA,tipo_movimento_de_massa,17,48,12,19,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,9.894753510063413,242.12117141795534,202.82595018888964,,True
+Pré,PA,tipo_movimento_de_massa,18,48,12,19,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,10.104860885941532,244.10581766116314,202.93939542118954,,True
+Pré,PA,tipo_movimento_de_massa,19,48,12,19,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,10.261425020307733,245.39141480308712,202.35379155220562,,True
+Pré,PA,tipo_movimento_de_massa,20,48,12,19,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,10.569695068493525,249.16122736707212,204.25240310528272,,True
+Pré,PA,tipo_movimento_de_massa,21,48,12,19,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,11.540854848964543,252.8664696192714,206.08644434657413,,True
+Pré,PA,tipo_movimento_de_massa,22,48,12,19,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,12.445958748582619,249.7430752557862,201.09184897218103,,True
+Pré,PA,tipo_movimento_de_massa,23,48,12,19,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,13.03716382981173,253.28193205509876,202.75950476058568,,True
+Pré,PA,tipo_movimento_de_massa,24,48,12,19,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,14.074869416076925,254.12537810587114,201.7317498004502,,True
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,0,48,12,0,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,1,48,12,0,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,2,48,12,0,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,3,48,12,0,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,4,48,12,0,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,5,48,12,0,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,6,48,12,0,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,7,48,12,0,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,8,48,12,0,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,9,48,12,0,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,10,48,12,0,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,11,48,12,0,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,12,48,12,0,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,13,48,12,0,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,14,48,12,0,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,15,48,12,0,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,16,48,12,0,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,17,48,12,0,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,18,48,12,0,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,19,48,12,0,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,20,48,12,0,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,21,48,12,0,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,22,48,12,0,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,23,48,12,0,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_calor_e_baixa_umidade,24,48,12,0,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,0,48,12,0,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,1,48,12,0,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,2,48,12,0,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,3,48,12,0,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,4,48,12,0,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,5,48,12,0,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,6,48,12,0,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,7,48,12,0,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,8,48,12,0,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,9,48,12,0,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,10,48,12,0,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,11,48,12,0,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,12,48,12,0,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,13,48,12,0,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,14,48,12,0,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,15,48,12,0,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,16,48,12,0,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,17,48,12,0,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,18,48,12,0,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,19,48,12,0,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,20,48,12,0,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,21,48,12,0,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,22,48,12,0,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,23,48,12,0,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_onda_de_frio,24,48,12,0,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_outros,0,48,12,13,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,204.65023788994685,197.1654338463153,,True
+Pré,PA,tipo_outros,1,48,12,13,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.2809991825216598,207.74385092761835,198.3878458730789,,True
+Pré,PA,tipo_outros,2,48,12,13,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,2.062889223058385,210.676874094677,199.44966802922966,,True
+Pré,PA,tipo_outros,3,48,12,13,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.7778106251125547,212.43792206049585,199.3395149841406,,True
+Pré,PA,tipo_outros,4,48,12,13,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,3.120149287198983,216.11559519968102,201.14598711241788,,True
+Pré,PA,tipo_outros,5,48,12,13,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,3.2631580098021935,219.35159033201273,202.5107812338417,,True
+Pré,PA,tipo_outros,6,48,12,13,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.573890958106921,221.4901367962479,202.778126687169,,True
+Pré,PA,tipo_outros,7,48,12,13,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,3.665900242508142,225.18311990453816,204.59990878455136,,True
+Pré,PA,tipo_outros,8,48,12,13,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,3.901559928796581,229.04686417866824,206.59245204777355,,True
+Pré,PA,tipo_outros,9,48,12,13,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,4.832121951429559,227.57430257687489,203.2486894350723,,True
+Pré,PA,tipo_outros,10,48,12,13,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,6.08634861117918,231.17622705806644,204.97941290535596,,True
+Pré,PA,tipo_outros,11,48,12,13,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,6.783675172109596,233.78436287069565,205.71634770707726,,True
+Pré,PA,tipo_outros,12,48,12,13,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,6.995661983966187,237.00998023435275,207.0707640598265,,True
+Pré,PA,tipo_outros,13,48,12,13,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,7.836015264566169,237.04154594120067,205.23112875576652,,True
+Pré,PA,tipo_outros,14,48,12,13,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,9.060754496453912,238.67015306002313,204.98853486368108,,True
+Pré,PA,tipo_outros,15,48,12,13,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,10.964680088386578,242.42353605949108,206.87071685224115,,True
+Pré,PA,tipo_outros,16,48,12,13,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,11.794650419476241,246.10700877517644,208.68298855701863,,True
+Pré,PA,tipo_outros,17,48,12,13,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,13.337812351923795,248.22943861696234,208.93421738789664,,True
+Pré,PA,tipo_outros,18,48,12,13,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,18.5581196866822,249.3531735614829,208.1867513215093,,True
+Pré,PA,tipo_outros,19,48,12,13,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,26.630611030602143,249.43914582791757,206.40152257703608,,True
+Pré,PA,tipo_outros,20,48,12,13,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,33.73673233721867,253.30038122341347,208.39155696162408,,True
+Pré,PA,tipo_outros,21,48,12,13,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,126.05482577996723,252.1094808083816,205.32945553568433,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,PA,tipo_outros,22,48,12,13,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,275.6428987651666,255.1334145010735,206.48218821746835,Maximum Likelihood optimization failed to converge. Check mle_retvals,True
+Pré,PA,tipo_outros,23,48,12,13,24,"(0, 0, 0)","(1, 0, 0, 12)",regressora constante no treino,1.0,,,,,,
+Pré,PA,tipo_outros,24,48,12,13,25,"(0, 0, 0)","(1, 0, 0, 12)",regressora constante no treino,2.0,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,0,48,12,0,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,1,48,12,0,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,2,48,12,0,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,3,48,12,0,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,4,48,12,0,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,5,48,12,0,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,6,48,12,0,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,7,48,12,0,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,8,48,12,0,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,9,48,12,0,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,10,48,12,0,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,11,48,12,0,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,12,48,12,0,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,13,48,12,0,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,14,48,12,0,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,15,48,12,0,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,16,48,12,0,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,17,48,12,0,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,18,48,12,0,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,19,48,12,0,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,20,48,12,0,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,21,48,12,0,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,22,48,12,0,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,23,48,12,0,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_rompimento_colapso_de_barragens,24,48,12,0,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,0,48,12,0,1,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,1,48,12,0,2,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,2,48,12,0,3,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,3,48,12,0,4,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,4,48,12,0,5,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,5,48,12,0,6,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,6,48,12,0,7,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,7,48,12,0,8,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,8,48,12,0,9,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,9,48,12,0,10,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,10,48,12,0,11,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,11,48,12,0,12,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,12,48,12,0,13,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,13,48,12,0,14,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,14,48,12,0,15,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,15,48,12,0,16,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,16,48,12,0,17,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,17,48,12,0,18,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,18,48,12,0,19,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,19,48,12,0,20,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,20,48,12,0,21,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,21,48,12,0,22,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,22,48,12,0,23,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,23,48,12,0,24,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_tornado,24,48,12,0,25,"(0, 0, 0)","(1, 0, 0, 12)",suporte menor que três meses positivos,,,,,,,
+Pré,PA,tipo_vendavais_e_ciclones,0,48,12,14,1,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,1.0,1.0,202.99223845146727,195.50743440783572,,True
+Pré,PA,tipo_vendavais_e_ciclones,1,48,12,14,2,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,2.0,1.3425277011787253,206.41157975102908,197.05557469648963,,True
+Pré,PA,tipo_vendavais_e_ciclones,2,48,12,14,3,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,3.0,1.8296001629887781,210.0392371640912,198.81203109864384,,True
+Pré,PA,tipo_vendavais_e_ciclones,3,48,12,14,4,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,4.0,2.38659560079306,212.89823171310704,199.7998246367518,,True
+Pré,PA,tipo_vendavais_e_ciclones,4,48,12,14,5,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,5.0,3.0257675659241396,216.54813102418254,201.5785229369194,,True
+Pré,PA,tipo_vendavais_e_ciclones,5,48,12,14,6,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,6.0,3.532705714747523,219.8641000772352,203.0232909790642,,True
+Pré,PA,tipo_vendavais_e_ciclones,6,48,12,14,7,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,7.0,3.995390473874882,223.191731503732,204.4797213946531,,True
+Pré,PA,tipo_vendavais_e_ciclones,7,48,12,14,8,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,8.0,4.275427919299039,227.0213730788623,206.4381619588755,,True
+Pré,PA,tipo_vendavais_e_ciclones,8,48,12,14,9,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,9.0,4.8914704993087454,230.8864044462996,208.4319923154049,,True
+Pré,PA,tipo_vendavais_e_ciclones,9,48,12,14,10,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,10.0,5.268019141242357,234.68301944078513,210.35740629898254,,True
+Pré,PA,tipo_vendavais_e_ciclones,10,48,12,14,11,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,11.0,5.606022996146623,237.7603631574463,211.56354900473582,,True
+Pré,PA,tipo_vendavais_e_ciclones,11,48,12,14,12,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,12.0,6.095853009092988,241.6288911768542,213.56087601323586,,True
+Pré,PA,tipo_vendavais_e_ciclones,12,48,12,14,13,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,13.0,7.1984968057833365,245.25630339657434,215.3170872220481,,True
+Pré,PA,tipo_vendavais_e_ciclones,13,48,12,14,14,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,14.0,9.031501761102122,248.93631870310068,217.12590151766653,,True
+Pré,PA,tipo_vendavais_e_ciclones,14,48,12,14,15,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,15.0,10.478708952018792,251.87694602662444,218.1953278302824,,True
+Pré,PA,tipo_vendavais_e_ciclones,15,48,12,14,16,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,16.0,11.901561266818291,255.47372481391176,219.92090560666185,,True
+Pré,PA,tipo_vendavais_e_ciclones,16,48,12,14,17,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,17.0,12.595642984448208,253.65843443516394,216.23441421700613,,True
+Pré,PA,tipo_vendavais_e_ciclones,17,48,12,14,18,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,18.0,12.967128721029447,247.25039387800615,207.95517264894045,,True
+Pré,PA,tipo_vendavais_e_ciclones,18,48,12,14,19,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,19.0,13.332994131306117,250.28209324666813,209.11567100669453,,True
+Pré,PA,tipo_vendavais_e_ciclones,19,48,12,14,20,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,20.0,13.585869040191332,232.35591339593088,189.3182901450494,,True
+Pré,PA,tipo_vendavais_e_ciclones,20,48,12,14,21,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,21.0,13.893435791162577,223.0822695628604,178.173445301071,,True
+Pré,PA,tipo_vendavais_e_ciclones,21,48,12,14,22,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,22.0,14.263658276479173,226.15507934409482,179.37505407139756,,True
+Pré,PA,tipo_vendavais_e_ciclones,22,48,12,14,23,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,23.0,14.6353284214053,229.27027553239407,180.6190492487889,,True
+Pré,PA,tipo_vendavais_e_ciclones,23,48,12,14,24,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,24.0,15.087172432706184,233.02192510026794,182.49949780575486,,True
+Pré,PA,tipo_vendavais_e_ciclones,24,48,12,14,25,"(0, 0, 0)","(1, 0, 0, 12)",estimado,0.0,25.0,15.411864287267822,231.64843551950148,179.25480721408053,,True

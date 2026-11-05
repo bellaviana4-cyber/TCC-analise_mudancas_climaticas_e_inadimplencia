@@ -9,6 +9,7 @@ from threadpoolctl import threadpool_limits
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs/tables/modalidades_excluidas_20261104'
 os.environ['TCC_OUTPUT_DIR']=str(OUT/'granger')
+os.environ['TCC_BASE_CSV']=str(ROOT/'data/processed/df_tcc_2013_2024.csv')
 from analise_estadual import load
 
 def main():

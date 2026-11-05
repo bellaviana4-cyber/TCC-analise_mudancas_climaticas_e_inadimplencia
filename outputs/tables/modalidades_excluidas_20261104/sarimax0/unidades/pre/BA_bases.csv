@@ -1,0 +1,6 @@
+﻿periodo,unidade,modelo,ordem,sazonal,n_treino,status,BIC,AIC,avisos
+Pré,BA,SARIMA,"(0, 0, 0)","(1, 0, 0, 12)",48,estimado,215.46645741695966,209.85285438423597,
+Pré,BA,SARIMA,"(1, 0, 0)","(1, 0, 0, 12)",48,estimado,219.0476332640565,211.56282922042493,
+Pré,BA,SARIMA,"(0, 0, 1)","(1, 0, 0, 12)",48,estimado,219.11494109198682,211.63013704835527,
+Pré,BA,SARIMA,"(1, 0, 1)","(1, 0, 0, 12)",48,estimado,219.97183406141613,210.61582900687668,Non-invertible starting MA parameters found. Using zeros as starting parameters. | Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+Pré,BA,SARIMA,"(1, 0, 0)","(0, 0, 1, 12)",48,estimado,219.08663555364453,211.60183151001297,Non-invertible starting seasonal moving average Using zeros as starting parameters.

@@ -19,10 +19,12 @@ Período: janeiro/2013 a dezembro/2024. Painel: 27 UFs × 144 meses = 3.888 obse
 | DLM por tipologia, AIC/BIC | 29 de 32 estimáveis por critério; os dois menores AICs são comparados separadamente |
 | DLM 0..K, inferência ampliada | 5 contrastes rejeitam após ajustes da grade e Holm por família em DK pela regra; nenhum do total climático central |
 | DLM 3..K | 39 de 42 estimáveis; nenhuma rejeição após os ajustes nas três bandas DK |
-| SARIMAX 0..K | Reestimação em andamento; resultados da base anterior não são válidos para esta versão |
-| SARIMAX 3..K | Reestimação em andamento; resultados da base anterior não são válidos para esta versão |
+| SARIMAX 0..K | 452 de 896 individuais estimáveis; 22 com BIC menor e 173 com RMSE menor; 5 melhoram ambos. Gerais: 54 de 56 estimados, 0 melhoram ambos |
+| SARIMAX 3..K | 452 de 896 individuais estimáveis; 29 com BIC menor e 170 com RMSE menor; 6 melhoram ambos. Gerais: 55 de 56 estimados, 1 melhoram ambos |
 
 As evidências são exploratórias. Granger avalia precedência preditiva, sem identificar causalidade estrutural. O BH é por UF/período entre 16 tipologias, sem controle global das 864 aplicações nem correção formal pela seleção BIC. DLM e SARIMAX também possuem incerteza pós-seleção. Ausência de rejeição não prova ausência de associação.
+
+No SARIMAX, são 27 UFs e o agregado Brasil em dois períodos: 896 aplicações individuais e 56 gerais por grade. As ordens SARIMA de referência são selecionadas por BIC no treino e mantidas na comparação com as exógenas. Todos os candidatos de K usam a mesma amostra de treino e teste da respectiva unidade/período: 48/12 meses no pré e 95/24 no completo, após a reserva de 24 lags. O RMSE é de previsão condicional de um passo; em 0..K pode utilizar a exposição realizada do próprio mês, e em 3..K utiliza apenas exposições anteriores. O predomínio do menor K permitido também reflete a penalização do BIC, sem identificar a duração de um efeito.
 
 ## Notebooks
 
@@ -43,6 +45,7 @@ python src/01_consolidar_scr.py
 python src/02_preparar_atlas.py
 python src/03_integrar_bases.py
 python src/auditar_base_com_exclusoes.py
+python src/analise_descritiva_base_corrigida.py
 python src/reestimar_com_exclusoes.py granger
 python src/reestimar_com_exclusoes.py estacionariedade
 python src/verificar_granger_com_exclusoes.py
@@ -52,10 +55,14 @@ python src/reestimar_com_exclusoes.py dlm_aic_bic
 python src/reestimar_com_exclusoes.py dlm_top2
 python src/reestimar_com_exclusoes.py dlm3
 python src/executar_reestimacao_sarimax.py
+python src/reestimar_com_exclusoes.py comparar_sarimax
+python src/verificar_sarimax_com_exclusoes.py
 python src/gerar_sintese_base_corrigida.py
 ```
 
 Para a auditoria COBRADE do DLM 0..K, disponibilize uma cópia do mesmo Atlas em `data/raw/atlas_desastres/atlas.csv` (essa cópia deve ser criada **depois** da etapa 02, que requer um único consolidado na pasta). A reestimação verifica o hash do painel no manifesto e utiliza pastas novas; checkpoints históricos não são reutilizados.
+
+Os checkpoints SARIMAX são vinculados ao hash do painel, ao código de estimação (normalizado para LF), ao Python 3.10.20 e às versões das bibliotecas registradas. Se algum desses componentes mudar, a rotina impede a reutilização automática. Preserve as pastas anteriores e inicie novas pastas `sarimax0`/`sarimax3` para uma execução com outra proveniência.
 
 ## Diferenças em relação aos resumos dos chats anteriores
 

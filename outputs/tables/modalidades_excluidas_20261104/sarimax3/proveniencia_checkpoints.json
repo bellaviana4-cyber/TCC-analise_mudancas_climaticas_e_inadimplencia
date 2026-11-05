@@ -1,0 +1,17 @@
+{
+  "base_sha256": "d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043",
+  "python": "3.10.20",
+  "versoes": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.15.0"
+  },
+  "codigo_sha256_lf": {
+    "analise_estadual.py": "86a95911cc24f6f8520737a148344d2ac5b77732733019138a9e37df0bc6e6b1",
+    "sarimax_revisao_final.py": "4fbe39a035e16c648b29c1cecb28ee251d580b607d0845f20dd6349a2423e9a0",
+    "sarimax_por_tipologia_k0_24_20261026.py": "68d0970e2bd51cb33a6449afe122496c79e6165ddac02492328ee057174e4aae",
+    "sarimax_com_defasagens.py": "0fdf78c6dd859d146e5c40396baea773f68bf3f355892bb84397ad72e023482f",
+    "sarimax_todas_tipologias_20261026.py": "d8c8772d0e68ae356fd1424153170ce8ffb2a468c23ae182ac7608904019ad70"
+  }
+}

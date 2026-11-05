@@ -1,0 +1,6 @@
+﻿periodo,unidade,modelo,ordem,sazonal,n_treino,status,BIC,AIC,avisos
+Total,MG,SARIMA,"(0, 0, 0)","(1, 0, 0, 12)",95,estimado,438.45602079923975,430.7943901244381,
+Total,MG,SARIMA,"(1, 0, 0)","(1, 0, 0, 12)",95,estimado,412.7008891655438,402.48538159914165,
+Total,MG,SARIMA,"(0, 0, 1)","(1, 0, 0, 12)",95,estimado,424.60918396796717,414.393676401565,
+Total,MG,SARIMA,"(1, 0, 1)","(1, 0, 0, 12)",95,estimado,409.7370781435916,396.96769368558887,Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+Total,MG,SARIMA,"(1, 0, 0)","(0, 0, 1, 12)",95,estimado,421.95143475720835,411.7359271908062,
