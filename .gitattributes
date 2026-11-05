@@ -1,3 +1,4 @@
 # Preserva os bytes dos dados auditados e seus hashes em qualquer plataforma.
 /data/processed/df_tcc_2013_2024.csv -text
 /outputs/tables/modalidades_excluidas_20261104/** -text
+/outputs/figures/modalidades_excluidas_20261104/** -text
