@@ -1,0 +1,32 @@
+{
+  "status": "executado e validado",
+  "data_execucao": "2026-10-03",
+  "entrada_painel": {
+    "arquivo": "df_tcc_2013_2024.csv",
+    "sha256": "46f4f8408f5f6a809de2601b5c313ea52ee5992ed5a65ede5246c57d28767e36",
+    "linhas": 3888
+  },
+  "entrada_atlas": {
+    "arquivo": "BD_Atlas_1991_2024_v1.0_2025.04.14_Consolidado.csv",
+    "sha256": "6ca29008a60a30e9f45d0f451da7750f850d8902704487798e1ef39ca3da44af",
+    "registros_2013_2024": 40339
+  },
+  "decisoes": {
+    "dependente": "Δ taxa de inadimplência em pontos percentuais",
+    "exposicao": "log1p(contagem) em nível",
+    "efeitos_fixos": "UF + mês-ano",
+    "K_grid": [3, 6, 9, 12],
+    "K_selecionado": 3,
+    "almon": "não acionado pelos gatilhos de multicolinearidade",
+    "inferencia": "cluster UF; t/F com 26 gl; Driscoll-Kraay como robustez",
+    "multiplicidade": "BH/FDR por período × nível, preservando famílias planejadas"
+  },
+  "validacao": {
+    "modelos_planejados": 42,
+    "modelos_estimados": 40,
+    "modelos_nao_estimaveis_pre": 2,
+    "efeitos_acumulados_FDR": 1,
+    "testes_conjuntos_FDR": 6,
+    "lags_individuais_FDR": 0
+  }
+}

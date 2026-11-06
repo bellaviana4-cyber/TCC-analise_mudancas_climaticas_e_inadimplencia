@@ -1,0 +1,9 @@
+metrica,valor
+modelos_adequados,11
+modelos_adequados_com_ressalvas,29
+modelos_inadequados,0
+modelos_com_autocorrelacao_residual_p_lt_005,0
+modelos_com_dependencia_transversal_p_lt_005,19
+lags_individuais_FDR,0
+efeitos_acumulados_FDR,1
+testes_conjuntos_FDR,6

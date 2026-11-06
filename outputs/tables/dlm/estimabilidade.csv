@@ -1,0 +1,43 @@
+periodo,exposicao,coluna,nivel,eventos,uf_mes_positivos,ufs_com_evento,variacao_within_media,concentracao_max_uf,estimabilidade
+Total (2013–2024),Total de desastres,total_desastres,Total,40339.0,2697,27,556.5420245906357,0.12283398200252857,estimável
+Total (2013–2024),Grupo | Climatológico,grupo_climatologico,Grupo,19518.0,1537,27,315.0255690811247,0.12957270212111896,estimável
+Total (2013–2024),Grupo | Hidrológico,grupo_hidrologico,Grupo,15409.0,1578,27,227.32336002474884,0.18638458044000258,estimável
+Total (2013–2024),Grupo | Meteorológico,grupo_meteorologico,Grupo,3716.0,837,27,23.65426702926703,0.32992465016146394,estimável
+Total (2013–2024),Grupo | Outros,grupo_outros,Grupo,1696.0,848,27,3.900392817059484,0.14563679245283018,estimável
+Total (2013–2024),Tipologia | Alagamentos,tipo_alagamentos,Tipologia,1504.0,693,27,1.401518748740971,0.18018617021276595,estimável
+Total (2013–2024),Tipologia | Chuvas Intensas,tipo_chuvas_intensas,Tipologia,8084.0,979,27,130.11816886816885,0.20522018802572983,estimável
+Total (2013–2024),Tipologia | Doenças infecciosas,tipo_doencas_infecciosas,Tipologia,243.0,67,22,2.9481837606837606,0.43209876543209874,estimável
+Total (2013–2024),Tipologia | Enxurradas,tipo_enxurradas,Tipologia,2759.0,685,26,10.749728409450631,0.2696629213483146,estimável
+Total (2013–2024),Tipologia | Erosão,tipo_erosao,Tipologia,480.0,362,25,0.18040447207113874,0.20833333333333334,estimável
+Total (2013–2024),Tipologia | Estiagem e Seca,tipo_estiagem_e_seca,Tipologia,16149.0,1318,27,241.26102729574953,0.14409560963527154,estimável
+Total (2013–2024),Tipologia | Granizo,tipo_granizo,Tipologia,1070.0,311,16,2.2849398543843,0.411214953271028,estimável
+Total (2013–2024),Tipologia | Incêndio Florestal,tipo_incendio_florestal,Tipologia,3081.0,408,26,61.83623449595672,0.25803310613437197,estimável
+Total (2013–2024),Tipologia | Inundações,tipo_inundacoes,Tipologia,2065.0,558,26,9.507433667155889,0.17433414043583534,estimável
+Total (2013–2024),Tipologia | Movimento de Massa,tipo_movimento_de_massa,Tipologia,1103.0,564,23,0.9489175947509282,0.16228467815049863,estimável
+Total (2013–2024),Tipologia | Onda de Calor e Baixa Umidade,tipo_onda_de_calor_e_baixa_umidade,Tipologia,103.0,49,9,0.1155806641917753,0.7281553398058253,estimável com ressalvas
+Total (2013–2024),Tipologia | Onda de Frio,tipo_onda_de_frio,Tipologia,203.0,65,10,0.8321804224582002,0.5024630541871922,estimável
+Total (2013–2024),Tipologia | Outros,tipo_outros,Tipologia,836.0,484,26,0.5659047742381076,0.173444976076555,estimável
+Total (2013–2024),Tipologia | Rompimento/Colapso de barragens,tipo_rompimento_colapso_de_barragens,Tipologia,34.0,26,13,0.01944660277993611,0.20588235294117646,estimável com ressalvas
+Total (2013–2024),Tipologia | Tornado,tipo_tornado,Tipologia,72.0,50,11,0.03869535813980258,0.4027777777777778,estimável com ressalvas
+Total (2013–2024),Tipologia | Vendavais e Ciclones,tipo_vendavais_e_ciclones,Tipologia,2553.0,739,26,19.515423105700886,0.35174304739522133,estimável
+Pré-pandemia (até jan/2020),Total de desastres,total_desastres,Total,18426.0,1501,27,344.0906525573192,0.1090307174644524,estimável
+Pré-pandemia (até jan/2020),Grupo | Climatológico,grupo_climatologico,Grupo,9721.0,807,27,245.64025313829237,0.1762164386380002,estimável
+Pré-pandemia (até jan/2020),Grupo | Hidrológico,grupo_hidrologico,Grupo,6344.0,847,26,79.28018466645916,0.1976670870113493,estimável
+Pré-pandemia (até jan/2020),Grupo | Meteorológico,grupo_meteorologico,Grupo,1584.0,434,25,8.609928415810767,0.3529040404040404,estimável
+Pré-pandemia (até jan/2020),Grupo | Outros,grupo_outros,Grupo,777.0,357,26,5.7513227513227525,0.16216216216216217,estimável
+Pré-pandemia (até jan/2020),Tipologia | Alagamentos,tipo_alagamentos,Tipologia,730.0,355,26,1.0065463222325968,0.21643835616438356,estimável
+Pré-pandemia (até jan/2020),Tipologia | Chuvas Intensas,tipo_chuvas_intensas,Tipologia,2185.0,448,25,21.26677041186846,0.18169336384439358,estimável
+Pré-pandemia (até jan/2020),Tipologia | Doenças infecciosas,tipo_doencas_infecciosas,Tipologia,235.0,60,20,4.979821558252933,0.4425531914893617,estimável
+Pré-pandemia (até jan/2020),Tipologia | Enxurradas,tipo_enxurradas,Tipologia,1887.0,434,26,14.368482207697893,0.28086910439851615,estimável
+Pré-pandemia (até jan/2020),Tipologia | Erosão,tipo_erosao,Tipologia,285.0,214,21,0.18279904554414356,0.20350877192982456,estimável
+Pré-pandemia (até jan/2020),Tipologia | Estiagem e Seca,tipo_estiagem_e_seca,Tipologia,9211.0,715,26,243.54768129474016,0.18032786885245902,estimável
+Pré-pandemia (até jan/2020),Tipologia | Granizo,tipo_granizo,Tipologia,509.0,162,14,2.1333125842929768,0.48919449901768175,estimável
+Pré-pandemia (até jan/2020),Tipologia | Incêndio Florestal,tipo_incendio_florestal,Tipologia,443.0,139,20,2.1080610021786494,0.18510158013544017,estimável
+Pré-pandemia (até jan/2020),Tipologia | Inundações,tipo_inundacoes,Tipologia,1075.0,306,26,3.9214545077290177,0.21488372093023256,estimável
+Pré-pandemia (até jan/2020),Tipologia | Movimento de Massa,tipo_movimento_de_massa,Tipologia,479.0,272,22,0.6415707023550161,0.1544885177453027,estimável
+Pré-pandemia (até jan/2020),Tipologia | Onda de Calor e Baixa Umidade,tipo_onda_de_calor_e_baixa_umidade,Tipologia,19.0,16,5,0.012729536258948026,0.6842105263157895,não estimável
+Pré-pandemia (até jan/2020),Tipologia | Onda de Frio,tipo_onda_de_frio,Tipologia,60.0,21,6,0.15614690320572672,0.5333333333333333,estimável com ressalvas
+Pré-pandemia (até jan/2020),Tipologia | Outros,tipo_outros,Tipologia,223.0,121,22,0.40060172217034956,0.23318385650224216,estimável
+Pré-pandemia (até jan/2020),Tipologia | Rompimento/Colapso de barragens,tipo_rompimento_colapso_de_barragens,Tipologia,15.0,7,6,0.024826226787011102,0.4,não estimável
+Pré-pandemia (até jan/2020),Tipologia | Tornado,tipo_tornado,Tipologia,41.0,31,8,0.03835460109969914,0.4878048780487805,estimável com ressalvas
+Pré-pandemia (até jan/2020),Tipologia | Vendavais e Ciclones,tipo_vendavais_e_ciclones,Tipologia,1029.0,368,24,4.364021164021165,0.2818270165208941,estimável
