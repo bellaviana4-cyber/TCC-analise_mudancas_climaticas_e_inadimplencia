@@ -1,69 +1,29 @@
-# Mudanças climáticas e inadimplência
+# Construção e validação do painel de crédito
 
-Trabalho de conclusão de curso de Isabella Viana Bambirra, Estatística/UFSCar.
+A versão final utiliza operações de pessoas físicas após excluir financiamentos imobiliários, financiamentos de títulos e valores mobiliários e outros créditos. A seleção é aplicada nos arquivos mensais originais do SCR antes da agregação por UF e mês.
 
-## Base corrigida: exclusões antes da agregação
+## Critério de construção
 
-Os arquivos mensais do SCR são filtrados para pessoas físicas e excluem **financiamentos imobiliários**, **financiamentos de títulos e valores mobiliários** e **outros créditos** antes de somar a carteira ativa e a inadimplente por UF e mês. A taxa é 100 × carteira inadimplente / carteira ativa. As agregações regionais e nacionais usam os saldos, não a média das taxas de UFs.
+A padronização dos rótulos precede a filtragem. Os saldos ativos e inadimplentes são somados sobre as mesmas operações mantidas. A taxa é calculada como 100 vezes a razão entre esses saldos. Os procedimentos estão em [01_consolidar_scr.py](../src/01_consolidar_scr.py) e [03_integrar_bases.py](../src/03_integrar_bases.py).
 
-Período: janeiro/2013 a dezembro/2024. Painel: 27 UFs × 144 meses = 3.888 observações. Recorte pré-pandemia: até janeiro/2020; os períodos se sobrepõem. O Atlas disponível contém 40.339 registros municipais, dos quais 37.643 integram o total climático por COBRADE 12/13/14. Registros administrativos não são fenômenos físicos independentes.
+A exclusão de modalidades altera os saldos de crédito e a taxa de inadimplência. Ela não altera, por si, a quantidade de registros do Atlas.
 
-**Resultados vigentes:** [outputs/tables/modalidades_excluidas_20261104](../outputs/tables/modalidades_excluidas_20261104). As demais pastas de resultados e os notebooks históricos usam versões anteriores; seus números não devem ser citados como resultados da base corrigida. A monografia LaTeX é entregue separadamente e não integra esta atualização.
+## Verificações publicadas
 
-## Resultados da execução corrigida
+- Cobertura completa de janeiro de 2013 a dezembro de 2024 nas 27 UFs.
+- 3.888 observações e nenhuma duplicação da chave UF–mês.
+- Recálculo da taxa a partir dos dois saldos em todo o painel.
+- Reaplicação dos filtros aos arquivos originais de janeiro de 2013 e dezembro de 2024, comparando os saldos das 27 UFs com os do painel. As diferenças são inferiores a um centavo.
+- Registro dos hashes dos 144 arquivos mensais do SCR e da extração do Atlas.
+- Verificação independente dos testes F estimáveis de Granger e das famílias BH.
+- Verificações da seleção dos horizontes, das amostras e das métricas SARIMAX.
 
-| Análise | Resultado |
-| --- | --- |
-| Granger | 627 de 864 estimáveis; 56 rejeições nominais, 16 após BH local; 3 dessas rejeições com autocorrelação residual |
-| DLM 0..K | 39 de 42 aplicações com seleção AIC estimável |
-| DLM por tipologia, AIC/BIC | 29 de 32 estimáveis por critério; os dois menores AICs são comparados separadamente |
-| DLM 0..K, inferência ampliada | 5 contrastes rejeitam após ajustes da grade e Holm por família em DK pela regra; nenhum do total climático central |
-| DLM 3..K | 39 de 42 estimáveis; nenhuma rejeição após os ajustes nas três bandas DK |
-| SARIMAX 0..K | 452 de 896 individuais estimáveis; 22 com BIC menor e 173 com RMSE menor; 5 melhoram ambos. Gerais: 54 de 56 estimados, 0 melhoram ambos |
-| SARIMAX 3..K | 452 de 896 individuais estimáveis; 29 com BIC menor e 170 com RMSE menor; 6 melhoram ambos. Gerais: 55 de 56 estimados, 1 melhoram ambos |
+O [manifesto](../outputs/tables/modalidades_excluidas_20261104/manifesto.json) identifica os dados. As [tabelas de validação](../outputs/tables/modalidades_excluidas_20261104/README.md) permitem conferir as etapas.
 
-As evidências são exploratórias. Granger avalia precedência preditiva, sem identificar causalidade estrutural. O BH é por UF/período entre 16 tipologias, sem controle global das 864 aplicações nem correção formal pela seleção BIC. DLM e SARIMAX também possuem incerteza pós-seleção. Ausência de rejeição não prova ausência de associação.
+## Identificação da versão
 
-No SARIMAX, são 27 UFs e o agregado Brasil em dois períodos: 896 aplicações individuais e 56 gerais por grade. As ordens SARIMA de referência são selecionadas por BIC no treino e mantidas na comparação com as exógenas. Todos os candidatos de K usam a mesma amostra de treino e teste da respectiva unidade/período: 48/12 meses no pré e 95/24 no completo, após a reserva de 24 lags. O RMSE é de previsão condicional de um passo; em 0..K pode utilizar a exposição realizada do próprio mês, e em 3..K utiliza apenas exposições anteriores. O predomínio do menor K permitido também reflete a penalização do BIC, sem identificar a duração de um efeito.
+O painel tem SHA-256 `d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043`.
 
-## Notebooks
+A pasta `modalidades_excluidas_20261104` identifica a execução que incorporou esse recorte e reúne as tabelas da versão final. O nome é mantido para preservar os vínculos entre códigos, manifestos e saídas. As versões anteriores permanecem no [histórico](historico.md).
 
-1. [Descritiva](../notebooks/01_analise_descritiva.ipynb)
-2. [Estacionariedade](../notebooks/02_estacionariedade.ipynb)
-3. [Granger](../notebooks/03_granger_ufs_tipologias.ipynb)
-4. [DLM](../notebooks/04_dlm_painel_aic_bic.ipynb)
-5. [SARIMA/SARIMAX](../notebooks/05_sarima_sarimax_estadual_nacional.ipynb)
-
-## Integridade e reprodução
-
-O [manifesto](../outputs/tables/modalidades_excluidas_20261104/manifesto.json) identifica o painel e as fontes. SHA256 do painel CSV: `d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043`. Os 144 arquivos mensais possuem hashes em `fontes_scr_sha256.csv`. A agregação dos saldos nos extremos da amostra foi verificada por consulta independente; os 627 testes F de Granger e todas as famílias BH foram conferidos por uma segunda implementação.
-
-Instale `requirements-reestimacao-exclusoes.lock.txt`. Disponibilize os CSVs mensais do SCR em `data/raw/bacen` e o consolidado Atlas em `data/raw/atlas_desastres` ou defina `TCC_RAW_BACEN` e `TCC_RAW_ATLAS`. Os dados originais não são redistribuídos; o painel agregado corrigido está em `data/processed/df_tcc_2013_2024.csv`.
-
-```text
-python src/01_consolidar_scr.py
-python src/02_preparar_atlas.py
-python src/03_integrar_bases.py
-python src/auditar_base_com_exclusoes.py
-python src/analise_descritiva_base_corrigida.py
-python src/reestimar_com_exclusoes.py granger
-python src/reestimar_com_exclusoes.py estacionariedade
-python src/verificar_granger_com_exclusoes.py
-python src/reestimar_com_exclusoes.py dlm0
-python src/reestimar_com_exclusoes.py dlm0_inferencia
-python src/reestimar_com_exclusoes.py dlm_aic_bic
-python src/reestimar_com_exclusoes.py dlm_top2
-python src/reestimar_com_exclusoes.py dlm3
-python src/executar_reestimacao_sarimax.py
-python src/reestimar_com_exclusoes.py comparar_sarimax
-python src/verificar_sarimax_com_exclusoes.py
-python src/gerar_sintese_base_corrigida.py
-```
-
-Para a auditoria COBRADE do DLM 0..K, disponibilize uma cópia do mesmo Atlas em `data/raw/atlas_desastres/atlas.csv` (essa cópia deve ser criada **depois** da etapa 02, que requer um único consolidado na pasta). A reestimação verifica o hash do painel no manifesto e utiliza pastas novas; checkpoints históricos não são reutilizados.
-
-Os checkpoints SARIMAX são vinculados ao hash do painel, ao código de estimação (normalizado para LF), ao Python 3.10.20 e às versões das bibliotecas registradas. Se algum desses componentes mudar, a rotina impede a reutilização automática. Preserve as pastas anteriores e inicie novas pastas `sarimax0`/`sarimax3` para uma execução com outra proveniência.
-
-## Diferenças em relação aos resumos dos chats anteriores
-
-Esta execução independente encontrou 40.339 registros do Atlas e 627 aplicações Granger estimáveis, em vez de 40.338 e 631 mencionados nos chats. O DLM 3..K apresentou 39 aplicações estimáveis, em vez de 40. As tabelas desta pasta e seus hashes documentam os números efetivamente reproduzidos. A contagem de 16 rejeições BH de Granger e de três casos com autocorrelação foi confirmada.
+Consulte [Dados](../data/README.md), [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e [Reprodução](reproducao.md).

@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Extensão de adequação — protocolo registrado antes de estimar
 
 Data: 01/10/2026. Extensão exploratória informada pelos resultados anteriores; não é confirmação independente. Não alterar 05–13 ou seus resultados. Períodos fixos: jan/2013–dez/2024 e jan/2013–jan/2020. Nenhuma seleção usa o p de desastres.

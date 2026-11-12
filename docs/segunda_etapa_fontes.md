@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Fontes e decisões documentadas
 
 COBRADE oficial consultada em30/09/2026, Defesa Civil RS: https://www.defesacivil.rs.gov.br/upload/arquivos/202105/04095316-cobrade-classificacao-e-codificacao-brasileira-de-desastres.pdf

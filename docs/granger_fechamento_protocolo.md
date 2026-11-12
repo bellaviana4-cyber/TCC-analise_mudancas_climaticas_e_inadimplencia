@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Fechamento de Granger — protocolo antes dos novos testes
 
 Registro: 02/10/2026. Base main: 6aa18087e7c711c97a060a41a5c398909687ecb0.

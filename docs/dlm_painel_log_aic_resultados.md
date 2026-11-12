@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # DLM em painel: referência com seleção AIC de 1 a 24 meses
 
 Revisão de 06/10/2026, executada após recuperar o pedido completo e verificar a main. A publicação anterior K6 foi confirmada no commit `ba0865e` (não permaneceu apenas local). Notebook 22 e suas tabelas/documentação não foram sobrescritos. Esta revisão usa notebook **23_dlm_painel_selecao_aic_1a24.ipynb**, 9 células Python executadas com stdout/figuras reais; executor compile/exec em namespace compartilhado. Não refaz Granger, SARIMAX, nacional, spline, AR ou regimes.

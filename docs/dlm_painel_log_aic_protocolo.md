@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # DLM em painel com K escolhido por AIC entre 1 e 24
 
 Este protocolo documenta a seleção de K por AIC aplicada ao painel de diferenças logarítmicas. A especificação anterior com K=6 fixo e os resultados correspondentes constam do notebook 22. O capítulo metodológico apresenta a formulação do DLM; a preparação das bases define os recortes e as unidades da aplicação.

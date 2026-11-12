@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Revisão de defasagens — 24/10/2026
 
 > **Nota histórica.** A comparação SARIMAX com três blocos manuais descrita abaixo foi substituída como sensibilidade de referência em 26/10/2026 por uma [busca sistemática dos blocos consecutivos 0–3 meses](sarimax_busca_sistematica_lags_20261026.md). Os resultados históricos são preservados. O DLM não sofreu alteração.

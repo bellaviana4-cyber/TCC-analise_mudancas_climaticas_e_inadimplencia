@@ -1,117 +1,101 @@
 # Metodologia e análises de sensibilidade
 
-## Dados e medidas
+Esta página descreve as especificações utilizadas na versão final do trabalho. Os [resultados](resultados.md) e o [guia de reprodução](reproducao.md) complementam a descrição.
 
-O painel combina os registros mensais do SCR/Banco Central do Brasil e do Atlas Digital de Desastres do Brasil, agregados por UF e mês de 2013 a 2024. São 27 UFs observadas por 144 meses (3.888 registros). A taxa de inadimplência é calculada como 100 vezes o saldo de crédito inadimplente dividido pela carteira ativa. O Brasil é calculado pela razão entre as somas dos saldos, não pela média simples das taxas estaduais. Na definição do [SCR.data](https://www.bcb.gov.br/content/estabilidadefinanceira/scr/scr.data/scr_data_metodologia.pdf), a inadimplência considera o saldo de operações com pelo menos uma parcela vencida há mais de 90 dias, e não apenas a parcela atrasada.
+## Dados, recortes e transformações
 
-O conjunto operacional tem 16 tipologias. A exposição climática central do DLM é um subconjunto auditado por códigos COBRADE (11 tipologias, 37.643 registros), distinto do total de 40.339 registros das 16 tipologias. Grupos e tipologias são analisados separadamente no DLM, sem atribuir a todas elas a mesma interpretação climática.
+O painel contém 27 UFs e 144 meses, de janeiro de 2013 a dezembro de 2024. As operações de pessoas físicas são filtradas para excluir financiamentos imobiliários, financiamentos de títulos e valores mobiliários e outros créditos antes da agregação dos dois saldos. A [descrição dos dados](../data/README.md) detalha a construção.
 
-São usados dois recortes: pré-pandemia (até janeiro de 2020) e período completo (até dezembro de 2024). Como o primeiro está contido no segundo, os resultados não são independentes nem constituem, por si, teste de mudança estrutural.
+A análise é realizada para janeiro de 2013 a janeiro de 2020 (pré-pandemia) e janeiro de 2013 a dezembro de 2024 (completo). A inclusão dos anos da pandemia e posteriores motiva essa comparação; os recortes são sobrepostos e não isolam, por si, mudanças causadas pela pandemia.
 
-## Análise descritiva e estacionariedade
-
-A distribuição dos registros por mês, região, UF e tipologia e a evolução da inadimplência são apresentadas na [análise descritiva](../notebooks/01_analise_descritiva.ipynb). A [análise temporal](../notebooks/02_estacionariedade.ipynb) apresenta as séries nacionais em nível, decomposições clássica e STL, transformações, ADF, KPSS e gráficos ACF/PACF. Os resultados estaduais de estacionariedade estão nas tabelas publicadas.
-
-As explorações nacionais iniciais trabalharam com `ΔI` e `Δlog(1+D)`. Nas estimações estaduais de Granger e DLM, a inadimplência é modelada em `Δlog(I)`, com exposição em `Δlog(1+D)`. Essas respostas não têm a mesma unidade e não devem ser confundidas.
-
-## 1. Precedência temporal: Granger
-
-A primeira etapa verifica se os valores passados de uma tipologia acrescentam informação sobre a variação da inadimplência, além do histórico da própria resposta. As séries passam por transformações e verificações de estacionariedade; a grade de 1 a 6 defasagens é comparada por BIC na mesma amostra. O teste de hipótese é conjunto, com correção BH nas famílias planejadas e avaliação de autocorrelação residual.
-
-A execução principal contabilizou 864 aplicações, das quais 627 foram estimáveis; 14 rejeições permaneceram após BH local, com ressalvas diagnósticas em dois casos. O termo *causalidade de Granger* se refere a precedência preditiva, não identificação causal.
-
-## 2. DLM em painel
-
-A equação estimada, em diferenças logarítmicas, é:
+Nas aplicações de Granger e DLM, usam-se:
 
 ```text
-Δlog(I_it) = α_i + λ_t + Σ β_k Δlog(1 + D_i,t-k) + ε_it
+Y_it = Δlog(I_it)
+X_it = Δlog(1 + D_it)
 ```
 
-`I` é a taxa de inadimplência e `D` é uma medida de registros de desastres. `α_i` e `λ_t` representam efeitos fixos de UF e mês-ano. O uso de diferenças logarítmicas distingue a implementação da formulação genérica em níveis: os coeficientes não são diretamente mudanças em pontos percentuais da taxa.
+`I` é a taxa de inadimplência e `D` é a contagem da exposição examinada. A adição de uma unidade permite aplicar o logaritmo nos meses sem registros. A primeira diferença é calculada entre meses consecutivos dentro de cada UF e busca favorecer a estacionariedade.
 
-**Especificação de referência:** inclui as exposições de `t` a `t−K`, escolhe K entre 1 e 24 por menor AIC, usa a mesma amostra para todos os K e admite comparação com BIC. Foram 29 aplicações estimáveis na seleção principal, com K=1 em 21. A comparação adicional com K=0 mostra que o limite inferior influencia a seleção, sem anular a análise original.
+ADF com intercepto e seleção de defasagens pelo BIC e KPSS com intercepto e banda automática avaliam as séries por UF e recorte. A banda do KPSS determina as defasagens usadas na estimação da variância de longo prazo. Os avisos, limites dos valores-p e séries constantes permanecem registrados. Os testes são diagnósticos complementares e podem produzir resultados inconclusivos ou divergentes.
 
-**Sensibilidade de três meses:** inclui somente `t−3, ..., t−K` com K de 3 a 24, também selecionado por AIC e com amostra comum. Foram 39 aplicações estimáveis de 42 (21 exposições × dois períodos). O AIC selecionou K=3 em 27. O total climático ficou em K=3 nos dois períodos, com soma estimada de −0,000035 no pré e −0,000313 no total, sem rejeição pela banda DK principal (p≈0,937 e p≈0,303).
+## Testes de Granger
 
-A inferência usa covariância Driscoll–Kraay (DK) com banda por regra como análise principal, e bandas 6 e 12 como sensibilidade. DK corrige a estimativa da covariância sob certas formas de dependência, mas não altera os coeficientes, o AIC ou a escolha de K. Foram aplicadas proteções conservadoras para a busca de K e ajustes para famílias de hipóteses.
+Cada regressão examina uma tipologia em uma UF e um recorte. O modelo inclui intercepto, onze indicadores mensais, defasagens da própria resposta e defasagens da exposição. Janeiro é o mês de referência para os indicadores sazonais.
 
-| Banda | Rejeições ajustadas nos DLMs 3–K |
-| --- | ---: |
-| Regra (L=3 pré; L=4 total) | 0 |
-| DK6 | 0 |
-| DK12 | 2 |
+A ordem `p` é selecionada pelo BIC entre um e seis meses. Os candidatos usam amostra comum, com 78 observações no pré-pandemia e 137 no completo, após a transformação e a reserva das seis defasagens. Candidatos sem posto completo são descartados; exposições transformadas constantes não recebem teste.
 
-As duas rejeições sob DK12 ocorreram em Tornado no pré, K=4 (soma dos coeficientes e teste da união de coeficientes); a categoria tem ocorrência concentrada em poucas UFs. A divergência entre bandas impede tratar essas rejeições como conclusão estável.
+O teste F compara o modelo completo ao modelo que retira apenas as defasagens de X:
 
-A defasagem mínima de três meses permite investigar uma sequência temporal compatível com a classificação de inadimplência por atraso superior a 90 dias. Um registro de desastre no mês atual não pode explicar o início de um atraso que já ultrapassou 90 dias e levou a operação à classificação naquele mesmo mês. Ao excluir `t`, `t−1` e `t−2`, a análise prioriza exposições anteriores à possível deterioração do pagamento. Contudo, a taxa é calculada sobre o estoque de saldos e a base não informa a data de entrada de cada operação em atraso: o corte de três meses é uma escolha substantiva para a sensibilidade, não uma equivalência exata entre o momento do desastre e a classificação contábil nem uma prova de que o efeito começa em K=3.
+```text
+H0: β_1 = ... = β_p = 0
+```
 
-## 3. SARIMA e SARIMAX
+A rejeição indica que o bloco acrescenta informação preditiva ao histórico da própria inadimplência e aos indicadores mensais. O nível nominal é 5%. Aplica-se Benjamini–Hochberg nas famílias planejadas de 16 tipologias por UF e recorte. Aplicações não estimáveis recebem valor um apenas na composição do ajuste; isso não significa um teste observado sem associação.
 
-A resposta é `y_t = 100 Δlog(I_t)`; cada tipologia de desastres entra como `x_j,t = Δlog(1 + D_j,t)`. A multiplicação por 100 é apenas uma mudança de escala da resposta. Para cada UF e período, cinco ordens SARIMA sazonais com periodicidade 12 são avaliadas pelo BIC do treinamento. A ordem vencedora é mantida em cada par SARIMA/SARIMAX.
+O Ljung–Box até a defasagem 12 avalia a autocorrelação residual. O ajuste BH é local às famílias e não controla conjuntamente todas as 864 aplicações nem incorpora formalmente a seleção de p pelo BIC.
 
-São feitos dois exercícios complementares, com uma amostra comum que reserva os primeiros 24 meses mesmo para candidatos curtos:
+## Modelos de defasagens distribuídas em painel
 
-1. **Referência 0–K:** um SARIMAX individual por tipologia, com blocos `[0]`, `[0,1]`, ... `[0,...,24]` e K escolhido por BIC no treino.
-2. **Sensibilidade 3–K:** os mesmos modelos individuais e unidades, mas somente os blocos `[3]`, `[3,4]`, ... `[3,...,24]`, também por BIC no treino.
+O DLM estima uma exposição por vez, com efeitos fixos de UF e mês-ano:
 
-Depois da seleção individual, o **SARIMAX geral** de cada UF/período reúne as tipologias com seus K selecionados, com exclusões documentadas quando a matriz conjunta não tem suporte, posto ou graus de liberdade. Não se limita de antemão o número a quatro ou seis tipologias. No agregado Brasil, as 16 tipologias são incluídas nos dois recortes.
+```text
+Y_it = α_i + λ_t + Σ(k=a,...,K) β_k X_i,t-k + ε_it
+```
 
-A amostra de treino/teste usada nessa etapa contém 48/12 meses no pré e 95/24 meses no recorte completo. Os erros RMSE/MAE são calculados na parte cronológica de teste, sem participação na escolha dos modelos. A validação é **condicional de um passo**, atualizando o estado com `y_(t−1)` realizado. A referência 0–K também conhece `x_t` realizado; a sensibilidade 3–K usa apenas exposições mais antigas. Essas previsões não devem ser descritas como previsão de múltiplos passos feita na origem do teste.
+Os efeitos de UF controlam diferenças permanentes; os de mês-ano controlam variações compartilhadas pelas UFs em cada mês. As defasagens recebem coeficientes livres, sem a restrição polinomial de Almon.
 
-### Comparação dos modelos individuais
+| Exercício | Termos incluídos | Horizontes máximos candidatos |
+| --- | --- | --- |
+| Referência | Contemporâneo e defasagens de 1 a K | K de 1 a 24 |
+| Sensibilidade | Somente defasagens de 3 a K | K de 3 a 24 |
 
-| Indicador | 0–K | 3–K |
-| --- | ---: | ---: |
-| Combinações possíveis (28 unidades × dois períodos × 16 tipos) | 896 | 896 |
-| Modelos estimáveis | 452 | 452 |
-| K no limite inferior da grade | 420 em K=0 | 424 em K=3 |
-| BIC menor que SARIMA | 22 | 29 |
-| RMSE menor que SARIMA | 167 | 179 |
-| BIC e RMSE menores conjuntamente | **4** | **5** |
+O início na terceira defasagem é motivado pela definição de inadimplência com atraso superior a 90 dias. A base mensal registra estoques e não informa o início do atraso de cada contrato; três meses são uma aproximação desse intervalo.
 
-Entre os 452 pares, a estratégia 3–K teve BIC menor que 0–K em 236 e RMSE menor em 236; em 91, ambos os indicadores melhoraram. A mediana da diferença entre estratégias foi pequena. Não há superioridade geral e uniforme de uma janela sobre a outra.
+A reserva de 24 defasagens permite comparar os candidatos na mesma amostra: 60 meses por UF no pré-pandemia e 119 no completo. As aplicações por tipologia comparam AIC e BIC. O exercício ampliado utiliza AIC e reúne 16 tipologias, quatro grupos e o total climático COBRADE 12/13/14, avaliados separadamente.
 
-As cinco combinações com BIC e RMSE favoráveis ao SARIMAX na sensibilidade 3–K foram:
+Exige-se suporte da exposição em pelo menos cinco UFs no recorte e dez células UF–mês positivas na amostra comum. As tabelas registram os casos sem suporte ou sem candidato estimável.
 
-| Recorte | UF | Tipologia | K | ΔBIC SARIMAX − SARIMA | Redução de RMSE |
-| --- | --- | --- | ---: | ---: | ---: |
-| Pré | MG | Chuvas intensas | 3 | −1,49 | 5,56% |
-| Pré | MS | Granizo | 3 | −4,26 | 7,41% |
-| Pré | RN | Estiagem e seca | 3 | −2,96 | 12,42% |
-| Total | AP | Doenças infecciosas | 3 | −0,13 | 0,05% |
-| Total | RN | Estiagem e seca | 3 | −9,81 | 0,86% |
+A inferência de referência usa covariância Driscoll–Kraay com kernel de Bartlett e banda `floor(4 × (T/100)^(2/9))`, resultando em três e quatro meses nos dois recortes. Bandas de seis e doze meses são examinadas como sensibilidade. A banda se refere à dependência considerada no erro padrão e é distinta de K.
 
-São resultados pontuais e alguns ganhos muito pequenos. Na tabela 3–K, 115/452 modelos individuais tiveram Ljung–Box com p<0,05 sobre inovações padronizadas, ajustado pelos graus de liberdade ARMA. Isso reduz a confiança em inferências condicionadas aos ajustes.
+São examinados coeficientes individuais, somas e testes conjuntos. A soma de 0 a K testa `H0: β_0 + ... + β_K = 0`; o teste conjunto examina se todos os coeficientes do intervalo são zero. O erro padrão da soma incorpora variâncias e covariâncias entre os coeficientes.
 
-### Modelos gerais e agregado Brasil
+A busca entre horizontes recebe ajuste de Bonferroni nos contrastes escalares e uma correção por união de testes nos conjuntos. Em seguida aplica-se Holm por recorte, contraste, banda e família planejada: 16 tipologias, quatro grupos ou uma exposição central. Os dois menores AICs são examinados em posições separadas. Esses ajustes dependem da calibração dos testes pontuais e não equivalem a inferência seletiva exata.
 
-Foram estimados 55 SARIMAX gerais de 56 possíveis; o DF no pré não teve tipologia individual estimável. Na estratégia 3–K, **três** gerais melhoraram o BIC e **nove** tiveram RMSE menor que o SARIMA, mas **nenhum** melhorou os dois. Os três BICs favoráveis — AC/pré (−0,61), PI/pré (−3,05) e RR/pré (−51,92) — vieram acompanhados de piora de RMSE de 40,42%, 145,22% e 186,54%, respectivamente.
+## Modelos SARIMA e SARIMAX
 
-No Brasil, a análise geral inclui as 16 tipologias em ambos os recortes:
+As aplicações abrangem cada UF e o Brasil, nos dois recortes. A resposta é `100 × Δlog(I_t)` e a exposição é `Δlog(1 + D_t)`. Para o Brasil, somam-se os saldos e as contagens antes do cálculo da taxa e das transformações.
 
-| Brasil | Pré 0–K | Pré 3–K | Total 0–K | Total 3–K |
-| --- | ---: | ---: | ---: | ---: |
-| BIC do SARIMA | 214,69 | 214,69 | 459,74 | 459,74 |
-| ΔBIC (SARIMAX − SARIMA) | +47,04 | +51,04 | +58,90 | +45,89 |
-| Melhora do RMSE frente ao SARIMA | −64,43% | −36,87% | −26,78% | −51,86% |
+Cinco estruturas sazonais, com periodicidade 12 e intercepto, concorrem pelo BIC no treino. Como a resposta já foi diferenciada, d e D são zero:
 
-Em todos os casos nacionais, o BIC foi maior e o RMSE pior no SARIMAX. Assim, o acréscimo de variáveis de desastres não mostrou vantagem consistente para a previsão condicional da inadimplência no agregado.
+| Ordem regular | Ordem sazonal |
+| --- | --- |
+| (0,0,0) | (1,0,0)[12] |
+| (1,0,0) | (1,0,0)[12] |
+| (0,0,1) | (1,0,0)[12] |
+| (1,0,1) | (1,0,0)[12] |
+| (1,0,0) | (0,0,1)[12] |
 
-## 4. Cuidados de leitura
+O SARIMAX mantém as ordens do SARIMA selecionado e reestima os parâmetros com as exposições. Os modelos **individuais** acrescentam uma tipologia por vez; os **gerais** reúnem as tipologias admitidas a partir dos ajustes individuais, com suas defasagens selecionadas.
 
-- **Associação não é causalidade.** Choques macroeconômicos não observados, mudança de composição do crédito e outras fontes de confundimento permanecem possíveis.
-- **Seleção e inferência são etapas diferentes.** Os valores-p individuais do SARIMAX e BH exploratório não incorporam plenamente a escolha prévia da ordem, do conjunto de tipologias e de K. Eles não são inferência seletiva exata.
-- **Suporte não é efeito zero.** Modelos impedidos por baixa variação, posto ou convergência ficam não estimáveis. Não são substituídos por coeficientes nulos.
-- **Predomínio da borda.** A escolha frequente de K mínimo muda de zero para três quando a própria grade muda. Isso não identifica a duração física do efeito.
-- **Transformação e escala.** A resposta principal é variação logarítmica da taxa, não a taxa em nível. A soma dos betas não equivale automaticamente a pontos percentuais nem ao impacto de um único evento.
-- **Diagnóstico temporal.** Rejeições no Ljung–Box de inovações padronizadas pedem cautela ao interpretar os coeficientes.
-- **Escopo do teste.** A avaliação mostra previsão condicional de um passo e ganho preditivo relativo ao SARIMA; não mede causalidade nem previsão antes de conhecer todas as informações usadas.
+| Grade | Termos incluídos | Seleção de K |
+| --- | --- | --- |
+| 0 a K | Contemporâneo até K | BIC no treino, K de 0 a 24 |
+| 3 a K | Terceira defasagem até K | BIC no treino, K de 3 a 24 |
 
-## 5. Arquivos para conferência
+As regressoras são padronizadas com a média e o desvio padrão do treino, usados também no teste. Exigem-se suporte e variação da exposição, posto completo, número de condição até 1.000 e mais de cinco observações de treino além do número de regressoras. Os ajustes usam máxima verossimilhança com L-BFGS, impondo estacionariedade autorregressiva e invertibilidade.
 
-- [Notebook de Granger](../notebooks/03_granger_ufs_tipologias.ipynb) e [tabelas](../outputs/tables/granger_fechamento/).
-- [Notebook DLM](../notebooks/04_dlm_painel_aic_bic.ipynb), [protocolo 3–K](dlm_defasagens_3a24_20261026.md) e [tabelas](../outputs/tables/dlm_lags_3a24_20261026/).
-- [Notebook SARIMAX](../notebooks/05_sarima_sarimax_estadual_nacional.ipynb), [referência 0–K](sarimax_por_tipologia_e_geral_20261026.md), [sensibilidade 3–K](sarimax_sensibilidade_3a24_20261026.md) e [comparações pareadas](../outputs/tables/sarimax_por_tipologia_k3_24_20261026/).
+| Recorte | Treino | Teste |
+| --- | --- | --- |
+| Pré-pandemia | Fev./2015–jan./2019, 48 meses | Fev./2019–jan./2020, 12 meses |
+| Completo | Fev./2015–dez./2022, 95 meses | Jan./2023–dez./2024, 24 meses |
 
-A execução está vinculada ao hash da base processada informado no README. As saídas publicadas permitem conferir as contagens e as comparações, mesmo sem distribuir os arquivos brutos do SCR e do Atlas.
+A reserva inicial mantém a amostra comum aos candidatos. A avaliação é de **um passo condicional**, com parâmetros fixos do treino e atualização mensal do estado pela resposta observada. A grade de 0 a K admite os registros realizados do próprio mês; a de 3 a K utiliza exposições anteriores.
+
+BIC menor indica melhor ajuste penalizado no treino. RMSE menor indica menor erro no teste. Na convenção das tabelas, `ΔBIC = BIC(SARIMAX) − BIC(SARIMA)` e a melhora percentual do RMSE é positiva quando o erro diminui.
+
+## Interpretação
+
+Granger examina contribuição preditiva das defasagens; o DLM estima associações no painel após os efeitos fixos; SARIMAX avalia previsão condicional fora da amostra. Os resultados não são diretamente intercambiáveis.
+
+As contagens administrativas não medem intensidade dos desastres e a inadimplência é um estoque. Seleção de modelos, dependência residual e possíveis fatores não observados delimitam a interpretação. Erros padrão robustos não eliminam endogeneidade ou não estacionariedade. Os resultados são apresentados como associações temporais e evidência preditiva.

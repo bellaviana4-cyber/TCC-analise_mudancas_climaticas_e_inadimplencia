@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Checkpoint — segunda etapa
 
 Base: cee778561fbed9cb3157b47eca934618be1bcff8. Branch: analise/segunda-etapa-dinamica-exposicao.

@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Verificações da entrega
 
 - Entradas efetivamente lidas: Atlas consolidado (71.929 linhas, 70 colunas) e Parquet (3.888 linhas, 33 colunas).

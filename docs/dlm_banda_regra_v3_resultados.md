@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # resultados com banda dk definida por regra — versão 3
 
 Regra principal: L=floor[4(T/100)^(2/9)], com T da amostra comum das equações. Pré: T60/L3; total: T119/L4. K_AIC, amostra e coeficientes preservados. Proteção da seleção e Holm mantidos. 42 aplicações planejadas, 39 elegíveis, 936 candidatos conferidos; 840 linhas de cinco endpoints/quatro covariâncias, 780 calculadas.

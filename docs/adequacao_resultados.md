@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Transformações e adequação — resultados executados
 
 Protocolo: commit1e598373ca0d9b2ec796a5d7b031be30da3fe188, registrado antes dos novos testes. Extensão exploratória informada; notebook14 integralmente executado. Preservados05–13. Não foram escolhidas transformações ou períodos por p menor.

@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Segunda etapa — protocolo registrado antes dos novos testes
 
 Data de registro: 30/09/2026. Base remota: cee778561fbed9cb3157b47eca934618be1bcff8. Extensão informada pelos resultados anteriores; não é confirmação independente. Nenhum novo p-valor de relação exposição–inadimplência foi calculado antes deste documento.

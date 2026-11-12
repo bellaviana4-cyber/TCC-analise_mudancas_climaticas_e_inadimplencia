@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Validação da extensão14 e do relatório visual
 
 -15 verificações substantivas passaram (tabela validacao.csv); notebook14 executado sem células vazias ou erros, com gráficos e tabelas incorporados.

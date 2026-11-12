@@ -1,69 +1,73 @@
 # Mudanças climáticas e inadimplência
+### Uma análise da relação temporal de desastres naturais no sistema de crédito brasileiro
 
-Trabalho de conclusão de curso de Isabella Viana Bambirra, Estatística/UFSCar.
+**Isabella Viana Bambirra** · Bacharelado em Estatística · Universidade Federal de São Carlos (UFSCar)
 
-## Base corrigida: exclusões antes da agregação
+**Orientadora:** Profa. Daiane Aparecida Zuanetti
 
-Os arquivos mensais do SCR são filtrados para pessoas físicas e excluem **financiamentos imobiliários**, **financiamentos de títulos e valores mobiliários** e **outros créditos** antes de somar a carteira ativa e a inadimplente por UF e mês. A taxa é 100 × carteira inadimplente / carteira ativa. As agregações regionais e nacionais usam os saldos, não a média das taxas de UFs.
+Este repositório reúne o painel agregado, os códigos, os notebooks e os resultados da análise empírica do Trabalho de Conclusão de Curso. O estudo investiga como os registros de desastres naturais se relacionam, ao longo do tempo, com a inadimplência no crédito a pessoas físicas no Brasil.
 
-Período: janeiro/2013 a dezembro/2024. Painel: 27 UFs × 144 meses = 3.888 observações. Recorte pré-pandemia: até janeiro/2020; os períodos se sobrepõem. O Atlas disponível contém 40.339 registros municipais, dos quais 37.643 integram o total climático por COBRADE 12/13/14. Registros administrativos não são fenômenos físicos independentes.
+A investigação acompanha as 27 unidades da federação entre janeiro de 2013 e dezembro de 2024 e utiliza três abordagens complementares: testes de causalidade de Granger, modelos de defasagens distribuídas em painel (DLM) e comparação preditiva entre SARIMA e SARIMAX.
 
-**Resultados vigentes:** [outputs/tables/modalidades_excluidas_20261104](outputs/tables/modalidades_excluidas_20261104). As demais pastas de resultados e os notebooks históricos usam versões anteriores; seus números não devem ser citados como resultados da base corrigida. A monografia LaTeX é entregue separadamente e não integra esta atualização.
+## Por onde começar
 
-## Resultados da execução corrigida
-
-| Análise | Resultado |
+| Para conhecer… | Consulte |
 | --- | --- |
-| Granger | 627 de 864 estimáveis; 56 rejeições nominais, 16 após BH local; 3 dessas rejeições com autocorrelação residual |
-| DLM 0..K | 39 de 42 aplicações com seleção AIC estimável |
-| DLM por tipologia, AIC/BIC | 29 de 32 estimáveis por critério; os dois menores AICs são comparados separadamente |
-| DLM 0..K, inferência ampliada | 5 contrastes rejeitam após ajustes da grade e Holm por família em DK pela regra; nenhum do total climático central |
-| DLM 3..K | 39 de 42 estimáveis; nenhuma rejeição após os ajustes nas três bandas DK |
-| SARIMAX 0..K | 452 de 896 individuais estimáveis; 22 com BIC menor e 173 com RMSE menor; 5 melhoram ambos. Gerais: 54 de 56 estimados, 0 melhoram ambos |
-| SARIMAX 3..K | 452 de 896 individuais estimáveis; 29 com BIC menor e 170 com RMSE menor; 6 melhoram ambos. Gerais: 55 de 56 estimados, 1 melhoram ambos |
+| A sequência completa da análise | [Os cinco notebooks principais](notebooks/README.md) |
+| As fontes, os filtros e a construção da taxa | [Descrição dos dados](data/README.md) |
+| As especificações e os critérios de estimação | [Metodologia e sensibilidades](docs/metodologia_e_sensibilidades.md) |
+| Os resultados e sua interpretação | [Síntese dos resultados](docs/resultados.md) |
+| Os arquivos de cada etapa | [Índice das tabelas e figuras](outputs/README.md) |
+| Como executar o projeto | [Guia de reprodução](docs/reproducao.md) |
 
-As evidências são exploratórias. Granger avalia precedência preditiva, sem identificar causalidade estrutural. O BH é por UF/período entre 16 tipologias, sem controle global das 864 aplicações nem correção formal pela seleção BIC. DLM e SARIMAX também possuem incerteza pós-seleção. Ausência de rejeição não prova ausência de associação.
+Os notebooks podem ser lidos no próprio GitHub, com as saídas já salvas. Os arquivos necessários para conferir as análises estão identificados nos índices acima.
 
-No SARIMAX, são 27 UFs e o agregado Brasil em dois períodos: 896 aplicações individuais e 56 gerais por grade. As ordens SARIMA de referência são selecionadas por BIC no treino e mantidas na comparação com as exógenas. Todos os candidatos de K usam a mesma amostra de treino e teste da respectiva unidade/período: 48/12 meses no pré e 95/24 no completo, após a reserva de 24 lags. O RMSE é de previsão condicional de um passo; em 0..K pode utilizar a exposição realizada do próprio mês, e em 3..K utiliza apenas exposições anteriores. O predomínio do menor K permitido também reflete a penalização do BIC, sem identificar a duração de um efeito.
+## Dados e recorte
 
-## Notebooks
+O painel integra o **Sistema de Informações de Crédito do Banco Central do Brasil (SCR/BACEN)** e o **Atlas Digital de Desastres no Brasil**, com uma observação por UF e mês: **3.888 observações**, correspondentes a **27 UFs e 144 meses**.
 
-1. [Descritiva](notebooks/01_analise_descritiva.ipynb)
-2. [Estacionariedade](notebooks/02_estacionariedade.ipynb)
-3. [Granger](notebooks/03_granger_ufs_tipologias.ipynb)
-4. [DLM](notebooks/04_dlm_painel_aic_bic.ipynb)
-5. [SARIMA/SARIMAX](notebooks/05_sarima_sarimax_estadual_nacional.ipynb)
-
-## Integridade e reprodução
-
-O [manifesto](outputs/tables/modalidades_excluidas_20261104/manifesto.json) identifica o painel e as fontes. SHA256 do painel CSV: `d795e0ed176cc4628e1b02a81bc32ecab449f24aefc3e9be91d291479f46c043`. Os 144 arquivos mensais possuem hashes em `fontes_scr_sha256.csv`. A agregação dos saldos nos extremos da amostra foi verificada por consulta independente; os 627 testes F de Granger e todas as famílias BH foram conferidos por uma segunda implementação.
-
-Instale `requirements-reestimacao-exclusoes.lock.txt`. Disponibilize os CSVs mensais do SCR em `data/raw/bacen` e o consolidado Atlas em `data/raw/atlas_desastres` ou defina `TCC_RAW_BACEN` e `TCC_RAW_ATLAS`. Os dados originais não são redistribuídos; o painel agregado corrigido está em `data/processed/df_tcc_2013_2024.csv`.
+No SCR, foram selecionadas operações de pessoas físicas e excluídas as modalidades **financiamentos imobiliários**, **financiamentos de títulos e valores mobiliários** e **outros créditos**. A filtragem ocorre antes da soma dos saldos ativos e inadimplentes. Dessa forma, o numerador e o denominador da taxa se referem ao mesmo conjunto de operações:
 
 ```text
-python src/01_consolidar_scr.py
-python src/02_preparar_atlas.py
-python src/03_integrar_bases.py
-python src/auditar_base_com_exclusoes.py
-python src/analise_descritiva_base_corrigida.py
-python src/reestimar_com_exclusoes.py granger
-python src/reestimar_com_exclusoes.py estacionariedade
-python src/verificar_granger_com_exclusoes.py
-python src/reestimar_com_exclusoes.py dlm0
-python src/reestimar_com_exclusoes.py dlm0_inferencia
-python src/reestimar_com_exclusoes.py dlm_aic_bic
-python src/reestimar_com_exclusoes.py dlm_top2
-python src/reestimar_com_exclusoes.py dlm3
-python src/executar_reestimacao_sarimax.py
-python src/reestimar_com_exclusoes.py comparar_sarimax
-python src/verificar_sarimax_com_exclusoes.py
-python src/gerar_sintese_base_corrigida.py
+Taxa de inadimplência (%) = 100 × saldo da carteira inadimplente / saldo da carteira ativa
 ```
 
-Para a auditoria COBRADE do DLM 0..K, disponibilize uma cópia do mesmo Atlas em `data/raw/atlas_desastres/atlas.csv` (essa cópia deve ser criada **depois** da etapa 02, que requer um único consolidado na pasta). A reestimação verifica o hash do painel no manifesto e utiliza pastas novas; checkpoints históricos não são reutilizados.
+As taxas do Brasil e das regiões são calculadas a partir dos respectivos saldos agregados. O Atlas reúne **40.339 registros municipais** no período, distribuídos em 16 tipologias e quatro grupos. No DLM, a exposição denominada **total climático** considera apenas os prefixos 12, 13 e 14 da COBRADE e soma **37.643 registros**. Um desastre que atingiu mais de um município pode gerar vários registros.
 
-Os checkpoints SARIMAX são vinculados ao hash do painel, ao código de estimação (normalizado para LF), ao Python 3.10.20 e às versões das bibliotecas registradas. Se algum desses componentes mudar, a rotina impede a reutilização automática. Preserve as pastas anteriores e inicie novas pastas `sarimax0`/`sarimax3` para uma execução com outra proveniência.
+A análise considera o **recorte pré-pandemia, de janeiro de 2013 a janeiro de 2020**, e o **período completo, de janeiro de 2013 a dezembro de 2024**. Essa escolha permite comparar os resultados ao incluir os anos da pandemia e posteriores, marcados por mudanças na renda, no crédito e nas condições de renegociação. Os recortes compartilham observações.
 
-## Diferenças em relação aos resumos dos chats anteriores
+## Sequência da investigação
 
-Esta execução independente encontrou 40.339 registros do Atlas e 627 aplicações Granger estimáveis, em vez de 40.338 e 631 mencionados nos chats. O DLM 3..K apresentou 39 aplicações estimáveis, em vez de 40. As tabelas desta pasta e seus hashes documentam os números efetivamente reproduzidos. A contagem de 16 rejeições BH de Granger e de três casos com autocorrelação foi confirmada.
+1. **Análise descritiva:** distribuição dos registros de desastres e evolução da inadimplência no tempo, nas regiões e nas UFs.
+2. **Estacionariedade:** avaliação das séries transformadas com os testes ADF e KPSS.
+3. **Granger:** investigação da informação preditiva acrescentada pelas defasagens dos registros de desastres ao histórico da inadimplência.
+4. **DLM:** estimação de associações ao longo das defasagens, com efeitos fixos de UF e de mês-ano.
+5. **SARIMA/SARIMAX:** avaliação do desempenho de modelos com e sem exposições a desastres, em meses reservados para teste.
+
+![Taxa nacional de inadimplência e registros mensais de desastres, 2013–2024](outputs/figures/modalidades_excluidas_20261104/nacional_2013_2024.png)
+
+## Principais resultados
+
+| Abordagem | Resultado |
+| --- | --- |
+| Granger | 627 das 864 aplicações planejadas foram estimáveis. Após o ajuste de Benjamini–Hochberg por UF e recorte, permaneceram 16 rejeições. |
+| DLM | Na grade de 0 a K, cinco contrastes acumulados permaneceram significativos na banda de referência, correspondentes a três combinações de tipologia e recorte. Na grade de 3 a K, não houve rejeições após os ajustes nas bandas examinadas. |
+| SARIMAX individual | Entre 452 aplicações estimáveis por grade, cinco na grade de 0 a K e seis na grade de 3 a K melhoraram simultaneamente o BIC e o RMSE em relação ao SARIMA. |
+| SARIMAX geral | Um modelo, no Maranhão pré-pandemia e na grade de 3 a K, melhorou os dois critérios. |
+
+Os resultados identificam associações temporais e contribuições preditivas em contextos específicos. As abordagens respondem a perguntas distintas e não identificam, por si, efeitos causais. Os [resultados detalhados](docs/resultados.md) apresentam as famílias de testes, os diagnósticos e as análises de sensibilidade necessários à interpretação.
+
+## Organização do repositório
+
+```text
+data/         Fontes, estrutura das variáveis e painel agregado
+notebooks/    Cinco cadernos principais na ordem da investigação
+src/          Preparação dos dados, estimação e validação
+outputs/      Tabelas, figuras e registros de integridade
+docs/         Metodologia, resultados e instruções de reprodução
+tcc/          Trechos de referência metodológica em LaTeX
+```
+
+O [painel publicado](data/processed/df_tcc_2013_2024.csv) e os resultados da versão final estão identificados no [índice de saídas](outputs/README.md). Os arquivos brutos devem ser obtidos nas fontes institucionais. Para executar a análise, use **Python 3.10.20** e as dependências de [requirements-reestimacao-exclusoes.lock.txt](requirements-reestimacao-exclusoes.lock.txt), seguindo o [guia de reprodução](docs/reproducao.md).
+
+O [histórico de desenvolvimento](docs/historico.md) está preservado e identificado separadamente. O roteiro de leitura acima aponta para a documentação e as análises utilizadas na versão final do trabalho.

@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # SARIMAX com as 16 tipologias simultâneas — auditoria de estimabilidade
 
 **Data:** 26/10/2026. **Escopo:** análise estadual por UF e período, comparando

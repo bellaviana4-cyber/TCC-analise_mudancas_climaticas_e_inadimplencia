@@ -1,7 +1,9 @@
 # Histórico dos notebooks
 
-Este diretório conserva os notebooks anteriores à unificação das metodologias de Granger, DLM e SARIMA/SARIMAX. Inclui as etapas exploratórias, análises nacionais anteriores, revisões intermediárias e a versão de SARIMA/SARIMAX anterior à seleção individual de defasagens de outubro de 2026.
+Esta pasta preserva explorações, revisões intermediárias e cadernos anteriores à versão final. Parte desse material utiliza outra composição da carteira de crédito ou outras especificações.
 
-O arquivo `37_sarima_sarimax_estadual_nacional_pre_20261026.ipynb` preserva a abordagem estadual/nacional anterior. Para consultar a **versão atual**, utilize exclusivamente os três notebooks na pasta [`notebooks/`](../): `01_granger_ufs_tipologias.ipynb`, `02_dlm_painel_aic_bic.ipynb` e `03_sarima_sarimax_estadual_nacional.ipynb`.
+Para a leitura do trabalho concluído, utilize os [cinco notebooks principais](../README.md), na pasta superior: análise descritiva, estacionariedade, Granger, DLM e SARIMA/SARIMAX.
 
-Os arquivos deste diretório são preservados para rastreabilidade; suas especificações e resultados podem diferir dos notebooks principais em razão de revisões metodológicas posteriores. Não apague nem misture seus resultados com os da versão atual sem indicar a proveniência.
+O subdiretório `antes_exclusoes_modalidades/` conserva os notebooks anteriores à aplicação das três exclusões. Os demais arquivos documentam etapas exploratórias e revisões metodológicas. Suas contagens e estimativas devem ser interpretadas no contexto de cada execução.
+
+A documentação e os resultados da versão final estão no [índice do projeto](../../README.md) e no [índice de saídas](../../outputs/README.md).

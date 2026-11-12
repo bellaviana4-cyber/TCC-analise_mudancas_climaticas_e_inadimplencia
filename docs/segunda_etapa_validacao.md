@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Validação final da segunda etapa
 
 - Conferência histórica235/29/0/18/4 feita por leitura e desduplicação das tabelas antigas, sem reexecutar05–09.

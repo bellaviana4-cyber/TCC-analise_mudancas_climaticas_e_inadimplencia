@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Referência atual de DLM: painel em diferenças logarítmicas
 
 Execução real de 06/10/2026. Notebook **22_dlm_painel_diferencas_logaritmicas.ipynb**, 10 células Python executadas sem erros, stdout e SVG reais. O executor usa `compile/exec` em namespace compartilhado (sem exigir kernel Jupyter/socket). Os notebooks anteriores não foram executados. Granger preservado; SARIMAX não executado.

@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Referência atual: DLM clássico em painel, diferenças logarítmicas
 
 Protocolo definido em 06/10/2026 antes da estimação. O capítulo `c3_metodologias_tg.tex` orienta o DLM finito; a base atual define períodos e unidades. Granger preservado e SARIMAX não executado.

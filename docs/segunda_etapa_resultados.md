@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # Resultados da segunda etapa — o que a evidência sustenta
 
 Esta é extensão informada, não confirmação independente. Preservamos os resultados anteriores (235 hipóteses,29 nominais,0BH,18 nominais com autocorrelação do sistema,4 passando triagem). Nenhum resultado desta etapa sustenta precedência robusta com significância ajustada e todos os diagnósticos favoráveis.

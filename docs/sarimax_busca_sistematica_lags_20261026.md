@@ -1,3 +1,5 @@
+> **Documento histórico de desenvolvimento.** Pode utilizar outra versão dos dados ou outra especificação. Para a versão final, consulte [Metodologia](metodologia_e_sensibilidades.md), [Resultados](resultados.md) e o [índice da documentação](README.md).
+
 # SARIMAX estadual — busca sistemática de defasagens climáticas (26/10/2026)
 
 > **Escopo desta nota:** a busca dos quatro blocos foi executada com **subconjuntos de tipologias elegíveis** (até 4 no pré e 6 no total). O resultado de 53 aplicações selecionando o bloco contemporâneo não corresponde a modelos com as 16 tipologias simultâneas. Uma [auditoria complementar](sarimax_16_tipologias_estimabilidade_20261026.md) tentou incluir as 16 obrigatoriamente: apenas quatro das 216 matrizes estaduais foram identificáveis, todas de MG/total. As análises são complementares e nenhuma substitui automaticamente a outra.
